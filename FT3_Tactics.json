@@ -1,134 +1,206 @@
 [
     {
         "ID": "FTA001",
-        "stix_id": "",
+        "stix_id": "x-mitre-tactic--bb3898cb-2d16-5051-aaca-bb7b5229372f",
         "name": "Reconnaissance",
         "description": "The adversary gathers information on potential targets to inform future fraudulent activities. This could involve collecting publicly available data, purchasing stolen credentials or personal information, and probing for vulnerabilities in systems.",
         "url": "",
         "created": "01/30/2024",
-        "last_modified": "01/30/2024",
+        "last_modified": "2026-04-20T00:00:00Z",
         "domain": "fraud-attack",
-        "version": "V.1"
+        "version": "1.0",
+        "f3_mapping": {
+            "f3_id": "TA0043",
+            "f3_name": "Reconnaissance",
+            "relationship": "equivalent",
+            "f3_commit_sha": "1835d4f"
+        }
     },
     {
         "ID": "FTA002",
-        "stix_id": "",
+        "stix_id": "x-mitre-tactic--f95a255e-8d8f-5483-983f-c6a1f7cfd8b3",
         "name": "Resource Development",
         "description": "In this phase, adversaries acquire and develop resources they require to conduct their attacks. This may include setting up infrastructure such as phishing websites, creating mule accounts for receiving stolen funds, or even recruiting collaborators.",
         "url": "",
         "created": "01/30/2024",
-        "last_modified": "01/30/2024",
+        "last_modified": "2026-04-20T00:00:00Z",
         "domain": "fraud-attack",
-        "version": "V.1"
+        "version": "1.0",
+        "f3_mapping": {
+            "f3_id": "TA0042",
+            "f3_name": "Resource Development",
+            "relationship": "equivalent",
+            "f3_commit_sha": "1835d4f"
+        }
     },
     {
         "ID": "FTA003",
-        "stix_id": "",
+        "stix_id": "x-mitre-tactic--7c5bbc95-7d28-5131-aa0d-4b8a607a9c0d",
         "name": "Initial Access",
         "description": "This tactic involves the methods fraudsters use to gain initial footholds in a system or network. They may use various techniques such as stolen credentials, phishing attacks, or exploiting vulnerabilities in software to access accounts or systems and prepare for subsequent fraudulent activities.",
         "url": "",
         "created": "01/30/2024",
-        "last_modified": "01/30/2024",
+        "last_modified": "2026-04-20T00:00:00Z",
         "domain": "fraud-attack",
-        "version": "V.1"
+        "version": "1.0",
+        "f3_mapping": {
+            "f3_id": "TA0001",
+            "f3_name": "Initial Access",
+            "relationship": "equivalent",
+            "f3_commit_sha": "1835d4f"
+        }
     },
     {
         "ID": "FTA004",
-        "stix_id": "",
+        "stix_id": "x-mitre-tactic--f5c88a84-2ebd-502c-a7c2-904a71b1d831",
         "name": "Execution",
         "description": "The Execution tactic refers to the manner in which an attacker runs malicious code or performs actions that facilitate fraudulent activities. It could involve running scripting tools on a compromised computer to automate collection of financial information or executing unauthorized transactions directly.",
         "url": "",
         "created": "01/30/2024",
-        "last_modified": "01/30/2024",
+        "last_modified": "2026-04-20T00:00:00Z",
         "domain": "fraud-attack",
-        "version": "V.1"
+        "version": "1.0",
+        "f3_mapping": {
+            "f3_id": "TA0002",
+            "f3_name": "Execution",
+            "relationship": "equivalent",
+            "f3_commit_sha": "1835d4f"
+        }
     },
     {
         "ID": "FTA005",
-        "stix_id": "",
+        "stix_id": "x-mitre-tactic--d13f0795-d2ef-5e39-a07e-ecebfae00345",
         "name": "Defense Evasion & Obfuscation",
         "description": "Frauds often use techniques to avoid detection by hiding their activities or making their actions look legitimate. Defense evasion might include crafting transactions to bypass fraud detection algorithms, and obfuscation refers to disguising the true nature and source of those transactions.",
         "url": "",
         "created": "01/30/2024",
-        "last_modified": "01/30/2024",
+        "last_modified": "2026-04-20T00:00:00Z",
         "domain": "fraud-attack",
-        "version": "V.1"
+        "version": "1.0",
+        "f3_mapping": {
+            "f3_id": "TA0005",
+            "f3_name": "Defense Evasion",
+            "relationship": "superset",
+            "f3_commit_sha": "1835d4f"
+        }
     },
     {
         "ID": "FTA006",
-        "stix_id": "",
+        "stix_id": "x-mitre-tactic--f3cf933a-da22-5eab-8b7d-8f548be1b204",
         "name": "Lateral Movement & Internal Proliferation",
         "description": "After gaining initial access, the fraudster moves laterally within the network to gain wider access to accounts and resources. They may attempt to spread to other systems, or proliferate internally within the system, increasing the scope of their fraudulent reach.",
         "url": "",
         "created": "01/30/2024",
-        "last_modified": "01/30/2024",
+        "last_modified": "2026-04-20T00:00:00Z",
         "domain": "fraud-attack",
-        "version": "V.1"
+        "version": "1.0",
+        "f3_mapping": {
+            "f3_id": null,
+            "f3_name": null,
+            "relationship": "unmapped",
+            "f3_commit_sha": "1835d4f"
+        }
     },
     {
         "ID": "FTA007",
-        "stix_id": "",
+        "stix_id": "x-mitre-tactic--9eda7ed9-d4ef-5b91-865d-4e64b8e4d3cc",
         "name": "Manipulation & Fraudulent Transactions",
         "description": "This tactic covers the direct manipulation of systems or accounts to perform unauthorized transactions. It could range from small test transactions to check for detection to large scale unauthorized transfers or payment alterations.",
         "url": "",
         "created": "01/30/2024",
-        "last_modified": "01/30/2024",
+        "last_modified": "2026-04-20T00:00:00Z",
         "domain": "fraud-attack",
-        "version": "V.1"
+        "version": "1.0",
+        "f3_mapping": {
+            "f3_id": null,
+            "f3_name": null,
+            "relationship": "unmapped",
+            "f3_commit_sha": "1835d4f"
+        }
     },
     {
         "ID": "FTA008",
-        "stix_id": "",
+        "stix_id": "x-mitre-tactic--ed6e8957-1ee3-5626-8451-bb445aed02bd",
         "name": "Command and Control",
         "description": "The attackers establish a method to control and remotely direct activities within the compromised system. For financial systems, this could involve creating backdoor access to maintain persistent control or remotely initiating fraudulent transactions when desired.",
         "url": "",
         "created": "01/30/2024",
-        "last_modified": "01/30/2024",
+        "last_modified": "2026-04-20T00:00:00Z",
         "domain": "fraud-attack",
-        "version": "V.1"
+        "version": "1.0",
+        "f3_mapping": {
+            "f3_id": null,
+            "f3_name": null,
+            "relationship": "unmapped",
+            "f3_commit_sha": "1835d4f"
+        }
     },
     {
         "ID": "FTA009",
-        "stix_id": "",
+        "stix_id": "x-mitre-tactic--942f8344-0ce6-5568-82c2-d9f9543cde1c",
         "name": "Collection & Exfiltration",
         "description": "This tactic entails the compilation and extraction of valuable data from the victim's network. Fraudsters may collect personal identification information, payment card details, or corporate financial information, with the intent of using or selling this stolen data.",
         "url": "",
         "created": "01/30/2024",
-        "last_modified": "01/30/2024",
+        "last_modified": "2026-04-20T00:00:00Z",
         "domain": "fraud-attack",
-        "version": "V.1"
+        "version": "1.0",
+        "f3_mapping": {
+            "f3_id": null,
+            "f3_name": null,
+            "relationship": "unmapped",
+            "f3_commit_sha": "1835d4f"
+        }
     },
     {
         "ID": "FTA010",
-        "stix_id": "",
+        "stix_id": "x-mitre-tactic--8e39ac84-aa90-53cf-bcda-7192ce9212f4",
         "name": "Financial Evasion, Laundering & Cash-Out",
         "description": "After successfully committing fraud, attackers use techniques to evade detection by financial authorities, launder money through various channels, and ultimately 'cash out' by converting illicit gains into usable funds or assets without alerting law enforcement.",
         "url": "",
         "created": "01/30/2024",
-        "last_modified": "01/30/2024",
+        "last_modified": "2026-04-20T00:00:00Z",
         "domain": "fraud-attack",
-        "version": "V.1"
+        "version": "1.0",
+        "f3_mapping": {
+            "f3_id": "FA0002",
+            "f3_name": "Monetization",
+            "relationship": "subset",
+            "f3_commit_sha": "1835d4f"
+        }
     },
     {
         "ID": "FTA011",
-        "stix_id": "",
+        "stix_id": "x-mitre-tactic--121cfd27-fba5-564c-8e9a-950b09fd5901",
         "name": "Impact & Disruption",
         "description": "Attacks within this tactic focus on creating havoc, which may involve disrupting financial operations or damaging a victim\u2019s financial reputation. This could act as a smokescreen for theft or as a direct effort to destabilize an entity.",
         "url": "",
         "created": "01/30/2024",
-        "last_modified": "01/30/2024",
+        "last_modified": "2026-04-20T00:00:00Z",
         "domain": "fraud-attack",
-        "version": "V.1"
+        "version": "1.0",
+        "f3_mapping": {
+            "f3_id": null,
+            "f3_name": null,
+            "relationship": "unmapped",
+            "f3_commit_sha": "1835d4f"
+        }
     },
     {
         "ID": "FTA012",
-        "stix_id": "",
+        "stix_id": "x-mitre-tactic--85d9802f-1983-534e-9ccd-5e5f568ef269",
         "name": "Obfuscation and Destruction of Evidence",
         "description": "Once fraud has been committed, attackers might seek to cover their tracks by obfuscating their activities and destroying evidence. This could include wiping logs, using encryption to hide stolen data, or otherwise hindering investigation and attribution efforts.",
         "url": "",
         "created": "01/30/2024",
-        "last_modified": "01/30/2024",
+        "last_modified": "2026-04-20T00:00:00Z",
         "domain": "fraud-attack",
-        "version": "V.1"
+        "version": "1.0",
+        "f3_mapping": {
+            "f3_id": null,
+            "f3_name": null,
+            "relationship": "unmapped",
+            "f3_commit_sha": "1835d4f"
+        }
     }
 ]
