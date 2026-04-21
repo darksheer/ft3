@@ -1,0 +1,1235 @@
+[
+  {
+    "confidence": "exact",
+    "f3_id": "T1598",
+    "f3_name": "Phishing for Information",
+    "ft3_id": "FT001",
+    "ft3_name": "Phishing for Information",
+    "notes": null,
+    "relationship": "equivalent"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT002",
+    "ft3_name": "Search Victim-Owned Websites",
+    "notes": null,
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT003",
+    "ft3_name": "Seaching Credential Dumps",
+    "notes": null,
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT004",
+    "ft3_name": "Gather Victim Org Information",
+    "notes": null,
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1002.001",
+    "f3_name": "Abuse of Public-Facing API: Mobile API Abuse",
+    "ft3_id": "FT004.001",
+    "ft3_name": "Gather Victim Org Information: Business Relationships",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1002.002",
+    "f3_name": "Abuse of Public-Facing API: Web API Abuse",
+    "ft3_id": "FT004.002",
+    "ft3_name": "Gather Victim Org Information: Determine Physical Locations ",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1005.003",
+    "f3_name": "Account Manipulation: Add Beneficiary",
+    "ft3_id": "FT004.003",
+    "ft3_name": "Gather Victim Org Information: Identify Business Tempo",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1005.004",
+    "f3_name": "Account Manipulation: Change Account Details",
+    "ft3_id": "FT004.004",
+    "ft3_name": "Gather Victim Org Information: Identify Roles",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT005",
+    "ft3_name": "Gather Victim Identity Information",
+    "notes": null,
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1002.001",
+    "f3_name": "Abuse of Public-Facing API: Mobile API Abuse",
+    "ft3_id": "FT005.001",
+    "ft3_name": "Gather Victim Identity Information: Credentials",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1002.002",
+    "f3_name": "Abuse of Public-Facing API: Web API Abuse",
+    "ft3_id": "FT005.002",
+    "ft3_name": "Gather Victim Identity Information: Email Addresses",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1005.003",
+    "f3_name": "Account Manipulation: Add Beneficiary",
+    "ft3_id": "FT005.003",
+    "ft3_name": "Gather Victim Identity Information: Employee Names",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT006",
+    "ft3_name": "Credential Scanning",
+    "notes": null,
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1002.001",
+    "f3_name": "Abuse of Public-Facing API: Mobile API Abuse",
+    "ft3_id": "FT006.001",
+    "ft3_name": "Credential Scanning: Github",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1002.002",
+    "f3_name": "Abuse of Public-Facing API: Web API Abuse",
+    "ft3_id": "FT006.002",
+    "ft3_name": "Credential Scanning: Websites",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1005.003",
+    "f3_name": "Account Manipulation: Add Beneficiary",
+    "ft3_id": "FT006.003",
+    "ft3_name": "Credential Scanning: Telegram",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "exact",
+    "f3_id": "T1650",
+    "f3_name": "Acquire Access",
+    "ft3_id": "FT007",
+    "ft3_name": "Acquire Access",
+    "notes": null,
+    "relationship": "equivalent"
+  },
+  {
+    "confidence": "substring",
+    "f3_id": "T1650",
+    "f3_name": "Acquire Access",
+    "ft3_id": "FT007.001",
+    "ft3_name": "Acquire Access: Botnet",
+    "notes": "Substring name match; review scope.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "substring",
+    "f3_id": "T1650",
+    "f3_name": "Acquire Access",
+    "ft3_id": "FT007.002",
+    "ft3_name": "Acquire Access: DNS Server",
+    "notes": "Substring name match; review scope.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "substring",
+    "f3_id": "T1650",
+    "f3_name": "Acquire Access",
+    "ft3_id": "FT007.003",
+    "ft3_name": "Acquire Access: Malvertising",
+    "notes": "Substring name match; review scope.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "substring",
+    "f3_id": "T1650",
+    "f3_name": "Acquire Access",
+    "ft3_id": "FT007.004",
+    "ft3_name": "Acquire Access: Server",
+    "notes": "Substring name match; review scope.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "substring",
+    "f3_id": "T1650",
+    "f3_name": "Acquire Access",
+    "ft3_id": "FT007.005",
+    "ft3_name": "Acquire Access: VPS",
+    "notes": "Substring name match; review scope.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "substring",
+    "f3_id": "T1650",
+    "f3_name": "Acquire Access",
+    "ft3_id": "FT007.006",
+    "ft3_name": "Acquire Access: Virtual Private Network",
+    "notes": "Substring name match; review scope.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "substring",
+    "f3_id": "T1650",
+    "f3_name": "Acquire Access",
+    "ft3_id": "FT007.007",
+    "ft3_name": "Acquire Access: Virtual Private Server",
+    "notes": "Substring name match; review scope.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "substring",
+    "f3_id": "T1650",
+    "f3_name": "Acquire Access",
+    "ft3_id": "FT007.008",
+    "ft3_name": "Acquire Access: Cloud Accounts",
+    "notes": "Substring name match; review scope.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "substring",
+    "f3_id": "T1650",
+    "f3_name": "Acquire Access",
+    "ft3_id": "FT007.009",
+    "ft3_name": "Acquire Access: Email Accounts",
+    "notes": "Substring name match; review scope.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "substring",
+    "f3_id": "T1650",
+    "f3_name": "Acquire Access",
+    "ft3_id": "FT007.010",
+    "ft3_name": "Acquire Access: Social Media Accounts",
+    "notes": "Substring name match; review scope.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "exact",
+    "f3_id": "T1586",
+    "f3_name": "Compromise Accounts",
+    "ft3_id": "FT008",
+    "ft3_name": "Compromise Accounts",
+    "notes": null,
+    "relationship": "equivalent"
+  },
+  {
+    "confidence": "exact",
+    "f3_id": "T1586.003",
+    "f3_name": "Compromise Accounts: Cloud Accounts",
+    "ft3_id": "FT008.001",
+    "ft3_name": "Compromise Accounts: Cloud Accounts",
+    "notes": null,
+    "relationship": "equivalent"
+  },
+  {
+    "confidence": "exact",
+    "f3_id": "T1586.002",
+    "f3_name": "Compromise Accounts: Email Accounts",
+    "ft3_id": "FT008.002",
+    "ft3_name": "Compromise Accounts: Email Accounts",
+    "notes": null,
+    "relationship": "equivalent"
+  },
+  {
+    "confidence": "exact",
+    "f3_id": "T1586.001",
+    "f3_name": "Compromise Accounts: Social Media Accounts",
+    "ft3_id": "FT008.003",
+    "ft3_name": "Compromise Accounts: Social Media Accounts",
+    "notes": null,
+    "relationship": "equivalent"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT009",
+    "ft3_name": "Compromise Infrastructure",
+    "notes": null,
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "exact",
+    "f3_id": "T1585",
+    "f3_name": "Establish Accounts",
+    "ft3_id": "FT010",
+    "ft3_name": "Establish Accounts",
+    "notes": null,
+    "relationship": "equivalent"
+  },
+  {
+    "confidence": "substring",
+    "f3_id": "T1585",
+    "f3_name": "Establish Accounts",
+    "ft3_id": "FT010.001",
+    "ft3_name": "Establish Accounts: Cloud Accounts",
+    "notes": "Substring name match; review scope.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "substring",
+    "f3_id": "T1585",
+    "f3_name": "Establish Accounts",
+    "ft3_id": "FT010.002",
+    "ft3_name": "Establish Accounts: Email Accounts",
+    "notes": "Substring name match; review scope.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "substring",
+    "f3_id": "T1585",
+    "f3_name": "Establish Accounts",
+    "ft3_id": "FT010.003",
+    "ft3_name": "Establish Accounts: Social Media Accounts",
+    "notes": "Substring name match; review scope.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "substring",
+    "f3_id": "T1585",
+    "f3_name": "Establish Accounts",
+    "ft3_id": "FT010.004",
+    "ft3_name": "Establish Accounts: Telegram Accounts",
+    "notes": "Substring name match; review scope.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "exact",
+    "f3_id": "F1006",
+    "f3_name": "Account Takeover",
+    "ft3_id": "FT011",
+    "ft3_name": "Account Takeover",
+    "notes": null,
+    "relationship": "equivalent"
+  },
+  {
+    "confidence": "substring",
+    "f3_id": "F1006",
+    "f3_name": "Account Takeover",
+    "ft3_id": "FT011.001",
+    "ft3_name": "Account Takeover: Exposed Credential",
+    "notes": "Substring name match; review scope.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "exact",
+    "f3_id": "F1006.002",
+    "f3_name": "Account Takeover: Exposed Login Credential",
+    "ft3_id": "FT011.002",
+    "ft3_name": "Account Takeover: Exposed Login Credential",
+    "notes": null,
+    "relationship": "equivalent"
+  },
+  {
+    "confidence": "substring",
+    "f3_id": "F1006",
+    "f3_name": "Account Takeover",
+    "ft3_id": "FT011.003",
+    "ft3_name": "Account Takeover: Exposed User Session/Token",
+    "notes": "Substring name match; review scope.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "substring",
+    "f3_id": "F1006",
+    "f3_name": "Account Takeover",
+    "ft3_id": "FT011.004",
+    "ft3_name": "Account Takeover: Self Serve PII",
+    "notes": "Substring name match; review scope.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "substring",
+    "f3_id": "F1006",
+    "f3_name": "Account Takeover",
+    "ft3_id": "FT011.005",
+    "ft3_name": "Account Takeover: Fake ID",
+    "notes": "Substring name match; review scope.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "exact",
+    "f3_id": "F1006.003",
+    "f3_name": "Account Takeover: Password Reset",
+    "ft3_id": "FT011.006",
+    "ft3_name": "Account Takeover: Password Reset",
+    "notes": null,
+    "relationship": "equivalent"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT012",
+    "ft3_name": "Cross-Site Scripting (XSS) Redirection for Financial Fraud",
+    "notes": null,
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT013",
+    "ft3_name": "Resource Hijacking",
+    "notes": null,
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "exact",
+    "f3_id": "T1195",
+    "f3_name": "Supply Chain Compromise",
+    "ft3_id": "FT014",
+    "ft3_name": "Supply Chain Compromise",
+    "notes": null,
+    "relationship": "equivalent"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT015",
+    "ft3_name": "Policy and Procedure Abuse",
+    "notes": null,
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "exact",
+    "f3_id": "T1660",
+    "f3_name": "Phishing",
+    "ft3_id": "FT016",
+    "ft3_name": "Phishing",
+    "notes": null,
+    "relationship": "equivalent"
+  },
+  {
+    "confidence": "substring",
+    "f3_id": "T1660",
+    "f3_name": "Phishing",
+    "ft3_id": "FT016.001",
+    "ft3_name": "Phishing: Phishing for Merchant Credentials",
+    "notes": "Substring name match; review scope.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "substring",
+    "f3_id": "T1660",
+    "f3_name": "Phishing",
+    "ft3_id": "FT016.002",
+    "ft3_name": "Phishing: Self Serve PII",
+    "notes": "Substring name match; review scope.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "substring",
+    "f3_id": "T1660",
+    "f3_name": "Phishing",
+    "ft3_id": "FT016.003",
+    "ft3_name": "Phishing: Backup Code",
+    "notes": "Substring name match; review scope.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT017",
+    "ft3_name": "Ad Fraud",
+    "notes": null,
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT018",
+    "ft3_name": "Social Media Attack",
+    "notes": null,
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT019",
+    "ft3_name": "Website Cloning",
+    "notes": null,
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT020",
+    "ft3_name": "Identity Theft for Merchant Accounts",
+    "notes": null,
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT021",
+    "ft3_name": "Social Media Attacks",
+    "notes": null,
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "exact",
+    "f3_id": "F1015",
+    "f3_name": "Churning",
+    "ft3_id": "FT022",
+    "ft3_name": "Churning",
+    "notes": null,
+    "relationship": "equivalent"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT023",
+    "ft3_name": "Dispute Avoidance",
+    "notes": null,
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT024",
+    "ft3_name": "Fabricating shipping evidence",
+    "notes": null,
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT025",
+    "ft3_name": "Fake Review Fraud",
+    "notes": null,
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT026",
+    "ft3_name": "Falsifying Business Documents",
+    "notes": null,
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1002.001",
+    "f3_name": "Abuse of Public-Facing API: Mobile API Abuse",
+    "ft3_id": "FT026.001",
+    "ft3_name": "Falsifying Business Documents: Fake Business Registration Certificate",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1002.002",
+    "f3_name": "Abuse of Public-Facing API: Web API Abuse",
+    "ft3_id": "FT026.002",
+    "ft3_name": "Falsifying Business Documents: Fake Business License",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1005.003",
+    "f3_name": "Account Manipulation: Add Beneficiary",
+    "ft3_id": "FT026.003",
+    "ft3_name": "Falsifying Business Documents: Fake VAT Certificate",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1005.004",
+    "f3_name": "Account Manipulation: Change Account Details",
+    "ft3_id": "FT026.004",
+    "ft3_name": "Falsifying Business Documents: Fake IRS Letter 147C",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1005.005",
+    "f3_name": "Account Manipulation: Change E-Delivery or Notification Settings",
+    "ft3_id": "FT026.005",
+    "ft3_name": "Falsifying Business Documents: Fake SS-4 Confirmation Letter",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT027",
+    "ft3_name": "Account Enumeration",
+    "notes": null,
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1002.001",
+    "f3_name": "Abuse of Public-Facing API: Mobile API Abuse",
+    "ft3_id": "FT027.001",
+    "ft3_name": "Account Enumeration: Account Balance Enumeration",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1002.002",
+    "f3_name": "Abuse of Public-Facing API: Web API Abuse",
+    "ft3_id": "FT027.002",
+    "ft3_name": "Account Enumeration: Account Tier Enumeration",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1005.003",
+    "f3_name": "Account Manipulation: Add Beneficiary",
+    "ft3_id": "FT027.003",
+    "ft3_name": "Account Enumeration: Account Radar Rule Enumeration",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "substring",
+    "f3_id": "T1660",
+    "f3_name": "Phishing",
+    "ft3_id": "FT028",
+    "ft3_name": "Spearphishing",
+    "notes": "Substring name match; review scope.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT029",
+    "ft3_name": "Cross Account Permissions",
+    "notes": null,
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "exact",
+    "f3_id": "F1012",
+    "f3_name": "Card Testing",
+    "ft3_id": "FT030",
+    "ft3_name": "Card Testing",
+    "notes": null,
+    "relationship": "equivalent"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT031",
+    "ft3_name": "Compromised Payment Gateway",
+    "notes": null,
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT032",
+    "ft3_name": "Credit Card Skimming",
+    "notes": null,
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1002.001",
+    "f3_name": "Abuse of Public-Facing API: Mobile API Abuse",
+    "ft3_id": "FT032.001",
+    "ft3_name": "Credit Card Skimming: Malicious Javascript Skimming",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT033",
+    "ft3_name": "No Shipping",
+    "notes": null,
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1002.001",
+    "f3_name": "Abuse of Public-Facing API: Mobile API Abuse",
+    "ft3_id": "FT033.001",
+    "ft3_name": "No Shipping: Non-Delivery of Goods",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1002.002",
+    "f3_name": "Abuse of Public-Facing API: Web API Abuse",
+    "ft3_id": "FT033.002",
+    "ft3_name": "No Shipping: Partial Shipping of Goods",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1005.003",
+    "f3_name": "Account Manipulation: Add Beneficiary",
+    "ft3_id": "FT033.003",
+    "ft3_name": "No Shipping: Shipping of Incorrect Goods",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1005.004",
+    "f3_name": "Account Manipulation: Change Account Details",
+    "ft3_id": "FT033.004",
+    "ft3_name": "No Shipping: Fabricating shipping evidence",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT034",
+    "ft3_name": "Triangulation Fraud",
+    "notes": null,
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT035",
+    "ft3_name": "Dispute Avoidance",
+    "notes": null,
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT036",
+    "ft3_name": "Refund Fraud",
+    "notes": null,
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "exact",
+    "f3_id": "F1005",
+    "f3_name": "Account Manipulation",
+    "ft3_id": "FT037",
+    "ft3_name": "Account Manipulation",
+    "notes": null,
+    "relationship": "equivalent"
+  },
+  {
+    "confidence": "substring",
+    "f3_id": "F1005",
+    "f3_name": "Account Manipulation",
+    "ft3_id": "FT037.001",
+    "ft3_name": "Account Manipulation: Additional User Account",
+    "notes": "Substring name match; review scope.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "substring",
+    "f3_id": "F1005",
+    "f3_name": "Account Manipulation",
+    "ft3_id": "FT037.002",
+    "ft3_name": "Account Manipulation: Additional Authorized Account",
+    "notes": "Substring name match; review scope.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "substring",
+    "f3_id": "F1005",
+    "f3_name": "Account Manipulation",
+    "ft3_id": "FT037.003",
+    "ft3_name": "Account Manipulation: Additional Linked Account",
+    "notes": "Substring name match; review scope.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT038",
+    "ft3_name": "Data Exfiltration",
+    "notes": null,
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1002.001",
+    "f3_name": "Abuse of Public-Facing API: Mobile API Abuse",
+    "ft3_id": "FT038.001",
+    "ft3_name": "Data Exfiltration: Revenue",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1002.002",
+    "f3_name": "Abuse of Public-Facing API: Web API Abuse",
+    "ft3_id": "FT038.002",
+    "ft3_name": "Data Exfiltration: Payout",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1005.003",
+    "f3_name": "Account Manipulation: Add Beneficiary",
+    "ft3_id": "FT038.003",
+    "ft3_name": "Data Exfiltration: Billing Analytics",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1005.004",
+    "f3_name": "Account Manipulation: Change Account Details",
+    "ft3_id": "FT038.004",
+    "ft3_name": "Data Exfiltration: Sigma Reports",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT039",
+    "ft3_name": "Data Transfer",
+    "notes": null,
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1002.001",
+    "f3_name": "Abuse of Public-Facing API: Mobile API Abuse",
+    "ft3_id": "FT039.001",
+    "ft3_name": "Data Transfer: Data Pipeline",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT040",
+    "ft3_name": "Carding Markets",
+    "notes": null,
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT041",
+    "ft3_name": "Shell Companies",
+    "notes": null,
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "exact",
+    "f3_id": "F1005",
+    "f3_name": "Account Manipulation",
+    "ft3_id": "FT042",
+    "ft3_name": "Account Manipulation",
+    "notes": null,
+    "relationship": "equivalent"
+  },
+  {
+    "confidence": "substring",
+    "f3_id": "F1005",
+    "f3_name": "Account Manipulation",
+    "ft3_id": "FT042.001",
+    "ft3_name": "Account Manipulation: Additional Payment Methods",
+    "notes": "Substring name match; review scope.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "substring",
+    "f3_id": "F1005",
+    "f3_name": "Account Manipulation",
+    "ft3_id": "FT042.002",
+    "ft3_name": "Account Manipulation: Additional Linked Account",
+    "notes": "Substring name match; review scope.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "substring",
+    "f3_id": "F1005",
+    "f3_name": "Account Manipulation",
+    "ft3_id": "FT042.003",
+    "ft3_name": "Account Manipulation: Additional Buy Now, Pay Later",
+    "notes": "Substring name match; review scope.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "substring",
+    "f3_id": "F1005",
+    "f3_name": "Account Manipulation",
+    "ft3_id": "FT042.004",
+    "ft3_name": "Account Manipulation: Additional Payout Schedule",
+    "notes": "Substring name match; review scope.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "substring",
+    "f3_id": "F1005",
+    "f3_name": "Account Manipulation",
+    "ft3_id": "FT042.005",
+    "ft3_name": "Account Manipulation: Additional Bank Accounts",
+    "notes": "Substring name match; review scope.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "substring",
+    "f3_id": "F1005",
+    "f3_name": "Account Manipulation",
+    "ft3_id": "FT042.006",
+    "ft3_name": "Account Manipulation: Additional Connect Accounts",
+    "notes": "Substring name match; review scope.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "exact",
+    "f3_id": "F1005.007",
+    "f3_name": "Account Manipulation: Enable Account Features",
+    "ft3_id": "FT042.007",
+    "ft3_name": "Account Manipulation: Enable Account Features",
+    "notes": null,
+    "relationship": "equivalent"
+  },
+  {
+    "confidence": "substring",
+    "f3_id": "F1005",
+    "f3_name": "Account Manipulation",
+    "ft3_id": "FT042.008",
+    "ft3_name": "Account Manipulation: Top-Up Platform Balance",
+    "notes": "Substring name match; review scope.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "exact",
+    "f3_id": "F1044",
+    "f3_name": "Scheduled Transfer",
+    "ft3_id": "FT043",
+    "ft3_name": "Scheduled Transfer",
+    "notes": null,
+    "relationship": "equivalent"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT044",
+    "ft3_name": "Scheduled Payout",
+    "notes": null,
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT045",
+    "ft3_name": "DDoS",
+    "notes": null,
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT046",
+    "ft3_name": "DoS",
+    "notes": null,
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT047",
+    "ft3_name": "Account Deletion",
+    "notes": null,
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "exact",
+    "f3_id": "T1531",
+    "f3_name": "Account Access Removal",
+    "ft3_id": "FT048",
+    "ft3_name": "Account Access Removal",
+    "notes": null,
+    "relationship": "equivalent"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT049",
+    "ft3_name": "Fake Merchant Account",
+    "notes": null,
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT050",
+    "ft3_name": "Card Cashing",
+    "notes": null,
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT051",
+    "ft3_name": "Fraudulent Purchases",
+    "notes": null,
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1002.001",
+    "f3_name": "Abuse of Public-Facing API: Mobile API Abuse",
+    "ft3_id": "FT051.001",
+    "ft3_name": "Fraudulent Purchases: Subscriptions",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1002.002",
+    "f3_name": "Abuse of Public-Facing API: Web API Abuse",
+    "ft3_id": "FT051.002",
+    "ft3_name": "Fraudulent Purchases: SMS Services",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1005.003",
+    "f3_name": "Account Manipulation: Add Beneficiary",
+    "ft3_id": "FT051.003",
+    "ft3_name": "Fraudulent Purchases: LLM Services",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1005.004",
+    "f3_name": "Account Manipulation: Change Account Details",
+    "ft3_id": "FT051.004",
+    "ft3_name": "Fraudulent Purchases: Discord",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT052",
+    "ft3_name": "Falsifying Identity Documents",
+    "notes": null,
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1002.001",
+    "f3_name": "Abuse of Public-Facing API: Mobile API Abuse",
+    "ft3_id": "FT052.001",
+    "ft3_name": "Falsifying Identity Documents: Fake Passport",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1002.002",
+    "f3_name": "Abuse of Public-Facing API: Web API Abuse",
+    "ft3_id": "FT052.002",
+    "ft3_name": "Falsifying Identity Documents: Fake Drivers License ",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1005.003",
+    "f3_name": "Account Manipulation: Add Beneficiary",
+    "ft3_id": "FT052.003",
+    "ft3_name": "Falsifying Identity Documents: Fake National Identity Card",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1005.004",
+    "f3_name": "Account Manipulation: Change Account Details",
+    "ft3_id": "FT052.004",
+    "ft3_name": "Falsifying Identity Documents: Fake U.S. Visa Card",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1005.005",
+    "f3_name": "Account Manipulation: Change E-Delivery or Notification Settings",
+    "ft3_id": "FT052.005",
+    "ft3_name": "Falsifying Identity Documents: Fake NYC Card",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1005.006",
+    "f3_name": "Account Manipulation: Change of Payment Details",
+    "ft3_id": "FT052.006",
+    "ft3_name": "Falsifying Identity Documents: Fake Border Crossing Card",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1005.007",
+    "f3_name": "Account Manipulation: Enable Account Features",
+    "ft3_id": "FT052.007",
+    "ft3_name": "Falsifying Identity Documents: Fake Resident Permit ID / U.S. Green Card",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1005.008",
+    "f3_name": "Account Manipulation: Update Call Receiving Device",
+    "ft3_id": "FT052.008",
+    "ft3_name": "Falsifying Identity Documents: Fake Passport Card",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT052.009",
+    "ft3_name": "Falsifying Identity Documents: Fake State Issued ID Card",
+    "notes": null,
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT053",
+    "ft3_name": "Card Holder Details Collection",
+    "notes": null,
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "exact",
+    "f3_id": "F1001",
+    "f3_name": "3DS Bypass",
+    "ft3_id": "FT053",
+    "ft3_name": "3DS Bypass",
+    "notes": null,
+    "relationship": "equivalent"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1002.001",
+    "f3_name": "Abuse of Public-Facing API: Mobile API Abuse",
+    "ft3_id": "FT053.001",
+    "ft3_name": "Card Holder Details Collection: Billing Information",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1002.002",
+    "f3_name": "Abuse of Public-Facing API: Web API Abuse",
+    "ft3_id": "FT053.002",
+    "ft3_name": "Card Holder Details Collection: Shipping Information",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1005.003",
+    "f3_name": "Account Manipulation: Add Beneficiary",
+    "ft3_id": "FT053.003",
+    "ft3_name": "Card Holder Details Collection: Card Details",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT054",
+    "ft3_name": "Fake e-Commerce Website",
+    "notes": null,
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT055",
+    "ft3_name": "Fake Payment Gateway",
+    "notes": null,
+    "relationship": "unmapped"
+  }
+]
