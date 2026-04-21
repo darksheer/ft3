@@ -3144,7 +3144,7 @@
         "relationship_citations": ""
     },
     {
-        "id": "FT053",
+        "id": "FT056",
         "stix_id": "",
         "name": "Card Holder Details Collection",
         "description": "Card Holder Details Collection is a fraudulent technique used by cybercriminals to illicitly gather sensitive payment information from unsuspecting victims. This strategy typically involves deception, such as phishing attacks, fake websites, or fraudulent communications designed to trick individuals into providing details like credit card numbers, CVV codes, and expiration dates. By obtaining this information, fraudsters can carry out unauthorized transactions, commit identity theft, or sell the stolen data on the dark web, significantly increasing their potential financial gain.\n\nCriminals employing the card holder details collection technique often utilize tactics such as creating counterfeit e-commerce sites that mimic legitimate businesses, thus tricking consumers into entering their payment information. Alternatively, they may send emails or messages that appear to come from trusted institutions, requesting urgent updates on account information which, if complied with, result in the victim\u2019s details being captured. Some fraudsters even use social engineering techniques to pose as customer service representatives over the phone, extracting sensitive information while gaining the victim's trust.\n\nExamples of this technique include: A phishing email claiming to be from a popular online retailer prompts users to verify their payment information by clicking a misleading link to a fake website. A cybercriminal sets up a fake mobile app resembling a legitimate banking app, enticing users to enter their card details under the guise of a database update. A fraudster calls a victim, posing as a bank employee, and uses manipulation to convince the victim to divulge their credit card information, citing security concerns.\n\nThe goals of those engaged in card holder details collection are: To acquire sensitive financial information rapidly, allowing for immediate exploitation through unauthorized transactions or identity theft. To establish a network of stolen card data that can be sold to other criminals, profiting from the data breach. To evade detection and ensure fraudulent activities can continue unhindered by maintaining a facade of communication that appears legitimate to victims.",
@@ -3168,7 +3168,7 @@
         "relationship_citations": ""
     },
     {
-        "id": "FT053.001",
+        "id": "FT056.001",
         "stix_id": "",
         "name": "Card Holder Details Collection: Billing Information",
         "description": "Card Holder Details Collection: Billing Information is a fraudulent technique where criminals specifically target and collect sensitive billing information from victims, such as names, addresses, credit card numbers, expiration dates, and CVV codes. This information is often harvested through deceptive practices, including phishing scams, fake websites, and social engineering tactics. By obtaining accurate billing details, fraudsters can conduct unauthorized transactions, create counterfeit credit cards, or sell the data on the dark web, thus maximizing their illegal profits.\n\nFraudsters often employ strategies that exploit the trust of consumers. They may create realistic-looking online forms that appear to be affiliated with legitimate companies, convincing users to input their billing information under the pretext of processing orders, verifying accounts, or incentivizing promotions. Additionally, they might send emails or messages posing as payment processors or banks, urging individuals to update their billing information to avoid account suspension or service loss, leading victims to unwittingly provide their sensitive data.\n\nExamples of this technique include: A spoofed email from a well-known payment platform requests users to confirm their billing information to prevent service disruption, leading victims to a phishing site. A fraudulent online retailer offers significant discounts while demanding users complete a billing form that mimics legitimate check-out procedures, enabling data capture. A scammer poses as a telemarketer and persuades a victim to share their billing information, claiming they have won a prize that requires verification of their account details.\n\nThe goals of those engaged in billing information collection are: To gather sensitive billing information for immediate use in unauthorized financial transactions. To build a database of stolen billing information that can be sold or utilized for larger-scale fraud operations. To create a fa\u00e7ade of legitimacy that reduces suspicion among victims, increasing the likelihood of successful data collection without raising alarms.",
@@ -3181,7 +3181,7 @@
         "detection": "",
         "data sources": "",
         "is_sub-technique": "TRUE",
-        "sub-technique of": "FT053",
+        "sub-technique of": "FT056",
         "defenses_bypassed": "",
         "contributors": "",
         "permissions_required": "",
@@ -3192,7 +3192,7 @@
         "relationship_citations": ""
     },
     {
-        "id": "FT053.002",
+        "id": "FT056.002",
         "stix_id": "",
         "name": "Card Holder Details Collection: Shipping Information",
         "description": "Card Holder Details Collection: Shipping Information is a fraudulent technique employed by cybercriminals to gather sensitive shipping details from unsuspecting victims, which may include names, addresses, phone numbers, and email addresses. This information is often collected through deceptive means such as phishing attacks, fake marketplaces, and social engineering tactics. By obtaining accurate shipping information, fraudsters can conduct identity theft, commit fraud in e-commerce transactions, or use the data for subsequent attacks on the victim or others.\n\nCriminals utilizing this technique often set up counterfeit online stores that mimic legitimate businesses to entice consumers into providing their shipping information during the checkout process. They may also use fraudulent emails or text messages that appear to come from shipping carriers or popular online retailers, urging recipients to confirm or update their shipping details to ensure successful deliveries. These strategies capitalize on the natural trust customers place in recognizable brands and services.\n\nExamples of this technique include: A fake online store advertises products at incredibly low prices, compelling users to enter their shipping information to complete their purchases, ultimately capturing their details for illicit use. A phishing email pretends to be from a well-known shipping company, instructing recipients to verify shipping information for a package that doesn't exist, leading them to a malicious link. A scammer contacts potential victims through social media, posing as a representative from a shipping service and convincing them to share their shipping details for supposed account verification.\n\nThe goals of those engaged in shipping information collection are: To acquire sensitive shipping details for use in fraudulent transactions or identity theft. To build a repository of stolen shipping information that can be exploited for further scams or sold to other criminals. To maintain a fa\u00e7ade of trustworthiness and legitimacy, decreasing the likelihood that victims will recognize the fraudulent nature of the interaction and increasing the success rate of data collection efforts.",
@@ -3205,7 +3205,7 @@
         "detection": "",
         "data sources": "",
         "is_sub-technique": "TRUE",
-        "sub-technique of": "FT053",
+        "sub-technique of": "FT056",
         "defenses_bypassed": "",
         "contributors": "",
         "permissions_required": "",
@@ -3216,7 +3216,7 @@
         "relationship_citations": ""
     },
     {
-        "id": "FT053.003",
+        "id": "FT056.003",
         "stix_id": "",
         "name": "Card Holder Details Collection: Card Details",
         "description": "Card Holder Details Collection: Card Details is a fraudulent technique whereby cybercriminals target and collect sensitive credit and debit card information directly from unsuspecting victims. This tactic often involves deception through various methods, such as phishing schemes, fake websites, malware, or social engineering. By obtaining card details, including card numbers, expiration dates, and CVV codes, fraudsters can conduct unauthorized transactions, create counterfeit cards, or sell the stolen information on the dark web for significant profit.\n\nCriminals employing this technique may create counterfeit e-commerce sites that closely resemble legitimate brands to lure consumers into providing their card information during the checkout process. Alternatively, they might leverage phishing emails or messages that appear to originate from legitimate financial institutions, requesting verification of card details by prompting victims to click malicious links. Some attackers utilize malware embedded in seemingly harmless applications or advertisements that capture card information when users enter it, often without the victim\u2019s knowledge.\n\nExamples of this technique include: A phishing email mimics a well-known bank and requests users to enter their card details for urgent account verification, directing them to a fake website. A fraudulent app claims to offer great discounts on popular products but secretly records the card details entered by users during purchases. A scammer impersonates a customer service agent from a reputable firm and convinces a victim to reveal their card information under the guise of resolving a purported account issue.\n\nThe goals of those engaged in card details collection are: To rapidly acquire sensitive card information for immediate exploitation in unauthorized transactions. To create a stockpile of stolen card data that can be sold to other criminals or used in larger-scale fraud operations. To maintain an appearance of legitimacy, reducing the likelihood that victims will recognize ongoing fraudulent activities, allowing the fraudsters to continue their operations undetected.",
@@ -3229,7 +3229,7 @@
         "detection": "",
         "data sources": "",
         "is_sub-technique": "TRUE",
-        "sub-technique of": "FT053",
+        "sub-technique of": "FT056",
         "defenses_bypassed": "",
         "contributors": "",
         "permissions_required": "",

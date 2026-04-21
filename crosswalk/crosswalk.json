@@ -1170,15 +1170,6 @@
     "relationship": "unmapped"
   },
   {
-    "confidence": "none",
-    "f3_id": null,
-    "f3_name": null,
-    "ft3_id": "FT053",
-    "ft3_name": "Card Holder Details Collection",
-    "notes": null,
-    "relationship": "unmapped"
-  },
-  {
     "confidence": "exact",
     "f3_id": "F1001",
     "f3_name": "3DS Bypass",
@@ -1186,33 +1177,6 @@
     "ft3_name": "3DS Bypass",
     "notes": null,
     "relationship": "equivalent"
-  },
-  {
-    "confidence": "collision",
-    "f3_id": "F1002.001",
-    "f3_name": "Abuse of Public-Facing API: Mobile API Abuse",
-    "ft3_id": "FT053.001",
-    "ft3_name": "Card Holder Details Collection: Billing Information",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
-  },
-  {
-    "confidence": "collision",
-    "f3_id": "F1002.002",
-    "f3_name": "Abuse of Public-Facing API: Web API Abuse",
-    "ft3_id": "FT053.002",
-    "ft3_name": "Card Holder Details Collection: Shipping Information",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
-  },
-  {
-    "confidence": "collision",
-    "f3_id": "F1005.003",
-    "f3_name": "Account Manipulation: Add Beneficiary",
-    "ft3_id": "FT053.003",
-    "ft3_name": "Card Holder Details Collection: Card Details",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
   },
   {
     "confidence": "none",
@@ -1231,5 +1195,41 @@
     "ft3_name": "Fake Payment Gateway",
     "notes": null,
     "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT056",
+    "ft3_name": "Card Holder Details Collection",
+    "notes": null,
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1002.001",
+    "f3_name": "Abuse of Public-Facing API: Mobile API Abuse",
+    "ft3_id": "FT056.001",
+    "ft3_name": "Card Holder Details Collection: Billing Information",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1002.002",
+    "f3_name": "Abuse of Public-Facing API: Web API Abuse",
+    "ft3_id": "FT056.002",
+    "ft3_name": "Card Holder Details Collection: Shipping Information",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
+  },
+  {
+    "confidence": "collision",
+    "f3_id": "F1005.003",
+    "f3_name": "Account Manipulation: Add Beneficiary",
+    "ft3_id": "FT056.003",
+    "ft3_name": "Card Holder Details Collection: Card Details",
+    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
+    "relationship": "derived"
   }
 ]
