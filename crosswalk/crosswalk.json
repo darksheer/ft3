@@ -1231,5 +1231,878 @@
     "ft3_name": "Card Holder Details Collection: Card Details",
     "notes": "Sub-technique numbering collision with no name signal; review relationship.",
     "relationship": "derived"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1002",
+    "f3_name": "Abuse of Public-Facing API",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1003",
+    "f3_name": "Abuse SMS verification",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1004",
+    "f3_name": "Access with Stolen Session Cookie",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1005.001",
+    "f3_name": "Account Manipulation: Account Linking",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1005.002",
+    "f3_name": "Account Manipulation: Add Authorized User",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1006.001",
+    "f3_name": "Account Takeover: Exposed API Key",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1007",
+    "f3_name": "Adversary-in-the-Browser",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1007.001",
+    "f3_name": "Adversary-in-the-Browser: DLL Injection",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1007.002",
+    "f3_name": "Adversary-in-the-Browser: Malicious Browser Extension",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1007.003",
+    "f3_name": "Adversary-in-the-Browser: Malicious JavaScript Injection",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1008",
+    "f3_name": "ATM Manipulation",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1008.001",
+    "f3_name": "ATM Manipulation: ATM Hardware Manipulation",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1008.002",
+    "f3_name": "ATM Manipulation: ATM Software Manipulation",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1009",
+    "f3_name": "Bank Deposit",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1009.001",
+    "f3_name": "Bank Deposit: ATM Deposit",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1009.002",
+    "f3_name": "Bank Deposit: Mobile Deposit",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1009.003",
+    "f3_name": "Bank Deposit: Night Deposit",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1009.004",
+    "f3_name": "Bank Deposit: Test Deposit",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1010",
+    "f3_name": "Buy Money Order",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1011",
+    "f3_name": "Card Dump Capture",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1013",
+    "f3_name": "Change Payroll Details",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1014",
+    "f3_name": "Check Fraud",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1016",
+    "f3_name": "Compromise Payment Gateway",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1017",
+    "f3_name": "Conversion to Physical Monetary Instruments",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1017.001",
+    "f3_name": "Conversion to Physical Monetary Instruments: Cash",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1017.002",
+    "f3_name": "Conversion to Physical Monetary Instruments: Cashier's Check",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1017.003",
+    "f3_name": "Conversion to Physical Monetary Instruments: Money Order",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1018",
+    "f3_name": "Convert to Cryptocurrency",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1019",
+    "f3_name": "Create Counterfeit Card",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1020",
+    "f3_name": "Create Fake Materials",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1020.001",
+    "f3_name": "Create Fake Materials: Fake Documents",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1020.002",
+    "f3_name": "Create Fake Materials: Fake Website",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1021",
+    "f3_name": "Create Fraudulent Merchant Account",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1022",
+    "f3_name": "Delete Relevant Emails",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1023",
+    "f3_name": "Device Fingerprint Spoofing",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1024",
+    "f3_name": "Dispute Legitimate Transaction",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1025",
+    "f3_name": "Electronic Funds Transfer",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1025.001",
+    "f3_name": "Electronic Funds Transfer: Peer-to-Peer Transfer",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1025.002",
+    "f3_name": "Electronic Funds Transfer: Regional Payment Rail",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1025.003",
+    "f3_name": "Electronic Funds Transfer: Wire Transfer",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1026",
+    "f3_name": "Exploitation of Gambling Platforms",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1027",
+    "f3_name": "Falsify Business Documents",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1028",
+    "f3_name": "Fradulent Purchasing",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1029",
+    "f3_name": "Gather Customer Information",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1030",
+    "f3_name": "Geolocation Spoofing",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1031",
+    "f3_name": "Impersonate Account Holder",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1032",
+    "f3_name": "Impersonate Official",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1033",
+    "f3_name": "Insider Access Abuse",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1034",
+    "f3_name": "Interactive Voice Response Mapping",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1035",
+    "f3_name": "Mail Theft",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1036",
+    "f3_name": "New Vendor Setup",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1037",
+    "f3_name": "NFC Payment",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1038",
+    "f3_name": "PAN/CVV Generation",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1039",
+    "f3_name": "PaReq Manipulation",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1040",
+    "f3_name": "Phone Number Spoofing",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1040.001",
+    "f3_name": "Phone Number Spoofing: Customer Phone Number Spoofing",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1040.002",
+    "f3_name": "Phone Number Spoofing: Official Phone Number Spoofing",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1041",
+    "f3_name": "PIN-code Peeking",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1042",
+    "f3_name": "Reactivate Account",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1043",
+    "f3_name": "Reversal of Transaction",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1045",
+    "f3_name": "Structuring",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1046",
+    "f3_name": "Test Payment Thresholds",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1047",
+    "f3_name": "Transfer of funds",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "F1048",
+    "f3_name": "Use Virtual Cards",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "T1070",
+    "f3_name": "Indicator Removal",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "T1110",
+    "f3_name": "Brute Force",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "T1110.001",
+    "f3_name": "Brute Force: Password Guessing",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "T1110.002",
+    "f3_name": "Brute Force: Password Cracking",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "T1110.003",
+    "f3_name": "Brute Force: Password Spraying",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "T1110.004",
+    "f3_name": "Brute Force:  Credential Stuffing",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "T1111",
+    "f3_name": "Multi-Factor Authentication Interception",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "T1113",
+    "f3_name": "Screen Capture",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "T1185",
+    "f3_name": "Browser Session Hijacking",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "T1189",
+    "f3_name": "Drive-by Compromise",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "T1219",
+    "f3_name": "Remote Access Tools",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "T1451",
+    "f3_name": "SIM Card Swap",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "T1453",
+    "f3_name": "Abuse Accessibility Features",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "T1539",
+    "f3_name": "Steal Web Session Cookie",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "T1550",
+    "f3_name": "Use Alternate Authentication Material",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "T1550.001",
+    "f3_name": "Use Alternate Authentication Material: Application Access Token",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "T1555",
+    "f3_name": "Credentials from Password Stores",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "T1555.003",
+    "f3_name": "Credentials from Password Stores: Credentials from Web Browsers",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "T1555.005",
+    "f3_name": "Credentials from Password Stores: Password Managers",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "T1557",
+    "f3_name": "Adversary-in-the-Middle",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "T1583",
+    "f3_name": "Acquire Infrastructure",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "T1583.001",
+    "f3_name": "Acquire Infrastructure: Domains",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "T1583.003",
+    "f3_name": "Acquire Infrastructure: Virtual Private Network or Server",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "T1583.008",
+    "f3_name": "Acquire Infrastructure: Malvertising",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "T1586.004",
+    "f3_name": "Compromise Accounts: Corporate Accounts",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "T1593",
+    "f3_name": "Search Open Websites/Domains",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "T1593.001",
+    "f3_name": "Search Open Websites/Domains: Social Media",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "T1593.002",
+    "f3_name": "Search Open Websites/Domains: Search Engines",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "T1608",
+    "f3_name": "Stage Capabilities",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "T1608.006",
+    "f3_name": "Stage Capabilities: SEO Poisoning",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "T1621",
+    "f3_name": "Multi-Factor Authentication Request Generation",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "T1667",
+    "f3_name": "Email Bombing",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "none",
+    "f3_id": "T1672",
+    "f3_name": "Email Spoofing",
+    "ft3_id": null,
+    "ft3_name": null,
+    "notes": "F3-only technique; no FT3 counterpart.",
+    "relationship": "unmapped"
   }
 ]
