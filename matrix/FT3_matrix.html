@@ -1,0 +1,460 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>FT3 Matrix</title>
+<meta charset="utf-8"><style>body{font-family:system-ui,sans-serif;margin:1.5rem;background:#f8f9fa;}h1{margin:0 0 .2em 0;}p.summary{margin:0 0 1em 0;color:#444;}.matrix{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(220px,1fr);gap:8px;align-items:start;overflow-x:auto;}.col{background:#ffffff;border:1px solid #dcdcdc;border-radius:6px;padding:.6rem;}.col h2{font-size:.95rem;margin:0 0 .2em 0;color:#2c3e50;}.col .count{font-size:.8rem;color:#666;margin-bottom:.5em;}.tech{padding:.3rem .4rem;margin:.15rem 0;border-left:3px solid #2c3e50;background:#f4f6f8;border-radius:3px;}.tech.sub{margin-left:1rem;border-left-color:#95a5a6;}.tech .ft3{font-family:ui-monospace,monospace;font-size:.75rem;color:#555;display:block;}.tech .name{font-size:.9rem;}.unassigned{margin-top:1.5em;color:#777;}</style>
+</head>
+<body>
+<h1>FT3 Matrix</h1>
+<p class="summary">12 tactics · 133 techniques · derived from <code>stix/FT3_stix.json</code>. Sub-techniques indented under their parent.</p>
+<div class="matrix">
+<div class="col">
+<h2>Reconnaissance</h2>
+<div class="count">16 techniques · FTA001</div>
+<div class="tech">
+<span class="ft3">FT001</span><span class="name">Phishing for Information</span>
+</div>
+<div class="tech">
+<span class="ft3">FT002</span><span class="name">Search Victim-Owned Websites</span>
+</div>
+<div class="tech">
+<span class="ft3">FT003</span><span class="name">Seaching Credential Dumps</span>
+</div>
+<div class="tech">
+<span class="ft3">FT004</span><span class="name">Gather Victim Org Information</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT004.001</span><span class="name">Gather Victim Org Information: Business Relationships</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT004.002</span><span class="name">Gather Victim Org Information: Determine Physical Locations </span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT004.003</span><span class="name">Gather Victim Org Information: Identify Business Tempo</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT004.004</span><span class="name">Gather Victim Org Information: Identify Roles</span>
+</div>
+<div class="tech">
+<span class="ft3">FT005</span><span class="name">Gather Victim Identity Information</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT005.001</span><span class="name">Gather Victim Identity Information: Credentials</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT005.002</span><span class="name">Gather Victim Identity Information: Email Addresses</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT005.003</span><span class="name">Gather Victim Identity Information: Employee Names</span>
+</div>
+<div class="tech">
+<span class="ft3">FT006.001</span><span class="name">Credential Scanning: Github</span>
+</div>
+<div class="tech">
+<span class="ft3">FT006</span><span class="name">Credential Scanning</span>
+</div>
+<div class="tech">
+<span class="ft3">FT006.002</span><span class="name">Credential Scanning: Websites</span>
+</div>
+<div class="tech">
+<span class="ft3">FT006.003</span><span class="name">Credential Scanning: Telegram</span>
+</div>
+</div>
+<div class="col">
+<h2>Resource Development</h2>
+<div class="count">21 techniques · FTA002</div>
+<div class="tech">
+<span class="ft3">FT007</span><span class="name">Acquire Access</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT007.001</span><span class="name">Acquire Access: Botnet</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT007.002</span><span class="name">Acquire Access: DNS Server</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT007.003</span><span class="name">Acquire Access: Malvertising</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT007.004</span><span class="name">Acquire Access: Server</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT007.005</span><span class="name">Acquire Access: VPS</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT007.006</span><span class="name">Acquire Access: Virtual Private Network</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT007.007</span><span class="name">Acquire Access: Virtual Private Server</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT007.008</span><span class="name">Acquire Access: Cloud Accounts</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT007.009</span><span class="name">Acquire Access: Email Accounts</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT007.010</span><span class="name">Acquire Access: Social Media Accounts</span>
+</div>
+<div class="tech">
+<span class="ft3">FT008</span><span class="name">Compromise Accounts</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT008.001</span><span class="name">Compromise Accounts: Cloud Accounts</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT008.002</span><span class="name">Compromise Accounts: Email Accounts</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT008.003</span><span class="name">Compromise Accounts: Social Media Accounts</span>
+</div>
+<div class="tech">
+<span class="ft3">FT009</span><span class="name">Compromise Infrastructure</span>
+</div>
+<div class="tech">
+<span class="ft3">FT010</span><span class="name">Establish Accounts</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT010.001</span><span class="name">Establish Accounts: Cloud Accounts</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT010.002</span><span class="name">Establish Accounts: Email Accounts</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT010.003</span><span class="name">Establish Accounts: Social Media Accounts</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT010.004</span><span class="name">Establish Accounts: Telegram Accounts</span>
+</div>
+</div>
+<div class="col">
+<h2>Initial Access</h2>
+<div class="count">18 techniques · FTA003</div>
+<div class="tech">
+<span class="ft3">FT011</span><span class="name">Account Takeover</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT011.001</span><span class="name">Account Takeover: Exposed Credential</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT011.002</span><span class="name">Account Takeover: Exposed Login Credential</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT011.003</span><span class="name">Account Takeover: Exposed User Session/Token</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT011.004</span><span class="name">Account Takeover: Self Serve PII</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT011.005</span><span class="name">Account Takeover: Fake ID</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT011.006</span><span class="name">Account Takeover: Password Reset</span>
+</div>
+<div class="tech">
+<span class="ft3">FT012</span><span class="name">Cross-Site Scripting (XSS) Redirection for Financial Fraud</span>
+</div>
+<div class="tech">
+<span class="ft3">FT013</span><span class="name">Resource Hijacking</span>
+</div>
+<div class="tech">
+<span class="ft3">FT014</span><span class="name">Supply Chain Compromise</span>
+</div>
+<div class="tech">
+<span class="ft3">FT015</span><span class="name">Policy and Procedure Abuse</span>
+</div>
+<div class="tech">
+<span class="ft3">FT016</span><span class="name">Phishing</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT016.001</span><span class="name">Phishing: Phishing for Merchant Credentials</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT016.002</span><span class="name">Phishing: Self Serve PII</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT016.003</span><span class="name">Phishing: Backup Code</span>
+</div>
+<div class="tech">
+<span class="ft3">FT017</span><span class="name">Ad Fraud</span>
+</div>
+<div class="tech">
+<span class="ft3">FT018</span><span class="name">Social Media Attack</span>
+</div>
+<div class="tech">
+<span class="ft3">FT049</span><span class="name">Fake Merchant Account</span>
+</div>
+</div>
+<div class="col">
+<h2>Execution</h2>
+<div class="count">0 techniques · FTA004</div>
+</div>
+<div class="col">
+<h2>Defense Evasion &amp; Obfuscation</h2>
+<div class="count">25 techniques · FTA005</div>
+<div class="tech">
+<span class="ft3">FT019</span><span class="name">Website Cloning</span>
+</div>
+<div class="tech">
+<span class="ft3">FT020</span><span class="name">Identity Theft for Merchant Accounts</span>
+</div>
+<div class="tech">
+<span class="ft3">FT021</span><span class="name">Social Media Attacks</span>
+</div>
+<div class="tech">
+<span class="ft3">FT022</span><span class="name">Churning</span>
+</div>
+<div class="tech">
+<span class="ft3">FT023</span><span class="name">Dispute Avoidance</span>
+</div>
+<div class="tech">
+<span class="ft3">FT024</span><span class="name">Fabricating shipping evidence</span>
+</div>
+<div class="tech">
+<span class="ft3">FT025</span><span class="name">Fake Review Fraud</span>
+</div>
+<div class="tech">
+<span class="ft3">FT026</span><span class="name">Falsifying Business Documents</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT026.001</span><span class="name">Falsifying Business Documents: Fake Business Registration Certificate</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT026.002</span><span class="name">Falsifying Business Documents: Fake Business License</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT026.003</span><span class="name">Falsifying Business Documents: Fake VAT Certificate</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT026.004</span><span class="name">Falsifying Business Documents: Fake IRS Letter 147C</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT026.005</span><span class="name">Falsifying Business Documents: Fake SS-4 Confirmation Letter</span>
+</div>
+<div class="tech">
+<span class="ft3">FT052</span><span class="name">Falsifying Identity Documents</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT052.001</span><span class="name">Falsifying Identity Documents: Fake Passport</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT052.002</span><span class="name">Falsifying Identity Documents: Fake Drivers License </span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT052.003</span><span class="name">Falsifying Identity Documents: Fake National Identity Card</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT052.004</span><span class="name">Falsifying Identity Documents: Fake U.S. Visa Card</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT052.005</span><span class="name">Falsifying Identity Documents: Fake NYC Card</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT052.006</span><span class="name">Falsifying Identity Documents: Fake Border Crossing Card</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT052.007</span><span class="name">Falsifying Identity Documents: Fake Resident Permit ID / U.S. Green Card</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT052.008</span><span class="name">Falsifying Identity Documents: Fake Passport Card</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT052.009</span><span class="name">Falsifying Identity Documents: Fake State Issued ID Card</span>
+</div>
+<div class="tech">
+<span class="ft3">FT054</span><span class="name">Fake e-Commerce Website</span>
+</div>
+<div class="tech">
+<span class="ft3">FT055</span><span class="name">Fake Payment Gateway</span>
+</div>
+</div>
+<div class="col">
+<h2>Lateral Movement &amp; Internal Proliferation</h2>
+<div class="count">2 techniques · FTA006</div>
+<div class="tech">
+<span class="ft3">FT028</span><span class="name">Spearphishing</span>
+</div>
+<div class="tech">
+<span class="ft3">FT029</span><span class="name">Cross Account Permissions</span>
+</div>
+</div>
+<div class="col">
+<h2>Manipulation &amp; Fraudulent Transactions</h2>
+<div class="count">17 techniques · FTA007</div>
+<div class="tech">
+<span class="ft3">FT030</span><span class="name">Card Testing</span>
+</div>
+<div class="tech">
+<span class="ft3">FT031</span><span class="name">Compromised Payment Gateway</span>
+</div>
+<div class="tech">
+<span class="ft3">FT032</span><span class="name">Credit Card Skimming</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT032.001</span><span class="name">Credit Card Skimming: Malicious Javascript Skimming</span>
+</div>
+<div class="tech">
+<span class="ft3">FT033</span><span class="name">No Shipping</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT033.001</span><span class="name">No Shipping: Non-Delivery of Goods</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT033.002</span><span class="name">No Shipping: Partial Shipping of Goods</span>
+</div>
+<div class="tech">
+<span class="ft3">FT033.003</span><span class="name">No Shipping: Shipping of Incorrect Goods</span>
+</div>
+<div class="tech">
+<span class="ft3">FT033.004</span><span class="name">No Shipping: Fabricating shipping evidence</span>
+</div>
+<div class="tech">
+<span class="ft3">FT034</span><span class="name">Triangulation Fraud</span>
+</div>
+<div class="tech">
+<span class="ft3">FT035</span><span class="name">Dispute Avoidance</span>
+</div>
+<div class="tech">
+<span class="ft3">FT036</span><span class="name">Refund Fraud</span>
+</div>
+<div class="tech">
+<span class="ft3">FT053</span><span class="name">3DS Bypass</span>
+</div>
+<div class="tech">
+<span class="ft3">FT056</span><span class="name">Card Holder Details Collection</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT056.001</span><span class="name">Card Holder Details Collection: Billing Information</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT056.002</span><span class="name">Card Holder Details Collection: Shipping Information</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT056.003</span><span class="name">Card Holder Details Collection: Card Details</span>
+</div>
+</div>
+<div class="col">
+<h2>Command and Control</h2>
+<div class="count">4 techniques · FTA008</div>
+<div class="tech">
+<span class="ft3">FT037</span><span class="name">Account Manipulation</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT037.001</span><span class="name">Account Manipulation: Additional User Account</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT037.002</span><span class="name">Account Manipulation: Additional Authorized Account</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT037.003</span><span class="name">Account Manipulation: Additional Linked Account</span>
+</div>
+</div>
+<div class="col">
+<h2>Collection &amp; Exfiltration</h2>
+<div class="count">7 techniques · FTA009</div>
+<div class="tech">
+<span class="ft3">FT038</span><span class="name">Data Exfiltration</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT038.001</span><span class="name">Data Exfiltration: Revenue</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT038.002</span><span class="name">Data Exfiltration: Payout</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT038.003</span><span class="name">Data Exfiltration: Billing Analytics</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT038.004</span><span class="name">Data Exfiltration: Sigma Reports</span>
+</div>
+<div class="tech">
+<span class="ft3">FT039</span><span class="name">Data Transfer</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT039.001</span><span class="name">Data Transfer: Data Pipeline</span>
+</div>
+</div>
+<div class="col">
+<h2>Financial Evasion, Laundering &amp; Cash-Out</h2>
+<div class="count">19 techniques · FTA010</div>
+<div class="tech">
+<span class="ft3">FT040</span><span class="name">Carding Markets</span>
+</div>
+<div class="tech">
+<span class="ft3">FT041</span><span class="name">Shell Companies</span>
+</div>
+<div class="tech">
+<span class="ft3">FT042</span><span class="name">Account Manipulation</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT042.001</span><span class="name">Account Manipulation: Additional Payment Methods</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT042.002</span><span class="name">Account Manipulation: Additional Linked Account</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT042.003</span><span class="name">Account Manipulation: Additional Buy Now, Pay Later</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT042.004</span><span class="name">Account Manipulation: Additional Payout Schedule</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT042.005</span><span class="name">Account Manipulation: Additional Bank Accounts</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT042.006</span><span class="name">Account Manipulation: Additional Connect Accounts</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT042.007</span><span class="name">Account Manipulation: Enable Account Features</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT042.008</span><span class="name">Account Manipulation: Top-Up Platform Balance</span>
+</div>
+<div class="tech">
+<span class="ft3">FT043</span><span class="name">Scheduled Transfer</span>
+</div>
+<div class="tech">
+<span class="ft3">FT044</span><span class="name">Scheduled Payout</span>
+</div>
+<div class="tech">
+<span class="ft3">FT050</span><span class="name">Card Cashing</span>
+</div>
+<div class="tech">
+<span class="ft3">FT051</span><span class="name">Fraudulent Purchases</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT051.001</span><span class="name">Fraudulent Purchases: Subscriptions</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT051.002</span><span class="name">Fraudulent Purchases: SMS Services</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT051.003</span><span class="name">Fraudulent Purchases: LLM Services</span>
+</div>
+<div class="tech sub">
+<span class="ft3">FT051.004</span><span class="name">Fraudulent Purchases: Discord</span>
+</div>
+</div>
+<div class="col">
+<h2>Impact &amp; Disruption</h2>
+<div class="count">2 techniques · FTA011</div>
+<div class="tech">
+<span class="ft3">FT045</span><span class="name">DDoS</span>
+</div>
+<div class="tech">
+<span class="ft3">FT046</span><span class="name">DoS</span>
+</div>
+</div>
+<div class="col">
+<h2>Obfuscation and Destruction of Evidence</h2>
+<div class="count">2 techniques · FTA012</div>
+<div class="tech">
+<span class="ft3">FT047</span><span class="name">Account Deletion</span>
+</div>
+<div class="tech">
+<span class="ft3">FT048</span><span class="name">Account Access Removal</span>
+</div>
+</div>
+</div>
+<p class="unassigned">4 technique(s) could not be placed into any tactic column (missing or unrecognized kill_chain_phase). Inspect the bundle to triage.</p>
+</body></html>
