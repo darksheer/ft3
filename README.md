@@ -44,16 +44,16 @@ questions — one artifact each:
 
 | Question | Artifact | Direct link |
 |---|---|---|
-| What does the FT3 matrix look like? | `matrix/FT3_matrix.html` | [open matrix](https://raw.githack.com/darksheer/ft3/master/matrix/FT3_matrix.html) |
-| Does FT3 cover F3 technique X? | `coverage/f3-coverage.html` | [open F3 coverage](https://raw.githack.com/darksheer/ft3/master/coverage/f3-coverage.html) |
+| What does the FT3 matrix look like? | `matrix/FT3_matrix.html` | [open matrix](https://cdn.jsdelivr.net/gh/stripe/ft3@master/matrix/FT3_matrix.html) |
+| Does FT3 cover F3 technique X? | `coverage/f3-coverage.html` | [open F3 coverage](https://cdn.jsdelivr.net/gh/stripe/ft3@master/coverage/f3-coverage.html) |
 | What ATT&CK techniques does FT3 cover? | `navigator/FT3_navigator.attack-18-1.json` | [open in ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/#layerURL=https%3A%2F%2Fraw.githubusercontent.com%2Fdarksheer%2Fft3%2Fmaster%2Fnavigator%2FFT3_navigator.attack-18-1.json) |
 
 GitHub serves `raw.githubusercontent.com` with
 `Content-Type: text/plain` for security reasons, so HTML
-artifacts don't render directly from the raw URL. The
-`raw.githack.com` proxy serves the same files with
-`Content-Type: text/html` so browsers render them; release
-assets are also downloadable if a local copy is preferred.
+artifacts don't render directly from the raw URL. The jsDelivr
+CDN serves the same files with proper content types so browsers
+render them; release assets are also downloadable if a local
+copy is preferred.
 
 For TIPs and practitioner tooling:
 
