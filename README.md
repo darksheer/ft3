@@ -1,82 +1,182 @@
-# FT3: Fraud Tools, Tactics, and Techniques Framework
+# FT3 — Fraud Tools, Tactics & Techniques
 
-## Overview
+FT3 is an intelligence-led living fraud taxonomy — 137 techniques
+across 12 tactics, updated weekly from real-world adversary
+tradecraft. It is F3-compatible: every F3 technique resolves to a
+first-class FT3 coverage view, so anyone asking "does FT3 cover F3
+technique X?" gets a clean, authoritative answer. FT3 preserves
+the operational-layer depth practitioners need — detection
+guidance, data sources, defenses bypassed, and per-procedure
+attribution — while fully referencing the F3 classification layer
+above it.
 
-Fraud Tools, Tactics, and Techniques (FT3) is Stripe's adaptation of ATT&CK-style security frameworks, specifically designed to enhance our understanding of the tactics, techniques, and procedures (TTPs) used by actors in fraudulent activities. Developed as a resource for combating financial crime and improving organizational fraud prevention, FT3 serves a variety of stakeholders across the Fraud ecosystem.
+## What this repository ships
 
-## Why FT3?
+This fork of `stripe/ft3` publishes the canonical edit sources
+alongside generated distribution artifacts for the broader
+ecosystem. Everything below derives from three canonical JSON
+edit sources (`FT3_Techniques.json`, `FT3_Tactics.json`,
+`crosswalk/crosswalk.json`) via a single deterministic build
+pipeline run from the private implementation repo.
 
-Fraud is an ever-evolving threat that necessitates a structured approach for organizations to adapt and respond effectively. By documenting the common tactics and techniques used by fraudsters, FT3 helps organizations to:
+| Layer | File | Purpose |
+|-------|------|---------|
+| Edit | `FT3_Techniques.json` | 137 enriched technique records with FT3 identity fields, F3 crosswalk, ATT&CK lineage |
+| Edit | `FT3_Tactics.json` | 12 tactic records with FT3 identity fields + F3 mapping |
+| Edit | `crosswalk/crosswalk.json` | Authoritative FT3↔F3 row-level crosswalk (234 rows covering both directions) |
+| Distribution | `stix/FT3_stix.json` | Canonical STIX 2.1 bundle (234 objects) — the one input for every derived consumer artifact |
+| Distribution | `stix/FT3_extension_definition.json` | Standalone STIX extension-definition for strict consumers |
+| Derived | `navigator/FT3_navigator.v17.json` · `v18.json` · `v19.json` | ATT&CK Navigator layers across three spec versions |
+| Derived | `misp/FT3_misp_feed.json` + per-event files | MISP-compatible feed for TIPs that import by URL |
+| Derived | `coverage/f3-coverage.html` · `.json` | F3 coverage view — every F3 ID mapped to its FT3 coverage row |
+| Derived | `crosswalk/FT3-F3-crosswalk.csv` · `.xlsx` | Consumer-facing crosswalk exports |
 
-- **Understand the Fraud Landscape:** Gain insights into the tactics and techniques that fraudsters leverage.
-- **Identify Security Gaps:** Discover shortcomings in current security measures to enhance defenses.
-- **Develop Detection Mechanisms:** Establish precise detection capabilities tailored to counter current fraud tactics.
-- **Improve Incident Response:** Enhance processes for responding to fraud incidents efficiently.
-- **Foster Collaboration:** Share knowledge and insights within the fraud prevention community to strengthen collective defenses.
+## Downloads (v1.0-integrated)
+
+Every asset listed above is attached to the `v1.0-integrated`
+GitHub release and is also available in this repository tree.
+SHA-256 checksums for each asset are published in the release
+notes so consumers can verify integrity.
+
+For TIPs and practitioner tooling:
+
+- **STIX 2.1 readers** — consume `stix/FT3_stix.json` directly.
+  FT3 native depth fields are dual-encoded as `x_ft3_*` top-level
+  properties AND a nested `property-extension` under the
+  published `extension-definition` SDO. See
+  `docs/METHODOLOGY.md` for the consumer interoperability notes.
+- **MITRE ATT&CK Navigator** — load the appropriate version layer
+  from `navigator/FT3_navigator.v{17,18,19}.json` into
+  `attack-navigator.mitre-engenuity.org`. All three versions are
+  provided so SOCs on older Navigator infrastructure can open a
+  layer without upgrading.
+- **MISP** — import the feed at `misp/FT3_misp_feed.json` via
+  MISP's URL-import path; per-event JSON files accompany the
+  manifest.
+- **Board / executive reporting** — open
+  `coverage/f3-coverage.html` in any browser for the F3 lens over
+  current FT3 coverage.
+
+## Operating rhythm
+
+F3 updates on MITRE pace (biannual). FT3 updates weekly from live
+intel sources ingested through a pluggable adapter layer. The
+freshness delta is a structural property of how the two
+frameworks are maintained — F3 is a standards artifact; FT3 is
+operational intelligence. Both serve different audiences and both
+are expected to last.
+
+## AI-augmented maintenance
+
+Routine drift detection, semantic re-mapping, and triage over
+intel-feed ingestion are produced by LLM-assisted pipelines
+running in the private implementation repository. Every change
+that reaches the public FT3 JSONs or published artifacts passes
+through a human review gate — no taxonomy edit merges without
+explicit reviewer approval. Automation drafts; humans approve.
+
+## License boundary
+
+- FT3 is published under the MIT License (see `LICENSE.md`).
+- F3-derived references carry Apache 2.0 NOTICE propagation per
+  `NOTICE.md`; per-record attribution is enumerated in
+  `ATTRIBUTION.md`.
+- F3 identifiers (F####, F####.NNN, TA####) are referenced as
+  factual identifiers only. F3 descriptive text is not embedded
+  in this distribution; consumers retrieve F3 descriptions from
+  F3's canonical bundle at
+  `raw.githubusercontent.com/center-for-threat-informed-defense/fight-fraud-framework/refs/heads/main/public/f3-stix.json`
+  directly.
+- MITRE ATT&CK identifiers (T####) are referenced as factual
+  identifiers only per MITRE ATT&CK terms of use. The use of
+  MITRE, ATT&CK, and F3 marks on this fork is nominative fair
+  use for interoperability description; this repository is not
+  affiliated with, sponsored by, or endorsed by The MITRE
+  Corporation or the Center for Threat-Informed Defense.
 
 ## Components of FT3
 
-### 1. **Tactics**
-High-level categories representing various phases or goals within the fraud lifecycle. Each tactic delineates specific objectives pursued by fraudsters.
+### Tactics
+High-level categories representing phases or goals within the
+fraud lifecycle. Each tactic delineates specific objectives
+pursued by adversaries.
 
-**Example:** 
-- **Initial Access:** Gaining unauthorized access to user accounts to execute fraudulent transactions.
+Example: **Initial Access** — obtaining unauthorized access to
+user accounts to execute fraudulent transactions.
 
-### 2. **Techniques**
-Methods or modes of operation fraudsters use to achieve their objectives under each tactic. Techniques can vary in complexity and sophistication.
+### Techniques
+Methods or modes of operation adversaries use to achieve their
+objectives under each tactic. Techniques vary in complexity and
+sophistication.
 
-**Example:** 
-- **Account Takeover:** Using stolen credentials to gain control over a user's account for malicious purposes, such as transferring funds or making unauthorized purchases.
+Example: **Account Takeover** — using compromised credentials to
+gain control over a user's account for malicious purposes, such
+as transferring funds or making unauthorized purchases.
 
-### 3. **Procedures**
-Specific implementations of techniques that detail the exact methods actors use within the context of fraud, often involving unique tools and sequences of actions.
+### Procedures
+Specific implementations of techniques that detail the exact
+methods actors use within the context of fraud, often involving
+unique tools and sequences of actions.
 
-**Example:**
-- **Phishing Scheme:** Crafting a fake email that appears legit to trick users into providing their login information.
+Example: **Phishing Scheme** — crafting a fake email that
+appears legitimate to trick users into providing their login
+information.
 
-### 4. **Indicators of Compromise (IOCs)**
-Details that suggest fraudulent activity, such as unusual transaction patterns or changes in account behavior.
+### Indicators of Compromise (IOCs)
+Details that suggest fraudulent activity, such as unusual
+transaction patterns or changes in account behavior.
 
-**Example:**
-- **Unusual Purchase Locations:** Transactions occurring in locations that do not match the user's typical behavior, indicating potential fraud.
+Example: **Unusual Purchase Locations** — transactions occurring
+in locations that do not match the user's typical behavior.
 
-### 5. **Mitigations**
-Proactive actions organizations can adopt to decrease the risk or impact of fraud.
+### Mitigations
+Proactive actions organizations can adopt to decrease the risk
+or impact of fraud.
 
-**Example:**
-- **Two-Factor Authentication (2FA):** Implementing extra security layers that require a second form of verification to access accounts.
+Example: **Two-Factor Authentication (2FA)** — extra security
+layers that require a second form of verification to access
+accounts.
 
-### 6. **Detection**
-Mechanisms for identifying potential fraud through analysis of transaction patterns and customer behaviors.
+### Detection
+Mechanisms for identifying potential fraud through analysis of
+transaction patterns and customer behaviors.
 
-**Example:**
-- **Anomaly Detection Algorithms:** Using machine learning models to identify deviations from normal purchasing behavior.
+Example: **Anomaly Detection Algorithms** — machine-learning
+models that identify deviations from normal purchasing behavior.
 
-### 7. **Response**
-Predefined procedures for organizational response to detected fraud events, aimed at minimizing impact and facilitating recovery.
+### Response
+Predefined procedures for organizational response to detected
+fraud events, aimed at minimizing impact and facilitating
+recovery.
 
-**Example:**
-- **Fraud Investigation Protocol:** Steps for initiating a fraud investigation when suspicious transactions are flagged.
-
-This enhanced context focuses on the specific tactics, techniques, and procedures related to fraud, making it more applicable to your goals.
+Example: **Fraud Investigation Protocol** — steps for initiating
+a fraud investigation when suspicious transactions are flagged.
 
 ## Contributing
 
-We welcome contributions to the FT3 framework from the community! Here are some ways you can help:
-
-Please see the [CONTRIBUTING](CONTRIBUTING.md) file for further details.
+Contributions to the FT3 framework are welcome. See
+[`CONTRIBUTING.md`](CONTRIBUTING.md) for details.
 
 ## Security
-Please see the [SECURITY](SECURITY.md) file for further details.
+
+See [`SECURITY.md`](SECURITY.md).
 
 ## Code of Conduct
-Please see the [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md), file for further details.
 
-## Contact Information
+See [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md).
 
-For further inquiries about the FT3 framework, please reach out to intel [at] stripe.com
+## Contact
+
+For inquiries about the FT3 framework, reach out via the
+repository issue tracker.
 
 ## Notice
-Please see the [LICENSE](LICENSE.md), [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md), [CONTRIBUTING](CONTRIBUTING.md), and [SECURITY](SECURITY.md) files for further details.
 
-Copyright © 2024-2025 Stripe Inc. All rights reserved.
+See [`LICENSE.md`](LICENSE.md), [`NOTICE.md`](NOTICE.md),
+[`ATTRIBUTION.md`](ATTRIBUTION.md),
+[`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md),
+[`CONTRIBUTING.md`](CONTRIBUTING.md), and
+[`SECURITY.md`](SECURITY.md) for details.
+
+Original FT3 © 2024 Stripe Inc. This fork maintained by
+Darksheer Labs; see `LICENSE.md` for MIT terms.
