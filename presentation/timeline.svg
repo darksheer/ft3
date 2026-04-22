@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 260" width="960" height="260" font-family="-apple-system, system-ui, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="32" y="42" font-size="16" font-weight="600" fill="#0f172a">FT3 / F3 timeline</text>
+<text x="32" y="62" font-size="11" fill="#475569">Four dated milestones in the pre-presentation record.</text>
+<line x1="80" y1="170" x2="880" y2="170" stroke="#0f172a" stroke-width="2"/>
+<circle cx="80" cy="170" r="7" fill="#2563eb" stroke="#ffffff" stroke-width="2"/>
+<line x1="80" y1="160" x2="80" y2="100" stroke="#2563eb" stroke-width="1"/>
+<text x="80" y="90" font-size="12" font-weight="600" fill="#0f172a" text-anchor="middle">2024-01-30</text>
+<text x="80" y="106" font-size="11" fill="#334155" text-anchor="middle">FT3 content created</text>
+<circle cx="613.333" cy="170" r="7" fill="#2563eb" stroke="#ffffff" stroke-width="2"/>
+<line x1="613.333" y1="160" x2="613.333" y2="140" stroke="#2563eb" stroke-width="1"/>
+<text x="613.333" y="130" font-size="12" font-weight="600" fill="#0f172a" text-anchor="middle">2025-07-28</text>
+<text x="613.333" y="146" font-size="11" fill="#334155" text-anchor="middle">FT3 public release</text>
+<circle cx="731.852" cy="170" r="7" fill="#db2777" stroke="#ffffff" stroke-width="2"/>
+<line x1="731.852" y1="160" x2="731.852" y2="100" stroke="#db2777" stroke-width="1"/>
+<text x="731.852" y="90" font-size="12" font-weight="600" fill="#0f172a" text-anchor="middle">2025-11-12</text>
+<text x="731.852" y="106" font-size="11" fill="#334155" text-anchor="middle">F3 repository published</text>
+<circle cx="880" cy="170" r="7" fill="#db2777" stroke="#ffffff" stroke-width="2"/>
+<line x1="880" y1="160" x2="880" y2="140" stroke="#db2777" stroke-width="1"/>
+<text x="880" y="130" font-size="12" font-weight="600" fill="#0f172a" text-anchor="middle">2026-04-08</text>
+<text x="880" y="146" font-size="11" fill="#334155" text-anchor="middle">F3 STIX 2.1 bundle</text>
+<text x="32" y="232" font-size="11" fill="#475569">FT3 updates weekly from live intel. F3 updates biannually. The freshness delta is a structural property of how the two frameworks are maintained.</text>
+</svg>

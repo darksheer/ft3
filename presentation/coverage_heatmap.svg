@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 546" width="768" height="546" font-family="-apple-system, system-ui, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="16" y="28" font-size="16" font-weight="600" fill="#0f172a">FT3 × F3 coverage heatmap</text>
+<text x="16" y="48" font-size="11" fill="#475569">Rows: FT3 tactics (12). Columns: F3 tactics (7). Cells: crosswalk-mapped technique count.</text>
+<text x="276" y="80" font-size="11" fill="#0f172a" text-anchor="middle">positioning</text>
+<text x="348" y="80" font-size="11" fill="#0f172a" text-anchor="middle">monetization</text>
+<text x="420" y="80" font-size="11" fill="#0f172a" text-anchor="middle">initial-access</text>
+<text x="492" y="80" font-size="11" fill="#0f172a" text-anchor="middle">execution</text>
+<text x="564" y="80" font-size="11" fill="#0f172a" text-anchor="middle">defense-evasion</text>
+<text x="636" y="80" font-size="11" fill="#0f172a" text-anchor="middle">resource-development</text>
+<text x="708" y="80" font-size="11" fill="#0f172a" text-anchor="middle">reconnaissance</text>
+<text x="230" y="112" font-size="11" fill="#0f172a" text-anchor="end">Reconnaissance</text>
+<rect x="240" y="90" width="72" height="36" fill="#7289d6" stroke="#ffffff" stroke-width="1"/>
+<text x="276" y="112" font-size="11" fill="#ffffff" text-anchor="middle">10</text>
+<rect x="312" y="90" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="384" y="90" width="72" height="36" fill="#94a6e6" stroke="#ffffff" stroke-width="1"/>
+<text x="420" y="112" font-size="11" fill="#0b1929" text-anchor="middle">6</text>
+<rect x="456" y="90" width="72" height="36" fill="#94a6e6" stroke="#ffffff" stroke-width="1"/>
+<text x="492" y="112" font-size="11" fill="#0b1929" text-anchor="middle">6</text>
+<rect x="528" y="90" width="72" height="36" fill="#a5b4ee" stroke="#ffffff" stroke-width="1"/>
+<text x="564" y="112" font-size="11" fill="#0b1929" text-anchor="middle">4</text>
+<rect x="600" y="90" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="672" y="90" width="72" height="36" fill="#becafa" stroke="#ffffff" stroke-width="1"/>
+<text x="708" y="112" font-size="11" fill="#0b1929" text-anchor="middle">1</text>
+<text x="230" y="148" font-size="11" fill="#0f172a" text-anchor="end">Resource Development</text>
+<rect x="240" y="126" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="312" y="126" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="384" y="126" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="456" y="126" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="528" y="126" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="600" y="126" width="72" height="36" fill="#1e40af" stroke="#ffffff" stroke-width="1"/>
+<text x="636" y="148" font-size="11" fill="#ffffff" text-anchor="middle">20</text>
+<rect x="672" y="126" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<text x="230" y="184" font-size="11" fill="#0f172a" text-anchor="end">Initial Access</text>
+<rect x="240" y="162" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="312" y="162" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="384" y="162" width="72" height="36" fill="#617ace" stroke="#ffffff" stroke-width="1"/>
+<text x="420" y="184" font-size="11" fill="#ffffff" text-anchor="middle">12</text>
+<rect x="456" y="162" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="528" y="162" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="600" y="162" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="672" y="162" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<text x="230" y="220" font-size="11" fill="#0f172a" text-anchor="end">Execution</text>
+<rect x="240" y="198" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="312" y="198" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="384" y="198" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="456" y="198" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="528" y="198" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="600" y="198" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="672" y="198" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<text x="230" y="256" font-size="11" fill="#0f172a" text-anchor="end">Defense Evasion &amp; Obfuscation</text>
+<rect x="240" y="234" width="72" height="36" fill="#5973ca" stroke="#ffffff" stroke-width="1"/>
+<text x="276" y="256" font-size="11" fill="#ffffff" text-anchor="middle">13</text>
+<rect x="312" y="234" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="384" y="234" width="72" height="36" fill="#a5b4ee" stroke="#ffffff" stroke-width="1"/>
+<text x="420" y="256" font-size="11" fill="#0b1929" text-anchor="middle">4</text>
+<rect x="456" y="234" width="72" height="36" fill="#9cadea" stroke="#ffffff" stroke-width="1"/>
+<text x="492" y="256" font-size="11" fill="#0b1929" text-anchor="middle">5</text>
+<rect x="528" y="234" width="72" height="36" fill="#7a90da" stroke="#ffffff" stroke-width="1"/>
+<text x="564" y="256" font-size="11" fill="#0b1929" text-anchor="middle">9</text>
+<rect x="600" y="234" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="672" y="234" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<text x="230" y="292" font-size="11" fill="#0f172a" text-anchor="end">Lateral Movement &amp; Internal Proliferation</text>
+<rect x="240" y="270" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="312" y="270" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="384" y="270" width="72" height="36" fill="#becafa" stroke="#ffffff" stroke-width="1"/>
+<text x="420" y="292" font-size="11" fill="#0b1929" text-anchor="middle">1</text>
+<rect x="456" y="270" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="528" y="270" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="600" y="270" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="672" y="270" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<text x="230" y="328" font-size="11" fill="#0f172a" text-anchor="end">Manipulation &amp; Fraudulent Transactions</text>
+<rect x="240" y="306" width="72" height="36" fill="#7a90da" stroke="#ffffff" stroke-width="1"/>
+<text x="276" y="328" font-size="11" fill="#0b1929" text-anchor="middle">9</text>
+<rect x="312" y="306" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="384" y="306" width="72" height="36" fill="#9cadea" stroke="#ffffff" stroke-width="1"/>
+<text x="420" y="328" font-size="11" fill="#0b1929" text-anchor="middle">5</text>
+<rect x="456" y="306" width="72" height="36" fill="#9cadea" stroke="#ffffff" stroke-width="1"/>
+<text x="492" y="328" font-size="11" fill="#0b1929" text-anchor="middle">5</text>
+<rect x="528" y="306" width="72" height="36" fill="#a5b4ee" stroke="#ffffff" stroke-width="1"/>
+<text x="564" y="328" font-size="11" fill="#0b1929" text-anchor="middle">4</text>
+<rect x="600" y="306" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="672" y="306" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<text x="230" y="364" font-size="11" fill="#0f172a" text-anchor="end">Command and Control</text>
+<rect x="240" y="342" width="72" height="36" fill="#a5b4ee" stroke="#ffffff" stroke-width="1"/>
+<text x="276" y="364" font-size="11" fill="#0b1929" text-anchor="middle">4</text>
+<rect x="312" y="342" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="384" y="342" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="456" y="342" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="528" y="342" width="72" height="36" fill="#a5b4ee" stroke="#ffffff" stroke-width="1"/>
+<text x="564" y="364" font-size="11" fill="#0b1929" text-anchor="middle">4</text>
+<rect x="600" y="342" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="672" y="342" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<text x="230" y="400" font-size="11" fill="#0f172a" text-anchor="end">Collection &amp; Exfiltration</text>
+<rect x="240" y="378" width="72" height="36" fill="#9cadea" stroke="#ffffff" stroke-width="1"/>
+<text x="276" y="400" font-size="11" fill="#0b1929" text-anchor="middle">5</text>
+<rect x="312" y="378" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="384" y="378" width="72" height="36" fill="#adbcf2" stroke="#ffffff" stroke-width="1"/>
+<text x="420" y="400" font-size="11" fill="#0b1929" text-anchor="middle">3</text>
+<rect x="456" y="378" width="72" height="36" fill="#adbcf2" stroke="#ffffff" stroke-width="1"/>
+<text x="492" y="400" font-size="11" fill="#0b1929" text-anchor="middle">3</text>
+<rect x="528" y="378" width="72" height="36" fill="#b6c3f6" stroke="#ffffff" stroke-width="1"/>
+<text x="564" y="400" font-size="11" fill="#0b1929" text-anchor="middle">2</text>
+<rect x="600" y="378" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="672" y="378" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<text x="230" y="436" font-size="11" fill="#0f172a" text-anchor="end">Financial Evasion, Laundering &amp; Cash-Out</text>
+<rect x="240" y="414" width="72" height="36" fill="#5973ca" stroke="#ffffff" stroke-width="1"/>
+<text x="276" y="436" font-size="11" fill="#ffffff" text-anchor="middle">13</text>
+<rect x="312" y="414" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="384" y="414" width="72" height="36" fill="#b6c3f6" stroke="#ffffff" stroke-width="1"/>
+<text x="420" y="436" font-size="11" fill="#0b1929" text-anchor="middle">2</text>
+<rect x="456" y="414" width="72" height="36" fill="#adbcf2" stroke="#ffffff" stroke-width="1"/>
+<text x="492" y="436" font-size="11" fill="#0b1929" text-anchor="middle">3</text>
+<rect x="528" y="414" width="72" height="36" fill="#6a81d2" stroke="#ffffff" stroke-width="1"/>
+<text x="564" y="436" font-size="11" fill="#ffffff" text-anchor="middle">11</text>
+<rect x="600" y="414" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="672" y="414" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<text x="230" y="472" font-size="11" fill="#0f172a" text-anchor="end">Impact &amp; Disruption</text>
+<rect x="240" y="450" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="312" y="450" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="384" y="450" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="456" y="450" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="528" y="450" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="600" y="450" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="672" y="450" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<text x="230" y="508" font-size="11" fill="#0f172a" text-anchor="end">Obfuscation and Destruction of Evidence</text>
+<rect x="240" y="486" width="72" height="36" fill="#becafa" stroke="#ffffff" stroke-width="1"/>
+<text x="276" y="508" font-size="11" fill="#0b1929" text-anchor="middle">1</text>
+<rect x="312" y="486" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="384" y="486" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="456" y="486" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="528" y="486" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="600" y="486" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+<rect x="672" y="486" width="72" height="36" fill="#e2e8f0" stroke="#ffffff" stroke-width="1"/>
+</svg>

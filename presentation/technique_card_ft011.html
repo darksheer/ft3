@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>FT3 FT011 Account Takeover — side-by-side technique card</title>
+  <style>
+    body { font-family: -apple-system, system-ui, sans-serif; margin: 2rem; color: #0b1929; }
+    h1 { font-size: 1.4rem; margin-bottom: 0.4rem; }
+    p.lede { max-width: 70ch; color: #334155; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 1.5rem; }
+    section { border: 1px solid #cbd5e1; padding: 1rem 1.25rem; }
+    section h2 { margin-top: 0; font-size: 1rem; letter-spacing: 0.05em; text-transform: uppercase; color: #0f172a; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { text-align: left; vertical-align: top; padding: 0.35rem 0.5rem; border-bottom: 1px solid #e2e8f0; font-size: 0.92rem; }
+    th { width: 12rem; color: #475569; font-weight: 600; }
+    td { white-space: pre-wrap; word-break: break-word; }
+    footer { margin-top: 1.5rem; font-size: 0.8rem; color: #64748b; }
+  </style>
+</head>
+<body>
+  <h1>FT011 Account Takeover — side-by-side technique card</h1>
+  <p class="lede">FT3 is the intelligence-led living fraud taxonomy; F3 is a compatible high-level classification view. Account Takeover appears in both — FT3 carries the operational depth; the F3-compatible surface links practitioners into the F3 lens.</p>
+  <div class="grid">
+    <section>
+      <h2>FT3 record (13 fields)</h2>
+      <table>
+      <tr><th>FT3 ID</th><td>FT011</td></tr>
+      <tr><th>Name</th><td>Account Takeover</td></tr>
+      <tr><th>Primary tactic</th><td>Initial Access</td></tr>
+      <tr><th>Description</th><td>An account takeover (ATO) refers to the unauthorized access and control of a user account on a financial platform, typically belonging to a merchant or business. Such platforms are commonly used by online businesses to manage transactions, subscriptions, and payment-related services. Gaining access to an account allows attackers to divert funds, access sensitive customer financial data, and compromise the integrity of the victim&#x27;s financial operations.; Execution: Methods used for account takeover can include: 
+
+Phishing Attacks: Targeting users with emails that appear legitimate to steal login credentials.; Exploiting Vulnerabilities: Taking advantage of weaknesses in applications or platforms.; Credential Stuffing: Using previously leaked usernames and passwords to gain access.; Social Engineering: Manipulating individuals into revealing confidential information.; Malware: Employing malicious software, such as keyloggers, to capture keystrokes. Once attackers gain access, they can change account details, reroute payments, initiate refunds, or extract data for further fraudulent activities.; Examples: Sending targeted phishing emails impersonating a legitimate financial platform to capture user credentials.; Utilizing known compromised credentials to gain access to accounts with reused passwords.; Intercepting two-factor authentication codes through methods such as SIM swapping to bypass security measures.; Goals: Objectives behind an account takeover include: Directly stealing funds from the compromised account or intercepting transactions intended for legitimate business.; Accessing and potentially selling sensitive customer data, including credit card information and transaction histories.; Using the compromised account to conduct broader financial fraud and scams.
+</td></tr>
+      <tr><th>Detection guidance</th><td>Stripe and businesses should monitor for unauthorized access signals such as logins from new devices or IP addresses, changes in account settings, and abnormal transaction patterns.
+
+Implementing and enforcing two-factor authentication (2FA) to provide an additional layer of security beyond passwords.
+
+Educating users about secure practices, including identifying phishing scams and the importance of not reusing passwords across multiple services.
+
+Utilizing advanced threat detection systems that monitor for signs of credential stuffing and other automated takeover attempts.
+
+Regularly reviewing transaction and refund patterns for anomalies that might indicate fraudulent activity.
+
+Use by Fraud Detection and Analysis Teams: 
+
+Fraud detection teams must monitor for unusual account activities, such as spikes in transaction volumes, change in bank account details, or modifications to payout schedules. If a takeover is suspected or detected, immediate action should be taken to secure the account, including locking the account, forcing a password reset, and auditing recent transactions for fraud. Teams should also conduct forensic analysis to understand how the breach occurred and implement additional security measures to prevent future occurrences. Strong collaboration between Stripe, affected businesses, and financial institutions is essential to quickly respond to incidents, trace the source of the fraud, and implement strategies to prevent recurrences.</td></tr>
+      <tr><th>Data sources</th><td>—</td></tr>
+      <tr><th>Contributors</th><td>—</td></tr>
+      <tr><th>Created</th><td>1/30/24</td></tr>
+      <tr><th>Last modified</th><td>2026-04-20T00:00:00Z</td></tr>
+      <tr><th>Version</th><td>1.0</td></tr>
+      <tr><th>ATT&amp;CK references</th><td>—</td></tr>
+      <tr><th>Supports remote</th><td>—</td></tr>
+      <tr><th>System requirements</th><td>—</td></tr>
+      </table>
+    </section>
+    <section>
+      <h2>F3-compatible surface (5 fields)</h2>
+      <table>
+      <tr><th>F3 ID</th><td>F1006</td></tr>
+      <tr><th>Name</th><td>Account Takeover</td></tr>
+      <tr><th>Kill-chain phase</th><td>initial-access</td></tr>
+      <tr><th>Platforms</th><td>F3</td></tr>
+      <tr><th>Reference URL</th><td>https://ctid.mitre.org/fraud/techniques/F1006</td></tr>
+      </table>
+      <p style="font-size: 0.8rem; color: #64748b; margin-top: 0.75rem;">F3 descriptions are not embedded — consumers dereference from the F3 canonical bundle at the pinned commit.</p>
+    </section>
+  </div>
+  <footer>Generated from FT3 canonical inputs and the pinned F3 bundle. Any regeneration from the same inputs produces a byte-identical file.</footer>
+</body>
+</html>
