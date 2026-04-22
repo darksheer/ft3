@@ -26,17 +26,34 @@ pipeline run from the private implementation repo.
 | Edit | `crosswalk/crosswalk.json` | Authoritative FT3↔F3 row-level crosswalk (234 rows covering both directions) |
 | Distribution | `stix/FT3_stix.json` | Canonical STIX 2.1 bundle (234 objects) — the one input for every derived consumer artifact |
 | Distribution | `stix/FT3_extension_definition.json` | Standalone STIX extension-definition for strict consumers |
-| Derived | `navigator/FT3_navigator.v17.json` · `v18.json` · `v19.json` | ATT&CK Navigator layers across three spec versions |
+| Derived | `navigator/FT3_navigator.attack-17-1.json` · `attack-18-1.json` | ATT&CK Navigator overlay layers for ATT&CK Enterprise 17.1 and 18.1 |
 | Derived | `misp/FT3_misp_feed.json` + per-event files | MISP-compatible feed for TIPs that import by URL |
-| Derived | `coverage/f3-coverage.html` · `.json` | F3 coverage view — every F3 ID mapped to its FT3 coverage row |
+| Derived | `coverage/f3-coverage.html` · `.json` | F3 coverage view — every F3 ID with its FT3 coverage row (or the "no FT3 coverage yet" state) |
+| Derived | `matrix/FT3_matrix.html` · `.json` | Native FT3 12-tactic matrix view |
 | Derived | `crosswalk/FT3-F3-crosswalk.csv` · `.xlsx` | Consumer-facing crosswalk exports |
 
-## Downloads (v1.0-integrated)
+## Downloads & direct links
 
-Every asset listed above is attached to the `v1.0-integrated`
-GitHub release and is also available in this repository tree.
-SHA-256 checksums for each asset are published in the release
-notes so consumers can verify integrity.
+Every asset listed above is attached to the matching GitHub
+release and is available in this repository tree. SHA-256
+checksums for each asset are published in release notes so
+consumers can verify integrity.
+
+Three FT3 visualizations answer three distinct audience
+questions — one artifact each:
+
+| Question | Artifact | Direct link |
+|---|---|---|
+| What does the FT3 matrix look like? | `matrix/FT3_matrix.html` | [open matrix](https://raw.githack.com/darksheer/ft3/master/matrix/FT3_matrix.html) |
+| Does FT3 cover F3 technique X? | `coverage/f3-coverage.html` | [open F3 coverage](https://raw.githack.com/darksheer/ft3/master/coverage/f3-coverage.html) |
+| What ATT&CK techniques does FT3 cover? | `navigator/FT3_navigator.attack-18-1.json` | [open in ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/#layerURL=https%3A%2F%2Fraw.githubusercontent.com%2Fdarksheer%2Fft3%2Fmaster%2Fnavigator%2FFT3_navigator.attack-18-1.json) |
+
+GitHub serves `raw.githubusercontent.com` with
+`Content-Type: text/plain` for security reasons, so HTML
+artifacts don't render directly from the raw URL. The
+`raw.githack.com` proxy serves the same files with
+`Content-Type: text/html` so browsers render them; release
+assets are also downloadable if a local copy is preferred.
 
 For TIPs and practitioner tooling:
 
@@ -45,17 +62,24 @@ For TIPs and practitioner tooling:
   properties AND a nested `property-extension` under the
   published `extension-definition` SDO. See
   `docs/METHODOLOGY.md` for the consumer interoperability notes.
-- **MITRE ATT&CK Navigator** — load the appropriate version layer
-  from `navigator/FT3_navigator.v{17,18,19}.json` into
-  `attack-navigator.mitre-engenuity.org`. All three versions are
-  provided so SOCs on older Navigator infrastructure can open a
-  layer without upgrading.
+- **MITRE ATT&CK Navigator** — open one of the overlay layers
+  directly in the hosted Navigator:
+  - [ATT&CK 18.1 overlay](https://mitre-attack.github.io/attack-navigator/#layerURL=https%3A%2F%2Fraw.githubusercontent.com%2Fdarksheer%2Fft3%2Fmaster%2Fnavigator%2FFT3_navigator.attack-18-1.json)
+  - [ATT&CK 17.1 overlay](https://mitre-attack.github.io/attack-navigator/#layerURL=https%3A%2F%2Fraw.githubusercontent.com%2Fdarksheer%2Fft3%2Fmaster%2Fnavigator%2FFT3_navigator.attack-17-1.json)
+
+  Each layer highlights the ATT&CK techniques an FT3 record
+  references in its `attack_references`. FT3-native techniques
+  without ATT&CK lineage do not appear in the Navigator overlay
+  by design — the hosted Navigator domain enum does not support
+  custom domains. For the full native FT3 matrix, use
+  `matrix/FT3_matrix.html` above. See `docs/METHODOLOGY.md` for
+  the schema rationale.
 - **MISP** — import the feed at `misp/FT3_misp_feed.json` via
   MISP's URL-import path; per-event JSON files accompany the
   manifest.
 - **Board / executive reporting** — open
-  `coverage/f3-coverage.html` in any browser for the F3 lens over
-  current FT3 coverage.
+  `coverage/f3-coverage.html` via the direct link above for the
+  F3 lens (every F3 ID with its FT3 coverage status).
 
 ## Operating rhythm
 
