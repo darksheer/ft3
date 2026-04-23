@@ -36,40 +36,40 @@
     "relationship": "unmapped"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1002.001",
-    "f3_name": "Abuse of Public-Facing API: Mobile API Abuse",
+    "confidence": "manual",
+    "f3_id": null,
+    "f3_name": null,
     "ft3_id": "FT004.001",
     "ft3_name": "Gather Victim Org Information: Business Relationships",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "Collision FP cleared by audit 2026-04-23; no semantic support between descriptions.",
+    "relationship": "unmapped"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1002.002",
-    "f3_name": "Abuse of Public-Facing API: Web API Abuse",
+    "confidence": "manual",
+    "f3_id": null,
+    "f3_name": null,
     "ft3_id": "FT004.002",
     "ft3_name": "Gather Victim Org Information: Determine Physical Locations ",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "Collision FP cleared by audit 2026-04-23; no semantic support between descriptions.",
+    "relationship": "unmapped"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1005.003",
-    "f3_name": "Account Manipulation: Add Beneficiary",
+    "confidence": "manual",
+    "f3_id": null,
+    "f3_name": null,
     "ft3_id": "FT004.003",
     "ft3_name": "Gather Victim Org Information: Identify Business Tempo",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "Collision FP cleared by audit 2026-04-23; no semantic support between descriptions.",
+    "relationship": "unmapped"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1005.004",
-    "f3_name": "Account Manipulation: Change Account Details",
+    "confidence": "manual",
+    "f3_id": null,
+    "f3_name": null,
     "ft3_id": "FT004.004",
     "ft3_name": "Gather Victim Org Information: Identify Roles",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "Collision FP cleared by audit 2026-04-23; no semantic support between descriptions.",
+    "relationship": "unmapped"
   },
   {
     "confidence": "none",
@@ -81,31 +81,31 @@
     "relationship": "unmapped"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1002.001",
-    "f3_name": "Abuse of Public-Facing API: Mobile API Abuse",
+    "confidence": "manual",
+    "f3_id": null,
+    "f3_name": null,
     "ft3_id": "FT005.001",
     "ft3_name": "Gather Victim Identity Information: Credentials",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "Collision FP cleared by audit 2026-04-23; no semantic support between descriptions.",
+    "relationship": "unmapped"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1002.002",
-    "f3_name": "Abuse of Public-Facing API: Web API Abuse",
+    "confidence": "manual",
+    "f3_id": null,
+    "f3_name": null,
     "ft3_id": "FT005.002",
     "ft3_name": "Gather Victim Identity Information: Email Addresses",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "Collision FP cleared by audit 2026-04-23; no semantic support between descriptions.",
+    "relationship": "unmapped"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1005.003",
-    "f3_name": "Account Manipulation: Add Beneficiary",
+    "confidence": "manual",
+    "f3_id": null,
+    "f3_name": null,
     "ft3_id": "FT005.003",
     "ft3_name": "Gather Victim Identity Information: Employee Names",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "Collision FP cleared by audit 2026-04-23; no semantic support between descriptions.",
+    "relationship": "unmapped"
   },
   {
     "confidence": "none",
@@ -117,31 +117,31 @@
     "relationship": "unmapped"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1002.001",
-    "f3_name": "Abuse of Public-Facing API: Mobile API Abuse",
+    "confidence": "manual",
+    "f3_id": null,
+    "f3_name": null,
     "ft3_id": "FT006.001",
     "ft3_name": "Credential Scanning: Github",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "Collision FP cleared by audit 2026-04-23; no semantic support between descriptions.",
+    "relationship": "unmapped"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1002.002",
-    "f3_name": "Abuse of Public-Facing API: Web API Abuse",
+    "confidence": "manual",
+    "f3_id": null,
+    "f3_name": null,
     "ft3_id": "FT006.002",
     "ft3_name": "Credential Scanning: Websites",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "Collision FP cleared by audit 2026-04-23; no semantic support between descriptions.",
+    "relationship": "unmapped"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1005.003",
-    "f3_name": "Account Manipulation: Add Beneficiary",
+    "confidence": "manual",
+    "f3_id": null,
+    "f3_name": null,
     "ft3_id": "FT006.003",
     "ft3_name": "Credential Scanning: Telegram",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "Collision FP cleared by audit 2026-04-23; no semantic support between descriptions.",
+    "relationship": "unmapped"
   },
   {
     "confidence": "exact",
@@ -279,13 +279,13 @@
     "relationship": "equivalent"
   },
   {
-    "confidence": "none",
-    "f3_id": null,
-    "f3_name": null,
+    "confidence": "manual",
+    "f3_id": "T1583",
+    "f3_name": "Acquire Infrastructure",
     "ft3_id": "FT009",
     "ft3_name": "Compromise Infrastructure",
-    "notes": null,
-    "relationship": "unmapped"
+    "notes": "P3 FN cleared by audit; FT3 covers compromise-of-infrastructure. F3 T1583 description: \"acquire or compromise infrastructure\" — superset that includes the FT3 scope.",
+    "relationship": "subset"
   },
   {
     "confidence": "exact",
@@ -396,13 +396,13 @@
     "relationship": "equivalent"
   },
   {
-    "confidence": "none",
-    "f3_id": null,
-    "f3_name": null,
+    "confidence": "manual",
+    "f3_id": "F1007.003",
+    "f3_name": "Adversary-in-the-Browser: Malicious JavaScript Injection",
     "ft3_id": "FT012",
     "ft3_name": "Cross-Site Scripting (XSS) Redirection for Financial Fraud",
-    "notes": null,
-    "relationship": "unmapped"
+    "notes": "FN cleared by audit; FT3 \"injecting malicious scripts into web pages\" matches F3 description.",
+    "relationship": "equivalent"
   },
   {
     "confidence": "none",
@@ -468,13 +468,13 @@
     "relationship": "derived"
   },
   {
-    "confidence": "none",
-    "f3_id": null,
-    "f3_name": null,
+    "confidence": "manual",
+    "f3_id": "T1583.008",
+    "f3_name": "Acquire Infrastructure: Malvertising",
     "ft3_id": "FT017",
     "ft3_name": "Ad Fraud",
-    "notes": null,
-    "relationship": "unmapped"
+    "notes": "FT3 title 'Ad Fraud' implies broader scope than T1583.008 Malvertising; description matches but name-scope mismatch warrants subset over equivalent.",
+    "relationship": "subset"
   },
   {
     "confidence": "none",
@@ -486,22 +486,22 @@
     "relationship": "unmapped"
   },
   {
-    "confidence": "none",
-    "f3_id": null,
-    "f3_name": null,
+    "confidence": "manual",
+    "f3_id": "F1020.002",
+    "f3_name": "Create Fake Materials: Fake Website",
     "ft3_id": "FT019",
     "ft3_name": "Website Cloning",
-    "notes": null,
-    "relationship": "unmapped"
+    "notes": "FN cleared by audit; descriptions both describe creating replica websites mimicking legitimate sites.",
+    "relationship": "equivalent"
   },
   {
-    "confidence": "none",
-    "f3_id": null,
-    "f3_name": null,
+    "confidence": "manual",
+    "f3_id": "F1021",
+    "f3_name": "Create Fraudulent Merchant Account",
     "ft3_id": "FT020",
     "ft3_name": "Identity Theft for Merchant Accounts",
-    "notes": null,
-    "relationship": "unmapped"
+    "notes": "FN cleared by audit; FT3 is identity-theft framing of same mechanism; F1021 explicitly covers \"stolen identity information\".",
+    "relationship": "subset"
   },
   {
     "confidence": "none",
@@ -531,13 +531,13 @@
     "relationship": "unmapped"
   },
   {
-    "confidence": "none",
-    "f3_id": null,
-    "f3_name": null,
+    "confidence": "manual",
+    "f3_id": "F1020.001",
+    "f3_name": "Create Fake Materials: Fake Documents",
     "ft3_id": "FT024",
     "ft3_name": "Fabricating shipping evidence",
-    "notes": null,
-    "relationship": "unmapped"
+    "notes": "FN cleared by audit; FT3 is fabricating shipping evidence; F1020.001 enumerates \"shipping-related evidence\".",
+    "relationship": "subset"
   },
   {
     "confidence": "none",
@@ -549,58 +549,58 @@
     "relationship": "unmapped"
   },
   {
-    "confidence": "none",
-    "f3_id": null,
-    "f3_name": null,
+    "confidence": "manual",
+    "f3_id": "F1027",
+    "f3_name": "Falsify Business Documents",
     "ft3_id": "FT026",
     "ft3_name": "Falsifying Business Documents",
-    "notes": null,
-    "relationship": "unmapped"
+    "notes": "FN cleared by audit; titles near-identical; descriptions both describe falsified corporate/tax/financial docs for KYC evasion.",
+    "relationship": "equivalent"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1002.001",
-    "f3_name": "Abuse of Public-Facing API: Mobile API Abuse",
+    "confidence": "manual",
+    "f3_id": "F1027",
+    "f3_name": "Falsify Business Documents",
     "ft3_id": "FT026.001",
     "ft3_name": "Falsifying Business Documents: Fake Business Registration Certificate",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "Remap from collision FP F1002.001; FT3 sub-technique of doc falsification; F1027 is the F3 root equivalent.",
+    "relationship": "subset"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1002.002",
-    "f3_name": "Abuse of Public-Facing API: Web API Abuse",
+    "confidence": "manual",
+    "f3_id": "F1027",
+    "f3_name": "Falsify Business Documents",
     "ft3_id": "FT026.002",
     "ft3_name": "Falsifying Business Documents: Fake Business License",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "Remap from collision FP F1002.002.",
+    "relationship": "subset"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1005.003",
-    "f3_name": "Account Manipulation: Add Beneficiary",
+    "confidence": "manual",
+    "f3_id": "F1027",
+    "f3_name": "Falsify Business Documents",
     "ft3_id": "FT026.003",
     "ft3_name": "Falsifying Business Documents: Fake VAT Certificate",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "Remap from collision FP F1005.003.",
+    "relationship": "subset"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1005.004",
-    "f3_name": "Account Manipulation: Change Account Details",
+    "confidence": "manual",
+    "f3_id": "F1027",
+    "f3_name": "Falsify Business Documents",
     "ft3_id": "FT026.004",
     "ft3_name": "Falsifying Business Documents: Fake IRS Letter 147C",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "Remap from collision FP F1005.004.",
+    "relationship": "subset"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1005.005",
-    "f3_name": "Account Manipulation: Change E-Delivery or Notification Settings",
+    "confidence": "manual",
+    "f3_id": "F1027",
+    "f3_name": "Falsify Business Documents",
     "ft3_id": "FT026.005",
     "ft3_name": "Falsifying Business Documents: Fake SS-4 Confirmation Letter",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "Remap from collision FP F1005.005.",
+    "relationship": "subset"
   },
   {
     "confidence": "none",
@@ -612,31 +612,31 @@
     "relationship": "unmapped"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1002.001",
-    "f3_name": "Abuse of Public-Facing API: Mobile API Abuse",
+    "confidence": "manual",
+    "f3_id": null,
+    "f3_name": null,
     "ft3_id": "FT027.001",
     "ft3_name": "Account Enumeration: Account Balance Enumeration",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "Collision FP cleared by audit 2026-04-23; no semantic support between descriptions.",
+    "relationship": "unmapped"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1002.002",
-    "f3_name": "Abuse of Public-Facing API: Web API Abuse",
+    "confidence": "manual",
+    "f3_id": null,
+    "f3_name": null,
     "ft3_id": "FT027.002",
     "ft3_name": "Account Enumeration: Account Tier Enumeration",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "Collision FP cleared by audit 2026-04-23; no semantic support between descriptions.",
+    "relationship": "unmapped"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1005.003",
-    "f3_name": "Account Manipulation: Add Beneficiary",
+    "confidence": "manual",
+    "f3_id": null,
+    "f3_name": null,
     "ft3_id": "FT027.003",
     "ft3_name": "Account Enumeration: Account Radar Rule Enumeration",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "Collision FP cleared by audit 2026-04-23; no semantic support between descriptions.",
+    "relationship": "unmapped"
   },
   {
     "confidence": "substring",
@@ -666,13 +666,13 @@
     "relationship": "equivalent"
   },
   {
-    "confidence": "none",
-    "f3_id": null,
-    "f3_name": null,
+    "confidence": "manual",
+    "f3_id": "F1016",
+    "f3_name": "Compromise Payment Gateway",
     "ft3_id": "FT031",
     "ft3_name": "Compromised Payment Gateway",
-    "notes": null,
-    "relationship": "unmapped"
+    "notes": "FN cleared by audit; descriptions are near-paraphrases (\"unauthorized access to a system responsible for processing online payments\").",
+    "relationship": "equivalent"
   },
   {
     "confidence": "none",
@@ -684,13 +684,13 @@
     "relationship": "unmapped"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1002.001",
-    "f3_name": "Abuse of Public-Facing API: Mobile API Abuse",
+    "confidence": "manual",
+    "f3_id": "F1007.003",
+    "f3_name": "Adversary-in-the-Browser: Malicious JavaScript Injection",
     "ft3_id": "FT032.001",
     "ft3_name": "Credit Card Skimming: Malicious Javascript Skimming",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "Remap from collision FP F1002.001; FT3 describes JS skimming injection — direct F3 match.",
+    "relationship": "equivalent"
   },
   {
     "confidence": "none",
@@ -702,40 +702,40 @@
     "relationship": "unmapped"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1002.001",
-    "f3_name": "Abuse of Public-Facing API: Mobile API Abuse",
+    "confidence": "manual",
+    "f3_id": null,
+    "f3_name": null,
     "ft3_id": "FT033.001",
     "ft3_name": "No Shipping: Non-Delivery of Goods",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "Collision FP cleared by audit 2026-04-23; no semantic support between descriptions.",
+    "relationship": "unmapped"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1002.002",
-    "f3_name": "Abuse of Public-Facing API: Web API Abuse",
+    "confidence": "manual",
+    "f3_id": null,
+    "f3_name": null,
     "ft3_id": "FT033.002",
     "ft3_name": "No Shipping: Partial Shipping of Goods",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "Collision FP cleared by audit 2026-04-23; no semantic support between descriptions.",
+    "relationship": "unmapped"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1005.003",
-    "f3_name": "Account Manipulation: Add Beneficiary",
+    "confidence": "manual",
+    "f3_id": null,
+    "f3_name": null,
     "ft3_id": "FT033.003",
     "ft3_name": "No Shipping: Shipping of Incorrect Goods",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "Collision FP cleared by audit 2026-04-23; no semantic support between descriptions.",
+    "relationship": "unmapped"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1005.004",
-    "f3_name": "Account Manipulation: Change Account Details",
+    "confidence": "manual",
+    "f3_id": "F1020.001",
+    "f3_name": "Create Fake Materials: Fake Documents",
     "ft3_id": "FT033.004",
     "ft3_name": "No Shipping: Fabricating shipping evidence",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "P3 remap from collision FP F1005.004; F1020.001 explicitly enumerates \"shipping-related evidence such as tracking numbers\".",
+    "relationship": "subset"
   },
   {
     "confidence": "none",
@@ -810,40 +810,40 @@
     "relationship": "unmapped"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1002.001",
-    "f3_name": "Abuse of Public-Facing API: Mobile API Abuse",
+    "confidence": "manual",
+    "f3_id": null,
+    "f3_name": null,
     "ft3_id": "FT038.001",
     "ft3_name": "Data Exfiltration: Revenue",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "Collision FP cleared by audit 2026-04-23; no semantic support between descriptions.",
+    "relationship": "unmapped"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1002.002",
-    "f3_name": "Abuse of Public-Facing API: Web API Abuse",
+    "confidence": "manual",
+    "f3_id": null,
+    "f3_name": null,
     "ft3_id": "FT038.002",
     "ft3_name": "Data Exfiltration: Payout",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "Collision FP cleared by audit 2026-04-23; no semantic support between descriptions.",
+    "relationship": "unmapped"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1005.003",
-    "f3_name": "Account Manipulation: Add Beneficiary",
+    "confidence": "manual",
+    "f3_id": null,
+    "f3_name": null,
     "ft3_id": "FT038.003",
     "ft3_name": "Data Exfiltration: Billing Analytics",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "Collision FP cleared by audit 2026-04-23; no semantic support between descriptions.",
+    "relationship": "unmapped"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1005.004",
-    "f3_name": "Account Manipulation: Change Account Details",
+    "confidence": "manual",
+    "f3_id": null,
+    "f3_name": null,
     "ft3_id": "FT038.004",
     "ft3_name": "Data Exfiltration: Sigma Reports",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "Collision FP cleared by audit 2026-04-23; no semantic support between descriptions.",
+    "relationship": "unmapped"
   },
   {
     "confidence": "none",
@@ -855,13 +855,13 @@
     "relationship": "unmapped"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1002.001",
-    "f3_name": "Abuse of Public-Facing API: Mobile API Abuse",
+    "confidence": "manual",
+    "f3_id": null,
+    "f3_name": null,
     "ft3_id": "FT039.001",
     "ft3_name": "Data Transfer: Data Pipeline",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "Collision FP cleared by audit 2026-04-23; no semantic support between descriptions.",
+    "relationship": "unmapped"
   },
   {
     "confidence": "none",
@@ -1017,13 +1017,13 @@
     "relationship": "equivalent"
   },
   {
-    "confidence": "none",
-    "f3_id": null,
-    "f3_name": null,
+    "confidence": "manual",
+    "f3_id": "F1021",
+    "f3_name": "Create Fraudulent Merchant Account",
     "ft3_id": "FT049",
     "ft3_name": "Fake Merchant Account",
-    "notes": null,
-    "relationship": "unmapped"
+    "notes": "FN cleared by audit; descriptions both describe establishing fraudulent merchant accounts with stolen identity info.",
+    "relationship": "equivalent"
   },
   {
     "confidence": "none",
@@ -1035,139 +1035,139 @@
     "relationship": "unmapped"
   },
   {
-    "confidence": "none",
-    "f3_id": null,
-    "f3_name": null,
+    "confidence": "manual",
+    "f3_id": "F1028",
+    "f3_name": "Fradulent Purchasing",
     "ft3_id": "FT051",
     "ft3_name": "Fraudulent Purchases",
-    "notes": null,
-    "relationship": "unmapped"
+    "notes": "FN cleared by audit; descriptions both describe \"stolen credit card information … to buy goods or services\".",
+    "relationship": "equivalent"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1002.001",
-    "f3_name": "Abuse of Public-Facing API: Mobile API Abuse",
+    "confidence": "manual",
+    "f3_id": "F1028",
+    "f3_name": "Fradulent Purchasing",
     "ft3_id": "FT051.001",
     "ft3_name": "Fraudulent Purchases: Subscriptions",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "Remap from collision FP F1002.001; FT3 sub-technique of fraudulent purchasing.",
+    "relationship": "subset"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1002.002",
-    "f3_name": "Abuse of Public-Facing API: Web API Abuse",
+    "confidence": "manual",
+    "f3_id": "F1028",
+    "f3_name": "Fradulent Purchasing",
     "ft3_id": "FT051.002",
     "ft3_name": "Fraudulent Purchases: SMS Services",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "Remap from collision FP F1002.002.",
+    "relationship": "subset"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1005.003",
-    "f3_name": "Account Manipulation: Add Beneficiary",
+    "confidence": "manual",
+    "f3_id": "F1028",
+    "f3_name": "Fradulent Purchasing",
     "ft3_id": "FT051.003",
     "ft3_name": "Fraudulent Purchases: LLM Services",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "Remap from collision FP F1005.003.",
+    "relationship": "subset"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1005.004",
-    "f3_name": "Account Manipulation: Change Account Details",
+    "confidence": "manual",
+    "f3_id": "F1028",
+    "f3_name": "Fradulent Purchasing",
     "ft3_id": "FT051.004",
     "ft3_name": "Fraudulent Purchases: Discord",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "Remap from collision FP F1005.004.",
+    "relationship": "subset"
   },
   {
-    "confidence": "none",
-    "f3_id": null,
-    "f3_name": null,
+    "confidence": "manual",
+    "f3_id": "F1020.001",
+    "f3_name": "Create Fake Materials: Fake Documents",
     "ft3_id": "FT052",
     "ft3_name": "Falsifying Identity Documents",
-    "notes": null,
-    "relationship": "unmapped"
+    "notes": "FN cleared by audit; F1020.001 explicitly covers \"identification cards, passports, financial statements\".",
+    "relationship": "equivalent"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1002.001",
-    "f3_name": "Abuse of Public-Facing API: Mobile API Abuse",
+    "confidence": "manual",
+    "f3_id": "F1020.001",
+    "f3_name": "Create Fake Materials: Fake Documents",
     "ft3_id": "FT052.001",
     "ft3_name": "Falsifying Identity Documents: Fake Passport",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "Remap from collision FP F1002.001; F1020.001 covers \"creating or altering identification cards, passports\".",
+    "relationship": "subset"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1002.002",
-    "f3_name": "Abuse of Public-Facing API: Web API Abuse",
+    "confidence": "manual",
+    "f3_id": "F1020.001",
+    "f3_name": "Create Fake Materials: Fake Documents",
     "ft3_id": "FT052.002",
     "ft3_name": "Falsifying Identity Documents: Fake Drivers License ",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "Remap from collision FP F1002.002.",
+    "relationship": "subset"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1005.003",
-    "f3_name": "Account Manipulation: Add Beneficiary",
+    "confidence": "manual",
+    "f3_id": "F1020.001",
+    "f3_name": "Create Fake Materials: Fake Documents",
     "ft3_id": "FT052.003",
     "ft3_name": "Falsifying Identity Documents: Fake National Identity Card",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "Remap from collision FP F1005.003.",
+    "relationship": "subset"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1005.004",
-    "f3_name": "Account Manipulation: Change Account Details",
+    "confidence": "manual",
+    "f3_id": "F1020.001",
+    "f3_name": "Create Fake Materials: Fake Documents",
     "ft3_id": "FT052.004",
     "ft3_name": "Falsifying Identity Documents: Fake U.S. Visa Card",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "Remap from collision FP F1005.004.",
+    "relationship": "subset"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1005.005",
-    "f3_name": "Account Manipulation: Change E-Delivery or Notification Settings",
+    "confidence": "manual",
+    "f3_id": "F1020.001",
+    "f3_name": "Create Fake Materials: Fake Documents",
     "ft3_id": "FT052.005",
     "ft3_name": "Falsifying Identity Documents: Fake NYC Card",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "Remap from collision FP F1005.005.",
+    "relationship": "subset"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1005.006",
-    "f3_name": "Account Manipulation: Change of Payment Details",
+    "confidence": "manual",
+    "f3_id": "F1020.001",
+    "f3_name": "Create Fake Materials: Fake Documents",
     "ft3_id": "FT052.006",
     "ft3_name": "Falsifying Identity Documents: Fake Border Crossing Card",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "Remap from collision FP F1005.006.",
+    "relationship": "subset"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1005.007",
-    "f3_name": "Account Manipulation: Enable Account Features",
+    "confidence": "manual",
+    "f3_id": "F1020.001",
+    "f3_name": "Create Fake Materials: Fake Documents",
     "ft3_id": "FT052.007",
     "ft3_name": "Falsifying Identity Documents: Fake Resident Permit ID / U.S. Green Card",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "Remap from collision FP F1005.007.",
+    "relationship": "subset"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1005.008",
-    "f3_name": "Account Manipulation: Update Call Receiving Device",
+    "confidence": "manual",
+    "f3_id": "F1020.001",
+    "f3_name": "Create Fake Materials: Fake Documents",
     "ft3_id": "FT052.008",
     "ft3_name": "Falsifying Identity Documents: Fake Passport Card",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "Remap from collision FP F1005.008.",
+    "relationship": "subset"
   },
   {
-    "confidence": "none",
-    "f3_id": null,
-    "f3_name": null,
+    "confidence": "manual",
+    "f3_id": "F1020.001",
+    "f3_name": "Create Fake Materials: Fake Documents",
     "ft3_id": "FT052.009",
     "ft3_name": "Falsifying Identity Documents: Fake State Issued ID Card",
-    "notes": null,
-    "relationship": "unmapped"
+    "notes": "FN cleared by audit; FT3 sub-technique of identity doc falsification. Was unmapped.",
+    "relationship": "subset"
   },
   {
     "confidence": "exact",
@@ -1179,22 +1179,22 @@
     "relationship": "equivalent"
   },
   {
-    "confidence": "none",
-    "f3_id": null,
-    "f3_name": null,
+    "confidence": "manual",
+    "f3_id": "F1020.002",
+    "f3_name": "Create Fake Materials: Fake Website",
     "ft3_id": "FT054",
     "ft3_name": "Fake e-Commerce Website",
-    "notes": null,
-    "relationship": "unmapped"
+    "notes": "FN cleared by audit; description matches F1020.002 (fraudulent e-commerce storefronts).",
+    "relationship": "equivalent"
   },
   {
-    "confidence": "none",
-    "f3_id": null,
-    "f3_name": null,
+    "confidence": "manual",
+    "f3_id": "F1020.002",
+    "f3_name": "Create Fake Materials: Fake Website",
     "ft3_id": "FT055",
     "ft3_name": "Fake Payment Gateway",
-    "notes": null,
-    "relationship": "unmapped"
+    "notes": "Promoted from F1020 root to F1020.002; FT3 describes counterfeit payment portals — F1020.002 covers fraudulent websites mimicking legitimate services.",
+    "relationship": "subset"
   },
   {
     "confidence": "none",
@@ -1206,31 +1206,31 @@
     "relationship": "unmapped"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1002.001",
-    "f3_name": "Abuse of Public-Facing API: Mobile API Abuse",
+    "confidence": "manual",
+    "f3_id": null,
+    "f3_name": null,
     "ft3_id": "FT056.001",
     "ft3_name": "Card Holder Details Collection: Billing Information",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "Collision FP cleared by audit 2026-04-23; no semantic support between descriptions.",
+    "relationship": "unmapped"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1002.002",
-    "f3_name": "Abuse of Public-Facing API: Web API Abuse",
+    "confidence": "manual",
+    "f3_id": null,
+    "f3_name": null,
     "ft3_id": "FT056.002",
     "ft3_name": "Card Holder Details Collection: Shipping Information",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "Collision FP cleared by audit 2026-04-23; no semantic support between descriptions.",
+    "relationship": "unmapped"
   },
   {
-    "confidence": "collision",
-    "f3_id": "F1005.003",
-    "f3_name": "Account Manipulation: Add Beneficiary",
+    "confidence": "manual",
+    "f3_id": null,
+    "f3_name": null,
     "ft3_id": "FT056.003",
     "ft3_name": "Card Holder Details Collection: Card Details",
-    "notes": "Sub-technique numbering collision with no name signal; review relationship.",
-    "relationship": "derived"
+    "notes": "Collision FP cleared by audit 2026-04-23; no semantic support between descriptions.",
+    "relationship": "unmapped"
   },
   {
     "confidence": "none",

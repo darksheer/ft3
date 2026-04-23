@@ -3,18 +3,18 @@ FT001,Phishing for Information,T1598,Phishing for Information,equivalent,T1598
 FT002,Search Victim-Owned Websites,,,unmapped,T1598
 FT003,Seaching Credential Dumps,,,unmapped,
 FT004,Gather Victim Org Information,,,unmapped,T1598
-FT004.001,Gather Victim Org Information: Business Relationships,F1002.001,Abuse of Public-Facing API: Mobile API Abuse,derived,T1598
-FT004.002,Gather Victim Org Information: Determine Physical Locations ,F1002.002,Abuse of Public-Facing API: Web API Abuse,derived,T1598
-FT004.003,Gather Victim Org Information: Identify Business Tempo,F1005.003,Account Manipulation: Add Beneficiary,derived,T1598
-FT004.004,Gather Victim Org Information: Identify Roles,F1005.004,Account Manipulation: Change Account Details,derived,T1598
+FT004.001,Gather Victim Org Information: Business Relationships,,,unmapped,T1598
+FT004.002,Gather Victim Org Information: Determine Physical Locations ,,,unmapped,T1598
+FT004.003,Gather Victim Org Information: Identify Business Tempo,,,unmapped,T1598
+FT004.004,Gather Victim Org Information: Identify Roles,,,unmapped,T1598
 FT005,Gather Victim Identity Information,,,unmapped,T1598
-FT005.001,Gather Victim Identity Information: Credentials,F1002.001,Abuse of Public-Facing API: Mobile API Abuse,derived,T1598
-FT005.002,Gather Victim Identity Information: Email Addresses,F1002.002,Abuse of Public-Facing API: Web API Abuse,derived,T1598
-FT005.003,Gather Victim Identity Information: Employee Names,F1005.003,Account Manipulation: Add Beneficiary,derived,T1598
+FT005.001,Gather Victim Identity Information: Credentials,,,unmapped,T1598
+FT005.002,Gather Victim Identity Information: Email Addresses,,,unmapped,T1598
+FT005.003,Gather Victim Identity Information: Employee Names,,,unmapped,T1598
 FT006,Credential Scanning,,,unmapped,
-FT006.001,Credential Scanning: Github,F1002.001,Abuse of Public-Facing API: Mobile API Abuse,derived,
-FT006.002,Credential Scanning: Websites,F1002.002,Abuse of Public-Facing API: Web API Abuse,derived,
-FT006.003,Credential Scanning: Telegram,F1005.003,Account Manipulation: Add Beneficiary,derived,
+FT006.001,Credential Scanning: Github,,,unmapped,
+FT006.002,Credential Scanning: Websites,,,unmapped,
+FT006.003,Credential Scanning: Telegram,,,unmapped,
 FT007,Acquire Access,T1650,Acquire Access,equivalent,T1650
 FT007.001,Acquire Access: Botnet,T1650,Acquire Access,derived,T1650
 FT007.002,Acquire Access: DNS Server,T1650,Acquire Access,derived,T1650
@@ -30,7 +30,7 @@ FT008,Compromise Accounts,T1586,Compromise Accounts,equivalent,T1586
 FT008.001,Compromise Accounts: Cloud Accounts,T1586.003,Compromise Accounts: Cloud Accounts,equivalent,T1586.003
 FT008.002,Compromise Accounts: Email Accounts,T1586.002,Compromise Accounts: Email Accounts,equivalent,T1586.002
 FT008.003,Compromise Accounts: Social Media Accounts,T1586.001,Compromise Accounts: Social Media Accounts,equivalent,T1586.001
-FT009,Compromise Infrastructure,,,unmapped,T1588
+FT009,Compromise Infrastructure,T1583,Acquire Infrastructure,subset,T1588
 FT010,Establish Accounts,T1585,Establish Accounts,equivalent,T1598
 FT010.001,Establish Accounts: Cloud Accounts,T1585,Establish Accounts,derived,T1608
 FT010.002,Establish Accounts: Email Accounts,T1585,Establish Accounts,derived,T1598
@@ -43,7 +43,7 @@ FT011.003,Account Takeover: Exposed User Session/Token,F1006,Account Takeover,de
 FT011.004,Account Takeover: Self Serve PII,F1006,Account Takeover,derived,
 FT011.005,Account Takeover: Fake ID,F1006,Account Takeover,derived,
 FT011.006,Account Takeover: Password Reset,F1006.003,Account Takeover: Password Reset,equivalent,
-FT012,Cross-Site Scripting (XSS) Redirection for Financial Fraud,,,unmapped,
+FT012,Cross-Site Scripting (XSS) Redirection for Financial Fraud,F1007.003,Adversary-in-the-Browser: Malicious JavaScript Injection,equivalent,
 FT013,Resource Hijacking,,,unmapped,
 FT014,Supply Chain Compromise,T1195,Supply Chain Compromise,equivalent,T1195
 FT015,Policy and Procedure Abuse,,,unmapped,
@@ -51,36 +51,36 @@ FT016,Phishing,T1660,Phishing,equivalent,T1660
 FT016.001,Phishing: Phishing for Merchant Credentials,T1660,Phishing,derived,T1660
 FT016.002,Phishing: Self Serve PII,T1660,Phishing,derived,T1660
 FT016.003,Phishing: Backup Code,T1660,Phishing,derived,T1660
-FT017,Ad Fraud,,,unmapped,
+FT017,Ad Fraud,T1583.008,Acquire Infrastructure: Malvertising,subset,T1583.008
 FT018,Social Media Attack,,,unmapped,
-FT019,Website Cloning,,,unmapped,
-FT020,Identity Theft for Merchant Accounts,,,unmapped,
+FT019,Website Cloning,F1020.002,Create Fake Materials: Fake Website,equivalent,
+FT020,Identity Theft for Merchant Accounts,F1021,Create Fraudulent Merchant Account,subset,
 FT021,Social Media Attacks,,,unmapped,
 FT022,Churning,F1015,Churning,equivalent,
 FT023,Dispute Avoidance,,,unmapped,
-FT024,Fabricating shipping evidence,,,unmapped,
+FT024,Fabricating shipping evidence,F1020.001,Create Fake Materials: Fake Documents,subset,
 FT025,Fake Review Fraud,,,unmapped,
-FT026,Falsifying Business Documents,,,unmapped,
-FT026.001,Falsifying Business Documents: Fake Business Registration Certificate,F1002.001,Abuse of Public-Facing API: Mobile API Abuse,derived,
-FT026.002,Falsifying Business Documents: Fake Business License,F1002.002,Abuse of Public-Facing API: Web API Abuse,derived,
-FT026.003,Falsifying Business Documents: Fake VAT Certificate,F1005.003,Account Manipulation: Add Beneficiary,derived,
-FT026.004,Falsifying Business Documents: Fake IRS Letter 147C,F1005.004,Account Manipulation: Change Account Details,derived,
-FT026.005,Falsifying Business Documents: Fake SS-4 Confirmation Letter,F1005.005,Account Manipulation: Change E-Delivery or Notification Settings,derived,
+FT026,Falsifying Business Documents,F1027,Falsify Business Documents,equivalent,
+FT026.001,Falsifying Business Documents: Fake Business Registration Certificate,F1027,Falsify Business Documents,subset,
+FT026.002,Falsifying Business Documents: Fake Business License,F1027,Falsify Business Documents,subset,
+FT026.003,Falsifying Business Documents: Fake VAT Certificate,F1027,Falsify Business Documents,subset,
+FT026.004,Falsifying Business Documents: Fake IRS Letter 147C,F1027,Falsify Business Documents,subset,
+FT026.005,Falsifying Business Documents: Fake SS-4 Confirmation Letter,F1027,Falsify Business Documents,subset,
 FT027,Account Enumeration,,,unmapped,
-FT027.001,Account Enumeration: Account Balance Enumeration,F1002.001,Abuse of Public-Facing API: Mobile API Abuse,derived,
-FT027.002,Account Enumeration: Account Tier Enumeration,F1002.002,Abuse of Public-Facing API: Web API Abuse,derived,
-FT027.003,Account Enumeration: Account Radar Rule Enumeration,F1005.003,Account Manipulation: Add Beneficiary,derived,
+FT027.001,Account Enumeration: Account Balance Enumeration,,,unmapped,
+FT027.002,Account Enumeration: Account Tier Enumeration,,,unmapped,
+FT027.003,Account Enumeration: Account Radar Rule Enumeration,,,unmapped,
 FT028,Spearphishing,T1660,Phishing,derived,T1660
 FT029,Cross Account Permissions,,,unmapped,
 FT030,Card Testing,F1012,Card Testing,equivalent,
-FT031,Compromised Payment Gateway,,,unmapped,
+FT031,Compromised Payment Gateway,F1016,Compromise Payment Gateway,equivalent,
 FT032,Credit Card Skimming,,,unmapped,
-FT032.001,Credit Card Skimming: Malicious Javascript Skimming,F1002.001,Abuse of Public-Facing API: Mobile API Abuse,derived,
+FT032.001,Credit Card Skimming: Malicious Javascript Skimming,F1007.003,Adversary-in-the-Browser: Malicious JavaScript Injection,equivalent,
 FT033,No Shipping,,,unmapped,
-FT033.001,No Shipping: Non-Delivery of Goods,F1002.001,Abuse of Public-Facing API: Mobile API Abuse,derived,
-FT033.002,No Shipping: Partial Shipping of Goods,F1002.002,Abuse of Public-Facing API: Web API Abuse,derived,
-FT033.003,No Shipping: Shipping of Incorrect Goods,F1005.003,Account Manipulation: Add Beneficiary,derived,
-FT033.004,No Shipping: Fabricating shipping evidence,F1005.004,Account Manipulation: Change Account Details,derived,
+FT033.001,No Shipping: Non-Delivery of Goods,,,unmapped,
+FT033.002,No Shipping: Partial Shipping of Goods,,,unmapped,
+FT033.003,No Shipping: Shipping of Incorrect Goods,,,unmapped,
+FT033.004,No Shipping: Fabricating shipping evidence,F1020.001,Create Fake Materials: Fake Documents,subset,
 FT034,Triangulation Fraud,,,unmapped,
 FT035,Dispute Avoidance,,,unmapped,
 FT036,Refund Fraud,,,unmapped,
@@ -89,12 +89,12 @@ FT037.001,Account Manipulation: Additional User Account,F1005,Account Manipulati
 FT037.002,Account Manipulation: Additional Authorized Account,F1005,Account Manipulation,derived,
 FT037.003,Account Manipulation: Additional Linked Account,F1005,Account Manipulation,derived,
 FT038,Data Exfiltration,,,unmapped,
-FT038.001,Data Exfiltration: Revenue,F1002.001,Abuse of Public-Facing API: Mobile API Abuse,derived,
-FT038.002,Data Exfiltration: Payout,F1002.002,Abuse of Public-Facing API: Web API Abuse,derived,
-FT038.003,Data Exfiltration: Billing Analytics,F1005.003,Account Manipulation: Add Beneficiary,derived,
-FT038.004,Data Exfiltration: Sigma Reports,F1005.004,Account Manipulation: Change Account Details,derived,
+FT038.001,Data Exfiltration: Revenue,,,unmapped,
+FT038.002,Data Exfiltration: Payout,,,unmapped,
+FT038.003,Data Exfiltration: Billing Analytics,,,unmapped,
+FT038.004,Data Exfiltration: Sigma Reports,,,unmapped,
 FT039,Data Transfer,,,unmapped,
-FT039.001,Data Transfer: Data Pipeline,F1002.001,Abuse of Public-Facing API: Mobile API Abuse,derived,
+FT039.001,Data Transfer: Data Pipeline,,,unmapped,
 FT040,Carding Markets,,,unmapped,
 FT041,Shell Companies,,,unmapped,
 FT042,Account Manipulation,F1005,Account Manipulation,equivalent,
@@ -112,27 +112,27 @@ FT045,DDoS,,,unmapped,
 FT046,DoS,,,unmapped,
 FT047,Account Deletion,,,unmapped,
 FT048,Account Access Removal,T1531,Account Access Removal,equivalent,T1531
-FT049,Fake Merchant Account,,,unmapped,
+FT049,Fake Merchant Account,F1021,Create Fraudulent Merchant Account,equivalent,
 FT050,Card Cashing,,,unmapped,
-FT051,Fraudulent Purchases,,,unmapped,
-FT051.001,Fraudulent Purchases: Subscriptions,F1002.001,Abuse of Public-Facing API: Mobile API Abuse,derived,
-FT051.002,Fraudulent Purchases: SMS Services,F1002.002,Abuse of Public-Facing API: Web API Abuse,derived,
-FT051.003,Fraudulent Purchases: LLM Services,F1005.003,Account Manipulation: Add Beneficiary,derived,
-FT051.004,Fraudulent Purchases: Discord,F1005.004,Account Manipulation: Change Account Details,derived,
-FT052,Falsifying Identity Documents,,,unmapped,
-FT052.001,Falsifying Identity Documents: Fake Passport,F1002.001,Abuse of Public-Facing API: Mobile API Abuse,derived,
-FT052.002,Falsifying Identity Documents: Fake Drivers License ,F1002.002,Abuse of Public-Facing API: Web API Abuse,derived,
-FT052.003,Falsifying Identity Documents: Fake National Identity Card,F1005.003,Account Manipulation: Add Beneficiary,derived,
-FT052.004,Falsifying Identity Documents: Fake U.S. Visa Card,F1005.004,Account Manipulation: Change Account Details,derived,
-FT052.005,Falsifying Identity Documents: Fake NYC Card,F1005.005,Account Manipulation: Change E-Delivery or Notification Settings,derived,
-FT052.006,Falsifying Identity Documents: Fake Border Crossing Card,F1005.006,Account Manipulation: Change of Payment Details,derived,
-FT052.007,Falsifying Identity Documents: Fake Resident Permit ID / U.S. Green Card,F1005.007,Account Manipulation: Enable Account Features,derived,
-FT052.008,Falsifying Identity Documents: Fake Passport Card,F1005.008,Account Manipulation: Update Call Receiving Device,derived,
-FT052.009,Falsifying Identity Documents: Fake State Issued ID Card,,,unmapped,
+FT051,Fraudulent Purchases,F1028,Fradulent Purchasing,equivalent,
+FT051.001,Fraudulent Purchases: Subscriptions,F1028,Fradulent Purchasing,subset,
+FT051.002,Fraudulent Purchases: SMS Services,F1028,Fradulent Purchasing,subset,
+FT051.003,Fraudulent Purchases: LLM Services,F1028,Fradulent Purchasing,subset,
+FT051.004,Fraudulent Purchases: Discord,F1028,Fradulent Purchasing,subset,
+FT052,Falsifying Identity Documents,F1020.001,Create Fake Materials: Fake Documents,equivalent,
+FT052.001,Falsifying Identity Documents: Fake Passport,F1020.001,Create Fake Materials: Fake Documents,subset,
+FT052.002,Falsifying Identity Documents: Fake Drivers License ,F1020.001,Create Fake Materials: Fake Documents,subset,
+FT052.003,Falsifying Identity Documents: Fake National Identity Card,F1020.001,Create Fake Materials: Fake Documents,subset,
+FT052.004,Falsifying Identity Documents: Fake U.S. Visa Card,F1020.001,Create Fake Materials: Fake Documents,subset,
+FT052.005,Falsifying Identity Documents: Fake NYC Card,F1020.001,Create Fake Materials: Fake Documents,subset,
+FT052.006,Falsifying Identity Documents: Fake Border Crossing Card,F1020.001,Create Fake Materials: Fake Documents,subset,
+FT052.007,Falsifying Identity Documents: Fake Resident Permit ID / U.S. Green Card,F1020.001,Create Fake Materials: Fake Documents,subset,
+FT052.008,Falsifying Identity Documents: Fake Passport Card,F1020.001,Create Fake Materials: Fake Documents,subset,
+FT052.009,Falsifying Identity Documents: Fake State Issued ID Card,F1020.001,Create Fake Materials: Fake Documents,subset,
 FT053,3DS Bypass,F1001,3DS Bypass,equivalent,
-FT054,Fake e-Commerce Website,,,unmapped,
-FT055,Fake Payment Gateway,,,unmapped,
+FT054,Fake e-Commerce Website,F1020.002,Create Fake Materials: Fake Website,equivalent,
+FT055,Fake Payment Gateway,F1020.002,Create Fake Materials: Fake Website,subset,
 FT056,Card Holder Details Collection,,,unmapped,
-FT056.001,Card Holder Details Collection: Billing Information,F1002.001,Abuse of Public-Facing API: Mobile API Abuse,derived,
-FT056.002,Card Holder Details Collection: Shipping Information,F1002.002,Abuse of Public-Facing API: Web API Abuse,derived,
-FT056.003,Card Holder Details Collection: Card Details,F1005.003,Account Manipulation: Add Beneficiary,derived,
+FT056.001,Card Holder Details Collection: Billing Information,,,unmapped,
+FT056.002,Card Holder Details Collection: Shipping Information,,,unmapped,
+FT056.003,Card Holder Details Collection: Card Details,,,unmapped,
