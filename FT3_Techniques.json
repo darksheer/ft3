@@ -2212,10 +2212,10 @@
         "f3_mapping": {
             "f3_id": "T1583.008",
             "f3_name": "Acquire Infrastructure: Malvertising",
-            "relationship": "equivalent",
+            "relationship": "subset",
             "numbering_collision": false,
             "f3_commit_sha": "1835d4f",
-            "notes": "P3 FN cleared by audit; T1583.008 description covers both stolen-card-funded ad buys and skim-equipped ads, matching the combined FT3 ad-fraud mechanism."
+            "notes": "FT3 title 'Ad Fraud' implies broader scope than T1583.008 Malvertising; description matches but name-scope mismatch warrants subset over equivalent."
         }
     },
     {
@@ -4992,12 +4992,12 @@
         "relationship_citations": "",
         "attack_references": [],
         "f3_mapping": {
-            "f3_id": "F1020",
-            "f3_name": "Create Fake Materials",
+            "f3_id": "F1020.002",
+            "f3_name": "Create Fake Materials: Fake Website",
             "relationship": "subset",
             "numbering_collision": false,
             "f3_commit_sha": "1835d4f",
-            "notes": "P3 FN cleared by audit; FT3 creates counterfeit payment portals on phishing sites, matching F1020 \"create fraudulent materials \u2026 fake websites, counterfeit identification\"."
+            "notes": "Promoted from F1020 root to F1020.002; FT3 describes counterfeit payment portals \u2014 F1020.002 covers fraudulent websites mimicking legitimate services."
         }
     }
 ]

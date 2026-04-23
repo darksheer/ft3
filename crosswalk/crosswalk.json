@@ -473,8 +473,8 @@
     "f3_name": "Acquire Infrastructure: Malvertising",
     "ft3_id": "FT017",
     "ft3_name": "Ad Fraud",
-    "notes": "P3 FN cleared by audit; T1583.008 description covers both stolen-card-funded ad buys and skim-equipped ads, matching the combined FT3 ad-fraud mechanism.",
-    "relationship": "equivalent"
+    "notes": "FT3 title 'Ad Fraud' implies broader scope than T1583.008 Malvertising; description matches but name-scope mismatch warrants subset over equivalent.",
+    "relationship": "subset"
   },
   {
     "confidence": "none",
@@ -1189,11 +1189,11 @@
   },
   {
     "confidence": "manual",
-    "f3_id": "F1020",
-    "f3_name": "Create Fake Materials",
+    "f3_id": "F1020.002",
+    "f3_name": "Create Fake Materials: Fake Website",
     "ft3_id": "FT055",
     "ft3_name": "Fake Payment Gateway",
-    "notes": "P3 FN cleared by audit; FT3 creates counterfeit payment portals on phishing sites, matching F1020 \"create fraudulent materials … fake websites, counterfeit identification\".",
+    "notes": "Promoted from F1020 root to F1020.002; FT3 describes counterfeit payment portals — F1020.002 covers fraudulent websites mimicking legitimate services.",
     "relationship": "subset"
   },
   {
