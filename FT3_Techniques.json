@@ -884,10 +884,10 @@
         "f3_mapping": {
             "f3_id": "T1650",
             "f3_name": "Acquire Access",
-            "relationship": "derived",
+            "relationship": "subset",
             "numbering_collision": false,
             "f3_commit_sha": "1835d4f",
-            "notes": "Substring name match; review scope."
+            "notes": "Reviewed: FT3 sub-technique is a specific method of acquiring access; T1650 has no sub-techniques in F3 \u2014 subset is correct granularity."
         }
     },
     {
@@ -922,10 +922,10 @@
         "f3_mapping": {
             "f3_id": "T1650",
             "f3_name": "Acquire Access",
-            "relationship": "derived",
+            "relationship": "subset",
             "numbering_collision": false,
             "f3_commit_sha": "1835d4f",
-            "notes": "Substring name match; review scope."
+            "notes": "Reviewed: FT3 sub-technique is a specific method of acquiring access; T1650 has no sub-techniques in F3 \u2014 subset is correct granularity."
         }
     },
     {
@@ -960,10 +960,10 @@
         "f3_mapping": {
             "f3_id": "T1650",
             "f3_name": "Acquire Access",
-            "relationship": "derived",
+            "relationship": "subset",
             "numbering_collision": false,
             "f3_commit_sha": "1835d4f",
-            "notes": "Substring name match; review scope."
+            "notes": "Reviewed: FT3 sub-technique is a specific method of acquiring access; T1650 has no sub-techniques in F3 \u2014 subset is correct granularity."
         }
     },
     {
@@ -998,10 +998,10 @@
         "f3_mapping": {
             "f3_id": "T1650",
             "f3_name": "Acquire Access",
-            "relationship": "derived",
+            "relationship": "subset",
             "numbering_collision": false,
             "f3_commit_sha": "1835d4f",
-            "notes": "Substring name match; review scope."
+            "notes": "Reviewed: FT3 sub-technique is a specific method of acquiring access; T1650 has no sub-techniques in F3 \u2014 subset is correct granularity."
         }
     },
     {
@@ -1036,10 +1036,10 @@
         "f3_mapping": {
             "f3_id": "T1650",
             "f3_name": "Acquire Access",
-            "relationship": "derived",
+            "relationship": "subset",
             "numbering_collision": false,
             "f3_commit_sha": "1835d4f",
-            "notes": "Substring name match; review scope."
+            "notes": "Reviewed: FT3 sub-technique is a specific method of acquiring access; T1650 has no sub-techniques in F3 \u2014 subset is correct granularity."
         }
     },
     {
@@ -1074,10 +1074,10 @@
         "f3_mapping": {
             "f3_id": "T1650",
             "f3_name": "Acquire Access",
-            "relationship": "derived",
+            "relationship": "subset",
             "numbering_collision": false,
             "f3_commit_sha": "1835d4f",
-            "notes": "Substring name match; review scope."
+            "notes": "Reviewed: FT3 sub-technique is a specific method of acquiring access; T1650 has no sub-techniques in F3 \u2014 subset is correct granularity."
         }
     },
     {
@@ -1112,10 +1112,10 @@
         "f3_mapping": {
             "f3_id": "T1650",
             "f3_name": "Acquire Access",
-            "relationship": "derived",
+            "relationship": "subset",
             "numbering_collision": false,
             "f3_commit_sha": "1835d4f",
-            "notes": "Substring name match; review scope."
+            "notes": "Reviewed: FT3 sub-technique is a specific method of acquiring access; T1650 has no sub-techniques in F3 \u2014 subset is correct granularity."
         }
     },
     {
@@ -1150,10 +1150,10 @@
         "f3_mapping": {
             "f3_id": "T1650",
             "f3_name": "Acquire Access",
-            "relationship": "derived",
+            "relationship": "subset",
             "numbering_collision": false,
             "f3_commit_sha": "1835d4f",
-            "notes": "Substring name match; review scope."
+            "notes": "Reviewed: FT3 sub-technique is a specific method of acquiring access; T1650 has no sub-techniques in F3 \u2014 subset is correct granularity."
         }
     },
     {
@@ -1188,10 +1188,10 @@
         "f3_mapping": {
             "f3_id": "T1650",
             "f3_name": "Acquire Access",
-            "relationship": "derived",
+            "relationship": "subset",
             "numbering_collision": false,
             "f3_commit_sha": "1835d4f",
-            "notes": "Substring name match; review scope."
+            "notes": "Reviewed: FT3 sub-technique is a specific method of acquiring access; T1650 has no sub-techniques in F3 \u2014 subset is correct granularity."
         }
     },
     {
@@ -1226,10 +1226,10 @@
         "f3_mapping": {
             "f3_id": "T1650",
             "f3_name": "Acquire Access",
-            "relationship": "derived",
+            "relationship": "subset",
             "numbering_collision": false,
             "f3_commit_sha": "1835d4f",
-            "notes": "Substring name match; review scope."
+            "notes": "Reviewed: FT3 sub-technique is a specific method of acquiring access; T1650 has no sub-techniques in F3 \u2014 subset is correct granularity."
         }
     },
     {
@@ -1524,10 +1524,10 @@
         "f3_mapping": {
             "f3_id": "T1585",
             "f3_name": "Establish Accounts",
-            "relationship": "derived",
+            "relationship": "subset",
             "numbering_collision": false,
             "f3_commit_sha": "1835d4f",
-            "notes": "Substring name match; review scope."
+            "notes": "Reviewed: FT3 sub-technique is a specific account type; T1585 has no sub-techniques in F3 \u2014 subset is correct granularity."
         }
     },
     {
@@ -1574,10 +1574,10 @@
         "f3_mapping": {
             "f3_id": "T1585",
             "f3_name": "Establish Accounts",
-            "relationship": "derived",
+            "relationship": "subset",
             "numbering_collision": false,
             "f3_commit_sha": "1835d4f",
-            "notes": "Substring name match; review scope."
+            "notes": "Reviewed: FT3 sub-technique is a specific account type; T1585 has no sub-techniques in F3 \u2014 subset is correct granularity."
         }
     },
     {
@@ -1616,10 +1616,10 @@
         "f3_mapping": {
             "f3_id": "T1585",
             "f3_name": "Establish Accounts",
-            "relationship": "derived",
+            "relationship": "subset",
             "numbering_collision": false,
             "f3_commit_sha": "1835d4f",
-            "notes": "Substring name match; review scope."
+            "notes": "Reviewed: FT3 sub-technique is a specific account type; T1585 has no sub-techniques in F3 \u2014 subset is correct granularity."
         }
     },
     {
@@ -1654,10 +1654,10 @@
         "f3_mapping": {
             "f3_id": "T1585",
             "f3_name": "Establish Accounts",
-            "relationship": "derived",
+            "relationship": "subset",
             "numbering_collision": false,
             "f3_commit_sha": "1835d4f",
-            "notes": "Substring name match; review scope."
+            "notes": "Reviewed: FT3 sub-technique is a specific account type; T1585 has no sub-techniques in F3 \u2014 subset is correct granularity."
         }
     },
     {
@@ -1718,12 +1718,12 @@
         "relationship_citations": "",
         "attack_references": [],
         "f3_mapping": {
-            "f3_id": "F1006",
-            "f3_name": "Account Takeover",
-            "relationship": "derived",
-            "numbering_collision": false,
+            "f3_id": "F1006.001",
+            "f3_name": "Account Takeover: Exposed API Key",
+            "relationship": "subset",
+            "numbering_collision": true,
             "f3_commit_sha": "1835d4f",
-            "notes": "Substring name match; review scope."
+            "notes": "Reviewed: FT3 description covers exposed API keys used for account takeover; F1006.001 is the specific API-key sub-technique."
         }
     },
     {
@@ -1786,10 +1786,10 @@
         "f3_mapping": {
             "f3_id": "F1006",
             "f3_name": "Account Takeover",
-            "relationship": "derived",
+            "relationship": "subset",
             "numbering_collision": false,
             "f3_commit_sha": "1835d4f",
-            "notes": "Substring name match; review scope."
+            "notes": "Reviewed: FT3 description covers exposed session tokens or cookies; no F1006.* sub-technique precisely covers session-token takeover, so subset of root is correct."
         }
     },
     {
@@ -1819,10 +1819,10 @@
         "f3_mapping": {
             "f3_id": "F1006",
             "f3_name": "Account Takeover",
-            "relationship": "derived",
+            "relationship": "subset",
             "numbering_collision": false,
             "f3_commit_sha": "1835d4f",
-            "notes": "Substring name match; review scope."
+            "notes": "Reviewed: FT3 description covers self-service access using personal information, not exposed login credentials or password reset; subset of root is correct."
         }
     },
     {
@@ -1852,10 +1852,10 @@
         "f3_mapping": {
             "f3_id": "F1006",
             "f3_name": "Account Takeover",
-            "relationship": "derived",
+            "relationship": "subset",
             "numbering_collision": false,
             "f3_commit_sha": "1835d4f",
-            "notes": "Substring name match; review scope."
+            "notes": "Reviewed: FT3 description covers fake identification documents used for takeover; no F1006.* sub-technique precisely covers identity-document bypass, so subset of root is correct."
         }
     },
     {
@@ -2098,10 +2098,10 @@
         "f3_mapping": {
             "f3_id": "T1660",
             "f3_name": "Phishing",
-            "relationship": "derived",
+            "relationship": "subset",
             "numbering_collision": false,
             "f3_commit_sha": "1835d4f",
-            "notes": "Substring name match; review scope."
+            "notes": "Reviewed: FT3 sub-technique is a specific phishing variant; T1660 has no sub-techniques in F3 \u2014 subset is correct granularity."
         }
     },
     {
@@ -2136,10 +2136,10 @@
         "f3_mapping": {
             "f3_id": "T1660",
             "f3_name": "Phishing",
-            "relationship": "derived",
+            "relationship": "subset",
             "numbering_collision": false,
             "f3_commit_sha": "1835d4f",
-            "notes": "Substring name match; review scope."
+            "notes": "Reviewed: FT3 sub-technique is a specific phishing variant; T1660 has no sub-techniques in F3 \u2014 subset is correct granularity."
         }
     },
     {
@@ -2174,10 +2174,10 @@
         "f3_mapping": {
             "f3_id": "T1660",
             "f3_name": "Phishing",
-            "relationship": "derived",
+            "relationship": "subset",
             "numbering_collision": false,
             "f3_commit_sha": "1835d4f",
-            "notes": "Substring name match; review scope."
+            "notes": "Reviewed: FT3 sub-technique is a specific phishing variant; T1660 has no sub-techniques in F3 \u2014 subset is correct granularity."
         }
     },
     {
@@ -2844,10 +2844,10 @@
         "f3_mapping": {
             "f3_id": "T1660",
             "f3_name": "Phishing",
-            "relationship": "derived",
+            "relationship": "subset",
             "numbering_collision": false,
             "f3_commit_sha": "1835d4f",
-            "notes": "Substring name match; review scope."
+            "notes": "Reviewed: spearphishing is a targeted subset of phishing; T1660 has no sub-techniques in F3 \u2014 subset is correct."
         }
     },
     {
@@ -3372,10 +3372,10 @@
         "f3_mapping": {
             "f3_id": "F1005",
             "f3_name": "Account Manipulation",
-            "relationship": "derived",
+            "relationship": "subset",
             "numbering_collision": false,
             "f3_commit_sha": "1835d4f",
-            "notes": "Substring name match; review scope."
+            "notes": "Reviewed: no precise F1005.* sub-technique match; subset of root is correct."
         }
     },
     {
@@ -3403,12 +3403,12 @@
         "relationship_citations": "",
         "attack_references": [],
         "f3_mapping": {
-            "f3_id": "F1005",
-            "f3_name": "Account Manipulation",
-            "relationship": "derived",
-            "numbering_collision": false,
+            "f3_id": "F1005.002",
+            "f3_name": "Account Manipulation: Add Authorized User",
+            "relationship": "subset",
+            "numbering_collision": true,
             "f3_commit_sha": "1835d4f",
-            "notes": "Substring name match; review scope."
+            "notes": "Reviewed: FT3 description covers adding authorized user accounts or permissions; F1005.002 is the specific authorized-user sub-technique."
         }
     },
     {
@@ -3438,10 +3438,10 @@
         "f3_mapping": {
             "f3_id": "F1005",
             "f3_name": "Account Manipulation",
-            "relationship": "derived",
+            "relationship": "subset",
             "numbering_collision": false,
             "f3_commit_sha": "1835d4f",
-            "notes": "Substring name match; review scope."
+            "notes": "Reviewed: no precise F1005.* sub-technique match; subset of root is correct."
         }
     },
     {
@@ -3799,12 +3799,12 @@
         "relationship_citations": "",
         "attack_references": [],
         "f3_mapping": {
-            "f3_id": "F1005",
-            "f3_name": "Account Manipulation",
-            "relationship": "derived",
+            "f3_id": "F1005.006",
+            "f3_name": "Account Manipulation: Change of Payment Details",
+            "relationship": "subset",
             "numbering_collision": false,
             "f3_commit_sha": "1835d4f",
-            "notes": "Substring name match; review scope."
+            "notes": "Reviewed: FT3 description covers adding payment instruments in account payment settings; F1005.006 is the specific payment-details sub-technique."
         }
     },
     {
@@ -3832,12 +3832,12 @@
         "relationship_citations": "",
         "attack_references": [],
         "f3_mapping": {
-            "f3_id": "F1005",
-            "f3_name": "Account Manipulation",
-            "relationship": "derived",
+            "f3_id": "F1005.001",
+            "f3_name": "Account Manipulation: Account Linking",
+            "relationship": "subset",
             "numbering_collision": false,
             "f3_commit_sha": "1835d4f",
-            "notes": "Substring name match; review scope."
+            "notes": "Reviewed: FT3 description covers linking additional accounts to a compromised primary account; F1005.001 is the specific account-linking sub-technique."
         }
     },
     {
@@ -3867,10 +3867,10 @@
         "f3_mapping": {
             "f3_id": "F1005",
             "f3_name": "Account Manipulation",
-            "relationship": "derived",
+            "relationship": "subset",
             "numbering_collision": false,
             "f3_commit_sha": "1835d4f",
-            "notes": "Substring name match; review scope."
+            "notes": "Reviewed: no precise F1005.* sub-technique match; subset of root is correct."
         }
     },
     {
@@ -3900,10 +3900,10 @@
         "f3_mapping": {
             "f3_id": "F1005",
             "f3_name": "Account Manipulation",
-            "relationship": "derived",
+            "relationship": "subset",
             "numbering_collision": false,
             "f3_commit_sha": "1835d4f",
-            "notes": "Substring name match; review scope."
+            "notes": "Reviewed: no precise F1005.* sub-technique match; subset of root is correct."
         }
     },
     {
@@ -3931,12 +3931,12 @@
         "relationship_citations": "",
         "attack_references": [],
         "f3_mapping": {
-            "f3_id": "F1005",
-            "f3_name": "Account Manipulation",
-            "relationship": "derived",
+            "f3_id": "F1005.006",
+            "f3_name": "Account Manipulation: Change of Payment Details",
+            "relationship": "subset",
             "numbering_collision": false,
             "f3_commit_sha": "1835d4f",
-            "notes": "Substring name match; review scope."
+            "notes": "Reviewed: FT3 description covers adding bank account details to payout settings; F1005.006 is the specific payment-details sub-technique."
         }
     },
     {
@@ -3964,12 +3964,12 @@
         "relationship_citations": "",
         "attack_references": [],
         "f3_mapping": {
-            "f3_id": "F1005",
-            "f3_name": "Account Manipulation",
-            "relationship": "derived",
+            "f3_id": "F1005.001",
+            "f3_name": "Account Manipulation: Account Linking",
+            "relationship": "subset",
             "numbering_collision": false,
             "f3_commit_sha": "1835d4f",
-            "notes": "Substring name match; review scope."
+            "notes": "Reviewed: FT3 description covers creating additional child or Connect accounts under a compromised primary account; F1005.001 covers account linking."
         }
     },
     {
@@ -4032,10 +4032,10 @@
         "f3_mapping": {
             "f3_id": "F1005",
             "f3_name": "Account Manipulation",
-            "relationship": "derived",
+            "relationship": "subset",
             "numbering_collision": false,
             "f3_commit_sha": "1835d4f",
-            "notes": "Substring name match; review scope."
+            "notes": "Reviewed: no precise F1005.* sub-technique match; subset of root is correct."
         }
     },
     {

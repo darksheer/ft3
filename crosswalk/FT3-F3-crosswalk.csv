@@ -16,41 +16,41 @@ FT006.001,Credential Scanning: Github,,,unmapped,
 FT006.002,Credential Scanning: Websites,,,unmapped,
 FT006.003,Credential Scanning: Telegram,,,unmapped,
 FT007,Acquire Access,T1650,Acquire Access,equivalent,T1650
-FT007.001,Acquire Access: Botnet,T1650,Acquire Access,derived,T1650
-FT007.002,Acquire Access: DNS Server,T1650,Acquire Access,derived,T1650
-FT007.003,Acquire Access: Malvertising,T1650,Acquire Access,derived,T1650
-FT007.004,Acquire Access: Server,T1650,Acquire Access,derived,T1650
-FT007.005,Acquire Access: VPS,T1650,Acquire Access,derived,T1650
-FT007.006,Acquire Access: Virtual Private Network,T1650,Acquire Access,derived,T1650
-FT007.007,Acquire Access: Virtual Private Server,T1650,Acquire Access,derived,T1650
-FT007.008,Acquire Access: Cloud Accounts,T1650,Acquire Access,derived,T1650
-FT007.009,Acquire Access: Email Accounts,T1650,Acquire Access,derived,T1650
-FT007.010,Acquire Access: Social Media Accounts,T1650,Acquire Access,derived,T1650
+FT007.001,Acquire Access: Botnet,T1650,Acquire Access,subset,T1650
+FT007.002,Acquire Access: DNS Server,T1650,Acquire Access,subset,T1650
+FT007.003,Acquire Access: Malvertising,T1650,Acquire Access,subset,T1650
+FT007.004,Acquire Access: Server,T1650,Acquire Access,subset,T1650
+FT007.005,Acquire Access: VPS,T1650,Acquire Access,subset,T1650
+FT007.006,Acquire Access: Virtual Private Network,T1650,Acquire Access,subset,T1650
+FT007.007,Acquire Access: Virtual Private Server,T1650,Acquire Access,subset,T1650
+FT007.008,Acquire Access: Cloud Accounts,T1650,Acquire Access,subset,T1650
+FT007.009,Acquire Access: Email Accounts,T1650,Acquire Access,subset,T1650
+FT007.010,Acquire Access: Social Media Accounts,T1650,Acquire Access,subset,T1650
 FT008,Compromise Accounts,T1586,Compromise Accounts,equivalent,T1586
 FT008.001,Compromise Accounts: Cloud Accounts,T1586.003,Compromise Accounts: Cloud Accounts,equivalent,T1586.003
 FT008.002,Compromise Accounts: Email Accounts,T1586.002,Compromise Accounts: Email Accounts,equivalent,T1586.002
 FT008.003,Compromise Accounts: Social Media Accounts,T1586.001,Compromise Accounts: Social Media Accounts,equivalent,T1586.001
 FT009,Compromise Infrastructure,T1583,Acquire Infrastructure,subset,T1588
 FT010,Establish Accounts,T1585,Establish Accounts,equivalent,T1598
-FT010.001,Establish Accounts: Cloud Accounts,T1585,Establish Accounts,derived,T1608
-FT010.002,Establish Accounts: Email Accounts,T1585,Establish Accounts,derived,T1598
-FT010.003,Establish Accounts: Social Media Accounts,T1585,Establish Accounts,derived,T1585
-FT010.004,Establish Accounts: Telegram Accounts,T1585,Establish Accounts,derived,T1585
+FT010.001,Establish Accounts: Cloud Accounts,T1585,Establish Accounts,subset,T1608
+FT010.002,Establish Accounts: Email Accounts,T1585,Establish Accounts,subset,T1598
+FT010.003,Establish Accounts: Social Media Accounts,T1585,Establish Accounts,subset,T1585
+FT010.004,Establish Accounts: Telegram Accounts,T1585,Establish Accounts,subset,T1585
 FT011,Account Takeover,F1006,Account Takeover,equivalent,
-FT011.001,Account Takeover: Exposed Credential,F1006,Account Takeover,derived,
+FT011.001,Account Takeover: Exposed Credential,F1006.001,Account Takeover: Exposed API Key,subset,
 FT011.002,Account Takeover: Exposed Login Credential,F1006.002,Account Takeover: Exposed Login Credential,equivalent,
-FT011.003,Account Takeover: Exposed User Session/Token,F1006,Account Takeover,derived,
-FT011.004,Account Takeover: Self Serve PII,F1006,Account Takeover,derived,
-FT011.005,Account Takeover: Fake ID,F1006,Account Takeover,derived,
+FT011.003,Account Takeover: Exposed User Session/Token,F1006,Account Takeover,subset,
+FT011.004,Account Takeover: Self Serve PII,F1006,Account Takeover,subset,
+FT011.005,Account Takeover: Fake ID,F1006,Account Takeover,subset,
 FT011.006,Account Takeover: Password Reset,F1006.003,Account Takeover: Password Reset,equivalent,
 FT012,Cross-Site Scripting (XSS) Redirection for Financial Fraud,F1007.003,Adversary-in-the-Browser: Malicious JavaScript Injection,equivalent,
 FT013,Resource Hijacking,,,unmapped,
 FT014,Supply Chain Compromise,T1195,Supply Chain Compromise,equivalent,T1195
 FT015,Policy and Procedure Abuse,,,unmapped,
 FT016,Phishing,T1660,Phishing,equivalent,T1660
-FT016.001,Phishing: Phishing for Merchant Credentials,T1660,Phishing,derived,T1660
-FT016.002,Phishing: Self Serve PII,T1660,Phishing,derived,T1660
-FT016.003,Phishing: Backup Code,T1660,Phishing,derived,T1660
+FT016.001,Phishing: Phishing for Merchant Credentials,T1660,Phishing,subset,T1660
+FT016.002,Phishing: Self Serve PII,T1660,Phishing,subset,T1660
+FT016.003,Phishing: Backup Code,T1660,Phishing,subset,T1660
 FT017,Ad Fraud,T1583.008,Acquire Infrastructure: Malvertising,subset,T1583.008
 FT018,Social Media Attack,,,unmapped,
 FT019,Website Cloning,F1020.002,Create Fake Materials: Fake Website,equivalent,
@@ -70,7 +70,7 @@ FT027,Account Enumeration,,,unmapped,
 FT027.001,Account Enumeration: Account Balance Enumeration,,,unmapped,
 FT027.002,Account Enumeration: Account Tier Enumeration,,,unmapped,
 FT027.003,Account Enumeration: Account Radar Rule Enumeration,,,unmapped,
-FT028,Spearphishing,T1660,Phishing,derived,T1660
+FT028,Spearphishing,T1660,Phishing,subset,T1660
 FT029,Cross Account Permissions,,,unmapped,
 FT030,Card Testing,F1012,Card Testing,equivalent,
 FT031,Compromised Payment Gateway,F1016,Compromise Payment Gateway,equivalent,
@@ -85,9 +85,9 @@ FT034,Triangulation Fraud,,,unmapped,
 FT035,Dispute Avoidance,,,unmapped,
 FT036,Refund Fraud,,,unmapped,
 FT037,Account Manipulation,F1005,Account Manipulation,equivalent,
-FT037.001,Account Manipulation: Additional User Account,F1005,Account Manipulation,derived,
-FT037.002,Account Manipulation: Additional Authorized Account,F1005,Account Manipulation,derived,
-FT037.003,Account Manipulation: Additional Linked Account,F1005,Account Manipulation,derived,
+FT037.001,Account Manipulation: Additional User Account,F1005,Account Manipulation,subset,
+FT037.002,Account Manipulation: Additional Authorized Account,F1005.002,Account Manipulation: Add Authorized User,subset,
+FT037.003,Account Manipulation: Additional Linked Account,F1005,Account Manipulation,subset,
 FT038,Data Exfiltration,,,unmapped,
 FT038.001,Data Exfiltration: Revenue,,,unmapped,
 FT038.002,Data Exfiltration: Payout,,,unmapped,
@@ -98,14 +98,14 @@ FT039.001,Data Transfer: Data Pipeline,,,unmapped,
 FT040,Carding Markets,,,unmapped,
 FT041,Shell Companies,,,unmapped,
 FT042,Account Manipulation,F1005,Account Manipulation,equivalent,
-FT042.001,Account Manipulation: Additional Payment Methods,F1005,Account Manipulation,derived,
-FT042.002,Account Manipulation: Additional Linked Account,F1005,Account Manipulation,derived,
-FT042.003,"Account Manipulation: Additional Buy Now, Pay Later",F1005,Account Manipulation,derived,
-FT042.004,Account Manipulation: Additional Payout Schedule,F1005,Account Manipulation,derived,
-FT042.005,Account Manipulation: Additional Bank Accounts,F1005,Account Manipulation,derived,
-FT042.006,Account Manipulation: Additional Connect Accounts,F1005,Account Manipulation,derived,
+FT042.001,Account Manipulation: Additional Payment Methods,F1005.006,Account Manipulation: Change of Payment Details,subset,
+FT042.002,Account Manipulation: Additional Linked Account,F1005.001,Account Manipulation: Account Linking,subset,
+FT042.003,"Account Manipulation: Additional Buy Now, Pay Later",F1005,Account Manipulation,subset,
+FT042.004,Account Manipulation: Additional Payout Schedule,F1005,Account Manipulation,subset,
+FT042.005,Account Manipulation: Additional Bank Accounts,F1005.006,Account Manipulation: Change of Payment Details,subset,
+FT042.006,Account Manipulation: Additional Connect Accounts,F1005.001,Account Manipulation: Account Linking,subset,
 FT042.007,Account Manipulation: Enable Account Features,F1005.007,Account Manipulation: Enable Account Features,equivalent,
-FT042.008,Account Manipulation: Top-Up Platform Balance,F1005,Account Manipulation,derived,
+FT042.008,Account Manipulation: Top-Up Platform Balance,F1005,Account Manipulation,subset,
 FT043,Scheduled Transfer,F1044,Scheduled Transfer,equivalent,
 FT044,Scheduled Payout,,,unmapped,
 FT045,DDoS,,,unmapped,
