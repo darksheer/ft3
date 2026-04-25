@@ -51,6 +51,24 @@
         }
     },
     {
+        "ID": "FTA013",
+        "stix_id": "x-mitre-tactic--ab153c1c-925d-509e-ba9e-e947a7f2a911",
+        "name": "Discovery & Profiling",
+        "shortname": "discovery-profiling",
+        "description": "After gaining access to an account, system, or financial environment, the adversary enumerates available capabilities, account state, limits, configuration, fraud controls, and other operational details to decide how to proceed.",
+        "url": "",
+        "created": "2026-04-25T00:00:00Z",
+        "last_modified": "2026-04-25T00:00:00Z",
+        "domain": "fraud-attack",
+        "version": "1.0",
+        "f3_mapping": {
+            "f3_id": "TA0007",
+            "f3_name": "Discovery",
+            "relationship": "equivalent",
+            "f3_commit_sha": "1835d4f"
+        }
+    },
+    {
         "ID": "FTA004",
         "stix_id": "x-mitre-tactic--f5c88a84-2ebd-502c-a7c2-904a71b1d831",
         "name": "Execution",
