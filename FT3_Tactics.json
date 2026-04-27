@@ -62,9 +62,9 @@
         "domain": "fraud-attack",
         "version": "1.0",
         "f3_mapping": {
-            "f3_id": "TA0007",
-            "f3_name": "Discovery",
-            "relationship": "equivalent",
+            "f3_id": null,
+            "f3_name": null,
+            "relationship": "unmapped",
             "f3_commit_sha": "1835d4f"
         }
     },
