@@ -12,100 +12,90 @@ See `NOTICE.md` for the top-level license boundary (PRD §6.6).
 | FT3 ID | F3 ID | Relationship |
 | --- | --- | --- |
 | FT001 | T1598 | equivalent |
-| FT004.001 | F1002.001 | derived |
-| FT004.002 | F1002.002 | derived |
-| FT004.003 | F1005.003 | derived |
-| FT004.004 | F1005.004 | derived |
-| FT005.001 | F1002.001 | derived |
-| FT005.002 | F1002.002 | derived |
-| FT005.003 | F1005.003 | derived |
-| FT006.001 | F1002.001 | derived |
-| FT006.002 | F1002.002 | derived |
-| FT006.003 | F1005.003 | derived |
 | FT007 | T1650 | equivalent |
-| FT007.001 | T1650 | derived |
-| FT007.002 | T1650 | derived |
-| FT007.003 | T1650 | derived |
-| FT007.004 | T1650 | derived |
-| FT007.005 | T1650 | derived |
-| FT007.006 | T1650 | derived |
-| FT007.007 | T1650 | derived |
-| FT007.008 | T1650 | derived |
-| FT007.009 | T1650 | derived |
-| FT007.010 | T1650 | derived |
+| FT007.001 | T1650 | subset |
+| FT007.002 | T1650 | subset |
+| FT007.003 | T1650 | subset |
+| FT007.004 | T1650 | subset |
+| FT007.005 | T1650 | subset |
+| FT007.006 | T1650 | subset |
+| FT007.007 | T1650 | subset |
+| FT007.008 | T1650 | subset |
+| FT007.009 | T1650 | subset |
+| FT007.010 | T1650 | subset |
 | FT008 | T1586 | equivalent |
 | FT008.001 | T1586.003 | equivalent |
 | FT008.002 | T1586.002 | equivalent |
 | FT008.003 | T1586.001 | equivalent |
+| FT009 | T1583 | subset |
 | FT010 | T1585 | equivalent |
-| FT010.001 | T1585 | derived |
-| FT010.002 | T1585 | derived |
-| FT010.003 | T1585 | derived |
-| FT010.004 | T1585 | derived |
+| FT010.001 | T1585 | subset |
+| FT010.002 | T1585 | subset |
+| FT010.003 | T1585 | subset |
+| FT010.004 | T1585 | subset |
 | FT011 | F1006 | equivalent |
-| FT011.001 | F1006 | derived |
+| FT011.001 | F1006.001 | subset |
 | FT011.002 | F1006.002 | equivalent |
-| FT011.003 | F1006 | derived |
-| FT011.004 | F1006 | derived |
-| FT011.005 | F1006 | derived |
+| FT011.003 | F1006 | subset |
+| FT011.004 | F1006 | subset |
+| FT011.005 | F1006 | subset |
 | FT011.006 | F1006.003 | equivalent |
+| FT012 | F1007.003 | equivalent |
 | FT014 | T1195 | equivalent |
 | FT016 | T1660 | equivalent |
-| FT016.001 | T1660 | derived |
-| FT016.002 | T1660 | derived |
-| FT016.003 | T1660 | derived |
+| FT016.001 | T1660 | subset |
+| FT016.002 | T1660 | subset |
+| FT016.003 | T1660 | subset |
+| FT017 | T1583.008 | subset |
+| FT019 | F1020.002 | equivalent |
+| FT020 | F1021 | subset |
 | FT022 | F1015 | equivalent |
-| FT026.001 | F1002.001 | derived |
-| FT026.002 | F1002.002 | derived |
-| FT026.003 | F1005.003 | derived |
-| FT026.004 | F1005.004 | derived |
-| FT026.005 | F1005.005 | derived |
-| FT027.001 | F1002.001 | derived |
-| FT027.002 | F1002.002 | derived |
-| FT027.003 | F1005.003 | derived |
-| FT028 | T1660 | derived |
+| FT024 | F1020.001 | subset |
+| FT026 | F1027 | equivalent |
+| FT026.001 | F1027 | subset |
+| FT026.002 | F1027 | subset |
+| FT026.003 | F1027 | subset |
+| FT026.004 | F1027 | subset |
+| FT026.005 | F1027 | subset |
+| FT028 | T1660 | subset |
 | FT030 | F1012 | equivalent |
-| FT032.001 | F1002.001 | derived |
-| FT033.001 | F1002.001 | derived |
-| FT033.002 | F1002.002 | derived |
-| FT033.003 | F1005.003 | derived |
-| FT033.004 | F1005.004 | derived |
+| FT031 | F1016 | equivalent |
+| FT032.001 | F1007.003 | equivalent |
+| FT033.004 | F1020.001 | subset |
 | FT037 | F1005 | equivalent |
-| FT037.001 | F1005 | derived |
-| FT037.002 | F1005 | derived |
-| FT037.003 | F1005 | derived |
-| FT038.001 | F1002.001 | derived |
-| FT038.002 | F1002.002 | derived |
-| FT038.003 | F1005.003 | derived |
-| FT038.004 | F1005.004 | derived |
-| FT039.001 | F1002.001 | derived |
+| FT037.001 | F1005 | subset |
+| FT037.002 | F1005.002 | subset |
+| FT037.003 | F1005 | subset |
 | FT042 | F1005 | equivalent |
-| FT042.001 | F1005 | derived |
-| FT042.002 | F1005 | derived |
-| FT042.003 | F1005 | derived |
-| FT042.004 | F1005 | derived |
-| FT042.005 | F1005 | derived |
-| FT042.006 | F1005 | derived |
+| FT042.001 | F1005.006 | subset |
+| FT042.002 | F1005.001 | subset |
+| FT042.003 | F1005 | subset |
+| FT042.004 | F1005 | subset |
+| FT042.005 | F1005.006 | subset |
+| FT042.006 | F1005.001 | subset |
 | FT042.007 | F1005.007 | equivalent |
-| FT042.008 | F1005 | derived |
+| FT042.008 | F1005 | subset |
 | FT043 | F1044 | equivalent |
 | FT048 | T1531 | equivalent |
-| FT051.001 | F1002.001 | derived |
-| FT051.002 | F1002.002 | derived |
-| FT051.003 | F1005.003 | derived |
-| FT051.004 | F1005.004 | derived |
-| FT052.001 | F1002.001 | derived |
-| FT052.002 | F1002.002 | derived |
-| FT052.003 | F1005.003 | derived |
-| FT052.004 | F1005.004 | derived |
-| FT052.005 | F1005.005 | derived |
-| FT052.006 | F1005.006 | derived |
-| FT052.007 | F1005.007 | derived |
-| FT052.008 | F1005.008 | derived |
+| FT049 | F1021 | equivalent |
+| FT051 | F1028 | equivalent |
+| FT051.001 | F1028 | subset |
+| FT051.002 | F1028 | subset |
+| FT051.003 | F1028 | subset |
+| FT051.004 | F1028 | subset |
+| FT052 | F1020.001 | equivalent |
+| FT052.001 | F1020.001 | subset |
+| FT052.002 | F1020.001 | subset |
+| FT052.003 | F1020.001 | subset |
+| FT052.004 | F1020.001 | subset |
+| FT052.005 | F1020.001 | subset |
+| FT052.006 | F1020.001 | subset |
+| FT052.007 | F1020.001 | subset |
+| FT052.008 | F1020.001 | subset |
+| FT052.009 | F1020.001 | subset |
 | FT053 | F1001 | equivalent |
-| FT056.001 | F1002.001 | derived |
-| FT056.002 | F1002.002 | derived |
-| FT056.003 | F1005.003 | derived |
+| FT054 | F1020.002 | equivalent |
+| FT055 | F1020.002 | subset |
 
 ## F3-referenced FT3 tactics
 
@@ -148,7 +138,7 @@ See `NOTICE.md` for the top-level license boundary (PRD §6.6).
 | FT008.001 | T1586.003 |
 | FT008.002 | T1586.002 |
 | FT008.003 | T1586.001 |
-| FT009 | T1090, T1566, T1588 |
+| FT009 | T1090, T1566, T1583, T1588 |
 | FT010 | T1566, T1585, T1598 |
 | FT010.001 | T1567, T1583, T1585, T1608 |
 | FT010.002 | T1566, T1583, T1585, T1598 |
@@ -159,5 +149,6 @@ See `NOTICE.md` for the top-level license boundary (PRD §6.6).
 | FT016.001 | T1660 |
 | FT016.002 | T1660 |
 | FT016.003 | T1660 |
+| FT017 | T1583.008 |
 | FT028 | T1660 |
 | FT048 | T1531 |
