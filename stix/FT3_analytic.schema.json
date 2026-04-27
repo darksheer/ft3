@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","properties":{"description":{"type":"string"},"extensions":{"type":"object"},"id":{"type":"string"},"name":{"type":"string"},"type":{"const":"x-ft3-analytic"}},"required":["type","id","name","description","extensions"],"title":"FT3 Analytic","type":"object"}
