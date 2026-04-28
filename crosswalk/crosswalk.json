@@ -2104,5 +2104,50 @@
     "ft3_name": null,
     "notes": "F3-only technique; no FT3 counterpart.",
     "relationship": "unmapped"
+  },
+  {
+    "confidence": "low",
+    "f3_id": "F1040",
+    "f3_name": "Phone Number Spoofing",
+    "ft3_id": "FT057",
+    "ft3_name": "Voice Phishing (Vishing)",
+    "notes": "FT057 covers the full live-voice social-engineering TTP; F1040 is the closest F3 anchor but only describes the caller-ID spoofing tradecraft commonly used to support vishing, so the relationship is partial.",
+    "relationship": "partial"
+  },
+  {
+    "confidence": "none",
+    "f3_id": null,
+    "f3_name": null,
+    "ft3_id": "FT058",
+    "ft3_name": "ClickFix Run-Dialog Social Engineering",
+    "notes": "No F3 / MITRE ATT&CK technique covers the ClickFix fake-CAPTCHA + Win+R + user-pasted PowerShell pattern; closest neighbors T1204 User Execution and T1660 Phishing are too generic.",
+    "relationship": "unmapped"
+  },
+  {
+    "confidence": "low",
+    "f3_id": "T1453",
+    "f3_name": "Abuse Accessibility Features",
+    "ft3_id": "FT059",
+    "ft3_name": "Mobile Banking Trojan Distribution and Device Takeover",
+    "notes": "FT057 covers the full mobile banking trojan distribution and on-device takeover TTP (sideloaded recruitment-themed loaders, HVNC, web-injects, keylogging, MaaS economics); T1453 is the closest F3 anchor but only captures the accessibility-abuse subcomponent, and T1219 Remote Access Tools is adjacent — no single F3 technique describes mobile banking trojan distribution-as-a-technique.",
+    "relationship": "partial"
+  },
+  {
+    "confidence": "high",
+    "f3_id": "T1111",
+    "f3_name": "Multi-Factor Authentication Interception",
+    "ft3_id": "FT060",
+    "ft3_name": "Real-Time OTP Relay via Operator-Controlled Phishing Kit",
+    "notes": "FT3 narrows T1111 to fraud-platform OTP relay during real-time fraudulent payment / ATO authorization driven by an operator console; F3 T1111 is the broader MFA-interception umbrella with no current FT3 counterpart.",
+    "relationship": "partial"
+  },
+  {
+    "confidence": "low",
+    "f3_id": "F1027",
+    "f3_name": "Falsify Business Documents",
+    "ft3_id": "FT026.006",
+    "ft3_name": "Falsifying Business Documents: Live-Source Tax Certificate Forgery",
+    "notes": "FT026.006 is a live-data-forgery refinement of the FT026 / F1027 family: F1027 covers falsified business documents broadly, but does not carve out the live-source-of-truth variant where data accuracy is preserved and only the seal / issuance authority is forged.",
+    "relationship": "partial"
   }
 ]
