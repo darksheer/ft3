@@ -2136,8 +2136,8 @@
     "confidence": "high",
     "f3_id": "T1111",
     "f3_name": "Multi-Factor Authentication Interception",
-    "ft3_id": "FT060",
-    "ft3_name": "Real-Time OTP Relay via Operator-Controlled Phishing Kit",
+    "ft3_id": "FT016.004",
+    "ft3_name": "Phishing: Real-Time OTP Relay via Operator-Controlled Phishing Kit",
     "notes": "FT3 narrows T1111 to fraud-platform OTP relay during real-time fraudulent payment / ATO authorization driven by an operator console; F3 T1111 is the broader MFA-interception umbrella with no current FT3 counterpart.",
     "relationship": "partial"
   },
