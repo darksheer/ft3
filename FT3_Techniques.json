@@ -5096,7 +5096,7 @@
             "relationship": "partial",
             "numbering_collision": false,
             "f3_commit_sha": "1835d4f",
-            "notes": "FT057 describes the full mobile-banking-trojan distribution and device takeover TTP (sideloaded loaders, HVNC, web-injects, keylogging, screen recording, MaaS economics); F3's T1453 Abuse Accessibility Features captures only the accessibility-service abuse component. T1219 Remote Access Tools is also adjacent. F3 has no single equivalent for mobile banking trojan distribution-as-a-technique."
+            "notes": "FT059 describes the full mobile-banking-trojan distribution and device takeover TTP (sideloaded loaders, HVNC, web-injects, keylogging, screen recording, MaaS economics); F3's T1453 Abuse Accessibility Features captures only the accessibility-service abuse component. T1219 Remote Access Tools is also adjacent. F3 has no single equivalent for mobile banking trojan distribution-as-a-technique."
         }
     },
     {
