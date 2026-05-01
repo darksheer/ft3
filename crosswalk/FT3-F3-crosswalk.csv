@@ -51,6 +51,7 @@ FT016,Phishing,T1660,Phishing,equivalent,T1660
 FT016.001,Phishing: Phishing for Merchant Credentials,T1660,Phishing,derived,T1660
 FT016.002,Phishing: Self Serve PII,T1660,Phishing,derived,T1660
 FT016.003,Phishing: Backup Code,T1660,Phishing,derived,T1660
+FT016.004,Phishing: Real-Time OTP Relay via Operator-Controlled Phishing Kit,T1111,Multi-Factor Authentication Interception,partial,T1111
 FT017,Ad Fraud,T1583.008,Acquire Infrastructure: Malvertising,subset,T1583.008
 FT018,Social Media Attack,,,unmapped,
 FT019,Website Cloning,F1020.002,Create Fake Materials: Fake Website,equivalent,
@@ -66,6 +67,7 @@ FT026.002,Falsifying Business Documents: Fake Business License,F1027,Falsify Bus
 FT026.003,Falsifying Business Documents: Fake VAT Certificate,F1027,Falsify Business Documents,subset,
 FT026.004,Falsifying Business Documents: Fake IRS Letter 147C,F1027,Falsify Business Documents,subset,
 FT026.005,Falsifying Business Documents: Fake SS-4 Confirmation Letter,F1027,Falsify Business Documents,subset,
+FT026.006,Falsifying Business Documents: Live-Source Tax Certificate Forgery,F1027,Falsify Business Documents,subset,
 FT027,Account Enumeration,,,unmapped,
 FT027.001,Account Enumeration: Account Balance Enumeration,,,unmapped,
 FT027.002,Account Enumeration: Account Tier Enumeration,,,unmapped,
@@ -136,3 +138,6 @@ FT056,Card Holder Details Collection,,,unmapped,
 FT056.001,Card Holder Details Collection: Billing Information,,,unmapped,
 FT056.002,Card Holder Details Collection: Shipping Information,,,unmapped,
 FT056.003,Card Holder Details Collection: Card Details,,,unmapped,
+FT057,Voice Phishing (Vishing),F1040,Phone Number Spoofing,partial,
+FT058,ClickFix Run-Dialog Social Engineering,,,unmapped,
+FT059,Mobile Banking Trojan Distribution and Device Takeover,T1453,Abuse Accessibility Features,partial,
