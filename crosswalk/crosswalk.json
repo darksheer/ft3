@@ -1233,6 +1233,13 @@
     "relationship": "unmapped"
   },
   {
+    "ft3_id": "FT060",
+    "ft3_name": "Business Email Compromise",
+    "relationship": "unmapped",
+    "confidence": "none",
+    "notes": "BEC is a composite fraud TTP with no single F3 equivalent; related F3 entries include F1031 (Impersonate Account Holder), F1032 (Impersonate Official), and T1672 (Email Spoofing)."
+  },
+  {
     "confidence": "none",
     "f3_id": "F1002",
     "f3_name": "Abuse of Public-Facing API",
