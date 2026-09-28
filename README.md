@@ -60,6 +60,17 @@ Predefined procedures for organizational response to detected fraud events, aime
 
 This enhanced context focuses on the specific tactics, techniques, and procedures related to fraud, making it more applicable to your goals.
 
+## Catalog date formats
+
+The `created` and `last_modified` fields in the JSON catalogs use slash-separated calendar dates in month/day/year order. They are not ISO 8601 timestamps and contain no time or timezone. The corresponding CSV catalogs use the same date conventions as their JSON counterparts.
+
+| Catalog | Format | Example |
+| --- | --- | --- |
+| [Techniques](FT3_Techniques.json) | `M/D/YY` (month and day without leading zeroes; two-digit year) | `1/30/24` = January 30, 2024 |
+| [Tactics](FT3_Tactics.json) | `MM/DD/YYYY` (zero-padded month and day; four-digit year) | `01/30/2024` = January 30, 2024 |
+
+In the current technique catalog, the two-digit years `24` and `25` denote 2024 and 2025.
+
 ## Contributing
 
 We welcome contributions to the FT3 framework from the community! Here are some ways you can help:
