@@ -21,7 +21,40 @@
     "social": {
       "base": "48f74e1b94815305e22c70a9ba8462738bbc6a26",
       "head": "9d64c1a"
+    },
+    "uuid": {
+      "base": "ee763e9",
+      "head": "2838d3e",
+      "depends_on": [
+        "csv",
+        "vps",
+        "social",
+        "dates"
+      ],
+      "draft": true
     }
   },
-  "integration_commits": []
+  "integration_commits": [
+    "7066b207279f1129ff5d66a9ced3ff1374849a1d",
+    "0b6bf98330edbde0fe54a0b1d42f65e3e390e2ef",
+    "4bf74299a55128cf00a7d0979064ba3ea6dd3971",
+    "ee763e93da9a8868db583987aa1b77faa7331c40",
+    "f396d941519e2e958c8c1e86c13a8dad3dd998ba",
+    "6d7c470dc60e9350057f037b7f306fc74a10fb85",
+    "981592ca038531fc8fbaeb4616d1ff78477f236b",
+    "5ddc1bc7d69f1d2107775b67aa5516a722ebb1e7",
+    "c8aa68b82b3f3c1a24f21d5f334f75dc7230be3b"
+  ],
+  "uuid_initial": {
+    "path": "docs/review/stripe-ft3/uuid-initial-assignments.json",
+    "blob": "b3323440d48ed9b7e2fee129e69e4c731290385f",
+    "commit": "5ddc1bc7d69f1d2107775b67aa5516a722ebb1e7"
+  },
+  "uuid_previous_ref": "48f74e1b94815305e22c70a9ba8462738bbc6a26",
+  "misp_schema": {
+    "repository": "MISP/misp-galaxy",
+    "commit": "e9e867fe5a5e94be813540af9e227ac84c8d60ad",
+    "path": "schema_clusters.json",
+    "jsonschema_version": "4.26.0"
+  }
 }

@@ -1,0 +1,2 @@
+PASS: 137 fixture values validate against official MISP Galaxy schema at e9e867fe5a5e94be813540af9e227ac84c8d60ad using Python 3.12.13 and jsonschema 4.26.0
+No live importer or existing attachments were tested.
