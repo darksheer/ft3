@@ -19,6 +19,6 @@ test_rename_reorder_retains_identity (test_catalog.CatalogTests.test_rename_reor
 test_uuid_missing_and_duplicate (test_catalog.CatalogTests.test_uuid_missing_and_duplicate) ... ok
 
 ----------------------------------------------------------------------
-Ran 19 tests in 0.028s
+Ran 19 tests in 0.012s
 
 OK

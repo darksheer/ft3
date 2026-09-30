@@ -1,0 +1,497 @@
+{
+  "base": "48f74e1b94815305e22c70a9ba8462738bbc6a26",
+  "head": "a34846ddb8468e6b7641d966dbd6f52c9db7e76b",
+  "catalog_defect_free": false,
+  "contribution_ready": true,
+  "disclosed_defects": [
+    {
+      "rule": "parity",
+      "catalog": "tactics",
+      "id": "FTA001",
+      "field": "domain",
+      "detail": "['fraud-attack', 'ft3']",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parity",
+      "catalog": "tactics",
+      "id": "FTA002",
+      "field": "domain",
+      "detail": "['fraud-attack', 'ft3']",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parity",
+      "catalog": "tactics",
+      "id": "FTA003",
+      "field": "domain",
+      "detail": "['fraud-attack', 'ft3']",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parity",
+      "catalog": "tactics",
+      "id": "FTA004",
+      "field": "domain",
+      "detail": "['fraud-attack', 'ft3']",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parity",
+      "catalog": "tactics",
+      "id": "FTA005",
+      "field": "domain",
+      "detail": "['fraud-attack', 'ft3']",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parity",
+      "catalog": "tactics",
+      "id": "FTA006",
+      "field": "domain",
+      "detail": "['fraud-attack', 'ft3']",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parity",
+      "catalog": "tactics",
+      "id": "FTA007",
+      "field": "domain",
+      "detail": "['fraud-attack', 'ft3']",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parity",
+      "catalog": "tactics",
+      "id": "FTA008",
+      "field": "domain",
+      "detail": "['fraud-attack', 'ft3']",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parity",
+      "catalog": "tactics",
+      "id": "FTA009",
+      "field": "domain",
+      "detail": "['fraud-attack', 'ft3']",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parity",
+      "catalog": "tactics",
+      "id": "FTA010",
+      "field": "domain",
+      "detail": "['fraud-attack', 'ft3']",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parity",
+      "catalog": "tactics",
+      "id": "FTA011",
+      "field": "domain",
+      "detail": "['fraud-attack', 'ft3']",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parity",
+      "catalog": "tactics",
+      "id": "FTA012",
+      "field": "domain",
+      "detail": "['fraud-attack', 'ft3']",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parent_missing",
+      "catalog": "techniques",
+      "id": "FT004.001",
+      "field": "sub-technique of",
+      "detail": "FT0004",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parent_prefix",
+      "catalog": "techniques",
+      "id": "FT004.001",
+      "field": "sub-technique of",
+      "detail": "FT0004",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parent_missing",
+      "catalog": "techniques",
+      "id": "FT004.002",
+      "field": "sub-technique of",
+      "detail": "FT0004",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parent_prefix",
+      "catalog": "techniques",
+      "id": "FT004.002",
+      "field": "sub-technique of",
+      "detail": "FT0004",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parent_missing",
+      "catalog": "techniques",
+      "id": "FT004.003",
+      "field": "sub-technique of",
+      "detail": "FT0004",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parent_prefix",
+      "catalog": "techniques",
+      "id": "FT004.003",
+      "field": "sub-technique of",
+      "detail": "FT0004",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parent_missing",
+      "catalog": "techniques",
+      "id": "FT004.004",
+      "field": "sub-technique of",
+      "detail": "FT0004",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parent_prefix",
+      "catalog": "techniques",
+      "id": "FT004.004",
+      "field": "sub-technique of",
+      "detail": "FT0004",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parent_missing",
+      "catalog": "techniques",
+      "id": "FT006.001",
+      "field": "sub-technique of",
+      "detail": "",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parent_prefix",
+      "catalog": "techniques",
+      "id": "FT006.001",
+      "field": "sub-technique of",
+      "detail": "",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parent_prefix",
+      "catalog": "techniques",
+      "id": "FT006.002",
+      "field": "sub-technique of",
+      "detail": "FT007",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parent_prefix",
+      "catalog": "techniques",
+      "id": "FT006.003",
+      "field": "sub-technique of",
+      "detail": "FT007",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parent_prefix",
+      "catalog": "techniques",
+      "id": "FT007.001",
+      "field": "sub-technique of",
+      "detail": "FT008",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parent_prefix",
+      "catalog": "techniques",
+      "id": "FT007.002",
+      "field": "sub-technique of",
+      "detail": "FT008",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parent_prefix",
+      "catalog": "techniques",
+      "id": "FT007.003",
+      "field": "sub-technique of",
+      "detail": "FT008",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parent_prefix",
+      "catalog": "techniques",
+      "id": "FT007.004",
+      "field": "sub-technique of",
+      "detail": "FT008",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parent_prefix",
+      "catalog": "techniques",
+      "id": "FT007.005",
+      "field": "sub-technique of",
+      "detail": "FT008",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parent_prefix",
+      "catalog": "techniques",
+      "id": "FT007.006",
+      "field": "sub-technique of",
+      "detail": "FT008",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parent_prefix",
+      "catalog": "techniques",
+      "id": "FT007.007",
+      "field": "sub-technique of",
+      "detail": "FT008",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parent_prefix",
+      "catalog": "techniques",
+      "id": "FT007.008",
+      "field": "sub-technique of",
+      "detail": "FT008",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parent_prefix",
+      "catalog": "techniques",
+      "id": "FT007.009",
+      "field": "sub-technique of",
+      "detail": "FT008",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parent_prefix",
+      "catalog": "techniques",
+      "id": "FT007.010",
+      "field": "sub-technique of",
+      "detail": "FT008",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parent_prefix",
+      "catalog": "techniques",
+      "id": "FT008.001",
+      "field": "sub-technique of",
+      "detail": "FT009",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parent_prefix",
+      "catalog": "techniques",
+      "id": "FT008.002",
+      "field": "sub-technique of",
+      "detail": "FT009",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parent_prefix",
+      "catalog": "techniques",
+      "id": "FT008.003",
+      "field": "sub-technique of",
+      "detail": "FT009",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parent_prefix",
+      "catalog": "techniques",
+      "id": "FT010.001",
+      "field": "sub-technique of",
+      "detail": "FT011",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parent_prefix",
+      "catalog": "techniques",
+      "id": "FT010.002",
+      "field": "sub-technique of",
+      "detail": "FT011",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parent_prefix",
+      "catalog": "techniques",
+      "id": "FT010.003",
+      "field": "sub-technique of",
+      "detail": "FT011",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parent_prefix",
+      "catalog": "techniques",
+      "id": "FT010.004",
+      "field": "sub-technique of",
+      "detail": "FT011",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parent_prefix",
+      "catalog": "techniques",
+      "id": "FT011.001",
+      "field": "sub-technique of",
+      "detail": "FT012",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parent_prefix",
+      "catalog": "techniques",
+      "id": "FT011.002",
+      "field": "sub-technique of",
+      "detail": "FT012",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parent_prefix",
+      "catalog": "techniques",
+      "id": "FT011.003",
+      "field": "sub-technique of",
+      "detail": "FT012",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parent_prefix",
+      "catalog": "techniques",
+      "id": "FT011.004",
+      "field": "sub-technique of",
+      "detail": "FT012",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parent_prefix",
+      "catalog": "techniques",
+      "id": "FT011.005",
+      "field": "sub-technique of",
+      "detail": "FT012",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parent_prefix",
+      "catalog": "techniques",
+      "id": "FT011.006",
+      "field": "sub-technique of",
+      "detail": "FT012",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "tactic_missing",
+      "catalog": "techniques",
+      "id": "FT027",
+      "field": "tactics",
+      "detail": "Discovery & Profiling",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "tactic_missing",
+      "catalog": "techniques",
+      "id": "FT027.001",
+      "field": "tactics",
+      "detail": "Discovery & Profiling",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "tactic_missing",
+      "catalog": "techniques",
+      "id": "FT027.002",
+      "field": "tactics",
+      "detail": "Discovery & Profiling",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "tactic_missing",
+      "catalog": "techniques",
+      "id": "FT027.003",
+      "field": "tactics",
+      "detail": "Discovery & Profiling",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "chronology",
+      "catalog": "techniques",
+      "id": "FT033.003",
+      "field": "last_modified",
+      "detail": "['2/2/25', '1/30/24']",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parent_missing",
+      "catalog": "techniques",
+      "id": "FT033.003",
+      "field": "sub-technique of",
+      "detail": "",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parent_prefix",
+      "catalog": "techniques",
+      "id": "FT033.003",
+      "field": "sub-technique of",
+      "detail": "",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parent_missing",
+      "catalog": "techniques",
+      "id": "FT033.004",
+      "field": "sub-technique of",
+      "detail": "",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parent_prefix",
+      "catalog": "techniques",
+      "id": "FT033.004",
+      "field": "sub-technique of",
+      "detail": "",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "parent_prefix",
+      "catalog": "techniques",
+      "id": "FT039.001",
+      "field": "sub-technique of",
+      "detail": "FT038",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "chronology",
+      "catalog": "techniques",
+      "id": "FT051.001",
+      "field": "last_modified",
+      "detail": "['3/4/25', '2/28/24']",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "chronology",
+      "catalog": "techniques",
+      "id": "FT051.002",
+      "field": "last_modified",
+      "detail": "['3/4/25', '2/28/24']",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "chronology",
+      "catalog": "techniques",
+      "id": "FT051.003",
+      "field": "last_modified",
+      "detail": "['3/4/25', '2/28/24']",
+      "status": "disclosed_preexisting"
+    },
+    {
+      "rule": "chronology",
+      "catalog": "techniques",
+      "id": "FT051.004",
+      "field": "last_modified",
+      "detail": "['3/4/25', '2/28/24']",
+      "status": "disclosed_preexisting"
+    }
+  ],
+  "blocking": []
+}

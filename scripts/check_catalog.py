@@ -89,10 +89,10 @@ def main():
   fixed=git('cat-file','blob',pin['blob']);initial=json.loads(fixed)['assignments']
   current=git('show',a.head_ref+':'+pin['path'])
   if current!=fixed:failures.append({'rule':'uuid_initial_mapping_changed'})
-  try:prior_manifest=json.loads(git('show',a.base_ref+':docs/review/stripe-ft3/execution-manifest.json'))
+  try:prior_manifest=json.loads(subprocess.check_output(['git','show',a.base_ref+':docs/review/stripe-ft3/execution-manifest.json'],stderr=subprocess.DEVNULL))
   except subprocess.CalledProcessError:prior_manifest={}
   if prior_manifest.get('uuid_initial') and prior_manifest['uuid_initial']!=pin:failures.append({'rule':'uuid_pin_changed'})
-  if manifest.get('uuid_previous_ref')!=a.base_ref:failures.append({'rule':'uuid_previous_revision_mismatch'})
+  if manifest.get('uuid_previous_ref')!=git('rev-parse',a.base_ref).decode().strip():failures.append({'rule':'uuid_previous_revision_mismatch'})
  if any(r.get('uuid') for r in head[0]) and not pin:failures.append({'rule':'uuid_baseline_missing'})
  for error in identity_errors(base[0],head[0],initial,transitions):failures.append({'rule':'uuid_identity','detail':error})
  if pin:
