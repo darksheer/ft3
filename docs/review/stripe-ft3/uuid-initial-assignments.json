@@ -1,0 +1,827 @@
+{
+  "input_sha": "ee763e93da9a8868db583987aa1b77faa7331c40",
+  "assignments": [
+    {
+      "id": "FT001",
+      "name": "Phishing for Information",
+      "fingerprint": "884c8aecfce21310c484b0b246f9076d7ce6c9529fa1cfd9471dfc2b0f8a48aa",
+      "uuid": "a1cd68c1-b91f-46c3-b8d4-27be1cae87dc"
+    },
+    {
+      "id": "FT002",
+      "name": "Search Victim-Owned Websites",
+      "fingerprint": "a68cb2ff4bf2aa73b4407f3e45f90c8847c759f58cd89a0ad80117b59e784e41",
+      "uuid": "a04e3ce4-d3d3-4a1e-bfb5-cf59ce81700a"
+    },
+    {
+      "id": "FT003",
+      "name": "Seaching Credential Dumps",
+      "fingerprint": "9ffcb6e80966f06372b5fa524a2bd8b9fa3316ebeefce52fe1006f4417d7d82f",
+      "uuid": "6434ceeb-1bfd-4a30-9b78-3570b8cbcf04"
+    },
+    {
+      "id": "FT004",
+      "name": "Gather Victim Org Information",
+      "fingerprint": "666defab3fa39f0fc158248bf3bc95ab28d670d1a74098868bc0328b3619fc92",
+      "uuid": "cec9bd4c-5595-40a0-aa4d-164a7cce21d1"
+    },
+    {
+      "id": "FT004.001",
+      "name": "Gather Victim Org Information: Business Relationships",
+      "fingerprint": "8b77583a4797b10b4e89305576500e1e53e825e467307566a7c2b05b0d89ba84",
+      "uuid": "9cd4337d-cfa1-41eb-bf39-f7463e708c9e"
+    },
+    {
+      "id": "FT004.002",
+      "name": "Gather Victim Org Information: Determine Physical Locations ",
+      "fingerprint": "4ff9d0faded9bc2b94d098d676675326b7d2223aa31cb15f49375aedc7c3469f",
+      "uuid": "c80e6cd1-0bee-48ea-90f9-85b1253706f3"
+    },
+    {
+      "id": "FT004.003",
+      "name": "Gather Victim Org Information: Identify Business Tempo",
+      "fingerprint": "07655d7b2a1eefb11b1f07a39f2fa8b8e5e06991b388ee95e98414c752727b0e",
+      "uuid": "08a2e7ad-0adc-4417-bd8f-2195df8fc00c"
+    },
+    {
+      "id": "FT004.004",
+      "name": "Gather Victim Org Information: Identify Roles",
+      "fingerprint": "2e3aceaf7ebd906d86a400e259b04558fc1bccfd72b6918b442937987832a83c",
+      "uuid": "dc10b30f-0bc2-4aef-a1b1-b13d67524916"
+    },
+    {
+      "id": "FT005",
+      "name": "Gather Victim Identity Information",
+      "fingerprint": "96ff757026dd8f1ed2397b1c8e28856536cce91ded86aba0f18e58d20e0c7ade",
+      "uuid": "0531028c-8ceb-45bc-ae97-07cc1d183d9d"
+    },
+    {
+      "id": "FT005.001",
+      "name": "Gather Victim Identity Information: Credentials",
+      "fingerprint": "7b08661f3c79ae03009f6bc8b994da904e3715a20cdf420b7a14d128bc822826",
+      "uuid": "87ac786e-e7a2-4149-8be9-9a7e478354fe"
+    },
+    {
+      "id": "FT005.002",
+      "name": "Gather Victim Identity Information: Email Addresses",
+      "fingerprint": "3f87744ad203916ae69caf57756b69f041e9ea15a9ed8e81d8c048a82697329e",
+      "uuid": "80133dd5-5f77-4900-91b4-d0a4d67b7ef1"
+    },
+    {
+      "id": "FT005.003",
+      "name": "Gather Victim Identity Information: Employee Names",
+      "fingerprint": "6fec8f23d14edfb93e9a4a6ea28ea2bb6a385fa6e2e5dd5e422a2e5419b95064",
+      "uuid": "b4add40e-a92c-4b6b-a77c-65b875f2acee"
+    },
+    {
+      "id": "FT006",
+      "name": "Credential Scanning",
+      "fingerprint": "31fe35ce2448d2a7369b1e776ecc598b05fb1160b5645fdabf33818e1b5a14a2",
+      "uuid": "ffac235d-b03e-4d55-a709-13b934d7dc99"
+    },
+    {
+      "id": "FT006.001",
+      "name": "Credential Scanning: Github",
+      "fingerprint": "dd11318eb017ae86c4b5314c727cb86fc1f6ccc7c03fc0ff7940c4095529e914",
+      "uuid": "2a447b0c-a76d-4585-8dec-fdeb02cad358"
+    },
+    {
+      "id": "FT006.002",
+      "name": "Credential Scanning: Websites",
+      "fingerprint": "9ecea6295b66322ee81c056900021f146bc3b4b42fab0edafcdce161aa47a105",
+      "uuid": "bb9f18eb-6ace-430f-ac39-13253401c330"
+    },
+    {
+      "id": "FT006.003",
+      "name": "Credential Scanning: Telegram",
+      "fingerprint": "ae29abb8d08b40b9b06e273b9f654879e8680b4405349258dfa148164c9003d6",
+      "uuid": "0ce3de20-b2d6-4151-9bb7-5761e4b11bc9"
+    },
+    {
+      "id": "FT007",
+      "name": "Acquire Access",
+      "fingerprint": "97a90240747c713f7e814273365d700af3300ba8de37f041b063db147f4bd73d",
+      "uuid": "4b4eea02-f6ba-479c-8c59-94a69aea0a7b"
+    },
+    {
+      "id": "FT007.001",
+      "name": "Acquire Access: Botnet",
+      "fingerprint": "6979fa3773d5ba433fb09de74c91041a6f34c4e42664195d2ac78d2250fe4e8c",
+      "uuid": "9a5dbd4a-9d2c-417a-9768-076abbb71d18"
+    },
+    {
+      "id": "FT007.002",
+      "name": "Acquire Access: DNS Server",
+      "fingerprint": "55e57c93cc81c67d36f537da7442c049a0d758db6b03a9718bf9f5d28deccec5",
+      "uuid": "b4ac3978-c8d4-4639-b15e-4564b9d5daa8"
+    },
+    {
+      "id": "FT007.003",
+      "name": "Acquire Access: Malvertising",
+      "fingerprint": "e200ee90723da3724d61639ba954277d8275a9fb712b528db704ebae48ef09a5",
+      "uuid": "cf5929a8-1e27-4481-8260-c01d264e7426"
+    },
+    {
+      "id": "FT007.004",
+      "name": "Acquire Access: Server",
+      "fingerprint": "d9d1532971a30f03906df3a7e53e230ccda06b844bc66b258698d91d90ca7444",
+      "uuid": "1ce01b03-0268-44c8-94d3-6b216abca590"
+    },
+    {
+      "id": "FT007.005",
+      "name": "Acquire Access: Hijacked VPS",
+      "fingerprint": "559fb064c8d492c4a9bd92ccc7ef09d059fd2e1ca537b686042b5564dcd4186b",
+      "uuid": "85fe5020-8d90-479a-b11b-067286a25624"
+    },
+    {
+      "id": "FT007.006",
+      "name": "Acquire Access: Virtual Private Network",
+      "fingerprint": "9e95a2b21bbb6266eb492d14510f9e575f040ebb2898dc6a1d0514eebfea7b0e",
+      "uuid": "f9989fca-e5d1-472f-a556-88a64e4f0ff5"
+    },
+    {
+      "id": "FT007.007",
+      "name": "Acquire Access: Rented VPS",
+      "fingerprint": "5d2fb4a69f664b5f693a3d9f908a684d7179eac06fb9187e30b402f3ffbebf58",
+      "uuid": "865f9aab-805d-4af8-b15e-640fc969512c"
+    },
+    {
+      "id": "FT007.008",
+      "name": "Acquire Access: Cloud Accounts",
+      "fingerprint": "6e68ee1c3b1a996711dbe2e513a61bc6b444c6409fc224779e0813055004da46",
+      "uuid": "149baebb-50b5-45a0-88d9-d3feb4fa58cd"
+    },
+    {
+      "id": "FT007.009",
+      "name": "Acquire Access: Email Accounts",
+      "fingerprint": "a22d04f2736c330f6254ba045025c60f2fb58a175817f49127d133db623c79e4",
+      "uuid": "25f9c8ee-aa53-4ad8-8855-0b7fd9f59214"
+    },
+    {
+      "id": "FT007.010",
+      "name": "Acquire Access: Social Media Accounts",
+      "fingerprint": "f40eb6df6fd6f10583dbe5c4dca5079a340be77c192c12ebbb820a4b36a7e990",
+      "uuid": "8184fc8b-30b7-47b8-82f5-5624e025a3fd"
+    },
+    {
+      "id": "FT008",
+      "name": "Compromise Accounts",
+      "fingerprint": "84200813f9452b01157fede692e7e0ba6eeb5b085b1b4dea038cb28d9602e28d",
+      "uuid": "ea26781f-f085-454c-864f-9974c1c98141"
+    },
+    {
+      "id": "FT008.001",
+      "name": "Compromise Accounts: Cloud Accounts",
+      "fingerprint": "ebddfd0526c781a3a115f24cff598c1eea002df4b2f1a2254b9d64c260816104",
+      "uuid": "a9848eaa-812d-4656-b6d2-ddeb32789ea7"
+    },
+    {
+      "id": "FT008.002",
+      "name": "Compromise Accounts: Email Accounts",
+      "fingerprint": "be4ffb5b2ec827452aa3b8b4474a2bd6b1945f91cc0599710f32c1dcb27506c4",
+      "uuid": "e6ea95a4-25e7-4d58-9695-544cd6de84c7"
+    },
+    {
+      "id": "FT008.003",
+      "name": "Compromise Accounts: Social Media Accounts",
+      "fingerprint": "4b2f269b2332103bd2504210c0ad8595a43d19e49199b3bf0fa45aa7932f2a3e",
+      "uuid": "d8211bbc-5064-4477-aa3f-3d89c41aa28e"
+    },
+    {
+      "id": "FT009",
+      "name": "Compromise Infrastructure",
+      "fingerprint": "5263ef290edcf3760bbd1266bdc19dce9eaaad8ed54bb6df95956d1ac03d76d7",
+      "uuid": "0d040082-1c4c-4954-91c7-108e148fa9c8"
+    },
+    {
+      "id": "FT010",
+      "name": "Establish Accounts",
+      "fingerprint": "43ddad2121b89034ac43ef8f147aac110de187a0354843361b8fab88407b84f0",
+      "uuid": "4b80a2c4-a5df-4bda-8a68-b79a4a556983"
+    },
+    {
+      "id": "FT010.001",
+      "name": "Establish Accounts: Cloud Accounts",
+      "fingerprint": "c55a1a1d6644cb5920a4bfc37f488cd5203d020adab794c84f0ea0ca39592a52",
+      "uuid": "71eb3a43-de95-4014-8aba-24048f63a95e"
+    },
+    {
+      "id": "FT010.002",
+      "name": "Establish Accounts: Email Accounts",
+      "fingerprint": "22e556f43b39ee926c76a0b9172d0088c5104c212d90a7a2f89cdc899728e2bf",
+      "uuid": "75ced4eb-899b-4656-87b2-1efa3ec2a636"
+    },
+    {
+      "id": "FT010.003",
+      "name": "Establish Accounts: Social Media Accounts",
+      "fingerprint": "cb793cd0842de547aa1cef9f17a6f718372e6e0204d23720c7810c7a8ed56f96",
+      "uuid": "77da20d5-0898-48d9-9c0b-810704b90bbe"
+    },
+    {
+      "id": "FT010.004",
+      "name": "Establish Accounts: Telegram Accounts",
+      "fingerprint": "24278257fc43a36c4cdfa4378a7588b6b917c6b1ac5f54da39861da840ba1390",
+      "uuid": "6d92e6c1-a4f3-44c5-8f9c-fa7370c622d1"
+    },
+    {
+      "id": "FT011",
+      "name": "Account Takeover",
+      "fingerprint": "0d925b8a2eb3891fc226ce504eefc8efd2f60bc1e10ca63aa6103e3e4ed3d6e4",
+      "uuid": "655b1c4c-8ac1-42aa-8d15-8d5a996ebea0"
+    },
+    {
+      "id": "FT011.001",
+      "name": "Account Takeover: Exposed Credential",
+      "fingerprint": "08bb9b8e09a03f411b27ce1bac57cc53cb3935861a7d17319e4c32872cd5d896",
+      "uuid": "0d15ef2c-c40e-4142-8c05-6d557500cf0f"
+    },
+    {
+      "id": "FT011.002",
+      "name": "Account Takeover: Exposed Login Credential",
+      "fingerprint": "a552d0676adad7454088814eb40f6e09e23e0638f167b0500dead7feed1024b7",
+      "uuid": "d9f59d17-378c-4bc8-8f87-b083800095d0"
+    },
+    {
+      "id": "FT011.003",
+      "name": "Account Takeover: Exposed User Session/Token",
+      "fingerprint": "29ad745f01ff91f4368876dc95e0e2a7674501a365ff3b97be52b2cbc1ecadb6",
+      "uuid": "08b3efb3-5255-4f50-a2e0-67ef8b4731de"
+    },
+    {
+      "id": "FT011.004",
+      "name": "Account Takeover: Self Serve PII",
+      "fingerprint": "25b11369c5f714f1239287c6fb61dc32923c6294a889c61b9b846d84f7b1a777",
+      "uuid": "6fcdd788-46a5-4d6d-8e8c-219e0dab9903"
+    },
+    {
+      "id": "FT011.005",
+      "name": "Account Takeover: Fake ID",
+      "fingerprint": "64b021238a416264d9ddc0858c1a8d216f31b169827806865a726c3ec2620bdd",
+      "uuid": "2e09b7dc-37e9-41d6-8644-c2d248e7963b"
+    },
+    {
+      "id": "FT011.006",
+      "name": "Account Takeover: Password Reset",
+      "fingerprint": "f3a5e8f68d267c549c9b97a4561dbd417bb4143b7d9d79552975f6616a20a510",
+      "uuid": "6c9c4ca2-a27e-457e-9662-76bedec33040"
+    },
+    {
+      "id": "FT012",
+      "name": "Cross-Site Scripting (XSS) Redirection for Financial Fraud",
+      "fingerprint": "08f308699bf33d48c01469a57ac412670d02fe9ed54c45b1d2dbb299c1b7bc64",
+      "uuid": "fc75dbb1-756a-480b-8fcb-89c6e93b2ee6"
+    },
+    {
+      "id": "FT013",
+      "name": "Resource Hijacking",
+      "fingerprint": "e8d2c6fce10f50f5f225f1854d5016356a686913719890b9222669bd710437c3",
+      "uuid": "82bfb9cc-5cf1-410f-9166-ecb6f2b374a8"
+    },
+    {
+      "id": "FT014",
+      "name": "Supply Chain Compromise",
+      "fingerprint": "e3d412acdae85b487880cd11f0c36c7b3b1de289d8317431bd104422116128f7",
+      "uuid": "42aad935-0544-467c-ae53-3483ec4dd32f"
+    },
+    {
+      "id": "FT015",
+      "name": "Policy and Procedure Abuse",
+      "fingerprint": "cb7f8cfd686cd37471910be8a16f507e06493bfe113cbb184708384ea58b60ce",
+      "uuid": "ac979799-4693-4db9-bf1c-5677cdae2b8b"
+    },
+    {
+      "id": "FT016",
+      "name": "Phishing",
+      "fingerprint": "5192da0221773b2036ccd0d2db21bad3aa66f5b7f559a7800dbffa54c5bbaeb9",
+      "uuid": "919096d8-edb9-4960-8530-d0b04f66b249"
+    },
+    {
+      "id": "FT016.001",
+      "name": "Phishing: Phishing for Merchant Credentials",
+      "fingerprint": "ae11f2d2dd270652c3adf5798b4126c8eb414a2b2e3bce26c6d4f86e0989c7f7",
+      "uuid": "7c22154b-b61e-4cb3-9fe0-c1dfcf208b27"
+    },
+    {
+      "id": "FT016.002",
+      "name": "Phishing: Self Serve PII",
+      "fingerprint": "3545c8882e255f80e164a3105a7e3bfa9f7c22e2422dfc56129f4780241625c3",
+      "uuid": "caf374f4-7034-44ff-9605-01b5991b31c8"
+    },
+    {
+      "id": "FT016.003",
+      "name": "Phishing: Backup Code",
+      "fingerprint": "c5367fe60be750bb54035e24e0d7472f963b158eb1ed0a551206541e844c21a4",
+      "uuid": "163ebb6e-b1b3-44c6-ba31-4d05f6304bf5"
+    },
+    {
+      "id": "FT017",
+      "name": "Ad Fraud",
+      "fingerprint": "d475ef8a8372feb06a35e93102e0525d9cebd378f303d63337e6369de476226c",
+      "uuid": "e09d18b0-f151-492a-b6f3-93ba2aa063c0"
+    },
+    {
+      "id": "FT018",
+      "name": "Social Media Phishing for Initial Access",
+      "fingerprint": "1c839f11181007f691d68053b4f546141f99f71b4e5e57fd936246d0fd462596",
+      "uuid": "aaef4167-d00e-4c89-8142-a75f686efc1d"
+    },
+    {
+      "id": "FT019",
+      "name": "Website Cloning",
+      "fingerprint": "83f3ef57eef6382c5650255e092da52461ccad7322056d44ca5094b0016b20b4",
+      "uuid": "06882b6c-2a5b-44d3-b952-f5205e8d8203"
+    },
+    {
+      "id": "FT020",
+      "name": "Identity Theft for Merchant Accounts",
+      "fingerprint": "12b5f69daa75a79f9fe7a9f1d45aee9ee6f4b1c1bc5a8593a33b356514777237",
+      "uuid": "d1271bed-6a46-4fe0-a5ad-219cc1c827a0"
+    },
+    {
+      "id": "FT021",
+      "name": "Social Media Impersonation",
+      "fingerprint": "e78e0470d8293c63d7b733daaa8d3442cc9208acd311a47aa3ea40598cbeae08",
+      "uuid": "93284aa8-8a7d-4033-b661-a00dd025449d"
+    },
+    {
+      "id": "FT022",
+      "name": "Churning",
+      "fingerprint": "29dd079b998ab775d9f8f02e09021a94d15593800d2589c0cce0b7f6f447fbde",
+      "uuid": "955ddbca-4412-4d74-bf7c-8f67d52b6d73"
+    },
+    {
+      "id": "FT023",
+      "name": "Dispute Avoidance",
+      "fingerprint": "77af25e553512e925eb6c27a298f0d5853af8ccd3cf356f479a51972612eef44",
+      "uuid": "0a9d1de1-53e0-4c96-b090-92c0e7cadc44"
+    },
+    {
+      "id": "FT024",
+      "name": "Fabricating shipping evidence",
+      "fingerprint": "eace2ea8fa8985414f3c97bd0b237ef74a55f9ef2c68d88376ed4082f00c2464",
+      "uuid": "a1f6e8e4-3f58-495b-b8a5-a652d45af77e"
+    },
+    {
+      "id": "FT025",
+      "name": "Fake Review Fraud",
+      "fingerprint": "6720893ceae84e61aa7ccd8209ecfede30c856e726b187db61634a10dea94e50",
+      "uuid": "1eb002aa-0211-46a5-91c5-f5b24f0080cc"
+    },
+    {
+      "id": "FT026",
+      "name": "Falsifying Business Documents",
+      "fingerprint": "f84217fed395899b1141e503d685c3f072c3a9912593603c1cb7db01ed7ad50f",
+      "uuid": "cec8ccd1-f03f-47f8-9006-2ed4a4015e6c"
+    },
+    {
+      "id": "FT026.001",
+      "name": "Falsifying Business Documents: Fake Business Registration Certificate",
+      "fingerprint": "8e86595a602078685e57c0cb35df262493ffb6679ce2c94ac6ed89551e977be6",
+      "uuid": "84096bbc-c1d6-4b74-b17e-b377c7f2da6d"
+    },
+    {
+      "id": "FT026.002",
+      "name": "Falsifying Business Documents: Fake Business License",
+      "fingerprint": "03c75237c2b7d618640413f01c09bfe4e529c56399c6d499405f8900d1fdd8dc",
+      "uuid": "58248dec-ab0f-46c2-b58f-8cd377b39974"
+    },
+    {
+      "id": "FT026.003",
+      "name": "Falsifying Business Documents: Fake VAT Certificate",
+      "fingerprint": "299faaed6ab568a5a58cc183c270797b3bf0d6270ada3b1acb36e4b25017f86d",
+      "uuid": "52431591-a003-4440-9a1f-4dfcd08afadd"
+    },
+    {
+      "id": "FT026.004",
+      "name": "Falsifying Business Documents: Fake IRS Letter 147C",
+      "fingerprint": "75f493e19788a8ffefa643ea008f12a9ddeeab49ab16af52a71a79da1b943bdb",
+      "uuid": "5d31a89a-5b0b-4a8d-85d0-4a3c2288a6c6"
+    },
+    {
+      "id": "FT026.005",
+      "name": "Falsifying Business Documents: Fake SS-4 Confirmation Letter",
+      "fingerprint": "0b0a8cd56bec86d8153ddcc572baefc05a4e2b428cf0a05fa5ee4ffcaad2d5d0",
+      "uuid": "b369f2c3-2356-499f-a359-acddfafba8be"
+    },
+    {
+      "id": "FT027",
+      "name": "Account Enumeration",
+      "fingerprint": "3e0c08a82825f72be12a6b10d0784bf89b214b10b418e493573b7de9b55c3ee5",
+      "uuid": "8fc5b9c9-dd45-4a94-af68-008d5d7c418e"
+    },
+    {
+      "id": "FT027.001",
+      "name": "Account Enumeration: Account Balance Enumeration",
+      "fingerprint": "4d8886d386cc3d4c8218a82a4c01e719610f10d7d4c9e2a41db12e887c1795d8",
+      "uuid": "e72d0be9-b8d0-47e5-aef7-020426b4b374"
+    },
+    {
+      "id": "FT027.002",
+      "name": "Account Enumeration: Account Tier Enumeration",
+      "fingerprint": "deb55b5b596069ad726f2bafead0a596dab04a7a938580b6c27d7b619cbe47c2",
+      "uuid": "c3336299-f894-4aa9-b3df-25c43a1703e5"
+    },
+    {
+      "id": "FT027.003",
+      "name": "Account Enumeration: Account Radar Rule Enumeration",
+      "fingerprint": "0a5848a5e6ad004158f3dcb067dc309a24ec2d7990f2cfb04cb50512cf44f3f5",
+      "uuid": "4b8d7ab4-5179-40d3-a0f9-c191cfbdda6f"
+    },
+    {
+      "id": "FT028",
+      "name": "Spearphishing",
+      "fingerprint": "1223101580f23d0110f385cd1bc45913aa8ada8194edc9991aac6fdc6a810350",
+      "uuid": "5eca567e-00d5-4a9f-a1ac-b5bc89bbf3da"
+    },
+    {
+      "id": "FT029",
+      "name": "Cross Account Permissions",
+      "fingerprint": "615dc70dcf6eeac80f6d6764eba515780774c22893d9548542174e8163b1a1be",
+      "uuid": "93777ecd-3f23-4574-a44c-4f679f8aba9f"
+    },
+    {
+      "id": "FT030",
+      "name": "Card Testing",
+      "fingerprint": "e29b47b2defd0ef295b27601f7ac031f1509deb3c5d55998930c199155341133",
+      "uuid": "793b5aad-7159-455c-a63b-07b6d8a2347d"
+    },
+    {
+      "id": "FT031",
+      "name": "Compromised Payment Gateway",
+      "fingerprint": "5fa3de6c0b03de6f40442a02bb4acc2097bde43bdb00dc7970a0bd24778aac94",
+      "uuid": "75a509e1-e2ec-4dcc-9670-30a4e9a0d114"
+    },
+    {
+      "id": "FT032",
+      "name": "Credit Card Skimming",
+      "fingerprint": "edb3e952e73cd2718d4ed9fb98398ce9743ddc07e392482eaa0d282900f562d3",
+      "uuid": "76c5683b-4bdd-4bc8-bea4-8e8986dc4da8"
+    },
+    {
+      "id": "FT032.001",
+      "name": "Credit Card Skimming: Malicious Javascript Skimming",
+      "fingerprint": "13724c0e0e17220dc6a2d65395e740ef4288bb33539662aa7a4b684281d3fda7",
+      "uuid": "0abfbc02-35a3-415c-8083-434e1bf1186d"
+    },
+    {
+      "id": "FT033",
+      "name": "No Shipping",
+      "fingerprint": "7e56f6beb687bc97294aa97f930c4cdcfcb29f0f3dd646c77da2ce190fc14d39",
+      "uuid": "d779cac6-92f8-4482-8226-d7c13c241d6b"
+    },
+    {
+      "id": "FT033.001",
+      "name": "No Shipping: Non-Delivery of Goods",
+      "fingerprint": "38781da4a5aab104427ecf8c622dd3115ef6c555d63b1775d9d1ccb761dc09d6",
+      "uuid": "f4765635-9b66-4d73-b150-b8b41f80e20c"
+    },
+    {
+      "id": "FT033.002",
+      "name": "No Shipping: Partial Shipping of Goods",
+      "fingerprint": "837a5c6b16f731a352113abb8d5f57cc9da3ce211972a67aca005d161fddc97b",
+      "uuid": "14db81ed-b6c4-41cf-8f1b-857a0ef061d2"
+    },
+    {
+      "id": "FT033.003",
+      "name": "No Shipping: Shipping of Incorrect Goods",
+      "fingerprint": "5ed892f18d49c417361a643c93935ba06df065549ada7b390bd2457478bb58bf",
+      "uuid": "85273c59-db1d-425f-9d14-59b9827abbfb"
+    },
+    {
+      "id": "FT033.004",
+      "name": "No Shipping: Fabricating shipping evidence",
+      "fingerprint": "ad54900845f35dbdae986e39b0b78f1f482141df777546588884051d785579a4",
+      "uuid": "8aa435c8-9c0a-4f0c-9bbf-fe6b27d2017f"
+    },
+    {
+      "id": "FT034",
+      "name": "Triangulation Fraud",
+      "fingerprint": "4bd17954f994c31c5707864e351dfc08f85e3bb8a1b7e891e2cdde161ff2483a",
+      "uuid": "b8042776-920f-4e06-a6d5-e5880c9f1b55"
+    },
+    {
+      "id": "FT035",
+      "name": "Dispute Avoidance",
+      "fingerprint": "099fea8428ef016408e017c408acc5c7f61cc70135f4b7a74eda20850d4e6df8",
+      "uuid": "fa4bfea0-afd2-49e1-a518-1d46471f9bb2"
+    },
+    {
+      "id": "FT036",
+      "name": "Refund Fraud",
+      "fingerprint": "cdfbcaaad1513585c3c5dd41733668fa81098834ee0e06f5d78fc74a4876291e",
+      "uuid": "ee3a0c66-1427-4e56-867f-9acd0f765a5d"
+    },
+    {
+      "id": "FT056",
+      "name": "3DS Bypass",
+      "fingerprint": "70e96775daa0d0a090bae06706d4220ede5e12fb8549722dc38ff1e587bb9b11",
+      "uuid": "709d695a-5662-4faf-8cf3-29dcf33d233c"
+    },
+    {
+      "id": "FT037",
+      "name": "Account Manipulation",
+      "fingerprint": "27b0c2b818d465a114950ced3f774977a571e81eb92efea5b7a0278089f90476",
+      "uuid": "edc60dd7-374d-403a-a573-bf92cac43198"
+    },
+    {
+      "id": "FT037.001",
+      "name": "Account Manipulation: Additional User Account",
+      "fingerprint": "08319d96598433bb7e7f8e8ea934c5f085075cd44e2bf0c5b5dfa8dfe66473f8",
+      "uuid": "bad30a14-62aa-42bb-bbda-5608a86ec627"
+    },
+    {
+      "id": "FT037.002",
+      "name": "Account Manipulation: Additional Authorized Account",
+      "fingerprint": "4deecd1951f522a3a4edec6798c4c2778b8613dfd5bd2238686ac8b17f557c41",
+      "uuid": "82b65b62-15d8-4b3f-b6b7-2fed0f90d8f3"
+    },
+    {
+      "id": "FT037.003",
+      "name": "Account Manipulation: Additional Linked Account",
+      "fingerprint": "13a738c7afddf1a32b18af96e20fd457ba9314141c1731568dcfeda4c0149fbb",
+      "uuid": "d67f65f3-8892-4362-b5d4-19a2fb4827fe"
+    },
+    {
+      "id": "FT038",
+      "name": "Data Exfiltration",
+      "fingerprint": "d426235169d30d0242cf7f5521cf4b3e616301df2323fe90dd6f6e64e61d6241",
+      "uuid": "d2cde3cb-914a-4a70-baf8-3634bbdbca60"
+    },
+    {
+      "id": "FT038.001",
+      "name": "Data Exfiltration: Revenue",
+      "fingerprint": "a5145c29ac98c7eaf8a9dd55b048ea54c03ae85561f0877820b8699b9be983a7",
+      "uuid": "4ef8fb87-07cf-4df4-af73-bb1f1ac94444"
+    },
+    {
+      "id": "FT038.002",
+      "name": "Data Exfiltration: Payout",
+      "fingerprint": "5d74ab3c7e56d955252b9f0e38c323b06f8a0ba7d5b6bcd9d67268960325aeb5",
+      "uuid": "e4cdd86f-a8ae-4e88-8e37-23d8986c7bde"
+    },
+    {
+      "id": "FT038.003",
+      "name": "Data Exfiltration: Billing Analytics",
+      "fingerprint": "75cc3f94eb9edb00b83d52b02842c353d79e67338aeaad5f5bc214d40735e37c",
+      "uuid": "b8946d9c-0e8e-4286-b765-58cd03fb33b8"
+    },
+    {
+      "id": "FT038.004",
+      "name": "Data Exfiltration: Sigma Reports",
+      "fingerprint": "c4aeb1333b097d61b75ae4db88db0f06288a413c7dffaa8adea35ad3f0b4cf71",
+      "uuid": "7ad879dd-0d11-49f3-b781-9e9cba8a9fbe"
+    },
+    {
+      "id": "FT039",
+      "name": "Data Transfer",
+      "fingerprint": "140d201b3a98b5f622caf523c37ae94548f69ec67843479e877d14ba516d7bc7",
+      "uuid": "ae7ba8ee-0135-41e4-8044-96f734948908"
+    },
+    {
+      "id": "FT039.001",
+      "name": "Data Transfer: Data Pipeline",
+      "fingerprint": "37971337c7a2c6018481f4807718dc24a85336f94772a4f0a36431cfbb95359e",
+      "uuid": "32d01e71-8c79-41e0-a925-56117a137c7d"
+    },
+    {
+      "id": "FT040",
+      "name": "Carding Markets",
+      "fingerprint": "c5f1c13505887611a9416f4316d1c07c99ee69ca2ea01c52ecf1ce6883524b71",
+      "uuid": "20925121-4e82-42e8-9b03-25f874d3bbee"
+    },
+    {
+      "id": "FT041",
+      "name": "Shell Companies",
+      "fingerprint": "b233780119b6bd7300922fd02ad6241f6b7e5b2d5d500a54c99930c333e43a3e",
+      "uuid": "46da2e58-16a7-4ec8-a608-af417d9eb7fd"
+    },
+    {
+      "id": "FT042",
+      "name": "Account Manipulation",
+      "fingerprint": "aefb0dfb61bcdd4c406a919eca83c725fa0e72e68a2de48a02efc85da020eee3",
+      "uuid": "11165466-888e-416f-a8c6-1cac35154b7d"
+    },
+    {
+      "id": "FT042.001",
+      "name": "Account Manipulation: Additional Payment Methods",
+      "fingerprint": "45526b298202a8d5dcffe73aaa151c10b33739ac61f38647c8c95d8684b94ec1",
+      "uuid": "92566c5e-cf6d-427c-9218-acc1bd55d0e4"
+    },
+    {
+      "id": "FT042.002",
+      "name": "Account Manipulation: Additional Linked Account",
+      "fingerprint": "28595bb2cc0068f9301b049f4ceaa73882b07009b7205a3dcc0089ec4aa30a9e",
+      "uuid": "204d2526-ee61-4d73-959d-5857dcd0f47f"
+    },
+    {
+      "id": "FT042.003",
+      "name": "Account Manipulation: Additional Buy Now, Pay Later",
+      "fingerprint": "7d83fdac39a69f7fbc8c4976a032bd6817815acdfd9aee19ce022777fa3469c6",
+      "uuid": "d133e41c-93d7-4d6b-95be-94d4dd8df7e0"
+    },
+    {
+      "id": "FT042.004",
+      "name": "Account Manipulation: Additional Payout Schedule",
+      "fingerprint": "857baa16f2962d07a1c086d8aec41b92e25ac73f6b54111076757258eec78265",
+      "uuid": "cafa2692-5f43-4a7c-9446-5f6352329481"
+    },
+    {
+      "id": "FT042.005",
+      "name": "Account Manipulation: Additional Bank Accounts",
+      "fingerprint": "84566bb3cbe42b604dc3a2c4e0c60bfff1a9fe24a94c8a4459ef65ce53fb239a",
+      "uuid": "8032237d-fc6c-4cdc-8386-68a4ca3a2b2b"
+    },
+    {
+      "id": "FT042.006",
+      "name": "Account Manipulation: Additional Connect Accounts",
+      "fingerprint": "99a4f599c8a61adfddd0ee068be3bc14fb9cd6d59ff760ad1323e5f791ff7a7b",
+      "uuid": "efb9eb9d-6549-448d-8f3a-2add2252bdee"
+    },
+    {
+      "id": "FT042.007",
+      "name": "Account Manipulation: Enable Account Features",
+      "fingerprint": "d714e1a4d3282801bff2d1c09d77e06f5791e96d693e79f112442a7bcfc632cd",
+      "uuid": "fec4b073-e0c5-46c4-aff9-4ed153d17af3"
+    },
+    {
+      "id": "FT042.008",
+      "name": "Account Manipulation: Top-Up Platform Balance",
+      "fingerprint": "62352d75ba262306d8c0f4b82bbd5b758c0cefb74642a8c6aedf9e6c6514c196",
+      "uuid": "f0bb9043-1828-45ad-b281-3fcfef75c71a"
+    },
+    {
+      "id": "FT043",
+      "name": "Scheduled Transfer",
+      "fingerprint": "33fcff0978cabfdf048378130922af5dbe81c23571c77b2f1067af7a86e97f12",
+      "uuid": "1dd6225f-a324-49aa-89f7-23df0141da4d"
+    },
+    {
+      "id": "FT044",
+      "name": "Scheduled Payout",
+      "fingerprint": "36da061d6383c4d924f269d999e335ab246d1aaba1690b4f1985611dc63633d8",
+      "uuid": "00cd9ee3-250d-4726-b157-678251790478"
+    },
+    {
+      "id": "FT045",
+      "name": "DDoS",
+      "fingerprint": "3f527bfa5952ef4df0fb6e0b5dde8dbd259fd02cc3fecdb9c885f6ada8e72971",
+      "uuid": "9ae9db65-aad9-4837-8113-ef87a706f919"
+    },
+    {
+      "id": "FT046",
+      "name": "DoS",
+      "fingerprint": "5cd9bcd56030bcb84415e738384a6ca1d3a18e1bbb29fcc76048325b6f72b7f5",
+      "uuid": "1bd9b152-8531-4be1-9333-00ef9589ff0a"
+    },
+    {
+      "id": "FT047",
+      "name": "Account Deletion",
+      "fingerprint": "cb5a0b0669a1d745269529b17751a750a9fb8d0750c5f043b1d5df88117981d5",
+      "uuid": "18933c7f-a2c2-4906-89c1-810e7f3369b9"
+    },
+    {
+      "id": "FT048",
+      "name": "Account Access Removal",
+      "fingerprint": "90973618df3f6c481cf717864bac9feb8293415842d15a87846b28b20e797b51",
+      "uuid": "f7f1df20-7597-4e78-978c-23947a34d0a1"
+    },
+    {
+      "id": "FT049",
+      "name": "Fake Merchant Account",
+      "fingerprint": "dbcac2569453edd6686e7b693b6360340179748e4ed00360abaca922f1867c22",
+      "uuid": "2c0b767a-332c-4468-b538-2e9233ce72f4"
+    },
+    {
+      "id": "FT050",
+      "name": "Card Cashing",
+      "fingerprint": "fc5f480f4bc96312324b9f491e170723fa3ca752997921200bd3c17b32f71ff0",
+      "uuid": "b6699cda-925c-487e-9dfc-f9d02bcd0a8d"
+    },
+    {
+      "id": "FT051",
+      "name": "Fraudulent Purchases",
+      "fingerprint": "42b1e505fb52b607bb3ec4a3dbb0575a98a62fecad257df1cc9780909de85bc4",
+      "uuid": "0941f87f-b3e2-46d6-89a8-e3cad9d72524"
+    },
+    {
+      "id": "FT051.001",
+      "name": "Fraudulent Purchases: Subscriptions",
+      "fingerprint": "06dae6add9b46fdcb605eee5cb74e56cc9a6a83f81ed8e91f2923ea57b33e4c1",
+      "uuid": "54dce79f-0c76-467f-8bae-2346609c433f"
+    },
+    {
+      "id": "FT051.002",
+      "name": "Fraudulent Purchases: SMS Services",
+      "fingerprint": "25d010f90e31e49563924e2dae874fb9657a2442460780cd05450cd4eff665f2",
+      "uuid": "c46945e8-ff16-4629-a83f-acde0951e4d8"
+    },
+    {
+      "id": "FT051.003",
+      "name": "Fraudulent Purchases: LLM Services",
+      "fingerprint": "8ee2e047f040a930b5ef0bbea68d672f2328ec9ff594399816a4392aadb5170b",
+      "uuid": "c3136e30-da80-4460-8118-17a632d45ac1"
+    },
+    {
+      "id": "FT051.004",
+      "name": "Fraudulent Purchases: Discord",
+      "fingerprint": "6e8d70c18618388da371362b199b1f4982cf65d78a4d4ccc9d0ba2ce2aa6a7bb",
+      "uuid": "b90a2fae-123f-433e-98e4-99b742fb5876"
+    },
+    {
+      "id": "FT052",
+      "name": "Falsifying Identity Documents",
+      "fingerprint": "4a8e1553b2e0d5df3b6b9dc70a21f4afeae45dba580b0bc2823b548acc02317b",
+      "uuid": "4a4747e1-abf7-4789-922f-f143ffca731d"
+    },
+    {
+      "id": "FT052.001",
+      "name": "Falsifying Identity Documents: Fake Passport",
+      "fingerprint": "bb282a877eb8664eb9e327e4c52ff80d5e6ddf9567756fd13ac2a509730a7fe0",
+      "uuid": "9071d701-3edd-498d-94c3-29e47c6d447e"
+    },
+    {
+      "id": "FT052.002",
+      "name": "Falsifying Identity Documents: Fake Drivers License ",
+      "fingerprint": "adac6e2b73e22bc0df69f938c4c57e22e92386d32a573a6544c7589d1203ba7f",
+      "uuid": "9fecbdd3-ca2d-4bdd-9230-f4dfd8539aa9"
+    },
+    {
+      "id": "FT052.003",
+      "name": "Falsifying Identity Documents: Fake National Identity Card",
+      "fingerprint": "98ce47ce78a9df7de23e008dfb5c1d2eed865a89ba5232778ccdce128fb51d7f",
+      "uuid": "8c01d95c-3280-46f2-ade6-bdf1b88129c9"
+    },
+    {
+      "id": "FT052.004",
+      "name": "Falsifying Identity Documents: Fake U.S. Visa Card",
+      "fingerprint": "6c87243d1e2c6373a13bdd818d41788795683d18948bd292d969f063b08bfaa4",
+      "uuid": "7069806d-e587-41a3-98b0-8075763371f8"
+    },
+    {
+      "id": "FT052.005",
+      "name": "Falsifying Identity Documents: Fake NYC Card",
+      "fingerprint": "87a138f6e2eae1ce1f4af2412375331470ae1701a56f56bbcb2e58a4029ea5be",
+      "uuid": "09fb67f3-342e-49ac-9969-2b35d19fa48c"
+    },
+    {
+      "id": "FT052.006",
+      "name": "Falsifying Identity Documents: Fake Border Crossing Card",
+      "fingerprint": "f4c735335ecae36edf2af5e61400a2596928a8a17e0dc06b80f2ecf847b15239",
+      "uuid": "98d594f4-afcc-4161-a1f6-80ff41a59c08"
+    },
+    {
+      "id": "FT052.007",
+      "name": "Falsifying Identity Documents: Fake Resident Permit ID / U.S. Green Card",
+      "fingerprint": "4c2230d0afb58e8a43b25fceb50aa201315137c668e25fa53a8e219b3aa18a3a",
+      "uuid": "e345994b-176e-4955-bcac-32272917c7ba"
+    },
+    {
+      "id": "FT052.008",
+      "name": "Falsifying Identity Documents: Fake Passport Card",
+      "fingerprint": "879d15394fa0dbc252b0bbe9a98997f2e1ad54b7dc6bc89686ac7aa490999d39",
+      "uuid": "58c26d2c-d96b-4059-8950-64c3cdda852e"
+    },
+    {
+      "id": "FT052.009",
+      "name": "Falsifying Identity Documents: Fake State Issued ID Card",
+      "fingerprint": "ffd542ff11f3a0e299e6007516ae852aaa813ac315a11ed0776ca926197e63ca",
+      "uuid": "f69cbc10-726c-4951-ac33-158fb84b6f3a"
+    },
+    {
+      "id": "FT053",
+      "name": "Card Holder Details Collection",
+      "fingerprint": "3c4920dc093a94ddd60a1244acc6d178bb70f29e916168d051972ad8e4a7611c",
+      "uuid": "ebb12d20-85e0-4f65-9fcc-e9ecd54a0416"
+    },
+    {
+      "id": "FT053.001",
+      "name": "Card Holder Details Collection: Billing Information",
+      "fingerprint": "861e44e4f74abfee72b68cb2d9fd66e3f35effd3ed535e960747183c9f394214",
+      "uuid": "5ed5b114-ab56-4fdc-a46c-75c09637a8aa"
+    },
+    {
+      "id": "FT053.002",
+      "name": "Card Holder Details Collection: Shipping Information",
+      "fingerprint": "347633e405c64a57aba7e322b319fa4f832fff25c50cb85e33fa1f6a25b107bc",
+      "uuid": "64cd0e9f-4b3c-48d4-bc11-b38350197a46"
+    },
+    {
+      "id": "FT053.003",
+      "name": "Card Holder Details Collection: Card Details",
+      "fingerprint": "5028548b019f271328cebfee37463f19670a6a8dadd047a34fec6e13d8adce72",
+      "uuid": "d42c2f5f-5747-4af8-be37-e66fd7330264"
+    },
+    {
+      "id": "FT054",
+      "name": "Fake e-Commerce Website",
+      "fingerprint": "3b039df1248c7525151071dc080ea065e11317df140bdbea9c54b13e547c6a0f",
+      "uuid": "4e41e131-8223-4adf-b4be-ab926d290e91"
+    },
+    {
+      "id": "FT055",
+      "name": "Fake Payment Gateway",
+      "fingerprint": "f30d46afe2b84ab4ebdab28cdcc55a4224293fdd844f4d2ec6446651014a3f39",
+      "uuid": "4b5b7b91-a381-4e47-b4fd-77ebd2f63632"
+    }
+  ]
+}

@@ -91,3 +91,13 @@ For further inquiries about the FT3 framework, please reach out to intel [at] st
 Please see the [LICENSE](LICENSE.md), [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md), [CONTRIBUTING](CONTRIBUTING.md), and [SECURITY](SECURITY.md) files for further details.
 
 Copyright © 2024-2025 Stripe Inc. All rights reserved.
+
+## Persistent technique UUIDs
+
+Each technique and sub-technique has a bare `uuid` identifying the continuing concept. JSON is authoritative for these assignments; the technique CSV copies the same values. The `id` field remains the human-readable FT code. `stix_id` remains reserved for a separate STIX object model and is not populated by this change.
+
+Initial first-party assignments use UUIDv4, minted once and committed. Never regenerate UUIDs when titles, descriptions, tactic placement, codes, or row order change. Retain the UUID when the concept continues, and review any code correction explicitly. Do not merge concepts merely because their names match. New concepts receive new UUIDs; retired UUIDs must never be reused. Before a material replacement, merge, split, or deletion, record the predecessor UUIDs, dispositions, and any successors in a retained lifecycle record.
+
+The immutable [initial assignments](docs/review/stripe-ft3/uuid-initial-assignments.json) record the reviewed input revision and record fingerprints. The historical FT053 collision is already corrected: FT053 is Card Holder Details Collection, while FT056 is 3DS Bypass; they receive different UUIDs.
+
+A MISP converter can use the technique UUID as `values[].uuid`, retaining any independently established downstream mapping explicitly. No Stripe FT3 assignment mapping was found in the inspected official MISP Galaxy tree or public search; that does not establish absence of private or independent mappings. The included fixture demonstrates schema compatibility, not a production converter, rename-safe imports, or preservation of existing MISP attachments. No live MISP import was tested.
