@@ -69,7 +69,7 @@ The `created` and `last_modified` fields in the JSON catalogs use slash-separate
 | [Techniques](FT3_Techniques.json) | `M/D/YY` (month and day without leading zeroes; two-digit year) | `1/30/24` = January 30, 2024 |
 | [Tactics](FT3_Tactics.json) | `MM/DD/YYYY` (zero-padded month and day; four-digit year) | `01/30/2024` = January 30, 2024 |
 
-In the current technique catalog, the two-digit years `24` and `25` denote 2024 and 2025.
+For the currently published technique records, interpret the two-digit year in the 2000s: for example, `24` denotes 2024. This describes the current data, not a permanent century-pivot rule for future records.
 
 ## Contributing
 
