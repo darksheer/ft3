@@ -52,3 +52,14 @@ class CatalogTests(unittest.TestCase):
   a=record();a['uuid']=U1;b=copy.deepcopy(a);b['uuid']=U2
   self.assertTrue(identity_errors([b],[b],[a]))
 if __name__=='__main__':unittest.main()
+
+class BootstrapTests(unittest.TestCase):
+ def test_changed_fingerprint_cannot_bootstrap(self):
+  from bootstrap_uuid import prepare_assignments
+  with self.assertRaises(ValueError):prepare_assignments([record()],{'FT001':'wrong'}, {})
+ def test_duplicate_codes_cannot_bootstrap(self):
+  from bootstrap_uuid import prepare_assignments
+  with self.assertRaises(ValueError):prepare_assignments([record(),record()],{}, {})
+ def test_existing_assignment_is_preserved(self):
+  from bootstrap_uuid import prepare_assignments,fingerprint
+  r=record();self.assertEqual(prepare_assignments([r],{'FT001':fingerprint(r)},{'FT001':U1})[0]['uuid'],U1)
