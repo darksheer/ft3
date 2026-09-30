@@ -27,6 +27,23 @@ elif kind=='vps':
  before_m=[(i,k) for i,(a,b) in enumerate(zip(bj,bc)) for k in a if a[k]!=b[k]]
  after_m=[(i,k) for i,(a,b) in enumerate(zip(hj,hc)) for k in a if a[k]!=b[k]]
  assert before_m==after_m
+elif kind=='social':
+ targets={'FT007.010','FT008.003','FT018','FT021'}
+ assert set(changed)=={J,C,'docs/review/social-media-boundaries.md','docs/review/social-media-clause-dispositions.csv'}
+ for old,new,row in zip(bj,hj,hc):
+  if old['id'] in targets:
+   assert new==row
+   assert all(old[k]==new[k] for k in old if k not in {'name','description','detection','last_modified'})
+  else:assert old==new
+ assert [r['id'] for r in bj]==[r['id'] for r in hj]
+ assert next(r for r in hj if r['id']=='FT018')['name']=='Social Media Phishing for Initial Access'
+ assert next(r for r in hj if r['id']=='FT021')['name']=='Social Media Impersonation'
+elif kind=='uuid':
+ assert hj==hc
+ assert all({k:v for k,v in r.items() if k!='uuid'}==o for o,r in zip(bj,hj))
+ import uuid
+ assert len({r['uuid'] for r in hj})==137
+ assert all(str(uuid.UUID(r['uuid']))==r['uuid'] and uuid.UUID(r['uuid']).version==4 for r in hj)
 elif kind=='dates':
  assert changed==['README.md']
  for p in [J,C,'FT3_Tactics.json','Fraud Tools Tactics and Techniques - FT3 - Tactics.csv']:assert blob(base,p)==blob(head,p)
