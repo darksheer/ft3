@@ -1,0 +1,21 @@
+test_csv_field_difference_is_reported (test_catalog.CatalogTests.test_csv_field_difference_is_reported) ... ok
+test_duplicate_codes_are_rejected (test_catalog.CatalogTests.test_duplicate_codes_are_rejected) ... ok
+test_duplicate_headers_are_rejected (test_catalog.CatalogTests.test_duplicate_headers_are_rejected) ... ok
+test_explicit_code_correction_preserves_uuid (test_catalog.CatalogTests.test_explicit_code_correction_preserves_uuid) ... ok
+test_flags_and_unknown_tactic (test_catalog.CatalogTests.test_flags_and_unknown_tactic) ... ok
+test_good_catalog (test_catalog.CatalogTests.test_good_catalog) ... ok
+test_initial_mapping_still_blocks_regeneration_when_previous_changed (test_catalog.CatalogTests.test_initial_mapping_still_blocks_regeneration_when_previous_changed) ... ok
+test_invalid_and_reversed_dates (test_catalog.CatalogTests.test_invalid_and_reversed_dates) ... ok
+test_malformed_csv_is_rejected (test_catalog.CatalogTests.test_malformed_csv_is_rejected) ... ok
+test_missing_and_conflicting_parents (test_catalog.CatalogTests.test_missing_and_conflicting_parents) ... ok
+test_missing_csv_record_is_reported (test_catalog.CatalogTests.test_missing_csv_record_is_reported) ... ok
+test_multiline_csv_roundtrip (test_catalog.CatalogTests.test_multiline_csv_roundtrip) ... ok
+test_regeneration_fails_even_with_valid_unique_uuids (test_catalog.CatalogTests.test_regeneration_fails_even_with_valid_unique_uuids) ... ok
+test_removal_and_uuid_reuse_are_rejected (test_catalog.CatalogTests.test_removal_and_uuid_reuse_are_rejected) ... ok
+test_rename_reorder_retains_identity (test_catalog.CatalogTests.test_rename_reorder_retains_identity) ... ok
+test_uuid_missing_and_duplicate (test_catalog.CatalogTests.test_uuid_missing_and_duplicate) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.003s
+
+OK

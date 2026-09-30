@@ -1,0 +1,151 @@
+test_csv_field_difference_is_reported (test_catalog.CatalogTests.test_csv_field_difference_is_reported) ... FAIL
+test_duplicate_codes_are_rejected (test_catalog.CatalogTests.test_duplicate_codes_are_rejected) ... FAIL
+test_duplicate_headers_are_rejected (test_catalog.CatalogTests.test_duplicate_headers_are_rejected) ... FAIL
+test_explicit_code_correction_preserves_uuid (test_catalog.CatalogTests.test_explicit_code_correction_preserves_uuid) ... ok
+test_flags_and_unknown_tactic (test_catalog.CatalogTests.test_flags_and_unknown_tactic) ... FAIL
+test_good_catalog (test_catalog.CatalogTests.test_good_catalog) ... ok
+test_initial_mapping_still_blocks_regeneration_when_previous_changed (test_catalog.CatalogTests.test_initial_mapping_still_blocks_regeneration_when_previous_changed) ... FAIL
+test_invalid_and_reversed_dates (test_catalog.CatalogTests.test_invalid_and_reversed_dates) ... FAIL
+test_malformed_csv_is_rejected (test_catalog.CatalogTests.test_malformed_csv_is_rejected) ... FAIL
+test_missing_and_conflicting_parents (test_catalog.CatalogTests.test_missing_and_conflicting_parents) ... FAIL
+test_missing_csv_record_is_reported (test_catalog.CatalogTests.test_missing_csv_record_is_reported) ... FAIL
+test_multiline_csv_roundtrip (test_catalog.CatalogTests.test_multiline_csv_roundtrip) ... FAIL
+test_regeneration_fails_even_with_valid_unique_uuids (test_catalog.CatalogTests.test_regeneration_fails_even_with_valid_unique_uuids) ... FAIL
+test_removal_and_uuid_reuse_are_rejected (test_catalog.CatalogTests.test_removal_and_uuid_reuse_are_rejected) ... FAIL
+test_rename_reorder_retains_identity (test_catalog.CatalogTests.test_rename_reorder_retains_identity) ... ok
+test_uuid_missing_and_duplicate (test_catalog.CatalogTests.test_uuid_missing_and_duplicate) ... FAIL
+
+======================================================================
+FAIL: test_csv_field_difference_is_reported (test_catalog.CatalogTests.test_csv_field_difference_is_reported)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/vpassaro/.codex/worktrees/stripe-ft3-remediation/ft3/tests/test_catalog.py", line 21, in test_csv_field_difference_is_reported
+    self.assertIn('parity',{e['rule'] for e in audit_catalog([a],[tactic()],[b],[tactic()])})
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'parity' not found in set()
+
+======================================================================
+FAIL: test_duplicate_codes_are_rejected (test_catalog.CatalogTests.test_duplicate_codes_are_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/vpassaro/.codex/worktrees/stripe-ft3-remediation/ft3/tests/test_catalog.py", line 12, in test_duplicate_codes_are_rejected
+    def test_duplicate_codes_are_rejected(self):self.assertIn('duplicate_id',{e['rule'] for e in issues([record(),record()])})
+                                                ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'duplicate_id' not found in set()
+
+======================================================================
+FAIL: test_duplicate_headers_are_rejected (test_catalog.CatalogTests.test_duplicate_headers_are_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/vpassaro/.codex/worktrees/stripe-ft3-remediation/ft3/tests/test_catalog.py", line 31, in test_duplicate_headers_are_rejected
+    with self.assertRaises(ValueError):parse_csv('id,id\nFT001,FT002\n')
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_flags_and_unknown_tactic (test_catalog.CatalogTests.test_flags_and_unknown_tactic)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/vpassaro/.codex/worktrees/stripe-ft3-remediation/ft3/tests/test_catalog.py", line 18, in test_flags_and_unknown_tactic
+    self.assertTrue({'flag','tactic_missing'} <= {e['rule'] for e in issues([r])})
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_initial_mapping_still_blocks_regeneration_when_previous_changed (test_catalog.CatalogTests.test_initial_mapping_still_blocks_regeneration_when_previous_changed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/vpassaro/.codex/worktrees/stripe-ft3-remediation/ft3/tests/test_catalog.py", line 53, in test_initial_mapping_still_blocks_regeneration_when_previous_changed
+    self.assertTrue(identity_errors([b],[b],[a]))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: [] is not true
+
+======================================================================
+FAIL: test_invalid_and_reversed_dates (test_catalog.CatalogTests.test_invalid_and_reversed_dates)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/vpassaro/.codex/worktrees/stripe-ft3-remediation/ft3/tests/test_catalog.py", line 23, in test_invalid_and_reversed_dates
+    a=record();a['created']='2/30/24';self.assertIn('date_invalid',{e['rule'] for e in issues([a])})
+                                      ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'date_invalid' not found in set()
+
+======================================================================
+FAIL: test_malformed_csv_is_rejected (test_catalog.CatalogTests.test_malformed_csv_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/vpassaro/.codex/worktrees/stripe-ft3-remediation/ft3/tests/test_catalog.py", line 29, in test_malformed_csv_is_rejected
+    with self.assertRaises(ValueError):parse_csv('id,name\nFT001,too,many\n')
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_missing_and_conflicting_parents (test_catalog.CatalogTests.test_missing_and_conflicting_parents)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/vpassaro/.codex/worktrees/stripe-ft3-remediation/ft3/tests/test_catalog.py", line 15, in test_missing_and_conflicting_parents
+    self.assertTrue({'parent_prefix','parent_missing'} <= {e['rule'] for e in issues([record(),r])})
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_missing_csv_record_is_reported (test_catalog.CatalogTests.test_missing_csv_record_is_reported)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/vpassaro/.codex/worktrees/stripe-ft3-remediation/ft3/tests/test_catalog.py", line 32, in test_missing_csv_record_is_reported
+    def test_missing_csv_record_is_reported(self):self.assertIn('parity_coverage',{e['rule'] for e in audit_catalog([record()],[tactic()],[],[tactic()])})
+                                                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'parity_coverage' not found in set()
+
+======================================================================
+FAIL: test_multiline_csv_roundtrip (test_catalog.CatalogTests.test_multiline_csv_roundtrip)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/vpassaro/.codex/worktrees/stripe-ft3-remediation/ft3/tests/test_catalog.py", line 27, in test_multiline_csv_roundtrip
+    self.assertEqual(parse_csv(s.getvalue()),[a])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: [] != [{'id': 'FT001', 'name': 'Comma, quote " a[141 chars] ''}]
+
+Second list contains 1 additional elements.
+First extra element 0:
+{'id': 'FT001', 'name': 'Comma, quote " and\nnewline', 'created': '1/30/24', 'last_modified': '1/30/24', 'tactics': 'Reconnaissance', 'is_sub-technique': 'FALSE', 'sub-technique of': ''}
+
+- []
++ [{'created': '1/30/24',
++   'id': 'FT001',
++   'is_sub-technique': 'FALSE',
++   'last_modified': '1/30/24',
++   'name': 'Comma, quote " and\nnewline',
++   'sub-technique of': '',
++   'tactics': 'Reconnaissance'}]
+
+======================================================================
+FAIL: test_regeneration_fails_even_with_valid_unique_uuids (test_catalog.CatalogTests.test_regeneration_fails_even_with_valid_unique_uuids)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/vpassaro/.codex/worktrees/stripe-ft3-remediation/ft3/tests/test_catalog.py", line 44, in test_regeneration_fails_even_with_valid_unique_uuids
+    self.assertTrue(identity_errors([a],[b],[a]))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: [] is not true
+
+======================================================================
+FAIL: test_removal_and_uuid_reuse_are_rejected (test_catalog.CatalogTests.test_removal_and_uuid_reuse_are_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/vpassaro/.codex/worktrees/stripe-ft3-remediation/ft3/tests/test_catalog.py", line 47, in test_removal_and_uuid_reuse_are_rejected
+    self.assertTrue(identity_errors([a],[],[a]));self.assertTrue(identity_errors([a],[b],[a]))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: [] is not true
+
+======================================================================
+FAIL: test_uuid_missing_and_duplicate (test_catalog.CatalogTests.test_uuid_missing_and_duplicate)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/vpassaro/.codex/worktrees/stripe-ft3-remediation/ft3/tests/test_catalog.py", line 36, in test_uuid_missing_and_duplicate
+    self.assertIn('uuid_duplicate',{e['rule'] for e in issues([a,b])})
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'uuid_duplicate' not found in set()
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.002s
+
+FAILED (failures=13)

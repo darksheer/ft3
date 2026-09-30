@@ -1,0 +1,27 @@
+{
+  "upstream_base": "48f74e1b94815305e22c70a9ba8462738bbc6a26",
+  "original_commits": {
+    "csv": "ba56e7d041d1bc0731c8beb6adacb04d2cc8318e",
+    "vps": "3c18ea59f0ad290ba0099a15e295201f3f9ac732",
+    "dates": "a9376af544b1a0350c54687c9a280dcf609aa52b"
+  },
+  "contributions": {
+    "csv": {
+      "base": "48f74e1b94815305e22c70a9ba8462738bbc6a26",
+      "head": "0de4b40"
+    },
+    "vps": {
+      "base": "48f74e1b94815305e22c70a9ba8462738bbc6a26",
+      "head": "bb423ef"
+    },
+    "dates": {
+      "base": "48f74e1b94815305e22c70a9ba8462738bbc6a26",
+      "head": "6b4ef18"
+    },
+    "social": {
+      "base": "48f74e1b94815305e22c70a9ba8462738bbc6a26",
+      "head": "9d64c1a"
+    }
+  },
+  "integration_commits": []
+}
