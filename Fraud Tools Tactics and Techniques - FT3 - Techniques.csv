@@ -395,43 +395,21 @@ Deployment of fraud detection software that identifies and flags email registrat
 Use by Fraud Detection and Analysis Teams: 
 
 Fraud teams need to be adept at recognizing signs of email accounts being used for financial cyber fraud, such as tracking the origination of fraudulent communication to new email addresses purchased with flagged payment methods. They should also be prepared to collaborate with email service providers for the swift takedown of such accounts and preventing the further use of fraudulent financial resources to procure email services. Effective cross-verification mechanisms and vigilant monitoring of emerging threats can contribute significantly to mitigating the risks associated with such fraudulent activities.",,TRUE,FT008,,,,,,,,
-FT007.010,,Acquire Access: Social Media Accounts,"Acquiring access to social media accounts plays a critical role in financial cyber fraud schemes. Attackers may compromise existing accounts of individuals, financial institutions, or merchants to conduct fraudulent activities, or they might leverage financial fraud to create or purchase access to social media accounts, which are then used to conduct scams or distribute malicious content.
+FT007.010,,Acquire Access: Social Media Accounts,"Adversaries may obtain or establish social media accounts as resources for financial fraud. This record covers creating and cultivating accounts, buying access from another operator, or procuring an existing account. Directly taking over an account through phishing, credentials, recovery abuse, or exploitation is FT008.003, rather than a second acquisition method described here.
 
-Execution: 
+Execution:
 
-Compromise of legitimate social media accounts often involves phishing attacks, exploiting weak passwords, or using malware to harvest credentials. Attackers might also purchase account access on dark web markets, where credentials are often sold following large data breaches. The creation of new social media accounts specifically for fraudulent purposes often involves the use of stolen credit card information or other financial details to bypass platform restrictions, fund advertising campaigns for broader reach, or purchase followers.
-
-Fraudulent Resource Procurement Use Case: 
-
-In this context, adversaries may use stolen or manipulated financial details to set up new social media accounts or boost the credibility and reach of existing ones controlled by them. The fraudulently enhanced accounts can then serve as platforms for launching further attacks, such as promoting fake investment opportunities, conducting advance-fee fraud, spreading phishing links, or impersonating official financial entities to gather sensitive information.
+An operator may create profiles using fabricated or stolen identity details, cultivate a plausible history and audience, or purchase access to accounts with an established following. Stolen payment details may fund advertising or paid engagement; payment is not assumed to be necessary to create a social media account. The acquired accounts can later deliver scams, phishing links, or malicious content (FT018), or present a trusted person or brand's identity (FT021).
 
 Examples:
 
-Creating new social media profiles using stolen identities and credit card information to appear legitimate and trustworthy.
-Purchasing social media advertising to promote fraudulent activities, funded by illicit financial means.
-Acquiring an audience through paid followers and engagements using compromised financial accounts, enhancing the perceived legitimacy of fraudulent campaigns.
-Hijacking verified social media accounts of well-known merchants or financial influencers to post misleading or fraudulent content.
+- Creating and cultivating a profile to support a fraudulent investment or advance-fee campaign.
+- Purchasing access to an already compromised account from a broker; the original takeover is FT008.003.
+- Using stolen payment details to purchase advertising or engagement for an operator-controlled account.
 
-Goals: 
+Goals: Obtain accounts, credibility, and audience reach for later fraudulent messaging, direct-message lures, or impersonation. Account acquisition is distinct from the subsequent use of the account.",,1/30/24,9/29/26,ft3,V.1,Resource Development,"Platforms may correlate available signup, account-transfer, payment, advertising, and account-history records with reports of illicit account sales or fraudulent campaigns. Recent profiles, rapid audience growth, and paid engagement are investigative leads with legitimate explanations, not proof of fraudulent acquisition. Stolen-payment claims require payment evidence.
 
-The primary goals for adversaries in acquiring access to social media accounts for financial fraud purposes are to:
-
-Disseminate fraudulent messaging and schemes to a wide audience, leveraging the trust and reach of compromised or artificially boosted accounts.
-Utilize the direct messaging functionality of social media platforms to send phishing links or malicious content targeted at individuals or groups.
-Impersonate reputable entities or individuals to solicit personal and financial information for fraudulent use.
-Use the network effect of social media to propagate scams and fraudulent narratives rapidly.",,1/30/24,1/30/24,ft3,V.1,Resource Development,"Monitoring for unusual activities on social media accounts associated with financial institutions or merchants, such as unexpected changes or posts.
-
-Implementing strong security measures, including the use of multi-factor authentication, to prevent unauthorized account access.
-
-Training for employees on recognizing social engineering tactics and phishing attempts.
-
-Social media platforms should use automated systems to detect and suspend accounts created with suspicious patterns or funded by potential financial fraud.
-
-Running awareness campaigns to educate customers and the general public about common social media-based scams.
-
-Use by Fraud Detection and Analysis Teams: 
-
-Fraud detection teams should closely examine social media accounts linked to financial services for signs of account takeover or unauthorized activities. Automated monitoring tools can analyze patterns of behavior to identify accounts being used for fraudulent activities, such as sudden spikes in follower counts, unnatural posting patterns, or the use of certain keywords associated with financial scams. When fraudulent social media activity is detected, rapid coordination with social media platforms is essential for taking down harmful content or accounts and tracing the financial resources used to perpetrate these frauds. Teams should also engage in proactive measures, including reporting mechanisms for customers to report suspected fraud on social media.",,TRUE,FT008,,,,,,,,
+Fraud teams can observe public profiles, ads, and reported account-sale offers, but usually cannot see platform signup or billing logs. Coordinate with the platform or payment provider when those records are needed. Authentication anomalies belong to investigation of takeover (FT008.003); impersonation and phishing content belong to FT021 and FT018. Reports and takedown can disrupt misuse without proving how the account was obtained.",,TRUE,FT008,,,,,,,,
 FT008,,Compromise Accounts,"""Compromise Accounts"" is a primary cyber threat tactic that refers to the unauthorized access and control of various types of online accounts. It serves as a master technique encompassing specific strategies aimed at breaching and exploiting the security of digital platforms that store sensitive data and provide critical services. Attackers who successfully compromise accounts can access privileged information, financial assets, or leverage the trusted status of an account for further malicious activities.
 
 Execution: 
@@ -528,39 +506,21 @@ Conducting continuous employee training on security best practices and the ident
 Use by Fraud Detection and Analysis Teams: 
 
 Fraud detection teams should actively monitor for signs of email account compromise, such as changes in account settings, unauthorized logins, or unusual patterns of email being sent or forwarded. Suspicious activities can be flagged for immediate investigation, potentially halting ongoing fraud attempts. In cases where financial fraud is used to procure email account access, teams should coordinate with financial institutions to track the origin of the transactions and identify associated fraudulent activities. If compromise is established, immediate steps to secure the accounts should be taken, such as password changes, revocation of session tokens, and a review of recent activities for any signs of fraud or data breaches.",,TRUE,FT009,,,,,,,,
-FT008.003,,Compromise Accounts: Social Media Accounts,"Compromising social media accounts is an increasingly prevalent technique in financial cyber fraud, where attackers aim to gain control of profiles on platforms like Facebook, Twitter, LinkedIn, and Instagram. Social media accounts often carry inherent trust with followers and can be leveraged to perform a variety of malicious activities, from spreading misinformation to phishing and spear-phishing campaigns, all of which can have financial motives and repercussions.
+FT008.003,,Compromise Accounts: Social Media Accounts,"Adversaries may gain unauthorized control of an existing social media account to obtain a trusted identity and audience for financial fraud. The defining behavior is account takeover. Buying access from a seller is resource acquisition (FT007.010); posing as a person or brand with the account is impersonation (FT021); sending access-seeking lures is FT018.
 
-Execution: 
+Execution:
 
-To compromise these accounts, fraudsters might use phishing attacks targeting the account owners, employ credential stuffing with previously leaked login details, exploit platform-specific vulnerabilities, or take over the accounts through social engineering techniques aimed at the platform's customer support.
-
-Fraudulent Resource Procurement Use Case: 
-
-Additionally, attackers might use illicitly obtained financial resources to buy access to already compromised accounts, especially those with a significant follower base or verified status. These purchased accounts are then used as a launchpad for financial fraud schemes, to sell fake ""influence"" services, or to promote scams under the guise of a trusted identity.
+An attacker may capture the owner's credentials through phishing, reuse leaked credentials through credential stuffing, steal an authenticated session through malware, exploit a platform vulnerability, or manipulate account recovery or customer support to gain control. These methods target an existing account without its owner's authorization.
 
 Examples:
 
-Phishing messages via social media DMs (Direct Messages) or emails linked to fraudulent login pages designed to harvest social media account credentials.
-Automated bots running credential stuffing attacks across various social media platforms to exploit reused passwords.
-Manipulating social media platform recovery processes to gain unauthorized control over an account.
-Buying and selling access to hacked social media accounts on the dark web to conduct fraudulent activities.
+- Sending the owner a direct message or email linking to a counterfeit social-platform login page, then using the captured credentials.
+- Using automated credential stuffing against accounts with reused passwords.
+- Abusing recovery or support procedures to replace the owner's access details.
 
-Goals: Adversaries focus on social media accounts for several reasons:
+Goals: Control an account whose followers already trust it, then use that resource for fake investments, counterfeit products, fundraisers, payment requests, phishing, or malware links. Selling access is a possible follow-on action; a buyer's procurement is FT007.010. Downstream misleading posts or financial harm do not alone establish a takeover.",,1/30/24,9/29/26,ft3,V.1,Resource Development,"Account owners and platforms may correlate suspicious logins or session use with unexpected credential, recovery, MFA, device, or administrator changes and loss of owner access. Corroborate anomalies with authorization and account history; unfamiliar access alone is not proof of compromise. Uncharacteristic messages or posts can support an investigation but may also result from authorized changes.
 
-To use the compromised account identity and follower trust to promote fraudulent financial schemes, such as fake investment opportunities or counterfeit products.
-Initiate direct financial fraud via fraudulent fundraisers or payment request scams.
-Exploit the compromised account as a stepping stone for further social engineering or phishing attacks on connected individuals or businesses.
-Disseminate malware links that, when clicked, could compromise further accounts or lead to financial data theft.",,1/30/24,1/30/24,ft3,V.1,Resource Development,"Social media platforms should actively monitor for signs of account compromise, such as sudden changes in posting behavior or language, and uncharacteristic outgoing messages.
-
-Implement security features such as two-factor authentication (2FA), which adds a layer of protection even if passwords are compromised.
-
-Educate users on the importance of using strong, unique passwords for their social media accounts and recognizing phishing attempts.
-
-Monitor the social media marketplace for signs of accounts being bought or sold and take action to suspend fraudulent activities.
-
-Use by Fraud Detection and Analysis Teams: 
-
-Fraud detection and response involves real-time surveillance of social media channels for signs of account takeover. Teams should have tools in place to track and analyze account behavior, flag any irregularities, and take swift action. Anomaly detection systems can help in identifying unauthorized access, and network analysis can uncover connections between compromised accounts and fraudulent financial activities. Coordination with social media platforms is crucial to quickly regain control of compromised accounts and to prevent the spread of fraud. Additionally, teams can work with financial institutions to trace back the illicit transactions used to procure stolen accounts and uncover larger fraud networks.",,TRUE,FT009,,,,,,,,
+Fraud teams often see public content or victim reports rather than authentication logs. Coordinate with the owner and platform for takeover evidence and account recovery. Strong unique credentials, phishing-resistant authentication where available, and recovery controls reduce opportunities for takeover. Reports of stolen-account sales support follow-on resource-acquisition investigation; they do not prove the original compromise method.",,TRUE,FT009,,,,,,,,
 FT009,,Compromise Infrastructure,"Adversaries may compromise third-party infrastructure that can be used during targeting. Infrastructure solutions include physical or cloud servers, domains, and third-party web and DNS services. Instead of buying, leasing, or renting infrastructure an adversary may compromise infrastructure and use it during other phases of the adversary lifecycle.(Citation: Mandiant APT1)(Citation: ICANNDomainNameHijacking)(Citation: Talos DNSpionage Nov 2018)(Citation: FireEye EPS Awakens Part 2) Additionally, adversaries may compromise numerous machines to form a botnet they can leverage.
 
 Use of compromised infrastructure allows adversaries to stage, launch, and execute operations. Compromised infrastructure can help adversary operations blend in with traffic that is seen as normal, such as contact with high reputation or trusted sites. For example, adversaries may leverage compromised infrastructure (potentially also in conjunction with [Digital Certificates](https://attack.mitre.org/techniques/T1588/004)) to further blend in and support staged information gathering and/or [Phishing](https://attack.mitre.org/techniques/T1566) campaigns.(Citation: FireEye DNS Hijack 2019) Additionally, adversaries may also compromise infrastructure to support [Proxy](https://attack.mitre.org/techniques/T1090) and/or proxyware services.(Citation: amnesty_nso_pegasus)(Citation: Sysdig Proxyjacking)
@@ -800,35 +760,22 @@ Educating merchants about the dangers and signs of website compromise and the im
 Use by Fraud Detection and Analysis Teams: 
 
 Ad fraud detection is multi-faceted and requires cooperation between the advertising platforms, payment processors, fraud detection experts, and possibly the affected merchants. By analyzing spending patterns, ad content, and the subsequent traffic behavior on linked websites, fraud analysts can identify potential skimming activities. Effective incident response mechanisms are crucial, ensuring that when fraudulent or compromised accounts are detected, rapid action can be taken, including disabling the offending ads, securing compromised merchant accounts, alerting potential victims, and investigating the extent of the breach. Regularly sharing insights and collaborative efforts between stakeholders can strengthen the overall ecosystem against such fraud schemes.",,FALSE,,,,,,,,,
-FT018,,Social Media Attack,"Social media attacks are a broad category of malicious activities carried out on platforms like Facebook, Twitter, LinkedIn, Instagram, and more. These attacks aim to trick victims into disclosing sensitive information, such as passwords and financial data, or to distribute harmful content including fraudulent links, phishing attempts, or malware. Social media users are often targeted for their personal information, which can be used in various forms of identity theft, financial fraud, or to gain unauthorized access to secure systems.
+FT018,,Social Media Phishing for Initial Access,"Adversaries may use messages, posts, or links on social media to induce a target to disclose credentials or access-enabling information, or to open malicious content that enables account or system access. The social channel delivers the lure; obtaining victim access is the defining goal. The sender may use a fabricated or compromised account, but acquiring that account (FT007.010), taking it over (FT008.003), and impersonating a trusted identity (FT021) are separate behaviors in the same chain.
 
-Execution: 
+Execution:
 
-Fraudsters can execute social media attacks using fake profiles, compromised accounts, or pages created to mimic real organizations. Tactics include spearphishing, where specific individuals are targeted with personalized messages, baiting users by offering fake freebies or exclusive content, and pretexting, which involves creating a fabricated scenario or story to obtain private information.
+Spearphishing, baiting with fabricated offers, or a pretext may lead the victim to a counterfeit login page, a request for private information useful in gaining access, or a malicious link/file. Personal and financial information collected through the interaction may support identity theft or later social engineering. Passive harvesting of public profile information is reconnaissance rather than this access-seeking lure.
 
 Examples:
 
-Sending direct messages from a hacked account to the victim’s contacts, urging them to click on malicious links under the guise of legitimate requests or offers.
-Creating fake profiles or pages that appear to belong to well-known companies or brands, advertising non-existent deals or discounts that lead to phishing sites.
-Spread of deceptive posts or tweets encouraging users to visit fraudulent websites designed to steal login credentials or install malware.
-Leveraging trending topics or events to distribute manipulated content or links that redirect to fraudulent sites.
+- Sending direct messages from a compromised account to its contacts with a malicious link disguised as a legitimate request.
+- Advertising a fabricated deal from a fake brand page that leads to a credential-capture site.
+- Using posts, trending events, or private messages to encourage opening a malicious file or visiting a site that installs malware.
+- Using a tailored pretext to obtain private information needed to gain account access.
 
-Goals: Cybercriminals use social media attacks to achieve goals including:
+Goals: Establish victim account or system access, including through credential theft or malware execution. Ransomware, unauthorized mining, further account hijacking, and reputational harm can follow access, but are downstream outcomes rather than defining instances of this technique.",,1/30/24,9/29/26,ft3,V.1,Initial Access,"Where available, correlate reported or observed social-message/post lures with destination URLs, counterfeit login pages, credential submission, suspicious login/session establishment, or endpoint evidence of malicious-file execution. Credential capture and malicious-content execution are alternative paths; neither a later payout change nor malware execution is required in every case.
 
-Stealing user credentials in order to access financial accounts or perpetrate identity theft.
-Compiling personal details harvested from social media interactions for social engineering schemes.
-Distributing malware that can hijack personal computers for further malicious activities, such as ransomware attacks or unauthorized cryptocurrency mining.
-Damaging reputations or causing embarrassment by taking over social media accounts and posting inappropriate or malicious content.",,1/30/24,1/30/24,ft3,V.1,Initial Access,"Detection of malicious activities on social media requires advanced security systems capable of content analysis, behavior monitoring, and pattern recognition.
-
-Deployment of anti-phishing and anti-malware software on users’ devices to identify and block suspicious activities originating from social media links.
-
-Implementation of robust authentication methods, such as two-factor authentication, to prevent unauthorized access to accounts, even if login details are compromised.
-
-Regularly updating social media privacy settings and encouraging user awareness and vigilance in regard to suspicious or unsolicited messages and posts.
-
-Use by Fraud Detection and Analysis Teams: 
-
-Fraud detection teams should actively monitor for harmful content across social media platforms using automated tools and techniques, such as sentiment analysis to spot phishing posts and image recognition software to identify fake profiles. User education campaigns to inform about common attack methods and best practices for online safety are crucial. Such teams also work with social media platforms to report and take down malicious content and implement preventative measures. After an attack is detected, rapid incident response efforts, including account recovery and damage assessment, are vital to mitigate the impact on victims.",,FALSE,,,,,,,,,
+Fraud teams may have victim reports, public posts, destination-page observations, and financial-account login evidence, while platforms and endpoint owners hold additional message or execution telemetry. Correlate evidence across those owners when warranted; sentiment or a suspicious-looking profile alone does not establish phishing. Reporting/takedown of malicious content, anti-phishing and anti-malware protections, user awareness, and robust authentication can reduce exposure. Recovery and damage assessment address the subsequent compromise.",,FALSE,,,,,,,,,
 FT019,,Website Cloning,"Website cloning is a technique whereby cybercriminals create a replica of a legitimate website with the intent to deceive visitors. The cloned website mimics the design, layout, and functionality of the original site, but is controlled by the attacker. Users are often directed to these fraudulent sites via phishing emails, social media links, or through search engine manipulation. Once on the cloned site, visitors may unknowingly provide sensitive information such as login credentials, financial data, or personal details.
 
 Execution: 
@@ -885,34 +832,21 @@ Educating individuals and businesses on best practices for protecting their sens
 Use by Fraud Detection and Analysis Teams: 
 
 Fraud detection teams working for payment processors must employ sophisticated software to spot the signs of a merchant account set up with stolen identity details. These signs could include mismatches between credit histories, unusual patterns in the stated business activities, or discrepancies in the locations of the business and IP addresses used for account management. Teams must quickly take action when a fraudulent account is suspected, potentially freezing the account and initiating a detailed investigation. Post-detection actions include reporting the identity theft to relevant authorities, notifying affected individuals, and refining preventive measures to avert similar incidents in the future.",,FALSE,,,,,,,,,
-FT021,,Social Media Attacks,"Social media attacks encompass a range of malicious activities carried out through platforms like Facebook, Twitter, LinkedIn, Instagram, and others. These attacks can be aimed at individuals or organizations and often involve the use of deception, misinformation, account takeover, or exploiting platform-specific mechanisms to achieve financial gain, data theft, disruption, or reputational damage.
+FT021,,Social Media Impersonation,"Adversaries may present fake, look-alike, or compromised social media accounts, profiles, or pages as a trusted person, executive, brand, or business to deceive its contacts. The defining behavior is the false identity presented to the target, concealing who actually controls the interaction. This is distinct from obtaining the account (FT007.010), taking over an existing account (FT008.003), or using it to deliver access-seeking phishing or malicious files (FT018).
 
-Execution: 
+Execution:
 
-Attackers might impersonate individuals or brands, creating fake profiles or hacking into existing accounts to dupe followers and contacts. Phishing campaigns via direct messages or posts can trick users into revealing sensitive information or clicking on malicious links. Social engineering tactics can be employed to manipulate individuals into unauthorized actions. Malware distribution, exploitation of platform vulnerabilities, and coordination of mass harassment or 'doxxing' campaigns can also be classified as social media attacks.
+An operator may copy names, images, branding, or organizational affiliations, or misuse a taken-over business account, to make posts and messages appear to originate from the trusted identity. The impersonator may solicit private information, payments, or purchases, or send a fraudulent link. A new fictional persona that does not claim another trusted identity is not automatically impersonation.
 
 Examples:
 
-Posting fraudulent messages or links from a compromised business account on social media to steer customers to phishing sites where their credentials are harvested.
-Creating fake profiles that impersonate company executives, using them to solicit private information from employees or partners.
-Leveraging social media to spread misinformation or harm a company’s reputation, thereby affecting their stock value or customer trust.
-Initiating a coordinated attack to propagate a hashtag with defamatory content to tarnish a brand's image.
+- Creating a look-alike executive profile to request private information or a transfer from employees or partners.
+- Posting fraudulent links from a compromised business account under the business's trusted identity.
+- Creating a fake brand-support page that directs customers to a phishing or fraudulent storefront destination.
 
-Goals: The primary objectives of social media attacks can include:
+Goals: Exploit trust in the impersonated identity to obtain information, payments, or business. Financial theft, information resale, lost customer trust, reputation or stock-value effects, operational disruption, and diverted response resources may be consequences. Standalone misinformation, defamatory hashtags, harassment/doxxing, platform exploitation, and malware distribution are not impersonation unless the false trusted identity is present; takeover and access-seeking delivery should be recorded separately.",,1/30/24,9/29/26,ft3,V.1,Defense Evasion & Obfuscation,"Compare an account's claimed identity, profile images, names, affiliations, linked domains, and messages with authorized accounts and the protected identity's records. Reports from the impersonated person or business can corroborate an unauthorized claim. A similar name, unusual post, or new account alone does not prove impersonation.
 
-Direct financial theft through phishing and scams that collect payment details or through the sale of fake products and services.
-Data theft, where personal or company information is targeted for use in further fraud or sold on the dark web.
-Reputational damage aimed at discrediting an individual or organization, potentially for competitive advantage or personal vendetta.
-Disruption of normal business operations, distraction of security resources, or creation of public relation crisis.",,1/30/24,1/30/24,ft3,V.1,Defense Evasion & Obfuscation,"Regular monitoring of social media for unauthorized or fraudulent posts and direct messages using brand or keyword alerts.
-
-Educating employees and customers on recognizing and reporting phishing attempts or impersonation.
-
-Implementing two-factor authentication where possible and conducting regular security checks on social media accounts.
-
-Preparing contingency plans for rapid response in case of account takeover or harassment campaigns, including pre-authorized messaging and coordination with social media platforms for support.
-
-Use by Fraud Detection and Analysis Teams: 
-Analysis teams should track social media for signs of illicit activities related to the brand or organization, using social listening tools and threat intelligence networks to detect emerging threats. Proactively engaging with social media platforms to understand their policies on account recovery and abuse reporting can facilitate faster recovery from attacks. Teams should employ advanced analytics and AI models to predict potential attack vectors and identify abnormalities in social media interactions that might signal an attack. Following an incident, detailed investigation into the attack's nature and source is crucial to prevent recurrence and update defense strategies.",,FALSE,,,,,,,,,
+Fraud teams may monitor public content and customer reports; private-message and control-history evidence often requires the platform, account owner, or affected recipient. Report impersonating accounts/pages and linked fraudulent content for investigation and takedown. Employee/customer awareness can reduce deception; MFA helps prevent account takeover but does not prevent creation of a look-alike profile. Recovery and authorized public communications can address misuse of a compromised brand account.",,FALSE,,,,,,,,,
 FT022,,Churning,"Churning, in the context of financial fraud, refers to the process where fraudsters use stolen credit card details repeatedly to conduct transactions until the card's limit is reached or the account's balance is fully drained. This type of fraud is particularly damaging because it can swiftly accrue a significant financial loss for the cardholder before the unauthorized activity is detected and the card is disabled.
 
 Execution: 
