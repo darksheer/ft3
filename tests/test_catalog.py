@@ -63,3 +63,32 @@ class BootstrapTests(unittest.TestCase):
  def test_existing_assignment_is_preserved(self):
   from bootstrap_uuid import prepare_assignments,fingerprint
   r=record();self.assertEqual(prepare_assignments([r],{'FT001':fingerprint(r)},{'FT001':U1})[0]['uuid'],U1)
+
+class ImmutablePinCLITests(unittest.TestCase):
+ def test_replacing_all_uuids_and_manifest_pin_is_rejected(self):
+  import json,subprocess,tempfile,uuid
+  root=Path(__file__).resolve().parents[1]
+  anchor='7b7fc1a140235d1adb0f4a6ad21169d7753bed50'
+  base='48f74e1b94815305e22c70a9ba8462738bbc6a26'
+  with tempfile.TemporaryDirectory() as directory:
+   p=Path(directory)/'repo'
+   def git(*args):return subprocess.check_output(['git',*args],cwd=p,stderr=subprocess.DEVNULL)
+   subprocess.run(['git','clone','--quiet','--shared','--no-checkout',str(root),str(p)],check=True)
+   git('checkout','--quiet','--detach',anchor)
+   # Exercise current checker implementation on a real, committed adversarial Git revision.
+   (p/'scripts/check_catalog.py').write_bytes((root/'scripts/check_catalog.py').read_bytes())
+   j=p/'FT3_Techniques.json';c=p/'Fraud Tools Tactics and Techniques - FT3 - Techniques.csv'
+   rows=json.loads(j.read_text());mapping={r['id']:str(uuid.uuid4()) for r in rows}
+   for r in rows:r['uuid']=mapping[r['id']]
+   j.write_text(json.dumps(rows)+'\n')
+   with c.open(newline='') as f:reader=csv.DictReader(f);fields=reader.fieldnames;cr=list(reader)
+   for r in cr:r['uuid']=mapping[r['id']]
+   with c.open('w',newline='') as f:w=csv.DictWriter(f,fieldnames=fields);w.writeheader();w.writerows(cr)
+   mp=p/'docs/review/stripe-ft3/execution-manifest.json';m=json.loads(mp.read_text());ip=p/m['uuid_initial']['path'];initial=json.loads(ip.read_text())
+   for r in initial['assignments']:r['uuid']=mapping[r['id']]
+   ip.write_text(json.dumps(initial)+'\n');m['uuid_initial']['blob']=git('hash-object','-w',m['uuid_initial']['path']).decode().strip();mp.write_text(json.dumps(m)+'\n')
+   git('add','.');git('-c','user.name=Regression Test','-c','user.email=test@example.invalid','commit','--quiet','-m','replace UUIDs and expected mapping')
+   result=subprocess.run([sys.executable,'-B','scripts/check_catalog.py','--base-ref',base,'--head-ref','HEAD','--findings','docs/review/stripe-ft3/findings.csv','--manifest',str(mp),'--identity-anchor-ref',anchor],cwd=p,text=True,capture_output=True)
+   report=json.loads(result.stdout)
+   self.assertFalse(report['contribution_ready'],'Replacing UUIDs plus their expected fixture must not bless regeneration')
+   self.assertIn('uuid_anchor_pin_changed',{r['rule'] for r in report['blocking']})

@@ -68,7 +68,7 @@ def load(ref):
  return (json.loads(git('show',ref+':'+TECH_JSON)),json.loads(git('show',ref+':'+TACT_JSON)),parse_csv(git('show',ref+':'+TECH_CSV).decode()),parse_csv(git('show',ref+':'+TACT_CSV).decode()))
 def signature(e):return tuple(e[k] for k in ['rule','catalog','id','field','detail'])
 def main():
- p=argparse.ArgumentParser(description=__doc__);p.add_argument('--base-ref',required=True);p.add_argument('--head-ref',required=True);p.add_argument('--findings',required=True);p.add_argument('--manifest',required=True);a=p.parse_args()
+ p=argparse.ArgumentParser(description=__doc__);p.add_argument('--base-ref',required=True);p.add_argument('--head-ref',required=True);p.add_argument('--findings',required=True);p.add_argument('--manifest',required=True);p.add_argument('--identity-anchor-ref');a=p.parse_args()
  base=load(a.base_ref);head=load(a.head_ref);manifest=json.loads(pathlib.Path(a.manifest).read_text())
  baseline={signature(e) for e in audit_catalog(*base)};failures=[]
  with open(a.findings,newline='') as f:ledger=list(csv.DictReader(f))
@@ -86,6 +86,14 @@ def main():
  initial=[]
  pin=manifest.get('uuid_initial')
  if pin:
+  if not a.identity_anchor_ref:
+   failures.append({'rule':'uuid_trusted_anchor_required'})
+  else:
+   anchor=json.loads(git('show',a.identity_anchor_ref+':docs/review/stripe-ft3/execution-manifest.json'))
+   trusted=anchor.get('uuid_initial')
+   if not trusted:raise ValueError('identity anchor has no reviewed initial mapping')
+   if trusted!=pin:failures.append({'rule':'uuid_anchor_pin_changed'})
+   pin=trusted
   fixed=git('cat-file','blob',pin['blob']);initial=json.loads(fixed)['assignments']
   current=git('show',a.head_ref+':'+pin['path'])
   if current!=fixed:failures.append({'rule':'uuid_initial_mapping_changed'})
