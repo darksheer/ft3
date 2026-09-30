@@ -22,3 +22,7 @@ Ruling: Require --identity-anchor-ref in UUID checks independently of diff base,
 
 Task 6: review complete:149 rows,52 semantic followup groups (16confirmed/36unresolved);31 evidence-backed parent corrections prepared03b0390,2 ambiguousNoShipping children held. Remaining defects/questions are explicit and not claimed resolved.
 Final review: ImportantR1 trusted-anchor flaw fixed RED→GREEN,20/20 suite. MinorR2 mixed original social-clause attribution precision deferred; final scoped prose judged sound.
+
+Task 7: contributions submitted:PR6parity,PR7VPS,PR8social,PR9dates,PR10dependentUUIDdraft,PR11parents. Remote heads verified; all four issues remain open; no merges or closure actions.
+Final completion check:20/20localtests;149 reviewed rows and finding references reconciled;25 structural diagnostics explicitly disclosed, no introduced blockers.
+Declined operational judgments: static review does not execute attacks or live financial/account actions (no authorized fixtures); does not assert untested live Stripe/private API coverage, detection efficacy or numerical thresholds (no pinned deployment/labeled dataset); does not assert live MISP imports/private mapping continuity (no importer state); does not invent historical dates; does not decide jurisdictional legal duties (outside technical review); does not claim exhaustive real-incident evidence; and does not replace maintainer content/domain/lifecycle decisions. Each remains a reported limit or needs-owner finding, not a hidden passing claim.

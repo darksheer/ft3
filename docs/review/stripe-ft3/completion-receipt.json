@@ -1,0 +1,16 @@
+{
+  "verified_integration_head": "c6248f765407146612c7f84cb8195c809ca45279",
+  "tests": 20,
+  "reviewed_records": 149,
+  "semantic_followup_groups": 52,
+  "remaining_structural_diagnostics": 25,
+  "catalog_defect_free": false,
+  "pull_requests": {
+    "parity": "https://github.com/stripe/ft3/pull/6",
+    "vps": "https://github.com/stripe/ft3/pull/7",
+    "social": "https://github.com/stripe/ft3/pull/8",
+    "dates": "https://github.com/stripe/ft3/pull/9",
+    "uuid_dependent_draft": "https://github.com/stripe/ft3/pull/10",
+    "parents": "https://github.com/stripe/ft3/pull/11"
+  }
+}
