@@ -19,3 +19,6 @@ Ruling: UUID first-party assignments proceed after no official/public mapping wa
 
 Final review fix: UUID replacement plus manifest-pin replacement is rejected against explicit trusted identity anchor7b7fc1a; regression observed RED then GREEN, full suite20/20.
 Ruling: Require --identity-anchor-ref in UUID checks independently of diff base, because upstream master predates the reviewed identity mapping. Cost if wrong: a check cannot run without a trusted reviewed revision; fail closed instead of blessing reassignment.
+
+Task 6: review complete:149 rows,52 semantic followup groups (16confirmed/36unresolved);31 evidence-backed parent corrections prepared03b0390,2 ambiguousNoShipping children held. Remaining defects/questions are explicit and not claimed resolved.
+Final review: ImportantR1 trusted-anchor flaw fixed RED→GREEN,20/20 suite. MinorR2 mixed original social-clause attribution precision deferred; final scoped prose judged sound.

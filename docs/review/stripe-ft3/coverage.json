@@ -1,0 +1,12 @@
+{
+  "input_sha": "7b7fc1a140235d1adb0f4a6ad21169d7753bed50",
+  "techniques_reviewed": 137,
+  "tactics_reviewed": 12,
+  "total_reviewed": 149,
+  "new_grouped_findings": 52,
+  "new_confirmed_defect_groups": 16,
+  "new_unresolved_groups": 36,
+  "existing_ledger_findings": 61,
+  "matrix_refs_resolve": true,
+  "all_rows_reviewed": true
+}

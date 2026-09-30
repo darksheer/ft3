@@ -1,0 +1,34 @@
+id,proposed_parent,verdict,evidence,reviewer
+FT004.001,FT004,clear_intended_parent,"Family name and full behavior description corroborate intended parent, not only code prefix.",codex-fresh-final-catalog-review
+FT004.002,FT004,clear_intended_parent,"Family name and full behavior description corroborate intended parent, not only code prefix.",codex-fresh-final-catalog-review
+FT004.003,FT004,clear_intended_parent,"Family name and full behavior description corroborate intended parent, not only code prefix.",codex-fresh-final-catalog-review
+FT004.004,FT004,clear_intended_parent,"Family name and full behavior description corroborate intended parent, not only code prefix.",codex-fresh-final-catalog-review
+FT006.001,FT006,clear_intended_parent,"Family name and full behavior description corroborate intended parent, not only code prefix.",codex-fresh-final-catalog-review
+FT006.002,FT006,clear_intended_parent,"Family name and full behavior description corroborate intended parent, not only code prefix.",codex-fresh-final-catalog-review
+FT006.003,FT006,clear_intended_parent,"Family name and full behavior description corroborate intended parent, not only code prefix.",codex-fresh-final-catalog-review
+FT007.001,FT007,clear_intended_parent,"Family name and full behavior description corroborate intended parent, not only code prefix.",codex-fresh-final-catalog-review
+FT007.002,FT007,clear_intended_parent,"Family name and full behavior description corroborate intended parent, not only code prefix.",codex-fresh-final-catalog-review
+FT007.003,FT007,clear_intended_parent,"Family name and full behavior description corroborate intended parent, not only code prefix.",codex-fresh-final-catalog-review
+FT007.004,FT007,clear_intended_parent,"Family name and full behavior description corroborate intended parent, not only code prefix.",codex-fresh-final-catalog-review
+FT007.005,FT007,clear_intended_parent,"Family name and full behavior description corroborate intended parent, not only code prefix.",codex-fresh-final-catalog-review
+FT007.006,FT007,clear_intended_parent,"Family name and full behavior description corroborate intended parent, not only code prefix.",codex-fresh-final-catalog-review
+FT007.007,FT007,clear_intended_parent,"Family name and full behavior description corroborate intended parent, not only code prefix.",codex-fresh-final-catalog-review
+FT007.008,FT007,clear_intended_parent,"Family name and full behavior description corroborate intended parent, not only code prefix.",codex-fresh-final-catalog-review
+FT007.009,FT007,clear_intended_parent,"Family name and full behavior description corroborate intended parent, not only code prefix.",codex-fresh-final-catalog-review
+FT007.010,FT007,clear_intended_parent,"Family name and full behavior description corroborate intended parent, not only code prefix.",codex-fresh-final-catalog-review
+FT008.001,FT008,clear_intended_parent,"Family name and full behavior description corroborate intended parent, not only code prefix.",codex-fresh-final-catalog-review
+FT008.002,FT008,clear_intended_parent,"Family name and full behavior description corroborate intended parent, not only code prefix.",codex-fresh-final-catalog-review
+FT008.003,FT008,clear_intended_parent,"Family name and full behavior description corroborate intended parent, not only code prefix.",codex-fresh-final-catalog-review
+FT010.001,FT010,clear_intended_parent,"Family name and full behavior description corroborate intended parent, not only code prefix.",codex-fresh-final-catalog-review
+FT010.002,FT010,clear_intended_parent,"Family name and full behavior description corroborate intended parent, not only code prefix.",codex-fresh-final-catalog-review
+FT010.003,FT010,clear_intended_parent,"Family name and full behavior description corroborate intended parent, not only code prefix.",codex-fresh-final-catalog-review
+FT010.004,FT010,clear_intended_parent,"Family name and full behavior description corroborate intended parent, not only code prefix.",codex-fresh-final-catalog-review
+FT011.001,FT011,clear_intended_parent,"Family name and full behavior description corroborate intended parent, not only code prefix.",codex-fresh-final-catalog-review
+FT011.002,FT011,clear_intended_parent,"Family name and full behavior description corroborate intended parent, not only code prefix.",codex-fresh-final-catalog-review
+FT011.003,FT011,clear_intended_parent,"Family name and full behavior description corroborate intended parent, not only code prefix.",codex-fresh-final-catalog-review
+FT011.004,FT011,clear_intended_parent,"Family name and full behavior description corroborate intended parent, not only code prefix.",codex-fresh-final-catalog-review
+FT011.005,FT011,clear_intended_parent,"Family name and full behavior description corroborate intended parent, not only code prefix.",codex-fresh-final-catalog-review
+FT011.006,FT011,clear_intended_parent,"Family name and full behavior description corroborate intended parent, not only code prefix.",codex-fresh-final-catalog-review
+FT039.001,FT039,clear_intended_parent,"Family name and full behavior description corroborate intended parent, not only code prefix. FT039 explicitly names Data Pipeline as its sub-technique.",codex-fresh-final-catalog-review
+FT033.003,FT033,hold_semantic_parent_decision,"Title implies FT033, but FT033 describes buyer shipping-address avoidance and this record seller fulfillment deception; repair concept hierarchy before treating linkage as semantically resolved.",codex-fresh-final-catalog-review
+FT033.004,FT033,hold_semantic_parent_decision,"Title implies FT033, but FT033 describes buyer shipping-address avoidance and this record seller fulfillment deception; repair concept hierarchy before treating linkage as semantically resolved.",codex-fresh-final-catalog-review

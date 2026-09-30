@@ -20,6 +20,6 @@ test_uuid_missing_and_duplicate (test_catalog.CatalogTests.test_uuid_missing_and
 test_replacing_all_uuids_and_manifest_pin_is_rejected (test_catalog.ImmutablePinCLITests.test_replacing_all_uuids_and_manifest_pin_is_rejected) ... ok
 
 ----------------------------------------------------------------------
-Ran 20 tests in 0.351s
+Ran 20 tests in 0.439s
 
 OK

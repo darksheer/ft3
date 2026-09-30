@@ -32,6 +32,15 @@
         "dates"
       ],
       "draft": true
+    },
+    "parents": {
+      "base": "48f74e1b94815305e22c70a9ba8462738bbc6a26",
+      "head": "03b0390b18d5077a46ff78aa46edffd2b71c07eb",
+      "reviewed_records": 31,
+      "held_records": [
+        "FT033.003",
+        "FT033.004"
+      ]
     }
   },
   "integration_commits": [
@@ -43,7 +52,13 @@
     "6d7c470dc60e9350057f037b7f306fc74a10fb85",
     "981592ca038531fc8fbaeb4616d1ff78477f236b",
     "5ddc1bc7d69f1d2107775b67aa5516a722ebb1e7",
-    "c8aa68b82b3f3c1a24f21d5f334f75dc7230be3b"
+    "c8aa68b82b3f3c1a24f21d5f334f75dc7230be3b",
+    "a34846ddb8468e6b7641d966dbd6f52c9db7e76b",
+    "7b7fc1a140235d1adb0f4a6ad21169d7753bed50",
+    "1e978822539266daffaa014e4aaf6b4a600509a1",
+    "02140b0393ff24f7c124656d5b99e2efff5098b9",
+    "389b65d9256881a20b1affafd45ab6becda5fb3c",
+    "2cf90c26bbe2c481f377fb873c797c4ec4128d18"
   ],
   "uuid_initial": {
     "path": "docs/review/stripe-ft3/uuid-initial-assignments.json",
@@ -57,5 +72,6 @@
     "path": "schema_clusters.json",
     "jsonschema_version": "4.26.0"
   },
-  "identity_anchor_ref": "7b7fc1a140235d1adb0f4a6ad21169d7753bed50"
+  "identity_anchor_ref": "7b7fc1a140235d1adb0f4a6ad21169d7753bed50",
+  "semantic_review_input": "7b7fc1a140235d1adb0f4a6ad21169d7753bed50"
 }
