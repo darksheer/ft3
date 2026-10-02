@@ -26,6 +26,6 @@ The six technique values follow the merged correction commit `a44c935c28802e1142
 
 The source still has 37 known reference defects: four records cite the absent `Discovery & Profiling` tactic, four use the absent parent `FT0004`, three dotted IDs have an empty parent, and 26 dotted IDs cite a different existing parent from their own ID prefix. `catalog/reference-exceptions.json` records those exact findings. This migration does not repair them. New or changed reference findings fail validation.
 
-Run `python3 -m ft3_tools check` after editing YAML. The four root JSON/CSV files are generated outputs; changes to them should come from `python3 -m ft3_tools build` and be reviewed with the YAML diff. STIX and UUID adoption are outside this migration.
+Create the Python 3.12 virtual environment described in [the adoption check](releasing.md), then use `.venv/bin/python -m ft3_tools check` after editing YAML. The four root JSON/CSV files are generated outputs; changes to them should come from `.venv/bin/python -m ft3_tools build` and be reviewed with the YAML diff. STIX and UUID adoption are outside this migration.
 
-No public release was cut by this migration work. At release time, record the tagged commit (`git rev-parse HEAD`) with these adopted artifact hashes, using the public-only procedure in `releasing.md`.
+Publish this migration notice through the public pull request and this document. The merged PR supplies the actual adoption commit; the table above supplies the adopted artifact hashes. No release tag is required. Adoption is complete only after verification of the actual merged commit using the public-only procedure in `releasing.md`.
