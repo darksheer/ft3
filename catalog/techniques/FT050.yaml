@@ -1,0 +1,44 @@
+id: FT050
+stix_id: ''
+name: Card Cashing
+description: |-
+  Card Cashing is a technique employed by cybercriminals to convert stolen credit card data into cash. This method falls under the broader category of financial evasion strategies where attackers seek to bypass traditional detection mechanisms, obscure the origins of illicit funds, and ultimately liquidate fraudulent credits without alerting financial institutions or law enforcement agencies.
+
+  Procedure:
+
+  The process of card cashing typically involves the following steps:
+
+  Data Harvesting: Attackers first acquire stolen credit card details through various means such as phishing, skimming devices, data breaches, or purchasing details from other criminals on the dark web.
+
+  Card Cloning: The stolen credit card data is then encoded onto the magnetic strip of a blank card or a prepaid card, effectively creating a clone of the original card.
+
+  Transaction Execution: With cloned cards in hand, criminals proceed to withdraw money from ATMs or conduct transactions in places where identity verification is minimal or non-existent. They may also perform online purchases of goods or services that can easily be converted into cash, such as gift cards or electronics.
+
+  Monetization: The purchased items or gift cards are then sold for cash, often at a discount, through online marketplaces, pawn shops or to contacts within criminal networks.
+
+  Layering and Integration: Criminals might engage in a series of complex financial transactions to obscure the trail of the illicit funds (layering). Consequently, they will attempt to reintegrate the laundered money back into the legitimate economy.
+url: ''
+created: 1/30/24
+last_modified: 2/28/24
+domain: ft3
+version: V.1
+tactics: Financial Evasion, Laundering & Cash-Out
+detection: |-
+  Implementing real-time fraud detection systems that identify suspicious purchasing patterns or link transactions to known stolen cards or compromised accounts.
+  Rigorous merchant side analysis of transaction data for anti-money laundering (AML) indicators, such as high-value rapid purchasing or transactions followed by immediate chargebacks.
+
+  Enforcing strong customer authentication and verification practices during the purchasing process.
+  Training retail and financial services staff to recognize the signs of fraudulent purchases and providing clear reporting mechanisms.
+
+  Use by Fraud Detection and Analysis Teams: Fraud detection teams need to constantly analyze transaction data for signs of irregularity that may suggest fraudulent purchasing activity. Using predictive modeling and behavioral analytics can help flag transactions that fall outside of established norms. In cases where fraudulent purchases are detected, teams should take immediate action to investigate and reverse the transactions, while also taking steps to further protect and monitor affected accounts. Post-detection, analyzing the methods and pathways used by fraudsters is key to improving anti-fraud measures and preventing future illicit activity. Cooperation with law enforcement may also be necessary when organized criminal activity is suspected.
+data sources: ''
+is_sub-technique: 'FALSE'
+sub-technique of: ''
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

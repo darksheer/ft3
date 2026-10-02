@@ -1,0 +1,25 @@
+id: FT007.010
+stix_id: ''
+name: 'Acquire Access: Social Media Accounts'
+description: "Acquiring access to social media accounts plays a critical role in financial cyber fraud schemes. Attackers may compromise existing accounts of individuals, financial institutions, or merchants to conduct fraudulent activities, or they might leverage financial fraud to create or purchase access to social media accounts, which are then used to conduct scams or distribute malicious content.\n\nExecution: \n\nCompromise of legitimate social media accounts often involves phishing attacks, exploiting weak passwords, or using malware to harvest credentials. Attackers might also purchase account access on dark web markets, where credentials are often sold following large data breaches. The creation of new social media accounts specifically for fraudulent purposes often involves the use of stolen credit card information or other financial details to bypass platform restrictions, fund advertising campaigns for broader reach, or purchase followers.\n\nFraudulent Resource Procurement\
+  \ Use Case: \n\nIn this context, adversaries may use stolen or manipulated financial details to set up new social media accounts or boost the credibility and reach of existing ones controlled by them. The fraudulently enhanced accounts can then serve as platforms for launching further attacks, such as promoting fake investment opportunities, conducting advance-fee fraud, spreading phishing links, or impersonating official financial entities to gather sensitive information.\n\nExamples:\n\nCreating new social media profiles using stolen identities and credit card information to appear legitimate and trustworthy.\nPurchasing social media advertising to promote fraudulent activities, funded by illicit financial means.\nAcquiring an audience through paid followers and engagements using compromised financial accounts, enhancing the perceived legitimacy of fraudulent campaigns.\nHijacking verified social media accounts of well-known merchants or financial influencers to post misleading or fraudulent\
+  \ content.\n\nGoals: \n\nThe primary goals for adversaries in acquiring access to social media accounts for financial fraud purposes are to:\n\nDisseminate fraudulent messaging and schemes to a wide audience, leveraging the trust and reach of compromised or artificially boosted accounts.\nUtilize the direct messaging functionality of social media platforms to send phishing links or malicious content targeted at individuals or groups.\nImpersonate reputable entities or individuals to solicit personal and financial information for fraudulent use.\nUse the network effect of social media to propagate scams and fraudulent narratives rapidly."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Resource Development
+detection: "Monitoring for unusual activities on social media accounts associated with financial institutions or merchants, such as unexpected changes or posts.\n\nImplementing strong security measures, including the use of multi-factor authentication, to prevent unauthorized account access.\n\nTraining for employees on recognizing social engineering tactics and phishing attempts.\n\nSocial media platforms should use automated systems to detect and suspend accounts created with suspicious patterns or funded by potential financial fraud.\n\nRunning awareness campaigns to educate customers and the general public about common social media-based scams.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection teams should closely examine social media accounts linked to financial services for signs of account takeover or unauthorized activities. Automated monitoring tools can analyze patterns of behavior to identify accounts being used for fraudulent activities, such as sudden spikes\
+  \ in follower counts, unnatural posting patterns, or the use of certain keywords associated with financial scams. When fraudulent social media activity is detected, rapid coordination with social media platforms is essential for taking down harmful content or accounts and tracing the financial resources used to perpetrate these frauds. Teams should also engage in proactive measures, including reporting mechanisms for customers to report suspected fraud on social media."
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT008
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

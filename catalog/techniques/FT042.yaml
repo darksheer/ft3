@@ -1,0 +1,34 @@
+id: FT042
+stix_id: ''
+name: Account Manipulation
+description: "Account manipulation is a broad cybercriminal technique that involves unauthorized modification of account settings, often aimed at financial gain or unauthorized access to resources. This overarching technique includes a variety of methods attackers use to exploit or alter account details, payment methods, or financial scheduling arrangements, typically within digital financial services or e-commerce platforms.\n\nExecution: \n\nThe execution of account manipulation can vary widely, based on the attackers' objectives and the type of account targeted. Generally, it involves using stolen credentials or exploiting system vulnerabilities to gain access to an account, then making unauthorized changes to the account's financial or administrative settings.\n\nGoals: The goals behind Account Manipulation as a master technique broadly include:\n\nDiverting or stealing funds from compromised accounts.\nEstablishing ongoing mechanisms for extracting monetary value from fraudulent activities.\n\
+  Obscuring the trail of financial transactions to complicate tracking by law enforcement or fraud detection systems.\nExploiting financial services and features to facilitate broader fraud campaigns, like identity theft or financial account takeovers."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Financial Evasion, Laundering & Cash-Out
+detection: |-
+  Employing automated fraud detection and monitoring systems to identify and alert on unauthorized account changes.
+
+  Strengthening account security controls, such as implementing multi-factor authentication (MFA) and rigorous verification procedures for modifications to account settings.
+
+  Regularly auditing account activities to swiftly detect and address any indicators of manipulation.
+
+  Educating account holders, particularly in financial contexts, about the importance of monitoring their accounts and the common signs of manipulation fraud.
+
+  Use by Fraud Detection and Analysis Teams:
+
+   Fraud detection teams must closely monitor the myriad ways in which account manipulation could manifest, employing sophisticated detection systems for each sub-technique's specific patterns and indicators. Upon detecting potential manipulation, swift analysis and response are required to secure the account and prevent further exploitation. Adaptation and continual improvement of detection methods are vital for staying ahead of attackers' evolving strategies, as well as conducting thorough post-incident reviews to strengthen system defenses against future manipulations.
+data sources: ''
+is_sub-technique: 'FALSE'
+sub-technique of: ''
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

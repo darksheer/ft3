@@ -1,0 +1,25 @@
+id: FT039
+stix_id: ''
+name: Data Transfer
+description: "Data transfer refers to the movement of information between systems, which, in a legitimate context within online platforms like Stripe, is pivotal for business operations, analysis, and reporting. The primary technique of data transfer can be leveraged by threat actors to exfiltrate sensitive financial data, customer information, and transaction records for malicious purposes.\n\nIn Stripe, legitimate data transfer capabilities allow businesses to synchronize their Stripe data with external data warehouse services for centralized reporting and analytics. However, this same functionality can be abused when falling into the wrong hands.\n\nSub-Technique: Data Transfer: Data Pipeline\n\nThe Data Pipeline capability within Stripe enables automated and secure data transfers to data warehousing services like Snowflake or Amazon Redshift. If compromised, it can be misused to funnel vast amounts of Stripe's data outside the business environment.\n\nExecution: \n\nTo execute a data\
+  \ transfer, attackers might compromise Stripe account credentials to access the platform's data export and integration features. Once inside, they can direct the flow of data out of Stripe and into external storage services under their control or divert it to places where it can later be accessed and exploited.\n\nExamples:\n\nA cybercriminal breaches a Stripe account and uses the platform's data export functions to download and exfiltrate sensitive data for sale or to commit financial fraud.\nAn attacker manipulates the Stripe Data Pipeline settings to redirect the flow of Stripe data to an unauthorized external database.\nFraudsters exploit API keys to interact programmatically with Stripe, pulling out data streams containing financial or personal data.\n\nGoals: The malicious goals behind exploiting data transfer in Stripe include:\n\nAcquiring sensitive financial information for personal gain, to commit identity theft, or extortion.\nCollecting data for competitive intelligence or\
+  \ corporate espionage activities.\nLaundering proceeds from cybercrime activities by obscuring the visibility of financial transactions and records."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Collection & Exfiltration
+detection: "Utilizing anomaly detection systems to monitor and alert on unexpected data export or transfer activities within Stripe.\n\nImplementing strict role-based access control (RBAC) and multi-factor authentication (MFA) for any data export or pipeline configuration changes.\n\nRegularly auditing and reviewing logs of data transfer activities to ensure they correspond with legitimate business needs and authorized actions.\n\nEstablishing policies and trainings for employees that reinforce security best practices around data transfer operations within Stripe.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection teams are responsible for taking a proactive stance on monitoring Stripe account activities, with particular regard to any data transfer actions. When suspicious or unauthorized data transfers are detected, immediate measures may include shutting down the implicated data transfers, revoking compromised API keys, and conducting a thorough security audit. Continuous\
+  \ improvement of security practices should include both technical measures to protect against unauthorized access and business process reviews to control and oversee all data transfers within Stripe. In response to identified incidents, teams must also coordinate with affected stakeholders and potentially legal or law enforcement entities."
+data sources: ''
+is_sub-technique: 'FALSE'
+sub-technique of: ''
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

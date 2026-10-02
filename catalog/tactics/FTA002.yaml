@@ -1,0 +1,9 @@
+ID: FTA002
+stix_id: ''
+name: Resource Development
+description: In this phase, adversaries acquire and develop resources they require to conduct their attacks. This may include setting up infrastructure such as phishing websites, creating mule accounts for receiving stolen funds, or even recruiting collaborators.
+url: ''
+created: 01/30/2024
+last_modified: 01/30/2024
+domain: ft3
+version: V.1

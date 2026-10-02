@@ -1,0 +1,25 @@
+id: FT026.003
+stix_id: ''
+name: 'Falsifying Business Documents: Fake VAT Certificate'
+description: "Creating fake VAT (Value-Added Tax) certificates is a fraud technique used to deceive financial institutions and payment processors, during their KYC (Know Your Customer) procedures. These certificates usually provide proof that a business is registered to collect VAT and is recognized by the tax authorities in its country of operation. By presenting counterfeit VAT certificates, fraudsters aim to establish merchant accounts and access payment systems under the guise of a legitimate business.\n\nExecution: \n\nFraudsters forge VAT certificates by either entirely fabricating the document using graphic design software or by altering legitimate certificates with false business details. The counterfeit documents will often exhibit official-looking features such as tax registration numbers, official stamps, and signatures, making them appear authentic to the untrained eye. These falsified certificates are then used to pass KYC checks, enabling the setup of merchant accounts through\
+  \ which the perpetrators can conduct illicit financial activities.\n\nExamples:\n\nModification of an existing legitimate VAT certificate from an authentic business to include the fraudster's false business details.\nComplete fabrication of a VAT certificate using templates or copying the formatting from genuine certificates obtained from official sources.\nSubmitting VAT certificates with fictional registration numbers or those belonging to other entities without their knowledge or consent.\n\nGoals: The primary goals of fraudsters using fake VAT certificates to bypass KYC processes include:\n\nEstablishing a seemingly verified merchant account on payment processing platforms to gain access to financial services intended for genuine traders.\nFacilitating various fraudulent activities, such as money laundering or processing of illegitimate transactions, while avoiding immediate detection.\nBuilding a facade of authenticity and legitimacy to engage in business deals, apply for loans, attract\
+  \ customers, or set up vendor accounts with suppliers."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Defense Evasion & Obfuscation
+detection: "Employing document verification systems that cross-check VAT registration numbers and company information with official tax authority databases.\n\nUtilizing advanced scanning techniques that can detect anomalies in document images, such as manipulated texts or altered watermarks and seals.\n\nImplementing machine learning algorithms to recognize patterns indicative of forged documents based on previous instances encountered.\n\nRequiring secondary forms of business verification, such as direct confirmation from tax authorities, or proof of past tax filings.\nMaintaining an active watchlist of known fraudulent VAT numbers and monitoring for their use during merchant account registration.\n\nUse by Fraud Detection and Analysis Teams: \n\nStripe's fraud detection teams are tasked with scrutinizing the legitimacy of VAT certificates submitted during the merchant onboarding process. They utilize a combination of automated tools and manual checks to validate each document. Upon discovery\
+  \ of a falsified VAT certificate, teams act swiftly to halt the account setup process, conduct a thorough investigation of the implicated party, and take appropriate legal actions, including reporting the fraud to tax authorities. Continuous improvement of KYC processes in response to evolving fraud tactics is crucial, as is collaboration with international tax agencies to strengthen verification methods."
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT026
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

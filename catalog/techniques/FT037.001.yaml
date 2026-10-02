@@ -1,0 +1,25 @@
+id: FT037.001
+stix_id: ''
+name: 'Account Manipulation: Additional User Account'
+description: "Account manipulation involving the addition of an extra user to a compromised Stripe account is a strategic move that falls under the category of 'command and control' tactics used by cybercriminals. Once an attacker has gained access to a Stripe account, they can abuse the platform's features to add new, unauthorized users. This allows them not only to maintain control over the compromised account but also to establish additional avenues to facilitate illicit activities without raising immediate suspicion.\n\nExecution: \n\nIn the execution of this tactic, an attacker with initial access to a Stripe account uses their level of infiltration to inject a new user with permissions set to levels that enable data access and perhaps transaction capabilities. This is often done stealthily, with contact information that goes overlooked or masquerades as legitimate business contacts. The new user account could be disguised to appear as a legitimate team member, temporary consultant,\
+  \ or a third-party service provider.\n\nExamples:\n\nAn attacker, after compromising a merchant's Stripe account credentials, stealthily adds a new user with administrative privileges, effectively setting up a backdoor for uninterrupted access and transaction control.\nFraudulently adding a fake \"audit\" or \"tech support\" account under the guise of performing a routine check or system update, allowing for continued oversight and control by the attacker.\nThe cybercriminal creates multiple user profiles with different access levels to segment their activities and evade detection by spreading out unauthorized actions across these profiles.\n\nGoals: The primary objectives behind adding unauthorized user accounts to a compromised Stripe account are to:\n\nMaintain persistent access to the Stripe account, even if the original breach is discovered and closed.\nManage fraudulent transactions, such as initiating payouts, refunds, or modifying payment flows, through secondary user accounts\
+  \ to complicate tracing efforts.\nHarvest sensitive financial data over an extended period, increasing the potential for long-term exploitation."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Command and Control
+detection: "Implementing alerts for new user additions and requiring multi-factor authentication or secondary approval for all new user account setups within Stripe.\n\nLimiting user roles and permissions strictly based on job functions and reviewing these on a regular basis.\n\nRegularly auditing account activity logs for unusual actions across user profiles, particularly new or infrequently used accounts.\n\nEducating employees about security protocols for adding new users and recognizing social engineering tactics that can be used to justify unauthorized additions.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection teams should continuously monitor for indicators of account manipulation, especially the addition of new users that do not correlate with known company changes or roles. Automated systems can flag new account creation attempts and cross-reference them with verified employee data or known service suppliers. Quick investigative action is required upon detection\
+  \ of such anomalies, potentially locking out suspicious accounts, alerting account administrators, and running a full security audit to uncover and remediate any breach. Post-incident, the team should analyze the methods used by attackers to strengthen access controls and prevent similar exploits going forward."
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT037
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

@@ -1,0 +1,24 @@
+id: FT003
+stix_id: ''
+name: Seaching Credential Dumps
+description: "Attackers often search for compromised data dumps, which are large collections of stolen credentials leaked from previous breaches or hacking incidents. When targeting platforms, fraudsters look for relevant login credentials or associated emails and passwords that might provide access to accounts or aid in bypassing two-factor authentication.\n\nExecution: \n\nAttackers obtain credential dumps from dark web marketplaces, hacking forums, or through their own network breaches. Using automated tools, they sift through these dumps to find username and password pairs. They might also search for email addresses and associated passwords to target users with enabled two-factor authentication, hoping those individuals reuse passwords across multiple services.\n\nExamples:\n\nFinding a list of email and password pairs in a data breach dump, then using those credentials to attempt logins into accounts.\nUtilizing stolen email access to intercept two-factor authentication codes or password\
+  \ reset emails.\nCompiling lists of account credentials from various sources and trying them en masse, exploiting users' tendencies to reuse passwords across different platforms.\n\nGoals: The primary aims of searching credential dumps for fraudulent purposes include:\n\nUnauthorized access to accounts for fraudulent transactions, financial theft, or gathering sensitive customer and business data.\nOvercoming two-factor authentication by obtaining access to the email accounts tied to accounts.\nCreating a foundation for more sophisticated attacks, such as business email compromise (BEC), using trusted communication channels gained from compromised accounts or emails.\n"
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Reconnaissance
+detection: "Regularly monitoring known sites for data dumps and using services that alert when company or user credentials are found in breach databases.\n\nEnforcing strong, unique password policies for Stripe accounts and pairing them with more advanced two-factor authentication methods that are not solely reliant on email.\n\nEducating users about the dangers of password reuse and the importance of changing passwords following news of relevant data breaches.\n\nUtilizing automated threat detection systems that alert when an unknown IP or device attempts to access a Stripe account.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection teams should employ tools to scour the internet for leaked credential dumps and analyze them for potential risks to Stripe accounts. Security measures like frequent password rotations, enhanced user verification during account recovery, and anomaly detection algorithms for login patterns should be implemented. Account monitoring should also focus\
+  \ on the successful logins following failed attempts, as this is often a sign of credential stuffing attacks. If compromised credentials are detected, immediate action is needed to secure the affected accounts, which may include forced password resets and additional verification steps to confirm the account holder's identity. Post-incident, the team should reassess and strengthen account security to mitigate the risk of future breaches."
+data sources: ''
+is_sub-technique: 'FALSE'
+sub-technique of: ''
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

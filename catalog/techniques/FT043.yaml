@@ -1,0 +1,25 @@
+id: FT043
+stix_id: ''
+name: Scheduled Transfer
+description: "Scheduled Transfer is a technique employed by malicious actors to systematically move funds out of an account at designated intervals. This tactic is often used in conjunction with financial evasion, laundering, and the cash-out of illicit funds. By setting up or hijacking existing scheduled transfers within financial systems, like those offered by banks or payment processing services, attackers can discreetly channel money to accounts they control or to other entities that help obscure the origins of the funds.\n\nExecution: \n\nCybercriminals may gain control over online banking or payment service accounts — such as those managed by Stripe — and create or modify scheduled transfers to divert funds to other accounts. These scheduled transactions can be programmed to recur at periodic intervals, often lined up with the typical cadence of legitimate business transactions to avoid detection. The funds may be transferred to accounts that further launder the money, such as shell\
+  \ companies or cryptocurrency exchanges.\n\nExamples:\n\nA fraudster infiltrates a company's financial system and sets up automated, recurring transfers to external accounts just beneath reporting thresholds to slowly siphon off money without attracting too much attention.\n\nAfter gaining access to a personal banking account, the attacker schedules small transfers to a series of other accounts they control, effectively laundering the money through a web of transactions.\nA compromised business account is used to set up regular payouts to supposed contractors or vendors, in reality, a façade for moving illicit gains.\n\nGoals: The primary objectives behind the Scheduled Transfer technique include:\n\nStealthily extracting funds from a compromised account over an extended period to maximize the total illicit financial gain.\nUtilizing the seeming normalcy of routine, scheduled transfers to blend illicit transactions with legitimate business operations, making them less conspicuous.\nLayering\
+  \ the movement of illegally obtained funds as part of the laundering process, aiming to obscure the trail and integrate the money into the legal economy."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Financial Evasion, Laundering & Cash-Out
+detection: "Employing anomaly detection systems to monitor and flag transactions that don’t match the established behavior of an account, such as new or modified scheduled transfers.\n\nRequiring additional verification for setting up or changing scheduled transfers, especially if the destination account is new or has not previously been associated with regular transactions.\n\nUtilizing alerts that notify account holders of any scheduled transfer well in advance of the actual transaction.\n\nImplementing strict anti-money laundering (AML) controls and reviewing periodic transactions against AML watchlists and patterns.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection teams need to actively monitor for irregularities in scheduled transfers, paying particular attention to new setups, destination accounts, transfer amounts, and frequencies. It’s imperative that teams investigate flagged activities promptly and, if necessary, halt suspicious transfers while further assessment\
+  \ is conducted. They should also ensure post-incident recovery efforts are made, including account owner notifications, transaction reversals where possible, and security enhancements to prevent recurrences. Continuous improvement of monitoring strategies is essential to stay ahead of evolving laundering tactics."
+data sources: ''
+is_sub-technique: 'FALSE'
+sub-technique of: ''
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

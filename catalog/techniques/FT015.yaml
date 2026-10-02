@@ -1,0 +1,24 @@
+id: FT015
+stix_id: ''
+name: Policy and Procedure Abuse
+description: |
+  Policy and Procedure Abuse Overview: Policy and procedure abuse involves exploiting established practices and guidelines within an organization to gain unauthorized access to systems or information. Attackers may manipulate these policies, particularly in the context of financial accounts, to obtain access and bypass security controls, leading to fraudulent transactions, access to sensitive customer data, or disruptions in business operations.; Execution: Attackers exploit vulnerabilities in customer service practices, account recovery processes, or security protocols. They might use social engineering tactics to deceive support staff into granting access or navigate the password reset process using publicly available or previously compromised information to impersonate legitimate account holders. Examples: Posing as a legitimate account holder using previously leaked personal data to pass security checks.; Exploiting lax verification procedures during password resets to hijack accounts.; Convincing customer support to override security protocols and manually grant access to account information under false pretenses.; Goals: The main objectives of policy and procedure abuse to gain initial access include: Gaining control over online financial accounts to facilitate unauthorized transactions and siphon funds.; Harvesting sensitive customer and transactional data for malicious purposes.; Disrupting business operations by altering financial routing information, initiating fraudulent refunds, or manipulating account settings.
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Initial Access
+detection: "Strengthening internal controls around customer interactions and support procedures to prevent impersonation and unauthorized access.\n\nImplementing rigorous identity verification processes for account changes, especially for requests that come through customer support channels.\n\nEmploying multi-factor authentication and monitoring login attempts for anomalous behavior indicative of account takeover efforts.\n\nTraining customer support teams to recognize social engineering techniques and follow strict verification protocols before making any account adjustments.\n\nRegularly reviewing and updating security policies and customer-facing procedures to close off potential areas for exploitation.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection teams must monitor for signs of suspicious behavior that could indicate attempts at policy abuse. This can include tracking patterns of contact from customer accounts with support services or analyzing account access logs\
+  \ for unusual activity around known recovery processes. When potential abuse is detected, teams should initiate account security protocols, which may include contacting the account holder directly and temporarily restricting account access. A post-incident review can help to identify how policies or procedures might be strengthened to prevent similar attacks in the future, and user education campaigns can raise awareness among account holders about how to protect their Stripe accounts from such abuse."
+data sources: ''
+is_sub-technique: 'FALSE'
+sub-technique of: ''
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

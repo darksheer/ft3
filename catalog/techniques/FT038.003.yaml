@@ -1,0 +1,25 @@
+id: FT038.003
+stix_id: ''
+name: 'Data Exfiltration: Billing Analytics'
+description: "Billing analytics within the Stripe Dashboard gives users insights into their billing and subscription metrics, financial reporting, and customer payment patterns. Data exfiltration in this context refers to the unauthorized extraction of this financial and customer billing information by malicious actors who seek to exploit the rich data provided by billing analytics for purposes such as competitive intelligence gathering, selling sensitive data, or furthering financial fraud.\n\nExecution: \n\nAn attacker with access to a legitimate Stripe account, whether through compromise or by taking advantage of improper access controls, could export detailed billing reports and analytics data. These reports could include sensitive customer billing information, revenue metrics, subscription churn rates, and other data valuable for financial analysis. Once exported, the attacker can use this data beyond the intended scope, such as for personal gain or to inflict damage on the business.\n\
+  \nExamples:\n\nA cybercriminal, after gaining unauthorized Stripe Dashboard access, exports billing analytics data to understand company revenues, customer lifetime value, or subscription success rates.\nBy accessing and exfiltrating billing analytics, an attacker gathers a list of high-value customers' billing details, which they use to conduct targeted phishing attacks.\nA malicious insider downloads and leaks a comprehensive business revenue report obtained from the billing analytics to undercut market competition or manipulate stock prices.\n\nGoals: The goals of data exfiltration through the billing analytics aspect of a Stripe account can include:\n\nObtaining valuable business financial information that can be used for insider trading or sold to competitors for business intelligence purposes.\nGathering detailed customer payment information to facilitate identity theft, financial fraud, or unauthorized sales and marketing efforts.\nDisrupting the business by exposing sensitive financial\
+  \ data, possibly leading to a loss of customer trust or other reputational damage."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Collection & Exfiltration
+detection: "Monitoring and alerting on atypical access to billing analytics data and unusual export activity within the Stripe Dashboard.\n\nEnforcing role-based access controls (RBAC) to ensure that only authorized users within the organization have permission to access and export billing analytics data.\n\nRegular auditing of user actions in the dashboard, especially concerning the generation and downloading of reports or data sets.\n\nEmploying encryption for stored data and secure transmission channels to protect data during and after export.\n\nTraining staff on the sensitive nature of financial data and the risks associated with improper access or handling.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection teams should be alert to abnormalities in the access or export of billing analytics data, which could signal unauthorized exfiltration. Use of behavior analytics to spot sudden changes in data access patterns or exporting outside of business hours can be indicative\
+  \ of malicious activity. Immediate investigation and response actions should follow any anomaly detections, including analyzing access logs, conducting user interviews, and potentially resetting credentials if a compromise is detected. Following an incident, a deeper security review is necessary to solidify defenses and prevent similar exfiltration in the future, and it may involve modifying internal policies, enhancing security training, and improving technical safeguards."
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT038
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

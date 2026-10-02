@@ -1,0 +1,24 @@
+id: FT016
+stix_id: ''
+name: Phishing
+description: |2
+   Phishing is a deceptive practice where fraudsters impersonate legitimate entities to lure individuals into providing sensitive data, such as login credentials, payment information, or personal identification details. For merchants and customers using financial platforms, phishing campaigns can closely mimic official communications, posing significant risks such as account takeovers, unauthorized transactions, and data breaches.; Execution: Attackers craft emails, text messages, or fake websites that closely resemble official branding and messaging, tricking recipients into believing the communication is genuine. Phishing messages may claim to address issues with accounts, request confirmation of details, prompt password changes, warn of unauthorized logins, or offer discounts and refunds. These messages usually include a call-to-action, directing users to counterfeit login pages or forms designed to harvest credentials. Examples: Email campaigns directing merchants to a fake login page under the guise of verifying accounts to continue receiving payments.; SMS phishing (smishing) targeting users with links for supposed refunds or account suspensions.; Communications mimicking support to resolve non-existent account problems, asking customers to log in via included links. Goals: Phishing campaigns generally aim to: Obtain login credentials for unauthorized access and financial theft.; Capture credit card data and personal information for fraudulent transactions, identity theft, or resale on the dark web.; Build trust for more targeted social engineering schemes (spear-phishing) against high-value targets with significant funds processed.
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Initial Access
+detection: "Educating Stripe users and merchants about the signs of phishing attempts, such as checking the sender's email address, looking for misspellings, and verifying email authentication markers.\n\nEncouraging users to directly navigate to the official Stripe website or contact Stripe support through official channels when they receive suspicious communications.\n\nDeploying email filtering tools that can recognize and block phishing emails before they reach users' inboxes.\n\nImplementing two-factor authentication for all Stripe account access, which reduces the risk even if credentials are compromised.\nMonitoring transaction patterns for signs of fraud that might indicate a successful phishing attempt.\n\nUse by Fraud Detection and Analysis Teams: \nFraud detection teams must actively scan for and respond to phishing threats targeting the Stripe community. This includes verifying the authenticity of suspected phishing sites, taking them down, and alerting users to the threat. Outreach\
+  \ and engagement—such as providing clear channels for reporting phishing, issuing warnings about current phishing trends, and keeping the Stripe community updated on security practices—can greatly reduce the success rate of phishing attacks. When phishing is detected, immediate steps such as communicating with impacted users, advising them to change passwords, and reviewing account activities for unauthorized actions, are crucial in mitigating harm."
+data sources: ''
+is_sub-technique: 'FALSE'
+sub-technique of: ''
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

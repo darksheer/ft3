@@ -1,0 +1,25 @@
+id: FT028
+stix_id: ''
+name: Spearphishing
+description: "Spearphishing is a sophisticated form of phishing that targets specific individuals or organizations with tailored messages, often leveraging personal or professional information to increase the chances of deceiving the recipient. Once an attacker gains access to a Stripe account, they can use customer data, financial transaction histories, and internal employee information to conduct highly targeted spearphishing campaigns either against other employees within the organization or against the organization's customers.\n\nExecution: \n\nWith access to a compromised Stripe account, attackers can gather detailed information to craft convincing spearphishing emails. When targeting employees, the attacker might impersonate senior management or HR departments, using insider knowledge to request sensitive information or perform fraudulent financial requests. For customers, the attacker can send personalized emails that resemble legitimate Stripe correspondence, such as fake invoices,\
+  \ payment notifications, or requests to update payment details, thereby directing victims to malicious websites engineered to steal further credentials or financial data.\n\nExamples:\n\nUtilizing the Stripe dashboard to send invoice reminders with malicious links to customers under the guise of legitimate billing procedures.\nSending emails to company employees, especially those in the finance department, requesting urgent wire transfers or revealing of sensitive customer information.\nCrafting emails designed to appear as security alerts from Stripe, prompting users to reset passwords or verify account details on phishing sites that capture credentials.\n\nGoals: Attackers conducting spearphishing campaigns using a compromised Stripe account are typically aiming to:\n\nHarvest additional login credentials to deepen access to corporate financial systems and expand their attack surface.\nDivert funds from either the organization or its customers to accounts controlled by the attacker.\n\
+  Gain access to sensitive corporate or customer data for use in future attacks, extortion schemes, or for sale on the dark web.\nUndermine the trust between the organization and its customers or between employees, creating chaos and disrupting regular business operations."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Lateral Movement & Internal Proliferation
+detection: "Implementing advanced email security solutions to detect and filter out spearphishing attempts.\n\nTraining employees and customers about the dangers of spearphishing, highlighting the importance of verifying the authenticity of requests, especially involving financial transactions or sensitive information.\n\nEncouraging a culture of skepticism and verification, where direct contact with the requester via a known, separate communication channel is mandated before complying with instructions received via email.\n\nSetting up internal controls that require multi-person verification for financial transactions or changes to payment details.\n\nMonitoring and auditing outgoing communications from payment platforms like Stripe to ensure legitimacy and compliance with corporate policies.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection teams must work closely with cybersecurity, IT, and communications departments to identify spearphishing campaigns quickly. The use\
+  \ of tools that analyze email metadata, links, and behavioral patterns to identify fraudulent messages is crucial. In the event of a spearphishing incident, rapid response is essential, including alerting targeted employees or customers, resecuring compromised accounts, and investigating the extent of the breach. Continuous feedback loops between fraud detection insights and employee/customer education initiatives can help in refining defensive strategies and minimizing the success rate of future spearphishing attempts. Communication with law enforcement and cybersecurity communities can also play a role in dismantling the infrastructure used by attackers to facilitate these campaigns.\n\n"
+data sources: ''
+is_sub-technique: 'FALSE'
+sub-technique of: ''
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

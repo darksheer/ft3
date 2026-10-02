@@ -1,0 +1,25 @@
+id: FT035
+stix_id: ''
+name: Dispute Avoidance
+description: "Dispute Avoidance is a strategy typically employed by businesses to prevent potential disputes and chargebacks that may be raised by customers. This proactive approach involves addressing customer issues and refunding payments before the customer escalates them to formal disputes with their bank or credit card issuer. Advanced AI tools like \"disputifier\" analyze communication and transaction patterns to predict and preemptively address disputes by issuing refunds or engaging in proactive customer service interactions.\n\nExecution: \n\nBusinesses, particularly online merchants, closely monitor customer interactions, complaints, and other signs that could indicate dissatisfaction with a purchase. Using AI and machine learning algorithms, these merchants can analyze indicators such as the sentiment in customer emails, frequency of customer support inquiries, or the nature of the purchase to identify transactions where a dispute or chargeback is likely to occur. They can then\
+  \ reach out to the customer to offer refunds, discounts on future purchases, or other incentives to resolve the issue amicably.\n\nExamples:\n\nAn e-commerce merchant automatically issuing refunds to customers who send emails indicating strong dissatisfaction or intent to return an item.\nUsing disputifier or similar AI tools to analyze customer support tickets, identifying trends and specific language cues that are statistically linked to high rates of disputes and proactively resolving these issues.\nA subscription service provider preemptively offering partial refunds or account credits to subscribers who have experienced service disruptions or who frequently contact customer support with issues.\n\nGoals: The main goals behind dispute avoidance practices are to:\n\nReduce the number and cost of chargebacks and disputes which may involve additional fees, administrative costs, and potential loss of goods or services.\nMaintain and enhance the merchant's reputation by demonstrating a\
+  \ customer-centric approach to service and issue resolution.\nPreserve the relationship with the customer by turning a potential negative experience into a positive one, fostering loyalty and repeat business.\nAvoid the negative impacts on merchant account standings with payment processors like Stripe, as high rates of disputes can lead to elevated fees, holds on funds, or account closure."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Manipulation & Fraudulent Transactions
+detection: "Implementing tools that analyze customer interactions across various channels for signs of dissatisfaction or intent to dispute a transaction.\n\nDeveloping customer service policies that encourage proactive engagement and swift resolution of potential disputes.\n\nTraining customer support staff to recognize early warning signs of disputes and empower them to offer quick resolutions, including refunds if necessary.\n\nGathering and analyzing data on dispute causes to identify and address systemic issues within the business's control that may be leading to customer disputes.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection teams can collaborate with customer service departments to leverage AI tools that identify and respond to potential disputes. By monitoring patterns of transactions that later result in chargebacks, teams can refine machine learning models to become more accurate in predicting and preventing future disputes. Ongoing analysis of the effectiveness\
+  \ of proactive refunds and other dispute avoidance strategies can inform best practices and policy adjustments, helping to strike a balance between excellent customer service and the overall financial health of the business."
+data sources: ''
+is_sub-technique: 'FALSE'
+sub-technique of: ''
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

@@ -1,0 +1,9 @@
+ID: FTA004
+stix_id: ''
+name: Execution
+description: The Execution tactic refers to the manner in which an attacker runs malicious code or performs actions that facilitate fraudulent activities. It could involve running scripting tools on a compromised computer to automate collection of financial information or executing unauthorized transactions directly.
+url: ''
+created: 01/30/2024
+last_modified: 01/30/2024
+domain: ft3
+version: V.1

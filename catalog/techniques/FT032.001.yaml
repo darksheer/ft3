@@ -1,0 +1,24 @@
+id: FT032.001
+stix_id: ''
+name: 'Credit Card Skimming: Malicious Javascript Skimming'
+description: "Malicious JavaScript skimming is a specific form of digital credit card theft where attackers inject unauthorized JavaScript code into the webpages of e-commerce sites. This covert script typically targets the payment information entered by customers during the checkout process. When a user submits their payment details, the skimmer script intercepts the information and transmits it to a server under the attacker’s control.\n\nExecution: \n\nHackers may infect websites with skimming JavaScript in several ways, such as exploiting security vulnerabilities to directly alter website files, compromising third-party scripts that are included on payment pages, tricking website administrators into installing malicious updates, or through phishing attacks that grant attackers access to the site's content management system. The malicious code is often obfuscated to evade detection by obscuring its purpose and intent.\n\nExamples:\n\nAn attacker modifies an e-commerce website's payment\
+  \ page JavaScript files to include a skimming script, which collects payment card data when customers make a purchase.\nHackers compromise a widely used third-party JavaScript library (like a chat support tool or analytics tracker), inserting skimming code that affects all websites that load the library.\nCybercriminals conduct spear-phishing campaigns targeting site administrators, stealing their credentials, and gaining access to the backend of e-commerce platforms to plant skimmer scripts.\n\nGoals: The objectives of attackers using malicious JavaScript skimming are typically to:\n\nStealthily harvest payment card details (card numbers, expiration dates, and CVVs) from a large number of unsuspecting e-commerce customers.\nCollect and sell stolen credit card information on the dark web or use it to perform fraudulent transactions.\nMaintain persistence on compromised websites and continue to collect data over extended periods without being detected."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Manipulation & Fraudulent Transactions
+detection: "Regularly scanning websites, particularly payment forms, for unauthorized or modified scripts.\n\nUtilizing Subresource Integrity (SRI) checks to validate that the loaded third-party scripts have not been tampered with.\n\nImplementing a Content Security Policy (CSP) to restrict which scripts are allowed to run and which external resources can be loaded on web pages.\n\nApplying end-to-end encryption between the customer’s browser and the server to prevent Man-in-the-Middle (MitM) attacks.\nEmploying behavioral analytics to detect unusual script activity, such as unexpected network requests or attempts to access form fields.\n\nConducting periodic code reviews and using file integrity monitoring software to detect unauthorized changes to website files.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection teams should deploy specialized tools designed to identify and alert on signs of JavaScript tampering and skimming activities. These include monitoring for unexpected\
+  \ changes to script files, spikes in form abandonment rates, and unusual patterns of outbound network traffic from payment pages. Upon the detection of a skimming operation, prompt actions are necessary to remove the malicious code, identify the method of intrusion, notify affected customers, and strengthen the site’s defenses to prevent future incidents. Continued collaboration with cybersecurity experts, law enforcement, and the cybersecurity community at large is crucial for staying ahead of the evolving tactics used by skimming groups."
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT032
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

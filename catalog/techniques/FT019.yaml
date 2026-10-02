@@ -1,0 +1,25 @@
+id: FT019
+stix_id: ''
+name: Website Cloning
+description: "Website cloning is a technique whereby cybercriminals create a replica of a legitimate website with the intent to deceive visitors. The cloned website mimics the design, layout, and functionality of the original site, but is controlled by the attacker. Users are often directed to these fraudulent sites via phishing emails, social media links, or through search engine manipulation. Once on the cloned site, visitors may unknowingly provide sensitive information such as login credentials, financial data, or personal details.\n\nExecution: \n\nAttackers create a cloned website by copying the source code of the legitimate site and hosting it on a different server, often with a similar domain name designed to confuse potential victims (a practice known as \"typosquatting\"). They might also inject malicious scripts into the cloned site for additional nefarious activities, such as capturing keystrokes or redirecting payments.\n\nExamples:\n\nAn imposter copies a bank’s website to\
+  \ a domain that is off by one letter, hoping customers will not notice the URL difference and will enter their online banking credentials.\nCloning an online retailer's website around the holiday shopping season, tricking shoppers into \"purchasing\" high-demand items that will never be shipped—while collecting their credit card information.\nCreating a duplicate of a popular software download site to distribute malware-laden versions of the software.\n\nGoals: The primary goals of website cloning are to:\n\nCapture sensitive information from users by convincing them they are interacting with the legitimate site.\nFacilitate financial fraud by misleading customers into making payments or donations, which are then rerouted to the attacker.\nDistribute malware that can result in further exploitation of the victim’s device for financial gain, data theft, or unauthorized access to secure networks.\nDamage the reputation and trust of the legitimate site owner, which can have long-term business\
+  \ consequences."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Defense Evasion & Obfuscation
+detection: "Employing anti-phishing tools and services that actively scan for website clones and alert organizations when potential fraud is detected.\n\nImplementing SSL certificates and ensuring that users know to check for ‘https’ in the URL as a sign of a secure site.\n\nEducating users about the dangers of clicking on unsolicited links and the importance of verifying a website’s URL before entering sensitive information.\n\nMonitoring domain registrations for names similar to the organization’s to catch potential typosquatting attempts early.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection and analysis teams should use various cybersecurity tools and strategies to identify potential website clones. This could include proactive crawling of the web for duplicate content or domain names, utilizing browser blacklists that warn users about suspicious websites, and leveraging web analytics to identify unusual traffic patterns indicative of a clone. When a cloned site is\
+  \ detected, steps must be taken to shut it down, often involving coordination with domain registrars and hosting providers, as well as legal action. Public communication may also be necessary to prevent customers from falling victim to the site and to ensure that there is awareness of the fraudulent activity."
+data sources: ''
+is_sub-technique: 'FALSE'
+sub-technique of: ''
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

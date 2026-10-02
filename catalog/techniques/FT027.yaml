@@ -1,0 +1,25 @@
+id: FT027
+stix_id: ''
+name: Account Enumeration
+description: "Account enumeration in the context of a compromised account refers to the process whereby an attacker, upon gaining unauthorized access to the account, begins to assess the scope of actions and privileges available. This internal reconnaissance is focused on understanding the capabilities of an account, such as whether the account can issue new payment cards, initiate payouts, create new user roles, or access detailed financial reports.\n\nExecution: \n\nOnce inside the compromised account, the malicious actor explores the dashboard, settings, and API access capabilities. The attacker may discreetly check which functions are enabled, the level of control over customer transaction data, the ability to modify payment routing, and what integrations exist with other services or platforms. The enumeration may involve testing API calls using the account's credentials to discover accessible data and actionable commands without triggering alerts.\n\nExamples:\n\nNavigating through\
+  \ dashboard interfaces to identify features like balance information, transfers, connected accounts, and payment methods.\nMaking API requests to list all available objects and actions permitted with that account, such as customers, charges, and transfers.\nChecking the account settings to determine if additional functionalities, such as card issuing or subscription management, are enabled.\nReviewing the access logs and security settings, looking for ways to maintain persistence or elevate privileges within the account.\n\nGoals: The primary goals an attacker has in performing account enumeration within a compromised account include:\n\nIdentifying and exploiting financial capabilities for monetary gain, such as initiating fraudulent transactions or redirecting funds.\nAssessing the potential for harvesting a large volume of sensitive financial data, which can be used in various fraud schemes or sold on the black market.\nDetermining how to modify transaction flows or account configurations\
+  \ to further their fraudulent activities stealthily.\nEstablishing the current operational setup and how it can be leveraged for maximum impact in the broader context of their attack campaign."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Discovery & Profiling
+detection: "Setting up alerting systems for unusual account activity, such as accessing unfamiliar sections of the Stripe dashboard, modifying account configurations, or making abnormal API requests.\n\nImplementing strict role-based access controls (RBAC) to limit the capabilities that any compromised user or role can exploit.\n\nRegularly reviewing and restricting API tokens and credentials to the least amount of privilege necessary to execute expected business functions.\n\nEmploying behavioral analytics to detect patterns of activity within the account that deviate from the norm, which could indicate internal enumeration.\n\nRegularly auditing accounts for any signs of compromise and integrating fraud detection systems capable of identifying subtle indicators of enumeration.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection teams should have mechanisms to monitor Stripe accounts in real-time for signals of enumeration and atypical use patterns. This involves detailed\
+  \ logging of user activities, including which parts of the Stripe dashboard or which API endpoints are being accessed and from what IP addresses. Following detection, the prompt revocation of suspicious sessions and a thorough security review are vital steps. It's also crucial to inform and guide the legitimate account holders through the process of regaining control, reinforcing security measures, and assessing the extent of any data exposure or financial impact from the enumeration activity."
+data sources: ''
+is_sub-technique: 'FALSE'
+sub-technique of: ''
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

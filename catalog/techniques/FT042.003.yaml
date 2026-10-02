@@ -1,0 +1,24 @@
+id: FT042.003
+stix_id: ''
+name: 'Account Manipulation: Additional Buy Now, Pay Later'
+description: "The \"Buy Now, Pay Later\" (BNPL) option is a flexible payment solution that Stripe offers merchants to allow their customers to defer payments while receiving goods or services immediately. Within the context of account manipulation, fraudsters may add or exploit the BNPL feature within a compromised Stripe account to conduct unauthorized transactions, increase credit exposure, or engage in financial fraud.\n\nExecution: \n\nAfter gaining unauthorized access to a Stripe account, either through phishing or other account takeover techniques, an attacker manipulates the BNPL settings. This could involve enabling BNPL options on a merchant's account without consent, altering the terms of existing BNPL offerings, or configuring the feature to reroute subsequent payments to fraudulent accounts.\n\nExamples:\n\nEditing the terms of a BNPL plan to extend the payment period, giving the fraudster a longer time frame to exploit charged but unpaid-for items or services.\nConfiguring additional\
+  \ BNPL plans and associating them with high-value items, creating a financial liability for the merchant by allowing excessive deferrals of payment.\nEnticing customers to select BNPL at checkout on an e-commerce platform by offering unusually lenient terms, then utilizing the delay before payment collection to move or launder the anticipated revenues without delivering the goods.\n\nGoals: The goals behind manipulating \"Additional Buy Now, Pay Later\" configurations in Stripe accounts include:\n\nDeferred transaction visibility, allowing fraudsters to obfuscate their activities among genuinely pending transactions and delay detection.\nExploiting the credit system to perpetrate financial fraud such as the creation of synthetic identities or compounding credit to be exploited in a bust-out fraud scheme.\nLeveraging BNPL plan manipulations to facilitate money laundering by creating illegitimate transactions that will receive later payment."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Financial Evasion, Laundering & Cash-Out
+detection: "Enforcing stringent authorization procedures for enabling or configuring BNPL options on merchant accounts.\nImplementing real-time monitoring and alerts for changes in BNPL settings and terms.\n\nEstablishing limits on the terms and conditions that can be offered in BNPL plans, including maximum deferral periods and credit limits.\n\nReviewing BNPL transactions and analyzing customer usage patterns for signs of fraud or financial inconsistencies.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection teams must monitor Stripe account configurations for unusual changes in BNPL settings. Automated toolsets can be used to flag unexpected modifications in payment deferral terms and credit limits. Upon detecting potentially fraudulent manipulations, teams must act swiftly to investigate, validate the changes with the account holder, and if necessary, reverse the alterations. Post-incident reviews are critical for understanding how the attackers accessed the BNPL features\
+  \ and for taking preventive measures to avoid future exploitations. Communication with affected customers and providing guidance on recognizing and reporting similar fraudulent behaviors can also reinforce platform security."
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT042
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

@@ -1,0 +1,25 @@
+id: FT024
+stix_id: ''
+name: Fabricating shipping evidence
+description: "Fabricating shipping evidence is a fraudulent tactic used by dishonest sellers to deceive customers and dispute resolution services. In this scam, the seller provides false proof that an item was shipped to the customer, typically by utilizing authentic tracking numbers from unrelated shipments. The tracking numbers are often sourced from the same geographic location and approximate time frame as the delivery address of the legitimate customer to add credibility to the claim that the item was shipped and delivered.\n\nExecution: \n\nThe fraudsters acquire valid tracking numbers, which could be from their own previous legitimate shipments or from pilfered information through insider access at shipping companies, online forums, or by using tracking number generators. They then attribute these tracking numbers to shipments for transactions where no actual item is sent to the customers. When customers claim non-receipt and initiate a dispute, the seller presents the unrelated but\
+  \ valid tracking information as evidence of delivery to dispute resolution systems employed by platforms like eBay, Amazon, or payment processing services.\n\nExamples:\n\nA seller lists an item for sale online and collects payment but never sends the product. When the customer opens a dispute, the seller submits a valid tracking number from a different package that was delivered around the same time to the same ZIP code.\nAcquiring bulk tracking numbers from shipments that were delivered within the customer's region and systematically assigning them to fraudulent transactions to assert items were delivered.\nManipulating online shipping tools or services to generate tracking information that appears legitimate to resolve disputes in the seller’s favor.\n\nGoals: The primary goals behind fabricating shipping evidence are to:\n\nWin disputes against claims of non-delivery by providing seemingly valid proof to the payment processor or platform dispute resolution center.\nRetain the funds\
+  \ from transactions where the merchandise was never actually sent.\nExtend the duration of the scam by reducing immediate suspicion among victims and delay or prevent chargebacks."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Defense Evasion & Obfuscation
+detection: "Payment processors and e-commerce platforms should scrutinize provided shipping evidence, cross-referencing with internal data patterns and known fraud indicators.\n\nImplementing advanced tracking and validation systems capable of correlating tracking information with specific transactions beyond mere delivery confirmation.\n\nCross-checking the recipient's name and address for delivered parcels against those provided in the merchant's shipping evidence.\n\nIn cases of repeated disputes involving the same seller, conducting a more thorough review of the seller's account and transaction history for patterns of fraud.\n\nEncouraging shipping companies to securely authenticate access to tracking information and safeguard against unauthorized tracking number generation.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection teams can use automated systems to flag the use of duplicate tracking numbers across different transactions or to detect anomalies between the address\
+  \ associated with the tracking number and the shipping address on file for the transaction. Engaging with logistics providers to confirm the validity of contested tracking details is essential, as is staying abreast of emerging tactics used to fabricate shipping evidence. If fraudulent activity is detected, placing immediate holds on funds, conducting investigations into the seller's practices, and taking steps to protect the customer are critical responses. Establishing robust prevention measures and educating consumers on red flags can also help diminish the effectiveness of this type of fraud."
+data sources: ''
+is_sub-technique: 'FALSE'
+sub-technique of: ''
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

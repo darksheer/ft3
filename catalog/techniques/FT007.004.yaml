@@ -1,0 +1,47 @@
+id: FT007.004
+stix_id: ''
+name: 'Acquire Access: Server'
+description: |-
+  Adversaries may seek to acquire access to critical servers that are part of the infrastructure of financial institutions or payment processing centers. Gaining unauthorized access to such servers can allow attackers to manipulate transaction processing, harvest sensitive financial data, or compromise other systems within the network.
+
+  Execution: Attackers might exploit security weaknesses, such as unpatched vulnerabilities, use stolen credentials, or deploy phishing techniques to trick employees into providing access. They may also leverage physical attack vectors if the server is not properly secured, or insider threats by colluding with someone who has legitimate access.
+
+  Examples:
+
+  - Exploiting vulnerabilities in server software (e.g., SQL injection on a web server that processes online transactions).
+  - Using credential phishing or credential stuffing to gain access to an administrative console or remote access interface.
+  - Planting malware through social engineering or compromised third-party software to establish a foothold on the server.
+  - Colluding with an insider to obtain direct access to the server or to credentials that provide such access.
+
+  Goals: The goal of acquiring access to servers in the financial sector is multifaceted: adversaries may aim to conduct financial theft, interfere with transaction processing, initiate unauthorized transfers, manipulate balances, or compromise personal and financial data of customers. Additionally, access to a server can facilitate the lateral movement within the institution’s network, leading to broader systemic compromises.
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Resource Development
+detection: |-
+  Implementing robust patch management policies to ensure that all servers are regularly updated with the latest security patches.
+
+  Enforcing strict access controls and regularly reviewing permissions to limit and monitor who has access to critical servers.
+
+  Utilizing multi-factor authentication and strong password policies to guard against unauthorized access attempts.
+  Conducting regular network penetration tests and vulnerability assessments to uncover potential weaknesses.
+
+  Deploying network segmentation to reduce the ability of an adversary to move laterally within the network if a server is compromised.
+  Installing and maintaining an Intrusion Detection System (IDS) or an Intrusion Prevention System (IPS) to detect and potentially prevent malicious activity.
+
+  Continuous monitoring of security logs for anomalous activities that could indicate attempts to gain unauthorized server access.
+
+  Use by Fraud Detection and Analysis Teams: Fraud detection and analysis teams should closely monitor the integrity of transactional data and access logs. In the case of a financial institution, anomalies in transaction processing or unusual administrative activities may signal unauthorized access to servers. Teams should also keep abreast of the latest threat intelligence reports to understand emerging tactics and adjust defensive measures accordingly. Engaging in proactive threat hunting within the network can help uncover covert attempts to acquire server access before they result in financial losses or data breaches.
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT008
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

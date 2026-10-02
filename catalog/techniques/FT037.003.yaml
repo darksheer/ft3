@@ -1,0 +1,24 @@
+id: FT037.003
+stix_id: ''
+name: 'Account Manipulation: Additional Linked Account'
+description: "In the context of Stripe, an account manipulation tactic known as \"Additional Linked Account\" involves unauthorized actors adding new bank accounts or payment methods to an existing Stripe account. This action serves as a method of command and control, wherein the attackers exert influence over the financial transactions and fund flows within the compromised account.\n\nExecution: \n\nAfter gaining initial unauthorized access to a Stripe account, perhaps through compromised credentials or social engineering, attackers add new, externally controlled bank accounts or payment methods. These newly linked accounts are set up to receive fraudulent payouts or redirect legitimate transaction revenues. The manipulation often goes undetected by the legitimate account holders initially because it doesn't require changing existing payout setups; it merely adds to them.\n\nExamples:\n\nAltering the settings of a compromised merchant Stripe account to link an additional bank account owned\
+  \ by the fraudster, thereby diverting future payouts.\nFraudulently adding a debit card under the attacker's control to victim's Stripe account, allowing instant payouts and fast extraction of funds.\nSetting up an additional withdrawal method on a Stripe account after gaining access, which can be activated by the attacker at a time of their choosing.\n\n\nGoals: The goals behind adding an additional linked account to a compromised Stripe account include:\n\nEstablishing a method of funneling funds from sales or other financial transactions to an account that the attacker controls.\nMaintaining a stealthy form of access that enables ongoing exfiltration of funds without necessarily highlighting any immediate suspicious activity that might alert the account owner.\nCreating redundancies in payout methods, ensuring that even if one illegitimate channel is closed, others still exist to continue financial exploitation."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Command and Control
+detection: "Regularly auditing linked accounts and payout methods on Stripe for any unauthorized changes or additions.\n\nUtilizing transaction monitoring and anomaly detection systems to spot unusual patterns in fund transfers or account modifications indicative of manipulation.\n\nImplementing policies that require multi-factor authentication and secondary verification before linking new accounts or changing payout arrangements.\n\nEducating all individuals with Stripe account access on the importance of monitoring account activity and recognizing signs of unauthorized changes.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection and analysis teams play a crucial role in identifying unauthorized attempts to link new accounts to existing Stripe accounts. Monitoring for early signs of compromise and changes in payout activity is essential, as is rapid response to any suspicious activity. Upon uncovering an additional linked account that is unauthorized, the team should take\
+  \ immediate steps to secure the account, such as disabling the new link and investigating the scope of the breach. Post-incident, an assessment is needed to improve security measures and prevent future account manipulations. Additionally, communication with financial institutions linked to the unauthorized accounts could help trace the funds and perpetrators."
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT037
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

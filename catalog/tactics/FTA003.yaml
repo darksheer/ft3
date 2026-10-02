@@ -1,0 +1,9 @@
+ID: FTA003
+stix_id: ''
+name: Initial Access
+description: This tactic involves the methods fraudsters use to gain initial footholds in a system or network. They may use various techniques such as stolen credentials, phishing attacks, or exploiting vulnerabilities in software to access accounts or systems and prepare for subsequent fraudulent activities.
+url: ''
+created: 01/30/2024
+last_modified: 01/30/2024
+domain: ft3
+version: V.1

@@ -1,0 +1,26 @@
+id: FT007.003
+stix_id: ''
+name: 'Acquire Access: Malvertising'
+description: |-
+  Adversaries can engage in "malvertising" (malicious advertising) tactics to gain access to users' devices or networks. This technique involves embedding malicious code within digital advertisements, which can result in the download of malware or redirection to fraudulent websites when the ad is clicked. Financial institutions and their customers are prime targets, as access to a single device in the network or a customer’s personal computer could lead to considerable monetary theft or data breaches.
+
+  Execution: Attackers purchase ad space or compromise ad networks to distribute malicious advertisements. These ads often look legitimate but are designed to exploit vulnerabilities within web browsers or other software when interacted with or even just displayed (if a zero-click exploit is used). The malware delivered through such ads may be purposed for credential theft, such as banking trojans or keystroke loggers.
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Resource Development
+detection: "Implementing Domain Name System Security Extensions (DNSSEC) to validate the authenticity of DNS responses and prevent unauthorized changes.\n\nMonitoring DNS query logs for suspicious changes to records or unexpected spikes in request volumes that may indicate tampering.\nSecuring DNS management interfaces with multi-factor authentication and stringent access controls.\n\nRegularly conducting external DNS audits and reconciliations to ensure that records have not been maliciously altered.\n\nEnsuring that personnel are trained in security best practices to reduce the risk of social engineering attacks.\n\nUse by Fraud Detection and Analysis \nTeams: \n\nFraud detection teams must closely monitor DNS traffic for irregularities and potential indicators of hijacking or poisoning. Automated systems should be in place to detect changes in DNS responses for critical domains and to validate the integrity of the DNS resolution path. Prompt incident response is necessary to swiftly revert\
+  \ any unauthorized DNS changes and to investigate the breach. Additionally, financial institutions should educate their customers about recognizing signs of fraudulent websites, even when they may appear as a familiar service, to prevent the success of such DNS manipulation tactics."
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT008
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

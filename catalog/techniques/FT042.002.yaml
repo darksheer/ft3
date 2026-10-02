@@ -1,0 +1,24 @@
+id: FT042.002
+stix_id: ''
+name: 'Account Manipulation: Additional Linked Account'
+description: "In reference to Stripe accounts, the \"Account Manipulation: Additional Linked Account\" technique involves unauthorized actors linking other Stripe accounts to a compromised primary account. This manipulation could potentially allow attackers to transfer funds, access sensitive customer data, and perform activities on behalf of the compromised account without the account holder's knowledge.\n\nExecution: \n\nA malicious actor with access to a Stripe account, through credential compromise or other methods, may exploit Stripe's capabilities to link multiple accounts. For instance, they may add an account to facilitate the transfer of funds in a platform-native manner. The attacker could also use linked accounts to disperse funds more discreetly or leverage the increased transactional capabilities often associated with aggregated Stripe accounts.\n\nExamples:\n\nAfter gaining access to a business's primary Stripe account, the attacker links a secondary account they control, allowing\
+  \ for fund redirection or consolidated payment processing across the accounts.\nUsing linked accounts as a means to obfuscate financial trails during other fraudulent activities, such as money laundering or unauthorized withdrawals.\nThe attacker connects to a series of accounts at different transaction levels, using the network of accounts to perform larger-scale fraudulent transactions that may be detected if attempted through a single account.\n\nGoals: The goals behind linking additional unauthorized accounts typically include:\n\nExpanding the fraudulent control over a network of accounts to facilitate large-scale financial theft.\nHiding and laundering the origins of ill-gotten gains by transferring funds between linked accounts.\nIncreasing the complexity and scope of fraudulent schemes by taking advantage of the varied functionalities and limits across multiple accounts."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Financial Evasion, Laundering & Cash-Out
+detection: "Setting up system alerts within Stripe for newly linked account notifications, triggering a confirmation or additional verification process.\n\nEnforcing the requirement of multi-factor authentication and secondary approval for linking new accounts, especially if they involve fund routing capabilities.\n\nRegularly conducting reviews and audits of all linked accounts, tracking their activities against instances of fraud or other unauthorized transactions.\n\nOffering guidance and security training to account users on handling account link requests and the importance of monitoring their account for unexpected changes.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection teams need to stay vigilant against unauthorized account linkages. This can be achieved by implementing analytics to monitor for anomalies that may indicate account takeovers, such as a sudden increase in linked accounts or uncharacteristic money flow patterns. If suspicious activity concerning account\
+  \ linkage is observed, immediate action should be taken to verify the legitimacy of the linked accounts and to potentially disable fraudulent connections. Post-incident actions would involve a thorough investigation to prevent similar occurrences and secure all affected accounts. Additionally, working with customers to educate them about monitoring their Stripe accounts for unauthorized changes can aid in early detection and deterrence of such fraud tactics.\n\n"
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT042
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

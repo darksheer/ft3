@@ -1,0 +1,24 @@
+id: FT011.002
+stix_id: ''
+name: 'Account Takeover: Exposed Login Credential'
+description: |
+  Account Takeover (ATO) via Exposed Login Credentials Overview: In financial cyber fraud, account takeover (ATO) involving exposed login credentials refers to unauthorized access and manipulation of a user account using known or leaked username and password combinations. Unauthorized access to payment processing accounts can result in severe repercussions, including financial loss and data breaches.; Execution: Attackers obtain login credentials through various methods: Data Breaches: Login details may be leaked from compromised databases.; Phishing Campaigns: Users are tricked into revealing their usernames and passwords.; Malware: Keyloggers capture keystrokes to obtain credentials.; Password Spraying: Attackers attempt common passwords in hopes of a match. Once access is gained, adversaries can modify payment routing details, initiate refunds, and access sensitive financial data. Examples: Using a list from a data breach containing email and password pairs in a credential-stuffing attack to access accounts.; Sending phishing emails that appear as security alerts to trick employees into entering login details on a fraudulent website.; Discovering login credentials through social media or public information and using them to access accounts.; Goals: Typical goals for attackers executing an account takeover with exposed login credentials include: Withdrawing funds from the compromised account or redirecting payouts.; Accessing sensitive customer data for identity theft or further phishing attacks, or selling on the dark market.; Altering invoice or billing configurations to redirect future payments.; Using the compromised account as a base for launching additional fraud schemes.
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Initial Access
+detection: "Implement robust password policies and encourage the use of password managers to prevent the use of weak or reused credentials.\n\nActivate multi-factor authentication for an additional layer of security that requires verification beyond just the password.\n\nEmploy continuous monitoring and logging of account activities to identify and flag unusual login attempts or unauthorized changes to account settings.\n\nEducate employees on phishing threats and security best practices for handling confidential login information.\n\nUse email alerting for notifications on new logins or major account changes, ensuring quick awareness of potential unauthorized activity.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection teams should look for signs of account takeover, such as logins from unrecognized devices or geographic locations, sudden changes in withdrawal bank accounts, or alterations in transaction patterns. Quick incident responses, such as locking of the compromised\
+  \ account and resetting of passwords, are crucial when an ATO is detected. Success in protecting and reclaiming Stripe accounts often requires coordination and communication with Stripe's security or fraud team to share insights about the incident and prevent future occurrences. Post-mortem analysis to understand the attack vector is essential to fortify defenses against similar exploits in the future."
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT012
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

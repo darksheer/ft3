@@ -1,0 +1,63 @@
+id: FT052.003
+stix_id: ''
+name: 'Falsifying Identity Documents: Fake National Identity Card'
+description: |-
+  National Identity Card involves creating or altering digital copies of national identity cards to impersonate legitimate individuals. This method is leveraged by criminals and fraudsters to subvert digital identity verification processes. National identity cards, due to their authoritative nature and credibility, are frequently targeted for digital forgery to facilitate activities like unauthorized access, money laundering, and fraudulent transactions while bypassing security measures and evading detection.
+
+  Procedure:
+
+  Information Collection: Fraudsters begin by collecting essential personal information needed to create a convincing fake national identity card. This includes names, dates of birth, residence addresses, and photographs—all of which can be obtained through data breaches, phishing scams, social engineering, or purchased on black markets.
+
+  Acquisition of Tools and Templates: Attackers acquire specialized graphic design software, high-resolution scanning equipment, and template files that mimic the layout and design of legitimate national identity cards, including their unique security features.
+
+  Fabrication: Using the compiled information and acquired tools, the attackers create the fake digital national identity card:
+
+  Personal details are entered onto the digital template, ensuring consistency with legitimate national identity card formats.
+  Advanced editing techniques are employed to replicate security features such as UV marks, holograms, and microprints.
+  The attacker’s photo or the photo of an impersonator is embedded into the digital card to enhance its credibility.
+  Submission for Digital Verification: Once the fake digital national identity card is complete, it's submitted during the identity verification processes on platforms like Stripe to:
+
+  Create accounts under false or stolen identities.
+  Conduct unauthorized transactions or access services that require verified identification.
+  Withdraw or transfer fraudulent funds and engage in other financial crimes.
+  Supportive Evasion Techniques: Often, attackers use additional obfuscation methods such as VPNs to mask IP addresses, burner emails, and anonymized payment methods to further disguise their true identities and evade detection.
+
+  Mitigation Strategies:
+
+  Advanced Document Verification Solutions: Implement sophisticated document verification tools powered by AI and machine learning that analyze digital national identity cards for authenticity, detecting forged elements and discrepancies against known genuine documents.
+
+  Biometric Integration: Use biometric verification processes that compare the individual’s facial features with the photograph on the submitted national identity card, ensuring that the person presenting the document is the same as in the photo on the card.
+
+  Behavioral Analytics: Continuously monitor user behavior to identify anomalies, such as unusual patterns in account activities, rapid account creation, or atypical transaction behaviors following identity verification.
+
+  Cross-Referencing with Official Databases: Leverage national and international identity databases to cross-reference and verify the credentials provided in the national identity cards, detecting inconsistencies and flagging fraudulent entries.
+
+  Enhanced Authentication Mechanisms: Enforce multi-factor authentication (MFA) alongside submitting a digital national identity card, providing additional layers of security for account creation and high-risk transactions.
+url: ''
+created: 3/4/24
+last_modified: 8/5/24
+domain: ft3
+version: V.1
+tactics: Defense Evasion & Obfuscation
+detection: |+
+  AI and Machine Learning Algorithms: Deploy AI and machine learning models to scan and identify irregularities within digital national identity cards. These algorithms can detect inconsistencies in design, altered security features, and manipulated images.
+
+  Metadata Examination: Analyze the metadata of submitted digital identity cards for evidence of digital manipulation or inconsistencies indicating tampering.
+
+  Global Database Cross-Verification: Regularly cross-check national identity card information submitted by users against reliable national and international databases to verify authenticity and historical validity.
+
+  User Behavior Analysis: Implement sophisticated behavior analytics to monitor for suspicious activity indicative of fraud, including unusual login locations, rapid shifts in account behavior, and atypical transaction patterns.
+
+  Fraud Intelligence Collaboration: Partner with other financial institutions, digital platforms, and international fraud intelligence networks to share insights and data on emerging trends and methods in digital identity document forgery.
+
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT052
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

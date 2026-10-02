@@ -1,0 +1,29 @@
+id: FT055
+stix_id: ''
+name: Fake Payment Gateway
+description: |-
+  Fake Payment Gateway is a fraudulent technique used by cybercriminals to create illicit online payment processes that mimic legitimate payment systems. By designing counterfeit payment portals that resemble well-known payment processors, fraudsters can deceive consumers into entering sensitive financial information, including credit card numbers, expiration dates, and CVV codes. This information is then captured by the fraudsters, who can use it for unauthorized transactions or sell it on the dark web, leading to significant financial losses for victims.
+
+  Criminals employing this technique often place fake payment gateways on phishing websites, where unsuspecting consumers are tricked into completing transactions that they believe are secure. These fraudulent sites may use familiar branding and user interfaces to mask their illegitimacy, often pulling in victims who assume they are dealing with a reputable service. Once victims input their payment details, the fake gateway may then redirect them to a legitimate site or a thank-you page, reinforcing the illusion that their transaction was successful.
+
+  Examples of this technique include: A phishing site that looks identical to a popular e-commerce platform prompts users to enter their payment information, capturing the details before redirecting them to the real site as if nothing was amiss. A fake charity website uses a counterfeit payment processor to solicit donations, collecting card information from well-meaning individuals who believe they are supporting a genuine cause. A fraudulent online service disguises its payment form as a known payment gateway, tricking users into submitting their credit card information under the guise of necessary subscription fees.
+
+  The goals of those utilizing fake payment gateways are: To collect sensitive payment information quickly and efficiently for immediate use in unauthorized transactions. To establish a façade of legitimacy that reassures victims, reducing their suspicion and increasing the likelihood of data input. To execute the fraudulent scheme in a manner that makes it challenging for victims to trace their transactions or recover stolen funds, maximizing the fraudster's profit before discovery and apprehension.
+url: ''
+created: 3/4/25
+last_modified: 3/4/25
+domain: ft3
+version: V.1
+tactics: Defense Evasion & Obfuscation
+detection: ''
+data sources: ''
+is_sub-technique: 'FALSE'
+sub-technique of: ''
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

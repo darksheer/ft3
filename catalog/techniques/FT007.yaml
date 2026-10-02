@@ -1,0 +1,33 @@
+id: FT007
+stix_id: ''
+name: Acquire Access
+description: |-
+  Acquire Access' is a master technique in the category of threat actions that involves gaining unauthorized access to various systems, networks, or online accounts. This overarching technique includes various methods cyber actors use to infiltrate and control resources to carry out malicious activities or further their attack objectives.
+
+  Execution: Execution of the 'Acquire Access' technique can take many forms, depending on the target and the attackers’ objectives. It may involve the use of automation, exploitation of vulnerabilities, social engineering, or utilizing previously compromised infrastructure, like botnets. Once access is obtained, attackers can carry out a range of actions from data theft to direct financial fraud.
+
+  Goals: Broad objectives of the 'Acquire Access' technique include:
+
+  Establishing a foothold within various systems for ongoing criminal activities.
+  Harvesting sensitive data for sale or ransom.
+  Manipulating online information for fraud.
+  Masking illicit activities behind seemingly legitimate access.
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Resource Development
+detection: "Implement network monitoring and intrusion detection systems to spot unauthorized access attempts.\n\nEducate users and administrators about the importance of securing access credentials and recognizing phishing attempts.\n\nAdopt strong, multi-factor authentication measures to protect against compromised credentials.\n\nRegularly audit and update systems, applications, and network configurations to close potential security gaps.\n\nUse by Fraud Detection and Analysis Teams: \nTeams dedicated to detecting fraud must continuously search for signs of the 'Acquire Access' technique across all systems, utilizing various tools that flag anomalies, unauthorized changes, and intrusion attempts. Upon detecting unauthorized access, rapid response protocols are enacted, and investigation procedures are initiated to track down perpetrators and understand the breadth of their access. Post-incident actions are taken to reinforce the compromised systems, educate users affected, and improve\
+  \ overall security posture to prevent similar incidents."
+data sources: ''
+is_sub-technique: 'FALSE'
+sub-technique of: ''
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

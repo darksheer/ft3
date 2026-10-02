@@ -1,0 +1,38 @@
+id: FT032
+stix_id: ''
+name: Credit Card Skimming
+description: |-
+  Credit card skimming in the cyber domain refers to the unauthorized capture of credit card information by inserting malicious code into the front-end of e-commerce websites, known as digital skimming or e-skimming. This can happen through compromised third-party scripts or direct attacks on the website. The stolen credit card data — often including card numbers, expiration dates, and CVV codes — is then transmitted to servers under the control of cybercriminals.
+
+  Execution: Attackers typically execute credit card skimming by injecting malicious JavaScript code into payment pages on e-commerce sites, often by exploiting vulnerabilities in the site itself or in third-party services integrated with the site. This code runs in the user’s browser when they enter their payment details and surreptitiously sends a copy of the data to a server controlled by the attackers.
+
+  Examples:
+
+  Infiltrating a website through outdated plugins or insecure admin credentials and adding skimming code to the website's payment form processing scripts.
+  Compromising widely used third-party scripts, such as those for customer service chatboxes, analytics tools, or ad networks, and using them to inject the skimming code on multiple websites simultaneously.
+  Creating entire phishing websites that resemble legitimate e-commerce platforms designed to harvest credit card information from unsuspecting victims.
+
+  Goals: The goals of attackers engaging in credit card skimming are to:
+
+  Collect as much credit card data as possible from unsuspecting victims for unauthorized purchases, fraudulent transactions, or sale on the dark web.
+  Carry out the attacks while remaining undetected for as long as possible to maximize the amount of data collected.
+  Undermine the security and trust in e-commerce platforms and potentially exploit the stolen data for subsequent identity theft or social engineering attacks.
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Manipulation & Fraudulent Transactions
+detection: "Regularly scanning websites for unauthorized changes or anomalous script behavior that might indicate the presence of skimming code.\n\nEmploying content security policies (CSP) to dictate where resources can be loaded from, thereby preventing the loading of malicious third-party scripts.\n\nUsing Subresource Integrity (SRI) tags to ensure that files fetched by the site are delivered without unexpected manipulation.\n\nRegularly updating and patching all website components, including content management systems and plugins, to reduce vulnerability to script injections.\n\nEducating customers on the importance of monitoring their credit card statements for unauthorized charges, which could indicate card skimming has occurred.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection teams should have specialized tools to detect patterns and signals indicative of credit card skimming. These might include unexpected network requests from payment pages, reports of fraudulent\
+  \ charges from customers, or detection of known skimming scripts. In the event of a skimming attack detection, immediate action is required to remove the offending code, assess the scope of the data breach, issue warnings to potentially affected customers, and implement additional security measures to prevent future attacks. Working with cybersecurity forensics teams can help in understanding the attacker's methods and aiding law enforcement efforts to track down the perpetrators."
+data sources: ''
+is_sub-technique: 'FALSE'
+sub-technique of: ''
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

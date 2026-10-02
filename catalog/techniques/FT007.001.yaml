@@ -1,0 +1,32 @@
+id: FT007.001
+stix_id: ''
+name: 'Acquire Access: Botnet'
+description: "In the financial fraud domain, adversaries may acquire access to a botnet to carry out automated attacks on a large scale. Botnets are networks of compromised computers (bots) that can be remotely controlled by an attacker. Acquiring access to a botnet allows attackers to perform various malicious activities, such as launching Distributed Denial-of-Service (DDoS) attacks against financial institutions, executing credential stuffing campaigns, or spreading malware to commit financial fraud.\n\nExecution: Adversaries can either create their own botnets by spreading malware that infects devices and adds them to the network, or they can acquire access to existing botnets on the dark web. These botnets can then be leveraged to target financial entities with the aim of stealing credentials, causing service disruptions, or generating fraudulent transactions.\n\nExamples:\n\nInfecting user devices with malware through phishing campaigns or drive-by downloads to grow a botnet.\nRenting\
+  \ or purchasing access to pre-existing botnets from underground marketplaces.\nUsing botnets to perform credential stuffing attacks against online banking or payment platforms by attempting to authenticate with stolen or leaked username and password pairs.\n\nGoals: \n\nThe ultimate goal for attackers using botnets in financial cyber fraud is to maximize the impact of their attacks, given the automated and distributed nature of botnet capabilities. They may seek to hijack online accounts, execute unauthorized transactions, disrupt financial services, or perform reconnaissance for more targeted attacks, while simultaneously hiding their true location and identity."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Resource Development
+detection: |-
+  Implementing anomaly detection systems to identify irregular traffic patterns that may indicate botnet activity.
+
+  Setting up rate-limiting and CAPTCHA mechanisms on login pages to prevent automated login attempts.
+  Using IP reputation databases and blacklists to filter out traffic from known malicious sources.
+  Segmenting networks to limit the spread and impact of botnet-related malware within organizational infrastructures.
+
+  Educating users on how to recognize and avoid malicious links and attachments.
+
+  Use by Fraud Detection and Analysis Teams: Fraud analysis teams should be equipped with tools and processes to detect and analyze botnet activity. Network behavior analytics can be employed to identify command-and-control traffic, unusual outbound communication, or signs of a DDoS attack in progress. In cases where botnets are used for credential stuffing or account takeovers, account monitoring should be enhanced to quickly identify and respond to unauthorized access attempts. Continuous threat intelligence is necessary to stay ahead of emerging botnet threats and adapt defensive strategies accordingly.
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT008
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

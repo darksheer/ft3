@@ -1,0 +1,9 @@
+ID: FTA001
+stix_id: ''
+name: Reconnaissance
+description: The adversary gathers information on potential targets to inform future fraudulent activities. This could involve collecting publicly available data, purchasing stolen credentials or personal information, and probing for vulnerabilities in systems.
+url: ''
+created: 01/30/2024
+last_modified: 01/30/2024
+domain: ft3
+version: V.1

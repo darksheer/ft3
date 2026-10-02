@@ -1,0 +1,24 @@
+id: FT025
+stix_id: ''
+name: Fake Review Fraud
+description: "Fake review fraud involves the posting of false or misleading product or service reviews online. Sellers commit this deception to artificially inflate the reputation and perceived quality of their offerings, thereby attracting more customers. This type of fraud can also direct consumers toward phishing sites or fraudulent payment links by disguising them as positive reviews with high customer satisfaction.\n\nExecution: \n\nFraudulent sellers or third-party services may generate fake reviews themselves or pay for such reviews to be posted. These reviews typically appear on e-commerce platforms, social media, review websites, and other online marketplaces. They're often crafted to appear genuine, complete with fabricated personal narratives and photos, sometimes even using automated ‘review bots’ to produce them en masse.\n\nExamples:\n\nA seller hires a firm that specializes in reputation management to flood their product pages with positive reviews, overshadowing any genuine\
+  \ negative feedback.\nPositive reviews are posted along with fraudulent links claiming to offer discounts or additional information, which instead lead to phishing sites.\nSellers cross-post the same set of fabricated positive reviews across different products or platforms to bolster a wider range of offerings.\nA seller uses multiple pseudonymous accounts to post glowing reviews of their products, manipulating trust metrics and review averages.\n\nGoals: The broad goals of engaging in fake review fraud include:\n\nImproving the perceived popularity and quality of the seller's products, thereby driving sales and undercutting competition.\nMisleading consumers into trusting a product or brand that they otherwise might avoid based on authentic reviews.\nSteering potential victims toward malicious sites where their personal and financial information can be compromised."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Defense Evasion & Obfuscation
+detection: "Utilizing automated systems to detect patterns indicative of fake reviews, such as spikes in positive reviews in a short timeframe or repetitive language across multiple reviews.\n\nManually scrutinizing reviews that contain external links or directing users off the immediate platform.\n\nRegularly auditing high-rated products to ensure that the reviews are authentic and correspond with verified purchases when possible.\n\nEncouraging users to report suspicious reviews and enabling platforms to easily remove proven fraudulent postings.\nImplementing strict policies against fake reviews on e-commerce platforms and penalizing sellers who engage in or benefit from such practices.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection teams must continuously monitor for discrepancies or unusual behavior patterns that suggest inauthentic reviews, employing advanced natural language processing (NLP) and sentiment analysis tools to assist in this effort. They may also flag\
+  \ products with a high proportion of reviews from accounts with little to no other activity or reviews that are clustered too closely in time. Collaboration with platform security teams can ensure quick action to remove fraudulent content and safeguard the integrity of the review system. Education campaigns can also arm consumers with knowledge about the hallmarks of fake reviews, making it more difficult for fraudulent postings to achieve their deceptive goals."
+data sources: ''
+is_sub-technique: 'FALSE'
+sub-technique of: ''
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

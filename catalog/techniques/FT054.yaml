@@ -1,0 +1,29 @@
+id: FT054
+stix_id: ''
+name: Fake e-Commerce Website
+description: |-
+  Fake e-Commerce Website is a deceptive technique employed by fraudsters to create fraudulent online storefronts that mimic legitimate e-commerce sites in order to trick consumers into making purchases. These fraudulent sites typically showcase attractive products at significantly discounted prices, enticing potential victims to provide payment information in exchange for goods that will never be delivered. By crafting convincing designs and using familiar branding, these scams exploit consumer trust and familiarity with online shopping to facilitate their deceptive operations.
+
+  Fraudsters creating fake e-commerce websites often invest time in making the sites appear trustworthy. They may use images and product descriptions stolen from genuine retailers, create false customer reviews, and utilize secure payment gateways to add legitimacy to their operations. Once victims make a purchase, they either receive nothing or receive low-quality items that do not match their orders. Many times, these sites disappear shortly after the initial wave of transactions, making it difficult for victims to trace their steps or recover lost funds.
+
+  Examples of this technique include: A fake website advertising high-end electronics at drastically reduced prices, leading consumers to provide their payment details only to find the site has vanished after the purchase. An imitation online clothing store uses attractive models and professional photography to sell non-existent clothing items, collecting payments without delivering any products. A fraudulent travel booking site offers deals on vacation packages that seem too good to be true, enticing unsuspecting travelers to pay upfront for itineraries that are never fulfilled.
+
+  The goals of those operating fake e-commerce websites are: To maximize profit by exploiting consumer trust and capitalizing on the potential for high sales volume through appealing offers. To quickly collect payments and data before the site is reported or taken down by authorities, allowing them to evade repercussions. To create an illusion of a legitimate business, utilizing effective marketing tactics to lure customers into a false sense of security before executing their fraudulent scheme.
+url: ''
+created: 3/4/25
+last_modified: 3/4/25
+domain: ft3
+version: V.1
+tactics: Defense Evasion & Obfuscation
+detection: ''
+data sources: ''
+is_sub-technique: 'FALSE'
+sub-technique of: ''
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

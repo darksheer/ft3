@@ -1,0 +1,22 @@
+id: FT056
+stix_id: ''
+name: 3DS Bypass
+description: 3DS (Three-Domain Secure) bypass is a fraudulent technique where attackers exploit weaknesses in the 3DS authentication protocol to circumvent additional layers of security typically required for online credit card transactions. By deliberately providing incomplete or insufficient information—such as using a single letter for the cardholder’s name—the attackers cause the 3DS authentication to fail open. This means that the transaction is processed without the additional security checks, allowing the fraudsters to complete purchases without triggering fraud detection systems. This method undermines the purpose of 3DS, which is designed to protect online transactions from unauthorized use.
+url: ''
+created: 1/30/24
+last_modified: 8/27/24
+domain: ft3
+version: V.1
+tactics: Manipulation & Fraudulent Transactions
+detection: ''
+data sources: ''
+is_sub-technique: 'FALSE'
+sub-technique of: ''
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

@@ -1,0 +1,66 @@
+id: FT052.002
+stix_id: ''
+name: 'Falsifying Identity Documents: Fake Drivers License '
+description: |-
+  The sub-technique Fake Driver's License involves creating or altering digital copies of driver’s licenses to impersonate legitimate individuals. This method is often used to subvert identity verification and create unauthorized accounts.. Driver’s licenses are common forms of identification for digital on-boarding processes, making them prime targets for fraudsters aiming to bypass security controls and engage in illegal activities such as money laundering, unauthorized transactions, and fraudulent account creation.
+
+  Procedure:
+
+  Information Collection: Fraudsters start by amassing necessary personal information to fabricate a realistic digital driver’s license. This could include names, addresses, dates of birth, and photographs. Such data can be harvested through data breaches, phishing attacks, social engineering, or purchased from black markets.
+
+  Acquisition of Tools: Attackers obtain graphic design software, high-resolution scanners, and specialized tools designed to create or alter digital identification documents. These tools assist in replicating security features, fonts, and layouts of genuine driver’s licenses.
+
+  Fabrication: Using the gathered information and digital tools, attackers create the fake digital driver’s license:
+
+  Personal details are meticulously entered onto a template that mimics a real driver’s license.
+  Advanced editing techniques are employed to replicate security features like holograms, watermarks, and microprints.
+  A matching photo of the imposter is embedded, ensuring the license appears authentic during digital scrutiny.
+  Submission for Verification: Once the digital driver's license is fabricated, it is submitted through Stripe’s identity verification processes to:
+
+  Open new accounts under false identities.
+  Facilitate unauthorized transactions or services that require high-trust verification.
+  Withdraw fraudulent funds or participate in money laundering activities.
+  Supporting Obfuscation: Complementary to the fake ID submission, attackers may utilize additional evasive tactics such as VPNs to alter their IP addresses, temporary email addresses, and anonymized payment methods to further obscure their true identities.
+
+  Mitigation Strategies:
+
+  Stripe.com can mitigate the risks associated with fake digital driver’s licenses by implementing the following strategies:
+
+  Advanced Document Analysis Tools: Utilize cutting-edge document verification tools that employ machine learning and AI to scrutinize digital driver's licenses for signs of tampering or falsification, recognizing minute inconsistencies and counterfeit features.
+
+  Biometric Verification Integration: Implement biometric verification that cross-checks the individual’s facial features against the photo provided on the driver’s license, ensuring that the person presenting the document matches the identity in the photo.
+
+  Behavioral Monitoring: Deploy continuous monitoring systems that analyze user behavior patterns for anomalies. Unusual account activity, rapid account creation, and atypical transaction behaviors should trigger additional verification processes.
+
+  Cross-Verification with Databases: Leverage global and local databases to cross-reference the provided driver’s license information against known legitimate records, detecting discrepancies and potential fraud.
+
+  Enhanced Authentication Protocols: Require multi-factor authentication (MFA) and additional verification steps beyond submitting a digital driver’s license, enhancing overall security for account creation and high-risk transactions.
+url: ''
+created: 3/4/24
+last_modified: 8/5/24
+domain: ft3
+version: V.1
+tactics: Defense Evasion & Obfuscation
+detection: |-
+  There are several measures to effectively detect the use of fake digital driver’s licenses:
+
+  AI & Machine Learning Algorithms: Implement AI and machine learning models to scan and identify deviations in digital driver’s licenses. AI can spot irregularities in document features, such as inconsistent font usage, incorrect security patterns, and manipulated images.
+
+  Metadata Analysis: Examine the metadata of submitted digital documents to identify signs of editing or artifacts that suggest the image has been altered or otherwise manipulated.
+
+  Database Cross-Referencing: Regularly cross-reference driver’s license information with authoritative national and international databases to verify the authenticity and catch duplicates.
+
+  Anomaly Detection: Use sophisticated behavioral analytics to identify suspicious patterns indicative of document forgery, such as inconsistent login locations, unusually rapid account actions, and other irregular activity post-verification.
+
+  Collaborative Intelligence Sharing: Engage with other financial institutions, online platforms, and fraud detection networks to share insights and data on recent trends and methods used for fabricating digital driver’s licenses.
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT052
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

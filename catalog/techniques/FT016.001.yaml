@@ -1,0 +1,25 @@
+id: FT016.001
+stix_id: ''
+name: 'Phishing: Phishing for Merchant Credentials'
+description: "Phishing for merchant credentials is a targeted cybercrime tactic aimed at merchants to acquire their login information for various e-commerce or payment processing platforms. The compromised credentials are then exploited to hijack merchant accounts, manipulate financial transactions, siphon customer payment information, divert funds, or enact other fraudulent activities.\n\nExecution: \n\nThese phishing attacks are often delivered via emails, social media messages, or text messages (smishing) that mimic official communications from payment processors, e-commerce platforms, or financial institutions. Merchants are lured to counterfeit websites that resemble legitimate login pages where they are prompted to enter their account details. These spoofed sites capture the inputted credentials, which are then used by the fraudsters to access the merchant's actual account.\n\nExamples:\n\nAn email sent to a merchant purporting to be from their payment processor, alerting them to a\
+  \ problem with their account and requesting they click on a provided link to resolve it. The link redirects to a fake login page designed to harvest credentials.\nA message via social media from a fake account claiming to represent a marketplace platform, instructing the merchant to confirm their account information due to a security update, using a fraudulent website link.\nFraudulent text messages sent to merchants directing them to \"verify\" their account details to prevent their account from being suspended, using a phishing link disguised as an official website.\n\nGoals: The objectives behind phishing for merchant credentials include:\n\nGaining unauthorized access to merchant accounts to divert legitimate payments to accounts controlled by the fraudsters.\nConducting unauthorized transactions, including refunds or purchases, to steal funds or products.\nAccessing sensitive customer data stored in merchant accounts for further exploitation in financial fraud, identity theft, or\
+  \ traffic redirection to malicious sites.\nUsing hijacked accounts to set up phishing operations or propagate malware under the guise of a legitimate merchant."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Initial Access
+detection: "Implementing advanced email filtering and anti-phishing technologies to detect and quarantine suspicious communications.\n\nEducating merchants regularly about the latest phishing techniques and telling signs of phishing attempts.\n\nEncouraging the use of two-factor authentication (2FA) for merchant accounts, adding an extra layer of security beyond just a password.\n\nProviding merchants with verified channels for communication and support requests to significantly reduce the chance of phishing.\n\nUtilizing domain monitoring services to identify and take down phishing sites that misuse company trademarks and branding.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection teams must employ both proactive and reactive strategies to combat phishing for merchant credentials. This includes scanning for phishing emails, monitoring web traffic for patterns indicating redirection to known malicious sites, and analyzing login attempts for signs of credential stuffing. In\
+  \ the event of a detected phishing campaign, actions might include disseminating alerts to merchants, shutting down impostor domains, and coordinating with hosting providers and law enforcement. Teams should also work with affected merchants to help them recover control over their accounts and mitigate any damage that may have occurred."
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT016
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

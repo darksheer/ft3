@@ -1,0 +1,25 @@
+id: FT007.009
+stix_id: ''
+name: 'Acquire Access: Email Accounts'
+description: "Adversaries often target email accounts not only to compromise existing ones but also to create new accounts with fraudulent financial resources. These email accounts become tools for executing and facilitating a range of financial fraud activities. Such fraudulently acquired email accounts can be used to carry out business email compromise (BEC) attacks, enable phishing schemes, impersonate legitimate entities, and coordinate illicit financial transactions.\n\nExecution: \n\nTo create these email accounts, attackers use stolen credit card information, bank account details, or other financial credentials obtained through various means, such as data breaches, phishing, or social engineering. They often choose reputable email service providers to boost the credibility of their fraudulent operations. By paying for premium services, they gain access to additional features that may assist in executing more sophisticated scams.\n\nFraudulent Resource Procurement Use Case: \n\nThis\
+  \ particular use case involves the deliberate creation of email accounts with payment methods using funds obtained through illegitimate means. These accounts may then be used to:\n\nSend convincing fraudulent communication, such as fake invoices or payment change requests.\nCommunicate with victims while masking the fraudster's true identity, leveraging the trust associated with a seemingly legitimate email domain.\nRegister for financial services using these email accounts to perpetrate credit fraud, loan fraud, or other illegal transactions.\nServe as a drop point for credential phishing schemes targeting financial institution customers and employees.\n\nExamples:\n\nRegistering for premium email services with compromised financial information to help ensure the delivery of scam and phishing emails.\nEstablishing seemingly legitimate business email accounts for conducting BEC scams.\nUsing these fraudulently acquired email accounts for correspondence in fraudulent financial transactions,\
+  \ money laundering, or other malicious operations.\n\nGoals: \n\nThe goals of fraudsters acquiring access to these email accounts include conducting widespread fraud activities, maintaining anonymity, enhancing the credibility of their schemes, and evading detection by law enforcement and financial institutions. They wish to establish a front of legitimacy needed to deceive victims and carry out illicit transactions or financial theft successfully.\n\n"
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Resource Development
+detection: "Financial institutions and email service providers should share information and collaborate to detect the use of stolen or fraudulent financial resources in purchasing email services.\n\nImplement systems to validate new account creations, especially scrutinizing payment methods against databases of flagged or stolen financial information.\n\nEmail service providers can monitor for patterns of behavior often associated with fraudulent activity, such as sending mass emails with phishing content.\n\nDeployment of fraud detection software that identifies and flags email registrations tied to suspicious transactions or known compromised financial details.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud teams need to be adept at recognizing signs of email accounts being used for financial cyber fraud, such as tracking the origination of fraudulent communication to new email addresses purchased with flagged payment methods. They should also be prepared to collaborate with email\
+  \ service providers for the swift takedown of such accounts and preventing the further use of fraudulent financial resources to procure email services. Effective cross-verification mechanisms and vigilant monitoring of emerging threats can contribute significantly to mitigating the risks associated with such fraudulent activities."
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT008
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

@@ -1,0 +1,44 @@
+id: FT012
+stix_id: ''
+name: Cross-Site Scripting (XSS) Redirection for Financial Fraud
+description: |-
+  Description: Adversaries may exploit Cross-Site Scripting (XSS) vulnerabilities present in legitimate merchant websites to redirect unsuspecting customers to malicious or fake merchant websites. This technique involves injecting malicious scripts into web pages viewed by users. When customers interact with the compromised pages—usually during the checkout process—the injected script redirects them to an adversary-controlled webpage that mimics the legitimate shopping site. The primary goal is to capture the customer's transaction data, including payment information, without their knowledge.
+
+  The malicious redirection can compromise the integrity of the transaction and lead to unauthorized access to sensitive financial data. This approach not only allows attackers to steal financial information directly from consumers but also erodes trust in the legitimate merchant's online presence.
+
+  Execution:
+  Adversaries identify XSS vulnerabilities in e-commerce websites that fail to properly sanitize user-supplied input.
+  Malicious scripts are crafted and injected into vulnerable web pages, awaiting interaction from legitimate users.
+  When users navigate to compromised pages, the script executes and redirects their browsers to fraudulent sites designed to capture financial information.
+
+  Examples:
+  An attacker finds an XSS vulnerability in a popular online store and injects a script that redirects users to a counterfeit checkout page, capturing credit card information for each redirected transaction.
+  A campaign targeting multiple e-commerce sites leverages XSS vulnerabilities to alter the action attributes of form submissions, redirecting payment information to attacker-controlled endpoints.
+
+  Goals:
+  Unauthorized acquisition of personal and financial information directly from consumers.
+  Undermining the security and trustworthiness of legitimate e-commerce platforms.
+  Facilitating large-scale financial fraud and identity theft schemes.
+url: ''
+created: 1/30/24
+last_modified: 4/30/24
+domain: ft3
+version: V.1
+tactics: Initial Access
+detection: |-
+  Mitigation:
+  Implement robust input validation and output encoding mechanisms to prevent XSS vulnerabilities.
+  Regularly conduct security assessments and vulnerability scans on e-commerce platforms to identify and remediate potential XSS vulnerabilities.
+  Educate users on the importance of verifying the security of their online transactions and looking out for signs of website tampering.
+  Utilize Content Security Policy (CSP) headers to restrict the execution of unauthorized scripts on web pages.
+data sources: ''
+is_sub-technique: 'FALSE'
+sub-technique of: ''
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

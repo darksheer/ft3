@@ -1,0 +1,25 @@
+id: FT033.001
+stix_id: ''
+name: 'No Shipping: Non-Delivery of Goods'
+description: "The \"Non-Delivery of Goods (No Shipping)\" technique is a form of online retail fraud in which fraudsters establish merchant accounts—often on well-known e-commerce platforms—and list products for sale without any intention of providing the goods to purchasers. Merchants choose price points (typically in the $10-$50 range) that are low enough to deter buyers from pursuing disputes, thereby reducing the likelihood of chargebacks that can trigger an investigation by the e-commerce platform or payment processing partner such as Stripe.\n\nExecution: \n\nFraudsters proceed by creating seemingly legitimate online storefronts, complete with product catalogs that often feature popular or in-demand items priced attractively to draw in consumers. They carefully manage customer communications to maintain the illusion of legitimacy for as long as possible, delaying the discovery of the scam. They may provide fake tracking numbers or falsely claim that items are backordered. By the time\
+  \ buyers realize they won't receive their orders, the fraudsters may have already withdrawn the proceeds and shut down their operation.\n\nExamples:\n\nSetting up an online shop offering a variety of items, often with stolen or fake product images and descriptions, while pricing the items to make charge disputes less appealing for customers.\nCreating fraudulent listings on marketplace platforms or auction sites and taking advantage of the platform's pre-existing traffic and credibility.\nUsing social media advertising to direct potential buyers to the fraudulent e-commerce setup.\n\nGoals: The goals behind this \"Non-Delivery of Goods (No Shipping)\" technique typically include:\n\nProfiting from the sale of non-existent goods while minimizing the risk of getting caught by choosing a low-cost product that buyers might write off as a bad purchase rather than actively pursue a refund or report.\nExploiting consumer trust in e-commerce platforms and payment systems to quickly accumulate\
+  \ a large number of small transactions before the scam is detected.\nAvoiding the logistics and cost associated with shipping counterfeit goods or dealing with inventory.\n"
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Manipulation & Fraudulent Transactions
+detection: "Implementing advanced fraud detection algorithms that flag merchants with unusual patterns of sales without corresponding shipping activity.\n\nMonitoring for a high volume of small transactions by new merchant accounts as potential red flags for this type of fraud.\n\nInstituting more rigorous identity and background checks for new merchant accounts, particularly those on e-commerce platforms.\n\nEncouraging customers to report instances of non-delivery and pursuing these cases proactively.\n\nEnabling customers to provide ratings and reviews of sellers and paying attention to repeated negative feedback related to non-delivery.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection teams should scrutinize merchant accounts for behaviors that suggest the non-delivery of goods, such as patterns of customer complaints, lack of shipping verification, and rapid increases in transaction volumes for new sellers. Anomalies should be met with swift investigation, potentially\
+  \ freezing the merchants' funds and accounts while the issues are resolved. Affected customers should be informed about the potential fraud and guided through the refund or chargeback process if necessary. Continuous analysis of transaction data across the platform can help identify common characteristics of fraudulent merchant behavior, enabling the refinement of detection mechanisms and preventative measures."
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT033
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

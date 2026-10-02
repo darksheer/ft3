@@ -1,0 +1,24 @@
+id: FT037
+stix_id: ''
+name: Account Manipulation
+description: "Account manipulation in the context of Stripe accounts involves unauthorized activities by individuals who alter account details to gain control or reroute transactions. This can include changing contact details, manipulating account settings, adding or editing payout schedules and linked bank accounts, or creating unauthorized new user accounts with broad access permissions.\n\nExecution: \n\nTypically, account manipulation begins once an attacker gains access to a Stripe account through phishing, credential stuffing, social engineering, or exploiting software vulnerabilities. Once inside the account, the attacker makes subtle changes that may not immediately alert the account owner. This could involve updating email addresses to intercept notifications and confirmations, changing payout information to divert funds, and modifying security settings to weaken the account's defenses against future unauthorized access.\n\nExamples:\n\nChanging the email associated with a Stripe\
+  \ account to one controlled by the attacker, thereby receiving all communications and furthering control.\nModifying the linked bank account details so that all future payouts are transferred to an account the attacker owns.\nAdjusting security settings, for example, by disabling two-factor authentication, making the account more vulnerable to future attacks or easing the takeover process.\nGoals: The objectives of manipulative activities on a Stripe account include:\n\nDiverting funds from legitimate business operations into bank accounts controlled by the attacker.\nMaintaining sustained access for persistent exploitation, potentially for purposes of laundering money, orchestrating further fraud, or selling account access on the dark web.\nGathering confidential business and customer transactional data for malicious use or for sale to third parties."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Command and Control
+detection: "Implementing real-time monitoring and alerts when changes are made to critical account details, such as email addresses, passwords, banking information, or security settings.\n\nEnforcing a mandatory review or cooling-off period for changes to bank account details, ensuring any changes are authorized and legitimate.\n\nRequiring additional authentication methods for account modifications, including verification codes sent to the original email address or phone number on file.\n\nEducating Stripe account holders about common signs of account manipulation and the importance of regularly reviewing account settings for unrecognized changes.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection and analysis teams should employ a range of tools and practices to identify and respond to signs of account manipulation within Stripe accounts. This includes scanning for unusual account activity, flagging changes that deviate from normal patterns, and using machine learning algorithms\
+  \ that can identify potential fraud. Developing strong relationships with customers to encourage reporting suspicious activity can also help detect and prevent manipulation. If unauthorized activity is discovered, the teams must act swiftly to secure compromised accounts and investigate the perpetrator's actions. Post-incident, teams should work with impacted users to strengthen security measures and prevent reoccurrence."
+data sources: ''
+is_sub-technique: 'FALSE'
+sub-technique of: ''
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

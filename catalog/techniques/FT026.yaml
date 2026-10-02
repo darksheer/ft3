@@ -1,0 +1,24 @@
+id: FT026
+stix_id: ''
+name: Falsifying Business Documents
+description: "Falsifying business documents is a fraudulent act where bad actors create or modify documents such as financial statements, balance sheets, income statements, or other official business records to deceive stakeholders, including investors, regulators, partners, and customers, about the company’s health, performance, and prospects. This action can be used to cover up poor financial results, to make a business appear more profitable for investment or to obtain credit, or to meet regulatory requirements under false pretenses.\n\nExecution: \n\nThis type of fraud typically involves the alteration of accounting records, inflating sales figures, understating expenses, or providing false narratives about the company's financial activities. Methods may include creating fictitious revenue, hiding liabilities off the books, or overstating assets. The motivation behind such deceit can range from attempting to maintain stock prices to ensuring executive bonuses, or simply delaying the\
+  \ collapse of an unviable business.\n\nExamples:\n\nA company executive doctoring financial documents to overstate the company's profits and underreport debts to attract investors and drive up stock value.\nA small business owner creating fake invoices and sales records to secure a line of credit from a bank.\nCompany personnel colluding to hide financial losses or embezzlement from shareholders and the board of directors through deceptive financial reporting.\n\nGoals: The objectives of falsifying business documents include:\n\nCreating a false sense of financial health and stability to attract investment, secure loans, or support share prices.\nDeceiving regulatory bodies to avoid penalties, maintain compliance, or achieve favorable outcomes.\nMisleading internal or external stakeholders to gain unwarranted financial advantages or meet personal or company-wide financial targets."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Defense Evasion & Obfuscation
+detection: "Implementing comprehensive auditing procedures, both internal and external, to review and verify the accuracy of financial documents regularly.\n\nUtilizing forensic accounting techniques to detect anomalies or irregularities in financial records.\n\nEstablishing stringent internal controls and separation of duties to reduce opportunities for individual manipulation of financial data.\n\nEncouraging a corporate culture of transparency and ethics, including the provision of whistleblower protections for those who report fraudulent activities.\n\nIntroducing regular training for accounting and finance personnel on ethical reporting standards and legal repercussions of document falsification.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection teams should employ advanced analytical tools to identify patterns or inconsistencies within financial records that could indicate falsification. These tools can alert to unusual transactions, discrepancies between related accounts,\
+  \ or unexplained variations in financial trends. When fraud is suspected or detected, it's crucial to undertake a thorough investigation, which may involve reviewing large volumes of data, interviewing key personnel, and reconstructing accurate financial records. If fraud is confirmed, legal actions should be initiated against those responsible, and corrective measures must be put in place to restore accurate reporting and prevent future occurrences. Additionally, communication with investors and regulatory authorities may be necessary to rebuild trust and ensure transparency moving forward."
+data sources: ''
+is_sub-technique: 'FALSE'
+sub-technique of: ''
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

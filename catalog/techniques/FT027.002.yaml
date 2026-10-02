@@ -1,0 +1,24 @@
+id: FT027.002
+stix_id: ''
+name: 'Account Enumeration: Account Tier Enumeration'
+description: "Account Tier Enumeration for Stripe involves an attacker determining the level of service and feature set that a compromised Stripe account has access to. This type of reconnaissance is aimed at understanding the tier or subscription level, as different tiers may have varying processing capabilities, transaction limits, access to premium features, and API access scopes.\n\nExecution: \n\nOnce an adversary has gained access to a Stripe account, they will explore the account details page, subscription settings, and other relevant sections to ascertain the account’s tier. Attackers may also make API calls that reveal the scope of services enabled for the account, such as advanced fraud protection features, custom reporting, or higher rate limits that come with premium tiers.\n\nExamples:\n\nReviewing account settings to identify mentions of the account plan or subscription level, such as ‘Standard’, ‘Pro’, or ‘Enterprise’.\nQuerying the Stripe API for available features or rate-limit\
+  \ information that might only be accessible to higher-tier accounts.\nAttempting to enable features or make configurations changes that are tier-dependent to infer the current service level by the success or failure of these changes.\n\nGoals: The primary objectives for an attacker involved in account tier enumeration may include:\n\nIdentifying premium accounts that could present higher-value targets due to a larger volume of transactions or higher credit limits.\nExploiting advanced features that may be misconfigured or less likely to be monitored by organizations assuming they are secure.\nAssessing the extent of potential fraud activities that can be conducted without tripping automated fraud detection systems, which may be more or less stringent based on tier."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Discovery & Profiling
+detection: "Implementing role-based access controls to ensure that only authorized personnel can view or change account tier information.\n\nMonitoring for abnormal activities or API calls that seek to reveal service level details or test the limits of account privileges.\n\nApplying strict anomaly detection rules that alert on changes to account configurations or feature toggles indicative of tier enumeration.\n\nSecuring API keys and maintaining detailed logs of API usage to detect and investigate unauthorized attempts to determine account tier.\n\nRegularly assessing the security posture of the account and ensuring that all users with access are aware of the indicators of reconnaissance activities.\n\nUse by Fraud Detection and Analysis Teams: \n\nStripe’s fraud detection teams should be equipped with tools to detect unusual patterns in how accounts are accessed, focusing on signs that someone is attempting to gather information on the account’s capabilities or service tier. Behavioral\
+  \ analytics can help flag when an account is accessed in a manner inconsistent with the user’s normal activity, such as navigating through subscription or plan details or making unexpected API requests. If suspicious behavior is detected, they should initiate prompt security measures, potentially including account audits, re-validating user identities, or even temporarily locking the account to prevent misuse. These teams should also cooperate with Stripe's customer support and account management teams to promptly address any identified issues and to reinforce the account's security."
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT027
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

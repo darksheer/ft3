@@ -1,0 +1,29 @@
+id: FT033.004
+stix_id: ''
+name: 'No Shipping: Fabricating shipping evidence'
+description: |-
+  "No Shipping: Fabricating Shipping Evidence" is a deceptive technique used by fraudsters to create false proof of shipment in order to mislead customers and payment processors about the status of an order. By generating falsified tracking numbers, invoices, or shipment confirmations, these fraudsters create the appearance that an order has been shipped, even when no actual items have been dispatched. This technique is often employed to delay refunds and buy time, allowing fraudsters to continue their operations undetected while customers remain unaware that they have been defrauded.
+
+  Fraudsters leveraging the fabricating shipping evidence technique typically set up online stores or market listings where they receive payments for goods they never intend to deliver. Once an order is placed, they create fake shipping labels and tracking information using online tools, sending these details to customers in an attempt to convince them that their purchases are on the way. This tactic can exploit the trust customers place in shipping confirmation emails and tracking services, reinforcing the fraudster’s deception and complicating potential chargebacks or disputes.
+
+  Examples of this technique include: A fraudulent seller generates fake tracking numbers that show 'in transit' status to deflect inquiries from customers, despite having never shipped any products. An online store sends automated messages containing fabricated shipping confirmations to customers, communicating false delivery timelines and misdirecting them from seeking refunds. A marketplace seller deliberately delays notifying customers of order cancellations, instead providing them with spurious tracking information to extend the time before complaints arise.
+
+  The goals of fraudsters fabricating shipping evidence include: Easing pressure from customers by giving the illusion that their orders are fulfilled, thereby reducing the likelihood of refunds or disputes. Buying time to either continue fraudulent operations or shut down and flee when detection is imminent. Creating a facade of legitimacy and professionalism by mimicking standard shipping practices, leading customers to feel more at ease with their transactions."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Manipulation & Fraudulent Transactions
+detection: ''
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: ''
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

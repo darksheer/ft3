@@ -1,0 +1,42 @@
+id: FT051.003
+stix_id: ''
+name: 'Fraudulent Purchases: LLM Services'
+description: |-
+  Fraudulent LLM purchases involve the use of stolen payment information to procure language learning materials or services. These can range from subscription-based learning platforms to one-time purchases of software or language courses. This criminal activity is a method of financial evasion, laundering, and cash-out, where fraudsters attempt to convert illicitly obtained funds into seemingly legitimate transactions.
+
+  Execution: The fraudster, equipped with stolen credit card details or financial information obtained through data breaches, identity theft, or phishing scams, initiates purchases of language learning materials. They may target renowned language learning platforms that offer subscription services or digital marketplaces that sell language learning products. Once the transaction is processed, they may resell the acquired materials or services on secondary markets or use the period between the transaction and chargeback (once the cardholder notices the fraudulent charge) to obscure the source of funds.
+
+  Examples:
+
+  Fraudsters use stolen credit cards to subscribe to various language learning platforms with regular recurring payments, planning to sell the account credentials on illicit marketplaces.
+  Stolen card information is used to bulk buy language learning software, which is then quickly resold for cash, effectively laundering the stolen funds.
+  Cybercriminals create fraudulent language tutor profiles on educational platforms, using stolen payment details to pay for featured listings or advertisements that help gather a student base for scamming.
+  Goals: The goals associated with fraudulent purchases of language learning materials include:
+
+  Laundering money by using stolen funds to purchase legitimate services, which can then be sold for 'clean' money or used in further financial scam operations.
+  Evasion of detection through the use of educational services, which might not traditionally be associated with high-risk or fraudulent transactions, reducing the chance of immediate scrutiny from financial institution fraud detection systems.
+  Cash-out through quick resale of the fraudulently obtained materials or services at discounted rates in online forums, marketplaces, or direct transactions.
+url: ''
+created: 3/4/25
+last_modified: 2/28/24
+domain: ft3
+version: V.1
+tactics: Financial Evasion, Laundering & Cash-Out
+detection: |-
+  Implementing transaction monitoring systems that flag suspicious purchasing activity, especially for high volumes or high-frequency transactions of educational materials.
+  Employing robust payment authentication mechanisms for online purchases, such as two-factor authentication and confirmation callbacks for unusual transactions.
+  Monitoring and verifying large transactions and new account sign-ups on language learning platforms for discrepancies or patterns indicative of fraudulent activity.
+  Educating consumers about the importance of securing their payment information and reviewing bank statements for unauthorized purchases.
+
+  Use by Fraud Detection and Analysis Teams: Fraud detection teams must monitor for patterns of purchasing behaviors related to language learning materials that could indicate fraud, such as the use of multiple cards from the same IP address or a surge in transactions on new accounts. Automated tools and behavioral analysis can help in detecting these activities. Upon identification of suspicious transactions, rapid investigation is needed, potentially halting payment processing and even reversing transactions to prevent the laundering of stolen funds. After an incident is resolved, analysis and collaboration with language learning platforms can help to reinforce prevention strategies and awareness campaigns to mitigate such fraudulent activity in the education technology sector.
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT051
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

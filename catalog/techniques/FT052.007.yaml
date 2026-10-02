@@ -1,0 +1,82 @@
+id: FT052.007
+stix_id: ''
+name: 'Falsifying Identity Documents: Fake Resident Permit ID / U.S. Green Card'
+description: |-
+  Fake Resident Permit ID / U.S. Green Card involves creating or altering digital copies of resident permit IDs or U.S. green cards to impersonate legitimate cardholders. This method is employed by cybercriminals to evade digital identity verification mechanisms and gain unauthorized access to services and financial platforms. Given the high trust and secure nature of these documents, they are specifically targeted for forgery to conduct financial fraud, unauthorized transactions, and other illicit activities while evading detection and scrutiny.
+
+  Procedure:
+
+  Information Collection:
+
+  Fraudsters start by gathering necessary personal information required to fabricate a realistic digital resident permit ID or U.S. green card. This information typically includes names, dates of birth, addresses, photographs, and card numbers.
+  This data can be sourced from data breaches, phishing attempts, social engineering, or purchased from underground markets.
+  Acquisition of Tools and Templates:
+
+  Attackers acquire sophisticated graphic design software, high-resolution scanners, and specific templates that replicate the design and security features of legitimate resident permit IDs or U.S. green cards. These tools are often accessed through illicit channels.
+  Fabrication:
+
+  Using the collected personal data and digital tools, attackers create the fake digital resident permit ID or U.S. green card:
+  Personal information is accurately entered onto a digital template replicating the format and appearance of genuine IDs or green cards.
+  Advanced editing techniques are employed to replicate security features such as holograms, UV marks, microtexts, and intricate background designs.
+  An appropriate photograph of the impersonator is embedded into the digital template, ensuring it matches the style and specifications of legitimate documents.
+  Submission for Digital Verification:
+
+  Once the digital resident permit ID or U.S. green card is fabricated, the attacker submits it during Stripe’s identity verification processes to:
+  Open accounts under false identities.
+  Perform unauthorized financial transactions or access services requiring verified identification.
+  Withdraw fraudulent funds or participate in financial crimes such as money laundering.
+  Additional Evasion Measures:
+
+  To further obscure their activities, attackers might use VPNs to mask IP addresses, temporary email addresses, and anonymized payment methods, making it more difficult to trace their real identities and activities.
+  Mitigation Strategies:
+
+  Stripe.com can employ various strategies to mitigate the risks associated with fake digital resident permit IDs or U.S. green cards:
+
+  Advanced Document Verification Systems:
+
+  Implement sophisticated document verification solutions powered by AI and machine learning. These systems can scrutinize digital resident permits and green cards for authenticity, identifying counterfeit features and inconsistencies.
+  Biometric Verification:
+
+  Integrate biometric verification processes that compare the individual’s facial features with the photograph on the submitted digital resident permit ID or green card to ensure the person presenting the document matches the identity on the card.
+  Continuous Behavioral Monitoring:
+
+  Deploy monitoring systems that analyze user behavior for anomalies. Unexpected patterns in account activities, rapid account creation, or irregular transaction behaviors post-verification should trigger additional scrutiny.
+  Cross-Referencing with Official Databases:
+
+  Utilize national and international identity databases to cross-verify credentials provided in the digital resident permit IDs or green cards, detecting inconsistencies and invalid entries.
+  Robust Multi-Factor Authentication (MFA):
+
+  Enforce strong MFA protocols in addition to the submission of a digital resident permit ID or green card, ensuring additional layers of security for account creation and high-risk transactions.
+url: ''
+created: 3/4/24
+last_modified: 8/5/24
+domain: ft3
+version: V.1
+tactics: Defense Evasion & Obfuscation
+detection: |-
+  AI-Powered Document Analysis:
+
+  Employ AI and machine learning models to analyze digital resident permits and green cards for signs of tampering or forgery. These systems can recognize inconsistencies in design patterns, missing security features, and other irregularities.
+  Metadata Examination:
+
+  Evaluate the metadata of submitted digital resident permits or green cards to identify signs of digital tampering, such as inconsistencies in file creation dates, editing history, or the use of specific modification software.
+  Global Database Cross-Verification:
+
+  Frequently cross-check information from resident permit IDs and green cards submitted by users against authoritative national and international databases to validate credentials and flag any reported fraudulent or duplicate entries.
+  Detailed User Behavior Analytics:
+
+  Implement advanced behavioral analytics to monitor suspicious activities, including unusual login locations, sudden changes in account behavior, and high-risk transaction patterns after document verification.
+  Fraud Intelligence Collaboration:
+
+  Partner with financial institutions, other digital platforms, and global fraud intelligence networks to share insights and data on emerging trends and techniques used in digital resident permit ID and green card forgery.
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT052
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

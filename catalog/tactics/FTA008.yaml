@@ -1,0 +1,9 @@
+ID: FTA008
+stix_id: ''
+name: Command and Control
+description: The attackers establish a method to control and remotely direct activities within the compromised system. For financial systems, this could involve creating backdoor access to maintain persistent control or remotely initiating fraudulent transactions when desired.
+url: ''
+created: 01/30/2024
+last_modified: 01/30/2024
+domain: ft3
+version: V.1

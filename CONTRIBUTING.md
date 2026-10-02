@@ -7,11 +7,10 @@ Contributions of any kind are welcome! If you've found a bug or have a feature r
 To make changes yourself, follow these steps:
 
 1. [Fork](https://help.github.com/articles/fork-a-repo/) this repository and [clone](https://help.github.com/articles/cloning-a-repository/) it locally.
-<!-- 1. TODO add install step(s), e.g. "Run `npm install`" -->
-<!-- 1. TODO add build step(s), e.g. "Build the library using `npm run build`" -->
-2. Make your changes
-<!-- 1. TODO add test step(s), e.g. "Test your changes with `npm test`" -->
-3. Submit a [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
+2. Use Python 3.12 or newer and install the public YAML dependency: `python3 -m pip install -r requirements.txt`.
+3. Edit the appropriate record under `catalog/tactics/` or `catalog/techniques/`. Add or remove an ID in `catalog/order.yaml` only when the reviewed catalog change requires it. The four root JSON/CSV catalogs are generated files.
+4. Run `python3 -m ft3_tools build`, `python3 -m unittest discover -s tests -v`, and `python3 -m ft3_tools check`.
+5. Include both the YAML and generated-file changes in your [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/). Explain any change to the field contract, IDs, order, or the exact known-reference exceptions.
 
 ## Contributor License Agreement ([CLA](https://en.wikipedia.org/wiki/Contributor_License_Agreement))
 

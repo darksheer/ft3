@@ -1,0 +1,33 @@
+id: FT034
+stix_id: ''
+name: Triangulation Fraud
+description: "Triangulation fraud is a sophisticated type of e-commerce scam involving three parties: the unsuspecting customer, the fraudulent storefront, and the legitimate retailer. In this scheme, fraudsters set up online storefronts that appear genuine and offer products—typically high-demand or heavily discounted items—to lure in customers. However, instead of fulfilling orders from their own stock, the fraudsters use stolen credit card information to purchase the goods from legitimate retailers and ship them directly to the customers who made the purchase.\n\nExecution: \n\nThe process begins when a customer orders and pays for a product on the fraudulent storefront. The fraudster then turns around and orders the same item from a legitimate retailer using a different, stolen credit card and has it shipped to the customer's address. Unaware of the fraud, the customer receives the item they ordered, but the legitimate credit card owner ends up being charged. The fraudster profits from\
+  \ the original payment made by the customer to the phony storefront and may also harvest the customer’s payment information for future fraudulent activities.\n\nExamples:\n\nA scammer creates an online shop offering the latest electronic gadgets at unbeatable prices. When customers place orders, the scammer uses compromised credit card data to order the gadgets from legitimate e-commerce sites and ships them to the customers.\nDuring a popular shopping season, a fraudulent website advertises hard-to-find toys. Unsuspecting shoppers order the toys, and the fraudster fulfills the orders with goods purchased illegally from legitimate vendors.\n\nGoals: The goals of triangulation fraud include:\n\nIllegitimately profiting from the difference in price between what the customer pays and the cost of purchasing the item with a stolen credit card.\nGaining valid customer credentials, including names, addresses, and payment information, for future fraudulent transactions.\nAvoiding immediate detection\
+  \ by delivering the product to the customer, thereby reducing the likelihood of early complaints to law enforcement or financial institutions."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Manipulation & Fraudulent Transactions
+detection: |-
+  Monitoring for unusual purchasing patterns on e-commerce platforms, such as multiple purchases destined for various addresses but charged to the same card or accounts with high order volumes but using different payment methods.
+
+  Verifying the authenticity of new online retailers offering in-demand items at below-market prices and checking for customer reviews or a history of prior transactions.
+
+  Educating consumers on the risks of entering payment information on unverified websites, especially those recently established or offering deals that seem too good to be true.
+
+  Retailers should implement additional fraud checks for orders that have different billing and shipping details, particularly when multiple orders match this pattern.
+
+  Use by Fraud Detection and Analysis Teams: Fraud detection teams at financial institutions and e-commerce platforms should monitor for patterns indicative of triangulation fraud, such as chargebacks associated with recently delivered orders or clusters of complaints from cardholders about charges from retailers they haven't patronized. Active collaboration between retailers, payment processors, and card issuers is necessary to quickly identify and respond to triangulation scams. Upon suspecting triangulation fraud, teams should take immediate steps, such as blocking transaction processing for suspicious storefronts, alerting potential victims, initiating chargebacks, and, where possible, intercepting deliveries to prevent the receipt of fraudulently-purchased goods.
+data sources: ''
+is_sub-technique: 'FALSE'
+sub-technique of: ''
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

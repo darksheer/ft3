@@ -1,0 +1,9 @@
+ID: FTA011
+stix_id: ''
+name: Impact & Disruption
+description: Attacks within this tactic focus on creating havoc, which may involve disrupting financial operations or damaging a victim’s financial reputation. This could act as a smokescreen for theft or as a direct effort to destabilize an entity.
+url: ''
+created: 01/30/2024
+last_modified: 01/30/2024
+domain: ft3
+version: V.1

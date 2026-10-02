@@ -1,0 +1,24 @@
+id: FT007.008
+stix_id: ''
+name: 'Acquire Access: Cloud Accounts'
+description: "Malicious actors involved in financial cyber fraud may acquire access to cloud computing accounts for the purpose of leveraging the cloud’s vast resources to conduct fraudulent activities. This includes both compromising legitimate organizations’ cloud accounts and procuring cloud resources using fraudulent financial information. By utilizing cloud accounts, attackers can benefit from reliable, scalable, and often anonymously-accessible infrastructure to support various phases of their fraudulent operations.\n\nExecution: \n\nAttackers can create new cloud accounts using stolen credit card information or other illicit financial means. These accounts are then used to set up an operational base that appears legitimate and can be used to facilitate attacks such as phishing, malware distribution, or command and control servers for botnets, all while hiding the fraudster’s true location and identity.\n\nExamples:\n\nUsing stolen credit card details to purchase cloud computing power\
+  \ and storage, which can then be used for cryptocurrency mining, DDoS attacks, or data harvesting.\nProcuring cloud services with fraudulent intent to host phishing or fraudulent financial services websites.\nEstablishing cloud instances to serve as anonymized relay points for laundering money or transferring illicitly obtained funds.\n\nGoals: \n\nThe primary goals behind using fraudulently acquired cloud accounts in financial cyber fraud are to:\n\nMask the true source of attacks and blend in with legitimate cloud traffic.\nDeploy and operate malicious websites or services with reduced risk of being shut down by service providers or tracked by law enforcement.\nUtilize the cloud platform's resources (storage, bandwidth, processing power) to maximize the scale and impact of fraudulent operations."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Resource Development
+detection: "Cloud service providers should implement enhanced verification processes to validate new accounts, especially those that sign up for high-value services or request significant resources.\n\nEmploying fraud detection algorithms that analyze patterns of payment and usage often associated with nefarious activities to flag potentially fraudulent accounts.\n\nActively monitoring for and taking down cloud services being used to host malicious content or support fraudulent activities.\n\nCustomer education campaigns warning of the dangers of clicking on suspicious links or performing financial transactions on unverified platforms.\n\nUse by Fraud Detection and Analysis Teams: \n\nCyber fraud detection teams should proactively monitor cloud service usage for patterns indicative of fraudulent activities, such as spikes in resource consumption or traffic from known bad IPs. Automated tools can help in detecting accounts set up with potentially stolen financial instruments. In the event\
+  \ of identifying fraudulent cloud resource procurement, teams can work closely with cloud service providers to terminate these accounts and further investigate the origin of the illicit financial resources used for procurement, potentially uncovering larger fraud schemes or networks. Such actions not only disrupt ongoing and future fraudulent activities but also deter the misuse of cloud platforms."
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT008
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

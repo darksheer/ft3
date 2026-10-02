@@ -1,0 +1,9 @@
+ID: FTA006
+stix_id: ''
+name: Lateral Movement & Internal Proliferation
+description: After gaining initial access, the fraudster moves laterally within the network to gain wider access to accounts and resources. They may attempt to spread to other systems, or proliferate internally within the system, increasing the scope of their fraudulent reach.
+url: ''
+created: 01/30/2024
+last_modified: 01/30/2024
+domain: ft3
+version: V.1

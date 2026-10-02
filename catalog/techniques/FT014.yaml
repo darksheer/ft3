@@ -1,0 +1,24 @@
+id: FT014
+stix_id: ''
+name: Supply Chain Compromise
+description: |2
+   A supply chain compromise in the context of credential access refers to a strategic cyberattack targeting companies in the payment process chain—such as vendors, service providers, or application developers—that businesses rely on for integration with payment systems. The goal is to infiltrate these third parties to gain access to sensitive credentials, customer payment information, or to manipulate payment transactions indirectly.; Execution: Cybercriminals identify vulnerable points in the supply chain, including less secure partner networks or third-party software interacting with payment accounts. They may introduce malicious code into legitimate software updates, exploit weak security practices, or leverage compromised third-party services to inject malicious payloads. Once a supplier is compromised, attackers gain access to credentials or sensitive information of any business relying on that supplier, including API keys or account login information. Examples: Infiltrating the network of a point-of-sale (POS) software provider to capture API keys used by merchants.; Compromising a third-party plugin that integrates with payment systems, injecting code that intercepts and transmits live credentials as merchants input them.; Launching spear-phishing campaigns against employees at companies offering development tools to gain access to their systems and subsequently to user credentials. Goals: Objectives of supply chain compromise attacks include: Obtaining a wide array of account credentials or API keys for unauthorized transactions or large-scale data exfiltration.; Capitalizing on trust and automated processes between suppliers and businesses to gather sensitive information over time.; Using compromised third-party services as a launch point to infiltrate high-value targets within the same supply chain.
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Initial Access
+detection: "Regularly assessing and auditing the security postures of third-party suppliers that have integration with Stripe systems, including reviewing their security certifications and policies.\n\nImplementing multi-layered defense strategies such as software supply chain integrity checks and employing anomaly detection systems for early warning signs of compromise.\n\nCultivating a culture of security awareness among all parties within the supply chain, ensuring best practices are followed and maintaining clear communication channels for incident reporting.\n\nSegregating and monitoring networks and systems within the supply chain to quickly isolate suspicious activity and contain potential breaches.\n\nEncouraging the use of robust access controls, limiting third-party access to Stripe credentials and performing strict identity verification for any sensitive data processing.\n\nUse by Fraud Detection and Analysis Teams: \nFraud detection teams need to actively monitor the integration\
+  \ points between Stripe services and their supply chain partners. This includes deploying endpoint detection and response (EDR) tools, regularly conducting penetration testing and vulnerability scanning, and setting up system baselines for normal behavior to quickly identify deviations indicative of a breach. In the event of a detected compromise, carrying out swift incident response protocols is paramount to protect all impacted systems and stakeholders. After the attack, collaboration with the affected third-party to address security weaknesses and bolstering defenses will be key to preventing future supply chain-related attacks."
+data sources: ''
+is_sub-technique: 'FALSE'
+sub-technique of: ''
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

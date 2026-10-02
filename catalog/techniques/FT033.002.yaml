@@ -1,0 +1,25 @@
+id: FT033.002
+stix_id: ''
+name: 'No Shipping: Partial Shipping of Goods'
+description: "\"Partial Shipping of Goods\" is a strategy used by fraudulent sellers who fulfill only a portion of customer orders, creating a facade of legitimacy to deceive both consumers and fraud detection systems. By selectively shipping some goods, sellers manipulate the perception of their business, making it appear as though they are operating legitimately while they strategically default on other orders. It prolongs the interval before suspicions arise and complaints are filed, allowing fraudsters to continue their deceptive actions and potentially reap more profits before being detected.\n\nExecution: \n\nFraudsters employing the partial shipping tactic usually set up online storefronts, resembling legitimate businesses, where they offer products that may or may not exist. After receiving orders, they fulfill just enough of them to establish a record of deliveries and to seed positive feedback. This selective fulfillment lends credibility to their operation when in reality, a significant\
+  \ proportion of customers may never receive their items. Fraudulent sellers might also use this tactic when they hit supply chain issues, deliberately choosing which orders to fulfill based on factors such as customer location, item value, or likelihood of chargeback disputes.\n\nExamples:\n\nA fraudulent e-commerce site sells a range of products and fulfills low-value orders while neglecting high-value ones, banking on customers to forgo pursuing refunds for the cheaper items.\nAn online seller on a marketplace platform ships goods to customers who are most likely to leave reviews or provide feedback, ignoring or delaying shipments to other buyers.\nA fraudulent merchant fulfills initial orders to build a trustworthy seller profile, then starts accepting a large number of orders with no intention of shipping them all.\n\nGoals: The objectives of fraudsters partially shipping goods are to:\n\nMaximize the amount of money made from sales before being flagged by customers or the platform's\
+  \ fraud detection mechanisms.\nStretch out the time before a critical mass of complaints triggers an investigation by the e-commerce platform or payment processor.\nConstruct a veneer of trust and reliability by ensuring some positive customer experiences."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Manipulation & Fraudulent Transactions
+detection: "Implementing system checks that flag discrepancies between the number of orders received and the number of shipments confirmed.\n\nMonitoring seller performance metrics, including delivery rates and customer feedback patterns for signs of inconsistency.\n\nAllowing customers a platform to report issues with sellers, and taking customer complaints seriously especially when there's a pattern of non-delivery reports.\n\nInstituting policies that hold payments in escrow until customers confirm the receipt of goods.\n\nPerforming random spot-checks or quality assurance assessments of sellers known to operate at the margins of acceptable delivery performance.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection teams should be alert to patterns indicative of partial shipping practices, such as consistent negative feedback for non-delivery, while some customers report successful transactions. Analysis of customer complaints, shipping logs, and order fulfillment data should\
+  \ be conducted to identify and confirm fraudulent behavior. Upon detection of partial shipping fraud, immediate measures can be taken to suspend the merchant's operations, conduct a thorough review of their activities, and take remedial actions to protect consumers and recover funds. It is critical for teams to work swiftly as such sellers may quickly move on to set up new fraudulent operations under different identities after being discovered."
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT033
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

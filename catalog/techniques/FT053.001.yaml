@@ -1,0 +1,29 @@
+id: FT053.001
+stix_id: ''
+name: 'Card Holder Details Collection: Billing Information'
+description: |-
+  Card Holder Details Collection: Billing Information is a fraudulent technique where criminals specifically target and collect sensitive billing information from victims, such as names, addresses, credit card numbers, expiration dates, and CVV codes. This information is often harvested through deceptive practices, including phishing scams, fake websites, and social engineering tactics. By obtaining accurate billing details, fraudsters can conduct unauthorized transactions, create counterfeit credit cards, or sell the data on the dark web, thus maximizing their illegal profits.
+
+  Fraudsters often employ strategies that exploit the trust of consumers. They may create realistic-looking online forms that appear to be affiliated with legitimate companies, convincing users to input their billing information under the pretext of processing orders, verifying accounts, or incentivizing promotions. Additionally, they might send emails or messages posing as payment processors or banks, urging individuals to update their billing information to avoid account suspension or service loss, leading victims to unwittingly provide their sensitive data.
+
+  Examples of this technique include: A spoofed email from a well-known payment platform requests users to confirm their billing information to prevent service disruption, leading victims to a phishing site. A fraudulent online retailer offers significant discounts while demanding users complete a billing form that mimics legitimate check-out procedures, enabling data capture. A scammer poses as a telemarketer and persuades a victim to share their billing information, claiming they have won a prize that requires verification of their account details.
+
+  The goals of those engaged in billing information collection are: To gather sensitive billing information for immediate use in unauthorized financial transactions. To build a database of stolen billing information that can be sold or utilized for larger-scale fraud operations. To create a façade of legitimacy that reduces suspicion among victims, increasing the likelihood of successful data collection without raising alarms.
+url: ''
+created: 3/4/25
+last_modified: 3/4/25
+domain: ft3
+version: V.1
+tactics: Manipulation & Fraudulent Transactions
+detection: ''
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT053
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

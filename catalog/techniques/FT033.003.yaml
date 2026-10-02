@@ -1,0 +1,29 @@
+id: FT033.003
+stix_id: ''
+name: 'No Shipping: Shipping of Incorrect Goods'
+description: |-
+  "No Shipping: Shipping of Incorrect Goods" is a fraudulent technique employed by unscrupulous sellers who deliberately ship items that are different from what was promised or entirely incorrect in nature. This strategy is designed to mislead customers and exploit their reliance on received goods, taking advantage of their frustration or confusion to reduce the likelihood of returns or disputes. By delivering incorrect items, fraudsters aim to prolong their fraudulent operations and evade detection longer, as customers may either accept the incorrect item or be dissuaded from pursuing refunds due to the complexity of the return process.
+
+  Fraudsters utilizing the no shipping technique often create enticing online listings featuring desirable products at low prices. Once orders are received, they ship completely different items—such as lower-quality alternatives or unrelated products. This tactic exploits the expectations of consumers, banking on the hope that buyers will be deterred from returning incorrect items due to effort involved or may even keep them out of frustration. In some cases, the fraudulent seller may send an item of minimal value but one that is misleadingly similar to the original order to further obscure their deception.
+
+  A fraudulent online retailer advertises high-end electronics but ships cheap knock-off versions to customers, banking on their reluctance to return low-value items. An e-commerce seller markets trendy fashion items but delivers entirely different clothing that lacks branding or quality, knowing that many consumers may simply choose to keep the items rather than deal with the hassle of returns. A merchant on a marketplace platform claims to sell popular gift items but often sends random, unrelated products, taking advantage of busy holiday shoppers who may not pursue refunds due to time constraints.
+
+  Maximize profit by exploiting customer expectations and minimizing returns or chargeback disputes. Extend the operational life of fraudulent activities by confusing customers and reducing the likelihood of complaints. Create a veneer of legitimacy by occasionally shipping slight variations of the ordered products, further obscuring fraudulent intent.
+url: ''
+created: 2/2/25
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Manipulation & Fraudulent Transactions
+detection: ''
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: ''
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

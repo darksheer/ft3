@@ -1,0 +1,9 @@
+ID: FTA010
+stix_id: ''
+name: Financial Evasion, Laundering & Cash-Out
+description: After successfully committing fraud, attackers use techniques to evade detection by financial authorities, launder money through various channels, and ultimately 'cash out' by converting illicit gains into usable funds or assets without alerting law enforcement.
+url: ''
+created: 01/30/2024
+last_modified: 01/30/2024
+domain: ft3
+version: V.1

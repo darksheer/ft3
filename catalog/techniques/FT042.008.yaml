@@ -1,0 +1,34 @@
+id: FT042.008
+stix_id: ''
+name: 'Account Manipulation: Top-Up Platform Balance'
+description: In this technique, an adversary gains unauthorized access to a merchant's account by compromising credentials or keys. Once inside, the adversary manipulates the account to top up the platform balance without the consent or knowledge of the legitimate account holder. This manipulation involves either using the attached bank account or attaching a new unauthorized bank account to the merchant's platform. The adversary then initiates unauthorized transactions to transfer funds, thereby artificially inflating the account balance. This can be achieved through exploiting system vulnerabilities or leveraging unauthorized promotional credits. By increasing the platform balance, the adversary facilitates unlawful transactions, funds fraudulent activities, or launders illegitimate money through the compromised account. The unintended top-up of platform balances can result in substantial financial losses and pose significant legal and reputational risks for the affected merchant. This
+  form of manipulation not only complicates detection and mitigation efforts but also blends fraudulent activities into what appear to be legitimate account actions. Implementing effective detection and response measures is crucial to safeguarding against the financial and operational impacts of this complex fraud technique.
+url: ''
+created: 1/30/24
+last_modified: 8/5/24
+domain: ft3
+version: V.1
+tactics: Financial Evasion, Laundering & Cash-Out
+detection: |-
+  To detect and mitigate risks associated with the unauthorized top-up of platform balances, it is essential to implement a robust monitoring framework that scrutinizes both account and transaction activities. Regular audits of account linkages and balances should be conducted to identify unauthorized actions promptly. By periodically reviewing and verifying the attached bank accounts and any new accounts being linked, organizations can swiftly detect any unauthorized additions or changes. Monitoring for unusual increases in platform balances is also crucial, as this may indicate the unauthorized use of attached or newly added bank accounts to top up the balance.
+
+  Implementing real-time notification systems is another critical measure. These systems should be designed to alert account holders and administrators immediately whenever a new bank account is attached or when the platform balance is topped up significantly. Prompt alerts enable quick responses, thereby minimizing the adversary's opportunity to leverage increased funds for fraudulent activities. Additionally, enhancing security protocols by enforcing multi-factor authentication (MFA) and supplementary verification steps for attaching new bank accounts and initiating top-ups will provide an additional layer of protection. For instance, requiring confirmation codes sent to the registered email or phone number for every new attachment or significant top-up ensures that only authorized individuals can approve such actions.
+
+  Restricting access by adhering to the principle of least privilege is equally important. Limiting the ability to attach new bank accounts or initiate top-ups to only essential personnel can reduce the likelihood of unauthorized actions. Additionally, utilizing machine learning algorithms and anomaly detection techniques can significantly enhance monitoring capabilities. These technologies can identify deviations from normal behavior, such as unexpected bank account linkages or unusual top-up amounts, indicating potential unauthorized activities that need further investigation.
+
+  Securing the storage and management of merchant account credentials and API keys is another crucial defense mechanism. Regularly rotating these keys and credentials, coupled with strong encryption, can prevent adversaries from easily compromising them. Educating account holders and staff on best security practices, including regularly reviewing account settings and promptly reporting any irregularities, is also essential. Training programs focusing on security awareness will create a vigilant and informed user base capable of recognizing potential threats.
+
+  Fraud detection and analysis teams play a pivotal role in safeguarding against this type of manipulation. These teams should prioritize monitoring for unauthorized bank account attachments and unusual top-up activities by leveraging sophisticated automated detection tools that flag irregular changes. When unauthorized activities are detected, immediate actions should be taken to secure the affected account, which includes detaching unauthorized bank accounts, invalidating fraudulent transactions, and restoring legitimate settings swiftly. A thorough investigation should follow to understand how the breach occurred, identify weaknesses, and gather intelligence on the attack methods used.
+
+  Post-incident, updating and reinforcing internal security measures is crucial to prevent similar occurrences in the future. This might involve refining authentication processes, enhancing anomaly detection systems, and updating incident response protocols. Effective communication with affected merchants, coupled with providing clear guidance on recognizing suspicious activities and implementing additional security measures, can further protect against future attacks. Regular security awareness training for account holders reinforces the importance of best practices in linking and managing bank accounts, as well as monitoring platform balances for unauthorized changes.
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT042
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

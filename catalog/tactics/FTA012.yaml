@@ -1,0 +1,9 @@
+ID: FTA012
+stix_id: ''
+name: Obfuscation and Destruction of Evidence
+description: Once fraud has been committed, attackers might seek to cover their tracks by obfuscating their activities and destroying evidence. This could include wiping logs, using encryption to hide stolen data, or otherwise hindering investigation and attribution efforts.
+url: ''
+created: 01/30/2024
+last_modified: 01/30/2024
+domain: ft3
+version: V.1

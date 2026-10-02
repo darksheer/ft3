@@ -1,0 +1,25 @@
+id: FT029
+stix_id: ''
+name: Cross Account Permissions
+description: "In the context of Stripe, cross account permissions refer to the ability of one Stripe account to have access to and perform actions on behalf of another Stripe account. This privilege is crucial for businesses that manage multiple accounts or for third-party service providers that need access to a Stripe account for maintenance, data analysis, or payment processing. However, if an attacker gains control over an account with such permissions, it could lead to a cascade of compromises, exposing multiple accounts to heightened risks.\n\nExecution: \n\nMalicious actors could exploit cross account permissions by first compromising an account that has been granted access to other accounts. If successfully breached, they could use this access to perpetrate fraud on a larger scale, moving laterally between interconnected accounts. The access could be exploited to perform unauthorized transactions, extract sensitive financial information across accounts, or manipulate settings within\
+  \ each linked account.\n\nExamples:\n\nAn attacker compromises an account belonging to a third-party developer who has been given permissions to manage various Stripe accounts for different online stores for maintenance purposes.\nGaining control of a business account that has permissions to handle transactions and refunds for subsidiary accounts, thus enabling fraudulent activities across those accounts.\nA compromised Stripe account with accountant-level access across multiple client accounts could allow an attacker to alter payout schedules or routing details.\n\nGoals: The primary goals of exploiting cross account permissions may include:\n\nExpanding the scope of account compromise beyond a single target to access a wider network of interconnected accounts.\nLooting funds from multiple accounts quickly before detection.\nGathering substantial volumes of personal and financial data from linked accounts for further financial fraud, identity theft, or to sell on the black market.\nUsing\
+  \ the trust placed in the compromised account to perform more convincing social engineering attacks against the owners of connected accounts."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Lateral Movement & Internal Proliferation
+detection: "Auditing all accounts with cross account permissions regularly to ensure their actions are legitimate and align with their intended use cases.\n\nImplementing strict least-privilege access controls and avoiding unnecessary grants of comprehensive rights across accounts.\n\nContinuously monitoring for unusual patterns of transactions, access, or changes in configurations that might indicate unauthorized use of permissions.\n\nRequiring multi-factor authentication and frequent password changes for accounts with significant cross account permissions.\nEncouraging users to employ role-based access and to monitor the activity logs of external parties granted access to their Stripe accounts.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection teams focusing on systems like Stripe should vigilantly track the usage of cross account permissions and anomalies associated with such activities. Using advanced security and analytics tools, they should screen for atypical behavior\
+  \ that deviates from the typical access patterns or operational profiles for accounts with interconnected permissions. Immediate action, including temporary suspension of suspicious activities and rigorous verification processes, is paramount upon signs of unauthorized use. Ensuring constant communication between related accounts, in the form of alerts when permissions are used or accounts accessed, can further help prevent exploitation. In cases where unauthorized activity is verified, revoking permissions and working closely with affected parties to investigate and recover from the incident are critical."
+data sources: ''
+is_sub-technique: 'FALSE'
+sub-technique of: ''
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

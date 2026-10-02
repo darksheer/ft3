@@ -1,0 +1,83 @@
+id: FT052.006
+stix_id: ''
+name: 'Falsifying Identity Documents: Fake Border Crossing Card'
+description: |-
+  Fake Border Crossing Card involves creating or altering digital copies of border crossing cards (BCCs) to impersonate legitimate cardholders. This method is employed by fraudsters to subvert digital identity verification mechanisms, facilitating unauthorized access to services and financial platforms. Given the trusted status and stringent issuance protocols of border crossing cards, they are specifically targeted for digital forgery to carry out activities like unauthorized transactions, financial crimes, and evasion of detection by leveraging false identities.
+
+  Procedure:
+
+  Information Collection:
+
+  Fraudsters begin by collecting detailed personal information necessary to fabricate a convincing digital border crossing card. This information may include names, dates of birth, addresses, photographs, and BCC numbers.
+  Such data can be obtained through social engineering, phishing scams, data breaches, or purchased from underground marketplaces.
+  Acquisition of Tools and Templates:
+
+  Criminals utilize advanced graphic design software, high-resolution scanners, and specific editing tools to replicate the design and security attributes of border crossing cards. Templates mimicking the format and features of authentic BCCs are often sourced from underground forums.
+  Fabrication:
+
+  Using the gathered personal details and digital tools, attackers proceed to create the fake digital border crossing card:
+  Personal information is accurately input onto a digital template that replicates the format and appearance of genuine BCCs.
+  Advanced editing techniques are employed to mimic security features, including holograms, watermarks, microprints, and UV elements.
+  An appropriate photograph of the imposter is embedded into the card, ensuring it aligns with the style and specifications of legitimate BCCs.
+
+  Submission for Digital Verification:
+
+  Once the digital BCC is fabricated, it's submitted as part of the identity verification process on platforms like Stripe to:
+  Create accounts under fraudulent or stolen identities.
+  Execute unauthorized financial transactions or gain access to secure services.
+  Facilitate the laundering of illicit funds or engage in other financial crimes.
+  Additional Obfuscation Techniques:
+
+  To further avoid detection, attackers may use VPNs to change their IP addresses, disposable email addresses, and anonymized payment methods, thereby masking their real identities and complicating traceability.
+  Mitigation Strategies:
+
+  Stripe.com can adopt several strategies to mitigate the risks associated with fake digital border crossing cards:
+
+  Advanced Document Verification Tools:
+
+  Integrate state-of-the-art document verification solutions powered by AI and machine learning to scrutinize digital BCCs for authenticity. These tools detect counterfeit elements and inconsistencies when compared to known authentic documents.
+  Biometric Verification:
+
+  Implement biometric verification processes that cross-check the individual’s facial features against the photograph on the submitted digital BCC, ensuring the person presenting the document is indeed the holder of the identity.
+  Behavioral Monitoring and Analytics:
+
+  Continuously monitor user behavior for anomalies. Patterns such as rapid account creation, unusual transaction behaviors, and inconsistent account activities post-verification should trigger additional scrutiny.
+  Cross-Referencing with Official Databases:
+
+  Utilize national and international identity databases to cross-verify the credentials provided in the digital BCCs, detecting discrepancies and invalid entries.
+  Robust Multi-Factor Authentication (MFA):
+
+  Enforce strong MFA protocols alongside the submission of digital border crossing cards, ensuring additional security layers for account creation and high-risk transactions.
+url: ''
+created: 3/4/24
+last_modified: 8/5/24
+domain: ft3
+version: V.1
+tactics: Defense Evasion & Obfuscation
+detection: |-
+  AI-Powered Document Analysis:
+
+  Deploy AI and machine learning models to examine digital BCCs for signs of tampering or forgery. These systems can identify inconsistencies in design, security features, and document composition.
+  Metadata Examination:
+
+  Analyze the metadata of submitted digital BCCs to detect signs of digital manipulation or tampering, such as inconsistencies in file creation dates or editing software used.
+  Global Database Verification:
+
+  Regularly cross-check BCC information against authoritative national and international databases to validate submitted credentials and flag any discrepancies or reported fraudulent entries.
+  Detailed User Behavior Analysis:
+
+  Implement sophisticated behavioral analytics to monitor for suspicious activity. Indicators might include unusual login locations, rapid shifts in account behavior, and high-risk transaction patterns following document verification.
+  Fraud Intelligence Collaboration:
+
+  Partner with other financial institutions, digital platforms, and global fraud intelligence networks to share insights and data on emerging trends and methods used in digital BCC forgery.
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT052
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

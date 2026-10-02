@@ -1,0 +1,24 @@
+id: FT011
+stix_id: ''
+name: Account Takeover
+description: "An account takeover (ATO) refers to the unauthorized access and control of a user account on a financial platform, typically belonging to a merchant or business. Such platforms are commonly used by online businesses to manage transactions, subscriptions, and payment-related services. Gaining access to an account allows attackers to divert funds, access sensitive customer financial data, and compromise the integrity of the victim's financial operations.; Execution: Methods used for account takeover can include: \n\nPhishing Attacks: Targeting users with emails that appear legitimate to steal login credentials.; Exploiting Vulnerabilities: Taking advantage of weaknesses in applications or platforms.; Credential Stuffing: Using previously leaked usernames and passwords to gain access.; Social Engineering: Manipulating individuals into revealing confidential information.; Malware: Employing malicious software, such as keyloggers, to capture keystrokes. Once attackers gain access,\
+  \ they can change account details, reroute payments, initiate refunds, or extract data for further fraudulent activities.; Examples: Sending targeted phishing emails impersonating a legitimate financial platform to capture user credentials.; Utilizing known compromised credentials to gain access to accounts with reused passwords.; Intercepting two-factor authentication codes through methods such as SIM swapping to bypass security measures.; Goals: Objectives behind an account takeover include: Directly stealing funds from the compromised account or intercepting transactions intended for legitimate business.; Accessing and potentially selling sensitive customer data, including credit card information and transaction histories.; Using the compromised account to conduct broader financial fraud and scams.\n"
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Initial Access
+detection: "Stripe and businesses should monitor for unauthorized access signals such as logins from new devices or IP addresses, changes in account settings, and abnormal transaction patterns.\n\nImplementing and enforcing two-factor authentication (2FA) to provide an additional layer of security beyond passwords.\n\nEducating users about secure practices, including identifying phishing scams and the importance of not reusing passwords across multiple services.\n\nUtilizing advanced threat detection systems that monitor for signs of credential stuffing and other automated takeover attempts.\n\nRegularly reviewing transaction and refund patterns for anomalies that might indicate fraudulent activity.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection teams must monitor for unusual account activities, such as spikes in transaction volumes, change in bank account details, or modifications to payout schedules. If a takeover is suspected or detected, immediate action should be\
+  \ taken to secure the account, including locking the account, forcing a password reset, and auditing recent transactions for fraud. Teams should also conduct forensic analysis to understand how the breach occurred and implement additional security measures to prevent future occurrences. Strong collaboration between Stripe, affected businesses, and financial institutions is essential to quickly respond to incidents, trace the source of the fraud, and implement strategies to prevent recurrences."
+data sources: ''
+is_sub-technique: 'FALSE'
+sub-technique of: ''
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

@@ -1,0 +1,25 @@
+id: FT017
+stix_id: ''
+name: Ad Fraud
+description: "Ad fraud encompasses a variety of deceptive practices where bad actors manipulate digital advertising with the intention of theft or subversion. In this particular use case, attackers leverage compromised credentials or stolen credit cards to purchase ad space on social media platforms such as TikTok, Facebook, and Instagram. They create advertisements for fraudulent merchant sites equipped with credit card skimming software or for legitimate merchants whose sites have been compromised with such software. The goal is to either capture the card details from direct purchases made on the fraudulent merchants' sites or by siphoning data from customers of the compromised legitimate merchants.\n\nExecution: \n\nThe execution involves setting up ad campaigns that lead unsuspecting users to malicious e-commerce sites or legitimate websites that have been injected with skimming code. The attackers design the ads to look genuine, often imitating real brands to increase their effectiveness.\
+  \ When a user follows an ad and makes a purchase, their credit card details are secretly harvested by the skimming software. In some cases, the user may not even receive the advertised product (the no-shipping aspect), furthering the profit of the fraudsters.\n\nExamples:\n\nCybercriminals use stolen credit card data to fund large advertising campaigns on Facebook, directing users to sham e-commerce sites that capture payment data via skimming scripts.\nAttackers compromise legitimate e-commerce websites, add skimming code, then buy ads that direct traffic to these sites, exploiting normal customer transactions for data theft.\nFraudulent merchants indirectly facilitate ad fraud by first acquiring user traffic through legitimate purchases, then transitioning to no-shipping practices, all while continuing to skim credit card information.\n\n\nGoals: In engaging in ad fraud with skimming software, the attackers aim to:\n\nCapture credit card details from users who are enticed by the ads\
+  \ into making a purchase.\nUtilize the credibility and reach of well-known social media platforms to amplify the success of their fraudulent campaigns.\nGenerate revenue through bogus sales or by selling stolen credit card data on the dark web.\nEvade detection by using compromised credentials, making it difficult to trace the fraud back to the actual perpetrators."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Initial Access
+detection: "Social media platforms and payment processors should incorporate advanced fraud detection systems capable of identifying and flagging suspicious ad-purchase patterns.\n\nMonitoring for code integrity on merchant websites and employing web scanning tools that can detect the presence of unrecognized scripts.\n\nImplementing robust verification processes for new ad accounts and continuous monitoring for account takeover signs.\n\nEducating merchants about the dangers and signs of website compromise and the importance of maintaining secure and updated systems.\n\nUse by Fraud Detection and Analysis Teams: \n\nAd fraud detection is multi-faceted and requires cooperation between the advertising platforms, payment processors, fraud detection experts, and possibly the affected merchants. By analyzing spending patterns, ad content, and the subsequent traffic behavior on linked websites, fraud analysts can identify potential skimming activities. Effective incident response mechanisms are\
+  \ crucial, ensuring that when fraudulent or compromised accounts are detected, rapid action can be taken, including disabling the offending ads, securing compromised merchant accounts, alerting potential victims, and investigating the extent of the breach. Regularly sharing insights and collaborative efforts between stakeholders can strengthen the overall ecosystem against such fraud schemes."
+data sources: ''
+is_sub-technique: 'FALSE'
+sub-technique of: ''
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

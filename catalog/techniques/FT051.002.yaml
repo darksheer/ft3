@@ -1,0 +1,44 @@
+id: FT051.002
+stix_id: ''
+name: 'Fraudulent Purchases: SMS Services'
+description: |-
+  Fraudulent purchases of SMS services involve unauthorized transactions where cybercriminals use stolen financial information or illicitly acquired funds to buy SMS-related services. These services may include bulk SMS packages, premium text message subscriptions, or other text message-based services often used in marketing or communications. This activity can serve as a method for laundering money by disguising fraudulent transactions as legitimate business expenses.
+
+  Execution: Using stolen credit card details or compromised bank accounts, fraudsters subscribe to or purchase SMS services, potentially to use in further fraudulent schemes like smishing (SMS-based phishing), spam campaigns, or to bolster the appearance of a legitimate business operation. These services may be chosen specifically for their recurring billing nature, allowing for consistent and ongoing charges to be made against the stolen financial information.
+
+  Examples:
+
+  A criminal group leveraging stolen credit card numbers to buy large quantities of SMS credits from a marketing service provider, which are then used to send out mass phishing texts.
+  Purchasing subscriptions for premium SMS content using compromised accounts to repeatedly charge the accounts and launder funds through the service provider.
+  Setting up automated, subscription-based premium SMS services that charge stolen credit cards monthly and use reshipping or mule networks to extract the laundered money.
+  Goals: The goals behind fraudulent purchases of SMS services typically encompass:
+
+  Laundering illegally obtained funds through continuous billing cycles of SMS services and blending these transactions with legitimate business costs.
+  Utilizing purchased SMS services to facilitate additional criminal activates like phishing, scamming, or distributing malware.
+  Evading detection by financial authorities or fraud detection systems which might not readily flag SMS service purchases as suspicious.
+url: ''
+created: 3/4/25
+last_modified: 2/28/24
+domain: ft3
+version: V.1
+tactics: Financial Evasion, Laundering & Cash-Out
+detection: |-
+  Establishing red-flag indicators for SMS service purchases, such as high-volume transactions, purchases from high-risk locations, or patterns consistent with past fraudulent behavior.
+
+  Requiring multi-factor authentication and additional payment verification steps for online purchases, particularly for recurring subscription services.
+  Implementing anomaly detection and behavioral analysis within payment systems to identify and alert on suspicious purchase patterns.
+
+  Educating consumers and businesses about the risks associated with SMS service fraud and the importance of monitoring financial statements for unexpected charges.
+
+  Use by Fraud Detection and Analysis Teams: Fraud detection teams should closely monitor purchase patterns related to SMS services, deploying specialized tools to identify and act upon unusual or suspicious transactions. When such a purchase is flagged, a prompt review, including reaching out to the account holder for validation, is necessary. Continuous monitoring and reporting are essential for adapting to evolving tactics used by fraudsters, as are coordination and information sharing with SMS service providers to investigate and shut down fraudulent accounts. After action has been taken, further analysis can offer insights into preventing similar fraudulent purchases in the future, improving system-wide security and detection capabilities.
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT051
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

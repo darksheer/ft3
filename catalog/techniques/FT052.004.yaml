@@ -1,0 +1,62 @@
+id: FT052.004
+stix_id: ''
+name: 'Falsifying Identity Documents: Fake U.S. Visa Card'
+description: |-
+  Fake U.S. Visa Card under Falsifying Identity Documents involves creating or altering digital copies of U.S. visa cards to impersonate legitimate visa holders. This method is employed to bypass identity verification controls, facilitating unauthorized access to services, financial systems, and platforms such as Stripe. Given the stringent requirements and high-trust nature of U.S. visa cards, they are particularly valuable for fraudsters seeking to establish credible false identities, engage in financial crimes, or evade detection mechanisms.
+
+  Procedure:
+
+  Information Collection: Attackers start by gathering necessary personal information to fabricate a realistic digital U.S. visa card. This may include the visa holder's name, date of birth, passport number, photo, and visa number. Such information can be harvested from data breaches, phishing scams, social engineering tactics, or dark web purchases.
+
+  Acquisition of Tools: Fraudsters utilize advanced graphic design software, high-resolution scanners, and specific editing tools designed to create or modify digital identification documents, including U.S. visa cards. These tools help in mimicking the unique security features and layout of legitimate documents.
+
+  Fabrication: Using the gathered information and acquired tools, attackers create the fake digital U.S. visa card:
+
+  Input personal details onto a high-fidelity digital template that replicates the format and appearance of genuine U.S. visa cards.
+  Apply sophisticated editing techniques to imitate security features such as holograms, UV marks, intricate backgrounds, and microprinting.
+  Embed an appropriate photograph of the impostor or a stolen image that matches the style and specifications of legitimate visa photos.
+  Submission for Verification: With the digital U.S. visa card fabricated, attackers submit it during identity verification processes on platforms like Stripe to:
+
+  Open accounts under false identities.
+  Conduct unauthorized financial transactions or access high-trust services.
+  Withdraw fraudulent funds or funnel money through complex laundering channels.
+  Additional Evasion Measures: Attackers may further obscure their digital footprint using VPNs to alter IP addresses, disposable email addresses, and anonymized payment methods to mask their true identities and evade detection mechanisms.
+
+  Mitigation Strategies:
+
+  Advanced Document Verification Systems: Integrate sophisticated document verification solutions that employ AI and machine learning algorithms capable of scrutinizing digital U.S. visa cards for authenticity. These systems can detect counterfeit elements and inconsistencies compared to authentic documents.
+
+  Biometric Authentication: Implement biometric verification processes that cross-reference the individual's facial features with the photo on the submitted U.S. visa card, confirming the identity of the person presenting the document.
+
+  Behavioral Monitoring and Analytics: Use continuous monitoring systems to analyze user behavior for anomalies. Unusual account activities such as rapid account creation, high-risk transactions immediately following document verification, or erratic transaction behaviors should prompt additional reviews.
+
+  Cross-Referencing with Official Databases: Leverage access to government and international databases to cross-verify the credentials provided in the digital U.S. visa cards, detecting inconsistencies and flagging those that do not align with official records.
+
+  Multi-Factor Authentication (MFA): Require robust MFA protocols alongside the submission of a digital U.S. visa card, enhancing security for account creation and access to sensitive services.
+url: ''
+created: 3/4/24
+last_modified: 8/5/24
+domain: ft3
+version: V.1
+tactics: Defense Evasion & Obfuscation
+detection: |-
+  AI and Machine Learning Models: Employ AI and machine learning models to scrutinize digital U.S. visa cards for signs of tampering or forgery. These systems can identify discrepancies in design, security features, and document composition.
+
+  Metadata Analysis: Analyze the metadata of submitted digital U.S. visa cards to detect alterations or signs of digital manipulation, such as inconsistencies in file creation dates or software used to edit the document.
+
+  Global Database Verification: Regularly cross-check U.S. visa card information with authorized national and international databases to validate the credentials and identify any reported fraudulent or duplicate entries.
+
+  User Behavior Detection: Implement advanced behavioral analytics to monitor for suspicious activity, such as unusual login locations, sudden changes in account behavior, and high-risk transaction patterns post-verification.
+
+  Collaboration with Fraud Intelligence Networks: Engage in partnerships with other financial institutions, digital platforms, and global fraud intelligence networks to share insights and data on emerging trends and methods used in digital U.S. visa card forgery.
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT052
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

@@ -1,0 +1,44 @@
+id: FT051.004
+stix_id: ''
+name: 'Fraudulent Purchases: Discord'
+description: |-
+  Fraudulent purchases involving Discord relate to the use of stolen financial information or laundered money to buy services or products within the Discord platform. This can include Nitro subscriptions (a premium service for enhanced user experience), server boosts, and gifts. Bad actors exploit these services as a means to launder money under the guise of legitimate transactions or to cash out illegally obtained funds through a popular and widely used communication platform.
+
+  Execution: Perpetrators utilize stolen credit card information, compromised online banking details, or virtual wallets associated with illicit funds to conduct transactions on Discord. They may purchase Discord Nitro for multiple accounts or carry out transactions for server boosts and other available services in bulk. These services, once bought, might later be sold at a discount on gray or black marketplaces or used for social engineering in other fraud schemes.
+
+  Examples:
+
+  Using compromised card details to bulk purchase Discord Nitro subscriptions, which are then sold for cash or cryptocurrency on third-party websites or forums.
+  Exploiting Discord's gifting feature to exchange funds with others in a network of money laundering, circumventing traditional financial monitoring systems.
+  Subscribing to paid Discord services with illicit funds to blend the flow of dirty money with legitimate transactions made by regular platform users.
+  Goals: The intentions behind fraudulent purchases on Discord within the context of financial evasion, laundering, and cash-out include:
+
+  Disguising the movement of illicit funds by integrating them within a platform's ecosystem through seemingly benign transactions.
+  Quickly converting stolen financial information into usable or saleable digital goods before the compromise is detected by victims or financial institutions.
+  Utilizing the social aspect of Discord to move and launder money within a network of collaborators without raising suspicion.
+url: ''
+created: 3/4/25
+last_modified: 2/28/24
+domain: ft3
+version: V.1
+tactics: Financial Evasion, Laundering & Cash-Out
+detection: |-
+  Implementing anomaly detection within Discord payment processes to identify unusual patterns of purchase behavior, such as rapid succession of high-volume transactions.
+
+  Enforcing verification procedures for payment methods, such as requiring matching billing addresses and the use of CAPTCHA to prevent automated fraudulent purchases.
+  Educating Discord users about the potential misuse of their payment details and the importance of securing their accounts with strong, unique passwords and two-factor authentication.
+
+  Collaborating with payment networks and law enforcement to investigate and take action against the sale of Discord services tied to fraudulent transactions.
+
+  Use by Fraud Detection and Analysis Teams: Fraud detection teams should keep a vigilant eye on transactional traffic originating from Discord to identify potential signs of fraudulent activity. This can involve real-time monitoring of payment gateways, reviewing transaction records for suspicious activity, and comparing against known patterns of fraud. On detecting illicit purchases, immediate containment measures such as blocking transactions, flagging accounts, and reversing charges should be undertaken. Coordination with Discord and financial institutions is crucial to prevent further abuse and pursue recourse against fraudulent actors. Post-incident, acquiring in-depth understanding of how the fraud was perpetrated will enhance preventative measures and inform ongoing strategies to combat financial evasion and laundering activities on the platform.
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT051
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

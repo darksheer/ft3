@@ -1,0 +1,37 @@
+id: FT007.006
+stix_id: ''
+name: 'Acquire Access: Virtual Private Network'
+description: |-
+  Adversaries focused on financial cyber fraud may acquire access to Virtual Private Network (VPN) services, not necessarily to compromise the VPN infrastructure itself, but rather to utilize the service to anonymize their activities or to create the appearance of legitimacy when conducting fraudulent operations. A VPN can mask an attacker's true location and IP address, making it more challenging to trace illicit activities back to the source.
+
+  Execution: To undertake such clandestine endeavors, attackers may purchase or compromise VPN accounts, often leveraging stolen credit card information to set up the service. Alternatively, they might exploit VPN account login credentials obtained through phishing attacks or credential leaks. Once obtained, these VPN services provide a secure and seemingly trustworthy connection to the internet, allowing fraudsters to conduct their activities with reduced risk of exposure.
+
+  Examples:
+
+  Using stolen financial information to legitimate purchase VPN services and masking illicit activities.
+  Hijacking legitimate users' VPN accounts through phishing or credential stuffing, then using these accounts to facilitate fraudulent communications.
+  Setting up multiple VPN connections across various geographical locations to orchestrate a coordinated attack, like a Distributed Denial-of-Service (DDoS), against financial targets.
+  Goals: By utilizing VPN services, adversaries aim to conceal the origins of their attacks and reduce their digital footprint. A VPN connection, especially when routed through jurisdictions with lax cyber law enforcement, can be used for:
+
+  Masking the fraudulent activities by making the transactions or communications seem as though they originate from a different, often legitimate, source.
+  Creating redundancy and complexity in the attackers’ operational infrastructure to make tracking and mitigation more difficult.
+  Conducting financial transactions or exfiltrating data while minimizing the risk of detection by law enforcement agencies or cybersecurity teams.
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Resource Development
+detection: "Scrutinizing transactions or access that originate from VPN services, especially those associated with high-risk or historically problematic jurisdictions.\n\nImplementing advanced device fingerprinting techniques to differentiate between legitimate and suspicious use of VPN services.\n\nEstablishing baselining and behavior analytics to detect anomalous patterns indicative of fraud.\n\nEncouraging customers to report unauthorized transactions or account activities promptly.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection teams should maintain a high level of scrutiny over access and transactions conducted through VPNs. Automated detection mechanisms can be employed to flag access from VPN services and ensure that subsequent actions are subject to enhanced verification. Collaboration with VPN providers could be established to facilitate the rapid suspension of services being exploited for fraudulent means. In the event that VPN-facilitated fraud is detected,\
+  \ teams must act swiftly to trace the activity, mitigate the damage, and adjust security postures to preempt future attacks of a similar nature."
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT008
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

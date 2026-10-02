@@ -1,0 +1,24 @@
+id: FT026.001
+stix_id: ''
+name: 'Falsifying Business Documents: Fake Business Registration Certificate'
+description: "Creating fake business registration certificates is a fraudulent technique used to bypass Know Your Customer (KYC) requirements when establishing new merchant accounts on payment platforms. This involves the production or modification of official-looking documents that purport to represent a legitimate business entity. These fake documents are then submitted during the account registration process to meet the verification standards fraudulently.\n\nExecution: \n\nFraudsters may use sophisticated graphic design software to create counterfeit business registration certificates or alter existing legitimate documents. They'll include false business details like name, address, registration number, and sometimes use the names of real corporate officers without their knowledge. The goal is to present these documents to payment processors as part of the KYC procedure to set up merchant accounts under false pretenses.\n\nExamples:\n\nMimicking legitimate government-issued business registration\
+  \ or incorporation certificates, complete with forged signatures and fake corporate seals.\nAltering genuine business certificates by changing details like the business name or registration number to match the fraudster's fake business identity.\nUsing identity theft to add a real person's information to the forged certificate, giving the appearance of legitimacy.\n\nGoals: The primary objectives in falsifying business registration certificates for KYC bypass include:\n\nSetting up merchant accounts for the purpose of laundering money or processing fraudulent transactions without the risk of personal identification.\nGaining access to payment processing tools and platforms to exploit their resources for further financial fraud schemes.\nCreating an appearance of legitimacy to solicit goods, services, or loans from providers who require business verification.\n"
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Defense Evasion & Obfuscation
+detection: "Implementing advanced document verification measures that cross-reference submitted certificates with official government or registry databases.\n\nApplying machine learning and AI techniques to detect anomalies in document patterns, text inconsistencies, and image manipulation that could indicate forgery.\n\nRequiring multi-factor verification of business credentials, including follow-ups with registered business contacts, physical mail verification to the business address, or direct inquiries with business registries.\n\nEngaging in regular audits and random checks on existing merchant accounts to ensure ongoing compliance and detect any that may have initially slipped through.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection and analysis teams within payment processing companies like Stripe should have systems in place to identify potential forgeries in business documentation.\n\nThese teams work to verify the authenticity of documents both during account\
+  \ setup and periodically throughout the account lifecycle. \nUpon detection of a fake business registration certificate, immediate actions are taken to suspend the account, investigate the origin of the documents, and take legal action against the perpetrators. Maintaining an active dialogue with business registries and regulatory bodies can help in keeping abreast of emerging forgery techniques and improving defenses against such fraudulent activities."
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT026
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

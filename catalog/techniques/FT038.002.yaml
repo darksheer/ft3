@@ -1,0 +1,24 @@
+id: FT038.002
+stix_id: ''
+name: 'Data Exfiltration: Payout'
+description: "In the context of Stripe, 'Data Exfiltration: Payout' refers to the unauthorized extraction of financial data linked to payout transactions and schedules. This could involve cybercriminals gaining access to a business's Stripe account and exporting sensitive information associated with payout transactions—such as beneficiary details, bank account information, transaction amounts, and timing—without permission from the account holder or for purposes not authorized by them.\n\nExecution: \n\nThe execution of this data exfiltration technique might involve an attacker who has compromised an employee's Stripe login credentials or has otherwise gained unauthorized account access through phishing, social engineering, or exploiting security flaws. Once inside the Stripe dashboard, they can access detailed reports or use Stripe's data analytics features to gather and export data related to business payouts.\n\nExamples:\n\nUsing a compromised Stripe account to export recent payout reports\
+  \ that contain sensitive business financial details, such as bank account numbers and transaction amounts.\nManipulating the Stripe API from a compromised account to retrieve and exfiltrate high volumes of payout data, potentially for use in fraudulent activities.\nSetting up fake payout schedules that 'exfiltrate' funds to accounts controlled by the attacker, while simultaneously collecting data on legitimate payout flows for further financial fraud schemes.\n\nGoals: The principal objectives behind 'Data Exfiltration: Payout' include:\n\nStealing financial data that could be used to orchestrate direct financial theft from business accounts.\nCollecting corporate financial information that could facilitate more extensive fraud schemes, like business email compromise (BEC) or payment diversion fraud.\nObtaining payout data as part of a corporate espionage strategy to gain competitive insights or for blackmail and extortion."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Collection & Exfiltration
+detection: "Implementing strong access controls and multi-factor authentication to minimize the risk of unauthorized access to Stripe accounts.\n\nRegularly auditing and monitoring for unusual access patterns or data export activities within Stripe, such as unexpected report downloads or API calls related to payouts.\n\nRestricting the ability to export sensitive payout-related data through user role management within Stripe's interface.\n\nTraining employees to recognize the signs of account compromise and to report suspected incidents immediately.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection teams bearing the responsibility for safeguarding Stripe accounts must maintain vigilant monitoring of account activity, focusing on payouts and associated data movements. Advanced data analysis tools can be employed to detect anomalies such as abnormal export patterns or the setup of unusual payout schedules. When indicators of exfiltration activities are found, swift investigative\
+  \ and remedial actions, including temporary freezes on payouts and revoking suspicious API tokens, are essential. Post-detection, an assessment of the breach and the implementation of additional security measures can help mitigate the risk of future incidents while ensuring the protection of sensitive financial information."
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT038
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

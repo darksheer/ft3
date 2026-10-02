@@ -1,0 +1,9 @@
+ID: FTA009
+stix_id: ''
+name: Collection & Exfiltration
+description: This tactic entails the compilation and extraction of valuable data from the victim's network. Fraudsters may collect personal identification information, payment card details, or corporate financial information, with the intent of using or selling this stolen data.
+url: ''
+created: 01/30/2024
+last_modified: 01/30/2024
+domain: ft3
+version: V.1

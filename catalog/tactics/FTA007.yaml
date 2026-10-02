@@ -1,0 +1,9 @@
+ID: FTA007
+stix_id: ''
+name: Manipulation & Fraudulent Transactions
+description: This tactic covers the direct manipulation of systems or accounts to perform unauthorized transactions. It could range from small test transactions to check for detection to large scale unauthorized transfers or payment alterations.
+url: ''
+created: 01/30/2024
+last_modified: 01/30/2024
+domain: ft3
+version: V.1

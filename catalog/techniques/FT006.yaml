@@ -1,0 +1,25 @@
+id: FT006
+stix_id: ''
+name: Credential Scanning
+description: "Credential scanning involves methodically searching through online systems and services to locate exposed or insecurely stored credentials, like API keys. Attackers use various automated tools to scan source code repositories, environment configuration files, and other web-accessible resources for accidentally exposed credentials that can be used for fraudulent activities or unauthorized account access.\n\nExecution: \n\nThe process typically uses botnets or scripts that probe public code repositories (e.g., GitHub or GitLab), public data storage (e.g., Amazon S3 buckets), and other websites where developers might inadvertently leave sensitive information. The search includes pattern matching techniques to identify strings that correspond to access tokens, secret keys, or embedding API keys in code snippets. When successful, fraudsters can use these credentials to gain access to accounts, make unauthorized transactions, access customer data, or execute operations afforded by\
+  \ the API for malicious purposes.\n\nExamples:\n\nUtilizing search engines and specialized tools to find and index websites with .env files or directories that are not secured and potentially contain API keys.\nScanning GitHub repositories for commits containing secret keys using pattern recognition, which could indicate, for instance, a string starting with 'sk_live_' followed by a series of alphanumeric characters.\nSearching question-and-answer sites, developer forums, or documentation sites where developers may have unknowingly shared code containing live API keys.\n\nGoals: The primary aim of conducting credential scanning for API keys is to:\n\nAcquire valid API keys that provide direct access to account features, allowing the execution of fraudulent transactions, data theft, or account manipulation.\nUse found credentials for financial gains by committing fraud, selling compromised account access, or launching further attacks against linked third-party systems.\nScan for and aggregate\
+  \ a large quantity of credentials, searching for those that may provide particularly lucrative or high-privileged access."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Reconnaissance
+detection: "Routinely reviewing and rotating Stripe API keys, especially when transitioning from development environments to production.\n\nImplementing strict access controls and proper secret management practices, ensuring sensitive credentials are never hardcoded into version-controlled source code.\n\nEmploying automated tools that scan for and alert on accidental credential exposures across public code repositories and online storage platforms.\n\nConfiguring web servers to block public access to sensitive files and directories, like .env files, which often store API keys and other secrets.\n\nOffering security training to developers to raise awareness about safe secret handling and the dangers posed by credential leakage.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection teams should use scanning tools and manual audits to continuously monitor for exposed credentials related to the services their systems interact with. Automated alerts should be set up to flag potential\
+  \ exposures, and prompt investigation should be conducted when warnings occur. In the event of exposure detection, it is crucial to revoke the compromised keys and take steps to secure the affected areas. Teams must also engage in proactive outreach to the development community, informing them about best practices for using and storing Stripe API keys and reacting swiftly to reported exposures. Post-exposure actions include working with the impacted users to secure their accounts, assess any resulting damages, and shore up defenses to prevent similar incidents.\n\n"
+data sources: ''
+is_sub-technique: 'FALSE'
+sub-technique of: ''
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

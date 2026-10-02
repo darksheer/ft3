@@ -1,0 +1,9 @@
+ID: FTA005
+stix_id: ''
+name: Defense Evasion & Obfuscation
+description: Frauds often use techniques to avoid detection by hiding their activities or making their actions look legitimate. Defense evasion might include crafting transactions to bypass fraud detection algorithms, and obfuscation refers to disguising the true nature and source of those transactions.
+url: ''
+created: 01/30/2024
+last_modified: 01/30/2024
+domain: ft3
+version: V.1

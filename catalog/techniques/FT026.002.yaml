@@ -1,0 +1,24 @@
+id: FT026.002
+stix_id: ''
+name: 'Falsifying Business Documents: Fake Business License'
+description: "Falsifying business documents, particularly a fake business license, is a fraudulent act committed by individuals attempting to bypass Know Your Customer (KYC) controls when setting up a merchant account on financial platforms such. The fake business license is intended to mimic an official government-issued document that grants permission to an individual or company to conduct business in a particular jurisdiction.\n\nExecution: \n\nPerpetrators produce counterfeit business licenses using a variety of methods, including graphic design software to create a document from scratch or altering an existing one. These forgeries often include seemingly legitimate business information, such as a fake company name, address, and license number, as well as forged signatures and official seals. The documents are then presented during the merchant account registration process to falsely satisfy KYC requirements.\n\nExamples:\n\nCrafting a business license that looks identical to real government-issued\
+  \ licenses, including watermarks, stamps, and barcodes intended to deceive verification checks.\nUsing photo editing tools to alter the details on an authentic business license to match the fraudulent company the attacker wishes to register.\nSubmitting a completely fabricated business license document that asserts the existence of a company that does not actually exist.\n\nGoals: The goals behind the use of fake business licenses in KYC bypass include:\n\nEstablishing a merchant account under false pretenses for the purpose of money laundering, executing fraudulent transactions, or perpetrating other financial scams.\nCreating the perception of a legitimate business operation to gain access to credit, goods, or services from third-party vendors.\nObtaining entry to payment processing networks, thereby facilitating broader financial deceit or cybercrime activity."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Defense Evasion & Obfuscation
+detection: "Utilizing document authentication technologies that leverage optical character recognition (OCR), databases, and machine learning to detect inconsistencies and verify the authenticity of documents.\n\nConducting cross-references of submitted business information against public records and government databases to validate the existence and legitimacy of the business.\n\nImplementing secondary verification steps such as directly contacting local licensing authorities, requiring in-person verification processes, or engaging third-party verification services.\n\nRegularly updating KYC verification protocols to address newly identified fraud tactics and refreshing the verification of existing merchant accounts.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection teams within Stripe or similar financial platforms must have robust screening processes to intercept counterfeit business documents. Real-time analytics and pattern recognition can help identify discrepancies\
+  \ that may indicate a document is forged. If a fake business license is suspected, a comprehensive review of the account is warranted, potentially leading to the suspension of account privileges while further investigation takes place. Should a falsification be confirmed, appropriate actions, including account closure, will be undertaken, and the case may be reported to legal authorities for follow-up legal action. Proactive risk assessment and community education on the perils of such fraudulent activity are also essential steps in building a strong defense against falsification of business licenses."
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT026
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

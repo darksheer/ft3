@@ -1,0 +1,42 @@
+id: FT007.005
+stix_id: ''
+name: 'Acquire Access: VPS'
+description: |-
+  Adversaries may seek to acquire control over Virtual Private Servers (VPS) as they provide an anonymized platform to conduct illicit activities. Given their scalability, reliability, and remote access, VPSs are attractive to attackers for hosting malware command and control (C2) servers, phishing websites, or as pivot points for further attacks against financial targets.
+
+  Execution: Attackers might exploit weak VPS credentials, leverage stolen credit card details to purchase VPS services illicitly, or utilize vulnerabilities in VPS management software to gain unauthorized access. Once control is established, attackers can use these servers to launch various attacks on financial systems, including but not limited to DDoS attacks, data exfiltration, or hosting malicious sites to capture user credentials.
+
+  Examples:
+
+  - Conducting brute force or dictionary attacks to guess weak passwords used for VPS management consoles.
+  - Purchasing VPS services using stolen financial details and using the service to facilitate fraudulent activity.
+  - Scanning for and exploiting vulnerabilities in the infrastructure software that manages the VPS, such as hypervisors or control panels.
+
+  Goals: The primary objective for adversaries in acquiring access to a VPS in the context of financial fraud is to facilitate anonymity while conducting attacks, thus avoiding detection and maintaining persistence in their fraudulent activities. VPSs can be used to mask the attacker's location and IP details, host phishing pages, store stolen data, run botnets, or masquerade as legitimate entities in financial transactions.
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Resource Development
+detection: |-
+  Implementing strong, complex password policies and multi-factor authentication for VPS management.
+
+  Regularly scanning and updating the VPS infrastructure to patch against known vulnerabilities.
+  Employing network monitoring solutions that can detect and flag unusual behavior indicative of a compromised VPS.
+
+  Encouraging customers to report phishing or fraudulent activities hosted on VPS managed by financial institutions.
+  Blacklisting and taking down malicious domains quickly that are identified as being used for financial fraud.
+
+  Use by Fraud Detection and Analysis Teams: Fraud detection teams should actively monitor for patterns of traffic or activity originating from VPS services that could be indicative of financial cyber fraud. This includes trends in transaction locations that do not match the user's known profile, volumes of requests that exceed typical patterns, or connections to known bad IPs or domains. Continuous threat intelligence gathering is essential to stay updated on new TTPs (tactics, techniques, and procedures) being used to exploit VPS servers. Additionally, close cooperation with VPS providers can aid in the fast shutdown of services being used for fraudulent purposes.
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT008
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

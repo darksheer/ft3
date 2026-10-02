@@ -1,0 +1,82 @@
+id: FT052.008
+stix_id: ''
+name: 'Falsifying Identity Documents: Fake Passport Card'
+description: |-
+  Fake Passport Card involves creating or altering digital copies of passport cards to impersonate legitimate passport cardholders. This method is used by cybercriminals to bypass digital identity verification mechanisms, giving them unauthorized access to services and financial platforms. Given their recognized status and stringent issuance protocols, passport cards are highly trusted documents, making them prime targets for forgery to facilitate financial fraud, unauthorized transactions, and defense evasion.
+
+  Procedure:
+
+  Information Collection:
+
+  Attackers start by collecting essential personal details required to fabricate a convincing digital passport card. This information may include names, dates of birth, residence addresses, photographs, and passport card numbers.
+  Such information can be harvested from data breaches, social engineering, phishing attacks, or purchased from underground markets.
+  Acquisition of Tools and Templates:
+
+  Criminals utilize high-resolution graphic design software, scanners, and specific templates that replicate the design and security attributes of legitimate passport cards. These tools help in mimicking the physical and digital features of genuine documents.
+  Fabrication:
+
+  Using the gathered personal data and digital tools, attackers create the fake digital passport card:
+  Personal information is accurately input onto a digital template that replicates the format and features of genuine passport cards.
+  Advanced editing techniques are employed to duplicate security features such as holograms, UV markings, microprinting, and complex background designs.
+  A matching photograph of the impersonator is embedded into the digital template, ensuring it aligns with the style and specifications of authentic passport cards.
+  Submission for Digital Verification:
+
+  Once the digital passport card is fabricated, it is submitted during identity verification processes on platforms such as Stripe to:
+  Open accounts using false or stolen identities.
+  Conduct unauthorized financial transactions or access services requiring verified identity.
+  Withdraw or transfer fraudulent funds and engage in financial crimes such as money laundering.
+  Additional Evasion Measures:
+
+  To further evade detection, attackers may use VPNs to alter IP addresses, temporary email accounts, and anonymized payment methods, complicating the traceability of their true identities and activities.
+  Mitigation Strategies:
+
+  Stripe.com can deploy multiple strategies to mitigate the risks associated with fake digital passport cards:
+
+  Advanced Document Verification Systems:
+
+  Integrate sophisticated document verification tools that leverage AI and machine learning to analyze digital passport cards for authenticity. These systems can identify counterfeit features and inconsistencies when compared to known legitimate documents.
+  Biometric Verification:
+
+  Use biometric verification processes that compare the individual’s facial features with the photograph on the submitted digital passport card, ensuring that the person presenting the document matches the identified individual.
+  Continuous Behavioral Analytics:
+
+  Implement systems for continuous monitoring of user behavior to identify anomalies. Unusual patterns in account activities, rapid account creation, or irregular transaction behaviors post-verification should prompt additional scrutiny.
+  Cross-Referencing with Official Databases:
+
+  Utilize national and international identity databases to cross-verify credentials provided in digital passport cards, detecting discrepancies, invalid entries, and potential fraud.
+  Robust Multi-Factor Authentication (MFA):
+
+  Enforce strong MFA protocols in addition to the submission of a digital passport card, adding extra layers of security for account creation and high-risk transactions.
+url: ''
+created: 3/4/24
+last_modified: 8/5/24
+domain: ft3
+version: V.1
+tactics: Defense Evasion & Obfuscation
+detection: |-
+  AI-Powered Document Analysis:
+
+  Employ AI and machine learning models to analyze digital resident permits and green cards for signs of tampering or forgery. These systems can recognize inconsistencies in design patterns, missing security features, and other irregularities.
+  Metadata Examination:
+
+  Evaluate the metadata of submitted digital resident permits or green cards to identify signs of digital tampering, such as inconsistencies in file creation dates, editing history, or the use of specific modification software.
+  Global Database Cross-Verification:
+
+  Frequently cross-check information from resident permit IDs and green cards submitted by users against authoritative national and international databases to validate credentials and flag any reported fraudulent or duplicate entries.
+  Detailed User Behavior Analytics:
+
+  Implement advanced behavioral analytics to monitor suspicious activities, including unusual login locations, sudden changes in account behavior, and high-risk transaction patterns after document verification.
+  Fraud Intelligence Collaboration:
+
+  Partner with financial institutions, other digital platforms, and global fraud intelligence networks to share insights and data on emerging trends and techniques used in digital resident permit ID and green card forgery.
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT052
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

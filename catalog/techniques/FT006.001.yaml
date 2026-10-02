@@ -1,0 +1,44 @@
+id: FT006.001
+stix_id: ''
+name: 'Credential Scanning: Github'
+description: |-
+  Adversaries may perform automated scanning of GitHub repositories to identify credentials that have been accidentally committed and left publicly accessible. GitHub, a popular platform for code management and collaborative programming, can inadvertently become a treasure trove of sensitive information if proper care isn't taken.
+
+  Execution: Attackers employ bots or scripts that scour repositories and their associated commit history for patterns that match common credential formats. This includes looking for strings associated with private keys, API tokens, passwords, or access tokens for a variety of services that might be used by financial organizations. They may specifically target high-value repositories belonging to financial institutions or payment gateways, where access credentials can lead to significant unauthorized transactions or data breaches.
+
+  Examples:
+
+  Searching for files with names that include key, secret, token, credential, or any other keyword indicative of sensitive data.
+  Looking for specific patterns that match common credential formats, such as AWS access key IDs (AKIAxxxxxxxxxxxxxxxx) or private SSH keys (-----BEGIN PRIVATE KEY-----).
+  Goals: The primary goal for adversaries using this technique is to gain unauthorized access to systems, services, or data stores that the credentials provide access to. This access can be used to facilitate fraudulent transactions, siphon funds, manipulate account balances, or extract sensitive financial data.
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Reconnaissance
+detection: |-
+  Implementing Git hooks that scan for and prevent the pushing of commits containing sensitive information.
+
+  Employing automated code scanning tools within the CI/CD pipeline to detect and alert on hard-coded credentials.
+
+  Frequent auditing of repositories for inadvertent credential exposure.
+
+  Enforcing policies that require the use of environment variables or secret management systems instead of hard-coded credentials.
+
+  Training developers on secure coding practices, emphasizing the importance of keeping credentials out of source code.
+
+  Revoking and rotating credentials as soon as possible if exposure is detected.
+
+  Use by Fraud Detection and Analysis Teams: Fraud detection teams should monitor for unauthorized access and unusual activities that could suggest the use of compromised credentials. Automated alerting and anomaly detection systems can be configured to flag large or irregular transactions, access from anomalous locations, or the usage of credentials in unexpected ways. Additionally, maintaining a baseline of normal activity will assist in quickly identifying deviations that warrant investigation.
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: ''
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

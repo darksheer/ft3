@@ -1,0 +1,24 @@
+id: FT008
+stix_id: ''
+name: Compromise Accounts
+description: "\"Compromise Accounts\" is a primary cyber threat tactic that refers to the unauthorized access and control of various types of online accounts. It serves as a master technique encompassing specific strategies aimed at breaching and exploiting the security of digital platforms that store sensitive data and provide critical services. Attackers who successfully compromise accounts can access privileged information, financial assets, or leverage the trusted status of an account for further malicious activities.\n\nExecution: \n\nThe execution of account compromise often involves the theft or prediction of passwords, phishing attacks, exploiting software vulnerabilities, or leveraging access gained from other compromised systems. Attackers may use automated tools for credential stuffing, launch targeted phishing campaigns, or install malware that logs keystrokes to capture login credentials. Once inside an account, they can conduct activities ranging from data theft to financial\
+  \ fraud, often without the knowledge of the legitimate account owner.\n\nGoals: The goals behind the \"Compromise Accounts\" technique include:\n\nAccessing sensitive personal, corporate, or customer data for theft, sale, or use in blackmail and extortion schemes.\nUsing the compromised accounts as stepping stones for lateral movement within an organization's network or for launching secondary attacks.\nDisguising illicit activities behind legitimate accounts to avoid detection and increase the odds of a successful attack.\nDisrupting operations, damaging reputations, and exploiting the trust established between account holders and their contacts or customers."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Resource Development
+detection: "Strengthening credential security through robust password policies, regular password changes, and the use of multi-factor authentication (MFA).\n\nImplementing security measures like intrusion detection systems (IDS), anomaly detection, and account monitoring tools to identify unauthorized access attempts.\n\nTraining users to recognize and report phishing attempts and to handle credentials securely.\n\nRegularly reviewing account privileges and conducting audits to ensure access permissions are aligned with the principle of least privilege.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection and analysis teams should employ a proactive approach, leveraging threat intelligence and monitoring tools to detect potential account compromises. This involves analyzing login patterns, failed authentication attempts, and unusual account behavior indicative of a breach. When potentially compromised accounts are identified, immediate steps must be taken to verify and potentially\
+  \ halt suspicious transactions, alert affected users, and regain control of the accounts. Post-incident, lessons learned should be applied to refine security strategies, mitigating the risk of similar future incidents and enhancing the organization's overall cybersecurity posture."
+data sources: ''
+is_sub-technique: 'FALSE'
+sub-technique of: ''
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

@@ -1,0 +1,24 @@
+id: FT027.003
+stix_id: ''
+name: 'Account Enumeration: Account Radar Rule Enumeration'
+description: "Account Radar Rule Enumeration is a specific form of reconnaissance where an attacker, after gaining unauthorized access to a Stripe account, attempts to determine the custom fraud detection rules that have been set up using Stripe Radar. Stripe Radar is a suite of tools designed to help businesses detect and prevent fraud in real-time. By understanding the configured rules, an attacker can tailor fraudulent activities to fly under the radar, avoiding triggers that would otherwise block transactions or flag them for review.\n\nExecution: \n\nTo perform this type of enumeration, savvy attackers would navigate the Stripe dashboard Radar settings if they have UI access or make authenticated calls to the Stripe API to list Radar rules. They may methodically test the fraud detection system by initiating transactions that barely skirt the thresholds of existing rules or otherwise observe the transaction review logs to deduce which activities are being flagged or blocked.\n\nExamples:\n\
+  \nAnalyzing the list of active Radar rules found within the Stripe dashboard to understand what behaviors or transaction characteristics are being monitored.\nMaking controlled, incremental transactions that test the boundaries of Radar rules without overtly triggering fraud alerts.\nLeveraging the API to query Radar rule hits or test the rules with hypothetical transaction calls (if such functionality is exposed).\n\nGoals: The goals of an attacker engaging in Account Radar Rule Enumeration include:\n\nAvoiding detection by understanding the specific conditions that trigger fraud reviews or block transactions.\nCrafting fraudulent transactions that have a higher probability of success by staying within the parameters allowed by the rules.\nGaining a granular understanding of the business's risk tolerance as expressed through the configuration of Radar rules, which can inform the scale or nature of the fraud attempt."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Discovery & Profiling
+detection: "Maintaining strict controls over who can view or modify Radar settings, possibly using features like two-factor authentication for sensitive areas of the Stripe dashboard.\n\nImplementing alerting mechanisms that notify administrators of unusual activity within the Radar rule settings or multiple near-miss transactions that could indicate testing of the fraud detection system.\n\nUsing machine learning-based fraud detection in parallel with Radar rules to detect and respond to atypical patterns that might not be caught by static rule sets.\n\nRegularly reviewing and updating Radar rules to adapt to new fraud trends and to counter attempts at gaming the system.\nTraining staff on the importance of operational security to prevent sensitive information about fraud detection practices from being disclosed inadvertently.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection and analysis teams at Stripe should actively monitor transaction logs, rule hits, and user activity\
+  \ concerning Radar rules. By deploying analytical tools that detect potential enumeration attempts, such as probing transactions that do not culminate in a fraud block but consistently test the rule boundaries, teams can rapidly investigate and respond to potential threats. In the case of detected Radar rule enumeration, immediate actions such as resetting user sessions, revoking API keys, and conducting thorough security audits of the Radar configurations should be taken. It's also essential for these teams to collaborate with Stripe's security department to understand the full scope of the issue and to implement additional measures to protect against future enumeration attempts."
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT027
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

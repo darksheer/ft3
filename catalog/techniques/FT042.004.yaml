@@ -1,0 +1,24 @@
+id: FT042.004
+stix_id: ''
+name: 'Account Manipulation: Additional Payout Schedule'
+description: "Account manipulation through the addition of an additional payout schedule in a Stripe account involves unauthorized users configuring new or altering existing payout intervals and destinations. This malpractice enables the covert redirection and withdrawal of funds to bank accounts controlled by the malicious actors, often unbeknownst to the legitimate account holders.\n\nExecution: \n\nAfter attaining unauthorized entry into a Stripe account, cybercriminals navigate to the payout settings, where they can either create new schedules or modify existing ones. They may set up payouts at irregular intervals or change the timing of regular payouts to swiftly move money to their accounts. In order to avoid immediate suspicion or detection, fraudsters often aim to align these changes with the typical transaction patterns and behaviors observed within the compromised account.\n\nExamples:\n\nAdjusting an e-commerce business's Stripe account to execute payouts daily instead of the\
+  \ typical bi-weekly schedule, prompting the transfer of funds more quickly and frequently into an account managed by the perpetrator.\nInserting an additional payout schedule to occur right after a high-volume sales period, such as during holidays or special sales events, ensuring that significant funds are redirected before the business owner may notice.\n\nGoals: The goals behind adding an unauthorized additional payout schedule to a Stripe account include:\n\nAccelerating the cash-out process for an attacker who has gained access to an e-commerce platform and wishes to exfiltrate funds rapidly.\nTemporarily hiding fraudulent activity by manipulating payout schedules in a way that seems normal to the business’s cash flow, delaying the detection of these activities.\nContinual extraction of funds from the compromised account in alignment with the added payout schedule, providing a steady flow of stolen funds to the attacker."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Financial Evasion, Laundering & Cash-Out
+detection: "Implementation of notification systems to alert account owners of any changes made to payout settings as they occur.\n\nUtilization of machine learning algorithms to assess changes in payout patterns that deviate from the established norm for the account.\n\nEncouraging the use of secondary authentication and verification for modifying critical payout attributes, such as the frequency of payouts or the addition of new bank account information.\n\nConducting routine audits of account settings, especially focusing on payout configurations and scheduled transfers.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection teams should closely monitor changes to payout schedules, leveraging transaction monitoring software that can detect irregularities indicative of manipulation. Automated tools should be used to identify unauthorized adjustments and flag them for further investigation. In situations where unauthorized payout schedule changes are detected, immediate suspension\
+  \ of the new schedules and investigation into the changes should occur, including verifying any newly added banking details. Ensuring that compromised accounts are secured and measures to reverse any unwarranted transfers are taken is crucial. Following incident remediation, updating security protocols and providing additional training to account holders can help mitigate future risks of payout manipulation."
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT042
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

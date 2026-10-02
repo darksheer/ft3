@@ -1,0 +1,82 @@
+id: FT052.009
+stix_id: ''
+name: 'Falsifying Identity Documents: Fake State Issued ID Card'
+description: |
+  Fake State Issued ID Card involves creating or altering digital copies of state-issued identification cards to impersonate legitimate ID holders. This method is employed by cybercriminals to bypass digital identity verification mechanisms and gain unauthorized access to services and financial platforms. Given the widespread use and trust placed in state-issued IDs, they are prime targets for forgery to facilitate financial fraud, unauthorized transactions, and defense evasion.
+
+  Procedure:
+
+  Information Collection:
+
+  Attackers collect essential personal details needed to fabricate a convincing digital state-issued ID card. This information typically includes full names, dates of birth, addresses, photographs, and ID numbers.
+  This data can be sourced through data breaches, social engineering, phishing attacks, or purchased from illegal marketplaces.
+  Acquisition of Tools and Templates:
+
+  Fraudsters utilize advanced graphic design software, high-resolution scanners, and specific templates that replicate the design and security features of legitimate state-issued ID cards.
+  Fabrication:
+
+  Using the gathered personal data and acquired tools, attackers create the fake digital state-issued ID card:
+  Personal details are accurately input onto a digital template that closely mimics the format and features of genuine state-issued ID cards.
+  Advanced editing techniques are employed to replicate security features such as holograms, UV designs, microprinting, and complex background patterns.
+  A photograph of the impersonator is embedded into the digital template, ensuring it aligns with the style and specifications of real ID cards.
+  Submission for Digital Verification:
+
+  Once the fake digital state-issued ID card is fabricated, it is submitted during identity verification processes on platforms such as Stripe to:
+  Open accounts using false identities.
+  Conduct unauthorized financial transactions or gain access to restricted services.
+  Withdraw or transfer fraudulent funds, engage in money laundering, or perpetrate other financial crimes.
+  Additional Evasion Measures:
+
+  To enhance evasion, attackers may use VPNs to mask their IP addresses, temporary email addresses, and anonymized payment methods, complicating the ability to trace their actual identities and activities.
+  Mitigation Strategies:
+
+  Stripe.com can adopt several strategies to mitigate the risks associated with fake digital state-issued ID cards:
+
+  Advanced Document Verification Solutions:
+
+  Integrate sophisticated document verification tools powered by AI and machine learning to scrutinize digital state-issued ID cards for authenticity. These tools can detect counterfeit features and inconsistencies compared to known legitimate documents.
+  Biometric Verification:
+
+  Implement biometric verification processes that cross-check the individual’s facial features with the photograph on the submitted digital state-issued ID card, ensuring that the person presenting the document is the one identified on the card.
+  Continuous Behavioral Monitoring:
+
+  Use continuous monitoring systems to analyze user behavior for anomalies. Unusual patterns in account activity, rapid account creation, or irregular transaction behaviors post-verification should trigger further scrutiny.
+  Cross-Referencing with Official Databases:
+
+  Utilize national and state identity databases to cross-verify the credentials provided in digital state-issued ID cards, detecting discrepancies, invalid entries, and fraud.
+  Robust Multi-Factor Authentication (MFA):
+
+  Enforce strong MFA protocols in addition to the submission of a digital state-issued ID card, providing additional security layers for account creation and high-risk transactions.
+url: ''
+created: 3/4/24
+last_modified: 8/5/24
+domain: ft3
+version: V.1
+tactics: Defense Evasion & Obfuscation
+detection: |-
+  AI-Powered Document Analysis:
+
+  Employ AI and machine learning models to analyze digital resident permits and green cards for signs of tampering or forgery. These systems can recognize inconsistencies in design patterns, missing security features, and other irregularities.
+  Metadata Examination:
+
+  Evaluate the metadata of submitted digital resident permits or green cards to identify signs of digital tampering, such as inconsistencies in file creation dates, editing history, or the use of specific modification software.
+  Global Database Cross-Verification:
+
+  Frequently cross-check information from resident permit IDs and green cards submitted by users against authoritative national and international databases to validate credentials and flag any reported fraudulent or duplicate entries.
+  Detailed User Behavior Analytics:
+
+  Implement advanced behavioral analytics to monitor suspicious activities, including unusual login locations, sudden changes in account behavior, and high-risk transaction patterns after document verification.
+  Fraud Intelligence Collaboration:
+
+  Partner with financial institutions, other digital platforms, and global fraud intelligence networks to share insights and data on emerging trends and techniques used in digital resident permit ID and green card forgery.
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT052
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

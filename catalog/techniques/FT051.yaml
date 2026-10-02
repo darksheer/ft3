@@ -1,0 +1,43 @@
+id: FT051
+stix_id: ''
+name: Fraudulent Purchases
+description: |-
+  Under the Financial Evasion, Laundering, and Cash-Out tactic, "Fraudulent Purchases" refers to activities where bad actors use stolen credit card information, fraudulent accounts, or money laundering methods to buy goods or services. These transactions are intended to convert illegally obtained funds into legitimate assets, evade detection by financial authorities, or cash out funds for clean money.
+
+  Execution: Fraudsters make purchases using stolen credit card details or through compromised financial accounts on e-commerce sites, through payment processors like Stripe, or brick-and-mortar retailers with online payment capabilities. In some cases, they may purchase high-value items that are easily resalable in secondary markets or convert funds into cryptocurrencies or gift cards to launder the money.
+
+  Examples:
+
+  Buying luxury items with stolen credit card information to later sell for cash, thus cleaning part of the illegally obtained funds.
+  Purchasing goods or services to be delivered to a drop address, from where the purchased items can be safely retrieved by the criminal or an associate.
+  Using fraudulently obtained funds to purchase gift cards or digital items, which either have anonymous resale value or can be used without revealing the buyer's identity.
+  Goals: The primary goals of engaging in fraudulent purchases are:
+
+  Liquidating stolen financial assets before the theft is detected and the account or cards are frozen.
+  Laundering money by turning illicit funds into physical goods that can be disposed of for 'clean' money.
+  Obtaining goods or services for personal use or profit without the intention of legitimate payment.
+url: ''
+created: 1/30/24
+last_modified: 2/28/24
+domain: ft3
+version: V.1
+tactics: Financial Evasion, Laundering & Cash-Out
+detection: |-
+  Implementing real-time fraud detection systems that identify suspicious purchasing patterns or link transactions to known stolen cards or compromised accounts.
+  Rigorous merchant side analysis of transaction data for anti-money laundering (AML) indicators, such as high-value rapid purchasing or transactions followed by immediate chargebacks.
+
+  Enforcing strong customer authentication and verification practices during the purchasing process.
+  Training retail and financial services staff to recognize the signs of fraudulent purchases and providing clear reporting mechanisms.
+
+  Use by Fraud Detection and Analysis Teams: Fraud detection teams need to constantly analyze transaction data for signs of irregularity that may suggest fraudulent purchasing activity. Using predictive modeling and behavioral analytics can help flag transactions that fall outside of established norms. In cases where fraudulent purchases are detected, teams should take immediate action to investigate and reverse the transactions, while also taking steps to further protect and monitor affected accounts. Post-detection, analyzing the methods and pathways used by fraudsters is key to improving anti-fraud measures and preventing future illicit activity. Cooperation with law enforcement may also be necessary when organized criminal activity is suspected.
+data sources: ''
+is_sub-technique: 'FALSE'
+sub-technique of: ''
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

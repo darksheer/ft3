@@ -1,0 +1,24 @@
+id: FT042.001
+stix_id: ''
+name: 'Account Manipulation: Additional Payment Methods'
+description: "Account manipulation involving the addition of new payment methods often refers to unauthorized activities whereby fraudulent actors or cybercriminals add new credit cards, bank accounts, or other financial instruments to a compromised account. This can occur across various platforms, including e-commerce sites, payment processing services, or online banking systems, allowing attackers to funnel funds to controlled destinations or make unauthorized purchases.\n\nExecution: \n\nUsing stolen credentials or exploited system vulnerabilities, attackers access a user’s online account and navigate to the payment settings. Here they can enter new payment details which might involve stolen credit card numbers or bank account information. They might use these new payment methods immediately for fraud or position them for future use, laying the groundwork for further financial deceit.\n\nExamples:\n\nInserting a fraudulent payment method into a compromised e-commerce account to make unauthorized\
+  \ purchases that ship goods to a location controlled by the attacker.\nAdding a new credit card to an online payment gateway and quickly draining the credit from the card through illegitimate transactions.\nInfiltrating a mobile wallet application to add new credit cards under the user's profile, which are then used to transfer funds or make purchases.\n\nGoals: The primary goals of adding unauthorized payment methods to accounts are to:\n\nPerform financial theft directly by purchasing goods or services using the added payment methods.\nCarry out money laundering by channeling funds through various added payment instruments, complicating the money trail.\nExploit and maximize the financial gain from stolen financial data before the victim detects the fraud and cancels or secures their payment methods."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Financial Evasion, Laundering & Cash-Out
+detection: "Enforcing robust multi-factor authentication protocols for adding any new payment methods to an account.\n\nImplementing real-time alerts to notify users via secure channels when new payment methods are linked to their accounts.\n\nApplying machine learning algorithms to identify patterns that signify fraudulent behavior, such as adding multiple payment methods in a short time frame.\n\nConducting regular security audits of user accounts to ensure added payment methods align with verified user activity and are legitimate.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection teams should utilize monitoring systems that track and analyze account activities, particularly the addition of new payment methods. These systems can raise red flags when detecting actions that appear inconsistent with the user's typical behavior, such as the addition of multiple payment methods in quick succession. On confirmation of suspicious activity, rapid action is necessary, including\
+  \ disabling the new payment methods, reverifying the account holder's identity, and taking steps to secure the account against further fraudulent events. Post-breach assessments should be conducted to understand the failure points that led to the account manipulation, followed by measures to bolster account security and mitigate the risk of similar future incidents."
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT042
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

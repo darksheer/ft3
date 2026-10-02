@@ -1,0 +1,25 @@
+id: FT008.003
+stix_id: ''
+name: 'Compromise Accounts: Social Media Accounts'
+description: "Compromising social media accounts is an increasingly prevalent technique in financial cyber fraud, where attackers aim to gain control of profiles on platforms like Facebook, Twitter, LinkedIn, and Instagram. Social media accounts often carry inherent trust with followers and can be leveraged to perform a variety of malicious activities, from spreading misinformation to phishing and spear-phishing campaigns, all of which can have financial motives and repercussions.\n\nExecution: \n\nTo compromise these accounts, fraudsters might use phishing attacks targeting the account owners, employ credential stuffing with previously leaked login details, exploit platform-specific vulnerabilities, or take over the accounts through social engineering techniques aimed at the platform's customer support.\n\nFraudulent Resource Procurement Use Case: \n\nAdditionally, attackers might use illicitly obtained financial resources to buy access to already compromised accounts, especially those\
+  \ with a significant follower base or verified status. These purchased accounts are then used as a launchpad for financial fraud schemes, to sell fake \"influence\" services, or to promote scams under the guise of a trusted identity.\n\nExamples:\n\nPhishing messages via social media DMs (Direct Messages) or emails linked to fraudulent login pages designed to harvest social media account credentials.\nAutomated bots running credential stuffing attacks across various social media platforms to exploit reused passwords.\nManipulating social media platform recovery processes to gain unauthorized control over an account.\nBuying and selling access to hacked social media accounts on the dark web to conduct fraudulent activities.\n\nGoals: Adversaries focus on social media accounts for several reasons:\n\nTo use the compromised account identity and follower trust to promote fraudulent financial schemes, such as fake investment opportunities or counterfeit products.\nInitiate direct financial\
+  \ fraud via fraudulent fundraisers or payment request scams.\nExploit the compromised account as a stepping stone for further social engineering or phishing attacks on connected individuals or businesses.\nDisseminate malware links that, when clicked, could compromise further accounts or lead to financial data theft."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Resource Development
+detection: "Social media platforms should actively monitor for signs of account compromise, such as sudden changes in posting behavior or language, and uncharacteristic outgoing messages.\n\nImplement security features such as two-factor authentication (2FA), which adds a layer of protection even if passwords are compromised.\n\nEducate users on the importance of using strong, unique passwords for their social media accounts and recognizing phishing attempts.\n\nMonitor the social media marketplace for signs of accounts being bought or sold and take action to suspend fraudulent activities.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection and response involves real-time surveillance of social media channels for signs of account takeover. Teams should have tools in place to track and analyze account behavior, flag any irregularities, and take swift action. Anomaly detection systems can help in identifying unauthorized access, and network analysis can uncover connections between\
+  \ compromised accounts and fraudulent financial activities. Coordination with social media platforms is crucial to quickly regain control of compromised accounts and to prevent the spread of fraud. Additionally, teams can work with financial institutions to trace back the illicit transactions used to procure stolen accounts and uncover larger fraud networks."
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT009
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

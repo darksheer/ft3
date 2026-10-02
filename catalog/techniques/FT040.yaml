@@ -1,0 +1,24 @@
+id: FT040
+stix_id: ''
+name: Carding Markets
+description: "Carding markets are clandestine online forums or shops found on the dark web where cybercriminals trade and sell stolen credit card information. These stolen credit card details are later used to perform unauthorized transactions on payment platforms like Stripe. Fraudsters acquire these details to make illegal purchases, transfer funds, and engage in various forms of financial deception.\n\nExecution: \n\nOnce obtained from carding markets, the stolen credit card information is tested and used by fraudsters to set up or hijack existing Stripe accounts. They may then execute unauthorized transactions, buy goods or services, or even process fraudulent charges to launder money. These activities are often part of a larger operation that might include money laundering, funding for other illicit activities, or direct theft.\n\nExamples:\n\nA cybercriminal purchases a batch of stolen credit card numbers from a carding market and uses them to make unauthorized purchases on e-commerce\
+  \ sites that process payments via Stripe.\nFraudsters use stolen cards to donate to fake charity campaigns processed through Stripe, allowing them to cash out.\nTesting stolen credit card validity by making small donations or purchases via Stripe-enabled platforms before moving on to larger fraudulent transactions.\n\nGoals: The primary goals of participating in carding markets with the intent to use Stripe for fraud are:\n\nTo exploit stolen financial information for personal gain before the cards are canceled or flagged by financial institutions.\nTo launder digital funds through seemingly legitimate retail or service transactions on the Stripe platform.\nTo engage in high-volume theft quickly, given the short window before the stolen card details are detected and blocked."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Financial Evasion, Laundering & Cash-Out
+detection: "Implementing automatic fraud detection and behavioral analysis that identifies patterns consistent with carding, such as testing multiple cards in rapid succession.\n\nLeveraging industry-wide shared data on compromised cards to preemptively block suspected stolen credentials on the Stripe platform.\n\nEmploying stringent verification measures for new merchants and unusual transactions that could indicate carding activity.\n\nEducating merchants on how to recognize and respond to potential carding attempts.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection teams should consistently monitor transaction data for signs indicative of carding activity. This includes flagging multiple failed payment attempts, a series of small test transactions, or sequencing payments that could suggest the use of stolen card details. Sophisticated machine learning models can be especially helpful in detecting subtle patterns and correlations indicative of fraud. When suspicious patterns\
+  \ are identified, teams need to take immediate action to investigate the source, block potentially compromised accounts, and collaborate with law enforcement to address broader issues associated with carding markets. As part of ongoing risk management, these teams should also ensure that merchants using the Stripe platform are aware of carding threats and have the necessary tools and knowledge to help detect and report suspicious activities."
+data sources: ''
+is_sub-technique: 'FALSE'
+sub-technique of: ''
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

@@ -1,0 +1,24 @@
+id: FT030
+stix_id: ''
+name: Card Testing
+description: "Card testing is a fraudulent activity where cyber criminals test the validity of stolen credit card information. This is often done by making small online transactions or donations through payment processing platforms like Stripe. If a small transaction succeeds without triggering fraud detection mechanisms, the attackers gain confidence that the card can be used for larger, more lucrative purchases or fraudulent transactions.\n\nExecution: \n\nAttackers often use automated scripts or bots to perform card testing, submitting numerous small transactions on various websites including e-commerce stores, donation forms, and subscription services. For platforms like Stripe, which provide extensive API support for payment processing, such scripts might hit the API directly. These \"micro-charges\" are small enough to go unnoticed by cardholders but in aggregate can confirm the validity of thousands of stolen card numbers.\n\nExamples:\n\nMaking a series of low-value purchases or\
+  \ donations on various websites using different stolen card details to confirm which cards are active and haven't been reported lost or stolen.\nSubmitting many small transactions via Stripe's API or through a compromised business account that utilizes Stripe for payment processing.\nAutomating attempts to add small credits to digital wallets, using Stripe for payment processing, thereby validating which cards can be exploited further.\n\nGoals: The goals of an attacker engaged in card testing are:\n\nTo identify and compile a list of valid and active credit card details that can be used in high-value fraudulent transactions or sold on the dark web.\nTo determine the fraud detection thresholds, usually based on transaction amount and frequency, thereby understanding how to structure larger fraudulent transactions to avoid triggering alerts.\nTo exploit the tested card data swiftly and efficiently before the theft is detected and the cards are canceled or flagged by financial institutions."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Manipulation & Fraudulent Transactions
+detection: "Utilizing Stripe Radar's machine learning algorithms to identify and block suspected card testing based on patterns typical of such activity, like rapid succession of low-value transactions.\n\nSetting up custom fraud detection rules to flag and hold transactions that fit the card testing pattern for further review.\n\nEmploying CAPTCHA mechanisms on transaction forms to prevent automated scripts from submitting payment data.\n\nMonitoring for an increased chargeback rate, which is often a sign of card testing activities.\n\nLimiting the number of failed payment attempts from a single customer or IP address within a set period.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection teams must maintain constant vigilance for card testing patterns across all transactions. Monitoring systems should be in place to identify repetitive low-value transaction attempts, especially those using multiple cards from the same IP addresses in a short time frame. Teams should collaborate\
+  \ with Stripe to refine Radar settings, adapt custom rules, and keep abreast of emerging card testing tactics. Real-time alerts and automated response protocols are essential for quick incident containment. Post-detection actions include notifying affected cardholders, banks, or credit card companies, and assisting investigations to track down the attackers."
+data sources: ''
+is_sub-technique: 'FALSE'
+sub-technique of: ''
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

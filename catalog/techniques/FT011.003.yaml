@@ -1,0 +1,24 @@
+id: FT011.003
+stix_id: ''
+name: 'Account Takeover: Exposed User Session/Token'
+description: |
+  Account takeover (ATO) via an exposed user session or token targets authentication tokens or session cookies that maintain a user's logged-in state. When these tokens are compromised, typically through malware or man-in-the-middle (MitM) attacks, cybercriminals can hijack them. This allows attackers to impersonate legitimate users and gain unauthorized access to financial accounts without needing the user's credentials.; Execution: Banking malware or trojans can infiltrate a user's device and capture session tokens during an active session by logging keystrokes, capturing network traffic, or scraping browser session data. Once stolen, these tokens can be sent to a command and control (C2) server for attackers to access the affected account. This sensitive information may traverse insecure channels or be improperly stored, making it vulnerable to interception and misuse. Examples: Using banking trojans like Emotet or TrickBot to steal browser session cookies and tokens.; Exploiting cross-site scripting (XSS) vulnerabilities to capture session tokens.; Conducting man-in-the-middle attacks to intercept network traffic and capture unencrypted session tokens from users accessing accounts without a secure connection.; Goals: The objectives of stealing and using exposed user session tokens include: Performing unauthorized financial transactions, including fund transfers.; Altering account settings and payment routing details to misappropriate future payments.; Accessing sensitive billing and customer information for use in further fraud or sale to criminals.; Leveraging the account to set up fake merchant pages or services, perpetuating additional scams and misinformation.
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Initial Access
+detection: "Use of encryption protocols such as HTTPS to secure all data in transit, including session tokens.\n\nImplementing short session token lifespans combined with inactivity timeouts to reduce the window of opportunity for token misuse.\n\nApplying same-site cookie policies in browsers to protect users from token theft via CSRF (Cross-Site Request Forgery) and other attacks.\n\nConducting regular security audits of systems and applications to ensure there are no vulnerabilities that could lead to token exposure.\n\nIncorporating network anomaly detection systems capable of identifying patterns indicative of data exfiltration by malware.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection teams must maintain vigilance over the integrity of user sessions. This includes monitoring for anomalies that may suggest session hijacking, such as irregular account access locations or patterns, simultaneous sessions from geographically distant IPs, or unexpected transaction behaviors.\
+  \ In the event of suspected session token compromise, measures such as immediate session termination, user re-authentication, and a thorough security review should be enacted. Teams should also work closely with cybersecurity experts to analyze attack vectors used to capture the tokens and develop strategies to prevent similar exploits in the future. Cooperation with Stripe to share information about any incidents can lead to enhanced collective defense mechanisms."
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT012
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

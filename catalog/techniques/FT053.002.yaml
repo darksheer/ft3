@@ -1,0 +1,29 @@
+id: FT053.002
+stix_id: ''
+name: 'Card Holder Details Collection: Shipping Information'
+description: |-
+  Card Holder Details Collection: Shipping Information is a fraudulent technique employed by cybercriminals to gather sensitive shipping details from unsuspecting victims, which may include names, addresses, phone numbers, and email addresses. This information is often collected through deceptive means such as phishing attacks, fake marketplaces, and social engineering tactics. By obtaining accurate shipping information, fraudsters can conduct identity theft, commit fraud in e-commerce transactions, or use the data for subsequent attacks on the victim or others.
+
+  Criminals utilizing this technique often set up counterfeit online stores that mimic legitimate businesses to entice consumers into providing their shipping information during the checkout process. They may also use fraudulent emails or text messages that appear to come from shipping carriers or popular online retailers, urging recipients to confirm or update their shipping details to ensure successful deliveries. These strategies capitalize on the natural trust customers place in recognizable brands and services.
+
+  Examples of this technique include: A fake online store advertises products at incredibly low prices, compelling users to enter their shipping information to complete their purchases, ultimately capturing their details for illicit use. A phishing email pretends to be from a well-known shipping company, instructing recipients to verify shipping information for a package that doesn't exist, leading them to a malicious link. A scammer contacts potential victims through social media, posing as a representative from a shipping service and convincing them to share their shipping details for supposed account verification.
+
+  The goals of those engaged in shipping information collection are: To acquire sensitive shipping details for use in fraudulent transactions or identity theft. To build a repository of stolen shipping information that can be exploited for further scams or sold to other criminals. To maintain a façade of trustworthiness and legitimacy, decreasing the likelihood that victims will recognize the fraudulent nature of the interaction and increasing the success rate of data collection efforts.
+url: ''
+created: 3/4/25
+last_modified: 3/4/25
+domain: ft3
+version: V.1
+tactics: Manipulation & Fraudulent Transactions
+detection: ''
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT053
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

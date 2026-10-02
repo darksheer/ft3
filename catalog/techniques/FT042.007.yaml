@@ -1,0 +1,29 @@
+id: FT042.007
+stix_id: ''
+name: 'Account Manipulation: Enable Account Features'
+description: In this technique, an adversary gains unauthorized access to a merchant account by compromising credentials or keys. Once inside, the adversary abuses this access to enable additional account features that the legitimate account holder did not intend to activate. This manipulation can allow the adversary to exploit the merchant's account capabilities for malicious purposes, such as increasing transaction limits, enabling international transactions, or activating other features that facilitate unauthorized financial activities. The unintended enablement of these features can result in significant financial losses and operational disruptions for the affected merchant, while also complicating efforts to detect and mitigate the unauthorized activities.
+url: ''
+created: 1/30/24
+last_modified: 8/5/24
+domain: ft3
+version: V.1
+tactics: Financial Evasion, Laundering & Cash-Out
+detection: |-
+  To detect and respond to the unauthorized enablement of account features, it is imperative to establish a comprehensive monitoring and safeguards system. Regular audits of account features should be conducted to spot any unauthorized activations swiftly. By periodically examining and validating account features such as transaction limits, international transaction capabilities, and other high-risk functionalities, organizations can promptly identify and address any unauthorized changes that adversaries might make. These audits serve as a first line of defense, helping to uncover malicious activities early on and prevent them from escalating.
+
+  Implementing real-time notification systems is crucial for ensuring immediate awareness of any changes made to account features. These systems should automatically alert both the account holders and administrative personnel whenever significant modifications occur. Prompt alerts enable rapid responses, thereby minimizing the time adversaries have to exploit the account's capabilities. Additionally, enhancing security protocols by enforcing multi-factor authentication (MFA) and supplementary verification steps is vital. Requiring, for example, a confirmation code or biometric verification from the original account holder before enabling or modifying critical features ensures that only authorized individuals can approve such changes, adding an extra layer of security.
+
+  Access control measures should also be tightened by adhering to the principle of least privilege. Limiting feature modification permissions exclusively to essential personnel reduces the likelihood of unauthorized access and manipulation. Alongside these measures, employing machine learning algorithms and anomaly detection systems can greatly enhance monitoring capabilities. These advanced technologies can identify deviations from normal behavior patterns, such as unexpected feature activations, signaling potential unauthorized activities that warrant further investigation.
+
+  Securing the storage and management of merchant account credentials and API keys is another essential component. Using robust encryption techniques and regularly rotating these keys and credentials can significantly hinder adversaries' attempts to compromise them. Account holders and staff members should be thoroughly educated on best security practices, which include regularly reviewing account settings and swiftly reporting any irregularities they observe. Continuous training emphasizing security vigilance fosters a more secure and proactive environment.
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT042
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

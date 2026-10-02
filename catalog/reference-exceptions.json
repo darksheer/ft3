@@ -1,0 +1,227 @@
+{
+  "schema_version": 1,
+  "findings": [
+    {
+      "rule": "missing-parent",
+      "id": "FT006.001",
+      "field": "sub-technique of",
+      "value": ""
+    },
+    {
+      "rule": "missing-parent",
+      "id": "FT033.003",
+      "field": "sub-technique of",
+      "value": ""
+    },
+    {
+      "rule": "missing-parent",
+      "id": "FT033.004",
+      "field": "sub-technique of",
+      "value": ""
+    },
+    {
+      "rule": "parent-prefix-mismatch",
+      "id": "FT006.002",
+      "field": "sub-technique of",
+      "value": "FT007"
+    },
+    {
+      "rule": "parent-prefix-mismatch",
+      "id": "FT006.003",
+      "field": "sub-technique of",
+      "value": "FT007"
+    },
+    {
+      "rule": "parent-prefix-mismatch",
+      "id": "FT007.001",
+      "field": "sub-technique of",
+      "value": "FT008"
+    },
+    {
+      "rule": "parent-prefix-mismatch",
+      "id": "FT007.002",
+      "field": "sub-technique of",
+      "value": "FT008"
+    },
+    {
+      "rule": "parent-prefix-mismatch",
+      "id": "FT007.003",
+      "field": "sub-technique of",
+      "value": "FT008"
+    },
+    {
+      "rule": "parent-prefix-mismatch",
+      "id": "FT007.004",
+      "field": "sub-technique of",
+      "value": "FT008"
+    },
+    {
+      "rule": "parent-prefix-mismatch",
+      "id": "FT007.005",
+      "field": "sub-technique of",
+      "value": "FT008"
+    },
+    {
+      "rule": "parent-prefix-mismatch",
+      "id": "FT007.006",
+      "field": "sub-technique of",
+      "value": "FT008"
+    },
+    {
+      "rule": "parent-prefix-mismatch",
+      "id": "FT007.007",
+      "field": "sub-technique of",
+      "value": "FT008"
+    },
+    {
+      "rule": "parent-prefix-mismatch",
+      "id": "FT007.008",
+      "field": "sub-technique of",
+      "value": "FT008"
+    },
+    {
+      "rule": "parent-prefix-mismatch",
+      "id": "FT007.009",
+      "field": "sub-technique of",
+      "value": "FT008"
+    },
+    {
+      "rule": "parent-prefix-mismatch",
+      "id": "FT007.010",
+      "field": "sub-technique of",
+      "value": "FT008"
+    },
+    {
+      "rule": "parent-prefix-mismatch",
+      "id": "FT008.001",
+      "field": "sub-technique of",
+      "value": "FT009"
+    },
+    {
+      "rule": "parent-prefix-mismatch",
+      "id": "FT008.002",
+      "field": "sub-technique of",
+      "value": "FT009"
+    },
+    {
+      "rule": "parent-prefix-mismatch",
+      "id": "FT008.003",
+      "field": "sub-technique of",
+      "value": "FT009"
+    },
+    {
+      "rule": "parent-prefix-mismatch",
+      "id": "FT010.001",
+      "field": "sub-technique of",
+      "value": "FT011"
+    },
+    {
+      "rule": "parent-prefix-mismatch",
+      "id": "FT010.002",
+      "field": "sub-technique of",
+      "value": "FT011"
+    },
+    {
+      "rule": "parent-prefix-mismatch",
+      "id": "FT010.003",
+      "field": "sub-technique of",
+      "value": "FT011"
+    },
+    {
+      "rule": "parent-prefix-mismatch",
+      "id": "FT010.004",
+      "field": "sub-technique of",
+      "value": "FT011"
+    },
+    {
+      "rule": "parent-prefix-mismatch",
+      "id": "FT011.001",
+      "field": "sub-technique of",
+      "value": "FT012"
+    },
+    {
+      "rule": "parent-prefix-mismatch",
+      "id": "FT011.002",
+      "field": "sub-technique of",
+      "value": "FT012"
+    },
+    {
+      "rule": "parent-prefix-mismatch",
+      "id": "FT011.003",
+      "field": "sub-technique of",
+      "value": "FT012"
+    },
+    {
+      "rule": "parent-prefix-mismatch",
+      "id": "FT011.004",
+      "field": "sub-technique of",
+      "value": "FT012"
+    },
+    {
+      "rule": "parent-prefix-mismatch",
+      "id": "FT011.005",
+      "field": "sub-technique of",
+      "value": "FT012"
+    },
+    {
+      "rule": "parent-prefix-mismatch",
+      "id": "FT011.006",
+      "field": "sub-technique of",
+      "value": "FT012"
+    },
+    {
+      "rule": "parent-prefix-mismatch",
+      "id": "FT039.001",
+      "field": "sub-technique of",
+      "value": "FT038"
+    },
+    {
+      "rule": "unknown-parent",
+      "id": "FT004.001",
+      "field": "sub-technique of",
+      "value": "FT0004"
+    },
+    {
+      "rule": "unknown-parent",
+      "id": "FT004.002",
+      "field": "sub-technique of",
+      "value": "FT0004"
+    },
+    {
+      "rule": "unknown-parent",
+      "id": "FT004.003",
+      "field": "sub-technique of",
+      "value": "FT0004"
+    },
+    {
+      "rule": "unknown-parent",
+      "id": "FT004.004",
+      "field": "sub-technique of",
+      "value": "FT0004"
+    },
+    {
+      "rule": "unknown-tactic",
+      "id": "FT027",
+      "field": "tactics",
+      "value": "Discovery & Profiling"
+    },
+    {
+      "rule": "unknown-tactic",
+      "id": "FT027.001",
+      "field": "tactics",
+      "value": "Discovery & Profiling"
+    },
+    {
+      "rule": "unknown-tactic",
+      "id": "FT027.002",
+      "field": "tactics",
+      "value": "Discovery & Profiling"
+    },
+    {
+      "rule": "unknown-tactic",
+      "id": "FT027.003",
+      "field": "tactics",
+      "value": "Discovery & Profiling"
+    }
+  ]
+}

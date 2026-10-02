@@ -1,0 +1,33 @@
+id: FT042.006
+stix_id: ''
+name: 'Account Manipulation: Additional Connect Accounts'
+description: In this technique, an adversary gains unauthorized access to credentials or keys associated with a registered merchant where the Connect Platform is enabled. Once access is obtained, the adversary exploits this to create additional child accounts under the merchant's primary account. These child accounts are typically set up to facilitate fraudulent financial activities, such as card cashing attacks, where illicit funds are funneled through the child accounts and ultimately transferred to the adversary's designated bank accounts. This method allows the adversary to obscure the origin of the fraudulent funds, complicating detection and investigation efforts.
+url: ''
+created: 1/30/24
+last_modified: 8/5/24
+domain: ft3
+version: V.1
+tactics: Financial Evasion, Laundering & Cash-Out
+detection: |-
+  To effectively detect and mitigate unauthorized account feature enablement, organizations should implement regular audits of account features configuration to identify any unauthorized changes. Periodic reviews of account feature settings are essential to detect the enablement of advanced features such as increased transaction limits, international transactions, or the activation of other high-risk account capabilities. Additionally, setting up real-time notification systems is crucial. These systems should be designed to notify account holders and administrators immediately whenever significant feature changes are made within merchant accounts, thereby ensuring swift detection and response to unauthorized activities.
+
+  Furthermore, it is vital to enforce the requirement of multi-factor authentication and additional verification measures for enabling or modifying high-risk account features. Implementing measures such as sending a confirmation code or requiring biometric verification from the original account holder before any changes can be made will help safeguard against unauthorized modifications. Enforcing the principle of least privilege by restricting permissions to enable or modify account features to only essential personnel is another necessary step in protecting accounts. This ensures that users have no more access than necessary for their role, thereby limiting potential attack vectors.
+
+  In addition to these measures, utilizing machine learning algorithms and anomaly detection techniques can significantly enhance monitoring efforts. These technologies help to identify unusual patterns or deviations from the norm in account feature enablements, allowing for prompt identification of unauthorized or suspicious activities. It is equally important to ensure the secure storage of credentials and API keys. Storing them using strong encryption methods and regularly rotating keys and credentials can minimize the risk of them being compromised.
+
+  Educating account holders and staff on the importance of security practices is also crucial. Regular training sessions to promote awareness about checking account feature settings and reporting any suspicious activities can further bolster security efforts. By integrating these strategies, organizations can create a robust defense against the unauthorized enablement of account features.
+
+  Fraud detection and analysis teams play an instrumental role in this safeguarding process. Their primary focus should be the prioritization of detecting unauthorized account feature enablements. Utilizing automated detection tools that monitor and prioritize alerts for changes in account features helps identify deviations from standard practices. Immediate securing of the affected account upon detection of unauthorized enablement is vital. This includes revoking access, invalidating compromised keys, and restoring legitimate settings as swiftly as possible. Conducting thorough investigations to understand the source and method of these breaches is another critical step. Analyzing logs, identifying potential vulnerabilities, and gathering intelligence on the attackers' methods helps improve internal security measures.
+
+  Post-incident, it is important to update internal security protocols to prevent similar breaches in the future. Enhancements can involve stronger authentication processes and refined incident response protocols. Continuous communication with affected merchants and providing them with guidance on recognizing and reporting suspicious activities are also essential. Regular security training can underscore the importance of best practices in account security, such as vigilant monitoring of account features and the activation of all available security protections. By adopting this proactive and comprehensive approach, fraud detection and analysis teams can significantly mitigate the risks associated with unauthorized account feature enablement.
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT042
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

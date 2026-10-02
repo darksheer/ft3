@@ -1,0 +1,24 @@
+id: FT010.004
+stix_id: ''
+name: 'Establish Accounts: Telegram Accounts'
+description: "Under the 'Resource Development' tactic, establishing Telegram accounts refers to the strategic creation of accounts on the Telegram platform, an encrypted messaging app, to facilitate communication, coordination, and potentially malicious activity. This tactic can be utilized by threat actors to build a network that supports various stages of a cyber operation, from initial reconnaissance to the execution of phishing campaigns, spreading malware, or coordinating fraudulent activities.\n\nExecution: \nCybercriminals create Telegram accounts—which may appear legitimate—potentially leveraging them for both covert communications and the distribution of malicious content or instructions among group members. These accounts can be used to organize and manage a network of collaborators, to distribute phishing links or malware, and to plan and execute social engineering attacks. The secure nature of Telegram makes it appealing for obfuscating malicious activities from law enforcement\
+  \ and cybersecurity teams.\n\nExamples:\n\nA threat actor establishes multiple Telegram accounts to be used for communicating details of a planned attack against a financial institution.\nTelegram accounts are created to act as command and control channels for botnet operators, allowing them to issue commands to infected devices while avoiding detection.\nCybercriminals use Telegram accounts to distribute phishing links or malicious software within groups disguised as interest or community groups.\n\nGoals: The primary goals of creating Telegram accounts as part of the 'Resource Development' tactic include:\n\nPreparatory steps for future attacks, leveraging Telegram’s end-to-end encryption to avoid detection during command and control operations.\nEstablishing a communication channel to recruit, organize, and direct a network of associates or potential victims.\nCreating a distribution network for malicious tools or information sharing among cybercriminal conspirators."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Resource Development
+detection: "Monitoring organizational networks for access to known Telegram API endpoints, which could indicate unauthorized use of the platform within a business environment.\n\nImplementing policies and training for employees to recognize and report the unauthorized use of messaging platforms for business communications.\n\nUtilizing cybersecurity solutions capable of detecting and flagging the installation of unauthorized apps, such as Telegram, on corporate devices.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection and analysis teams should be vigilant in looking for signs of Telegram being used within the business environment for unauthorized purposes. This includes the use of network monitoring tools to detect connections to Telegram services that deviate from normal communication patterns. Teams must also work to understand the role such platforms play in the broader context of cybercrime and continually update their defense strategies to mitigate the risk posed by\
+  \ secure messaging apps used for illicit activities. In the case of discovered misuse, swift action is required to investigate the extent and purpose of the accounts and coordinate with the messaging platform for possible account suspension and further action."
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT011
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

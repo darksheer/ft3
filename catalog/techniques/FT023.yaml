@@ -1,0 +1,25 @@
+id: FT023
+stix_id: ''
+name: Dispute Avoidance
+description: "Dispute avoidance is a strategy employed by online merchants to proactively address issues that could lead to chargebacks or payment disputes. This strategy involves identifying potential disputes before they happen and resolving the underlying issues to the customer’s satisfaction. Merchants may issue refunds, provide credits, replace products, or offer other forms of compensation to dissuade customers from filing a formal dispute with their bank or credit card provider.\n\nExecution: \n\nMerchants may use a variety of data points to identify transactions at higher risk of resulting in a dispute. These may include customer complaints, unusual purchasing patterns, or signals from tools designed to flag potentially problematic transactions. They may also look for patterns of behavior associated with genuine customer dissatisfaction or fraud, such as multiple payment attempts or transactions that fail address verification checks.\n\nExamples:\n\nA customer support system flags\
+  \ a delivery as late, and the merchant proactively contacts the customer, offering a discount or refund before the customer initiates a dispute.\nAI-powered analytics tools like \"disputifier\" review patterns in customer interactions and suggest issuing refunds or replacement orders to customers showing signs of possible dispute initiation.\nMonitoring social media and online forums for any negative feedback about products or services to quickly engage with dissatisfied customers and mitigate any issues.\n\nGoals: The goals of dispute avoidance are to:\n\nMaintain good standing with payment processors and keep dispute rates low, as a high rate of disputes can result in increased processing fees or account termination.\nRetain customer satisfaction and loyalty by addressing complaints and issues swiftly and sufficiently, thus preventing the damage to reputation that can come from disputes and chargebacks.\nObtain financial savings from not having to handle chargeback dispute processes,\
+  \ which can often be more costly than the original transaction amount once fees and administrative costs are included.d   z"
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Defense Evasion & Obfuscation
+detection: "Proactive customer service initiatives, like follow-up emails or satisfaction surveys post-purchase, to capture potential issues early.\n\nImplementing robust returns and refund policies that are easy for customers to navigate and that provide quick resolutions.\n\nUsing machine learning algorithms to analyze transaction and customer interaction data for early indicators of disputes.\n\nTraining customer support staff to recognize and prioritize potential dispute scenarios and providing them with the authority to resolve issues effectively.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection teams should utilize predictive analytics to identify transactions that are at risk of turning into disputes. They should also set up real-time monitoring systems that can trigger alerts for atypical transaction behavior or negative post-purchase interactions. These insights can guide customer service efforts aimed at dispute prevention. In cases where dispute avoidance measures\
+  \ fail, these teams should analyze the data to refine their predictive models continually and to better identify potential disputes in the future. Moreover, staying ahead of fraud trends can help tailor customer communication strategies to address common concerns leading up to disputes."
+data sources: ''
+is_sub-technique: 'FALSE'
+sub-technique of: ''
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

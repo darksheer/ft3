@@ -1,0 +1,25 @@
+id: FT046
+stix_id: ''
+name: DoS
+description: "A Denial of Service (DoS) attack against Stripe involves a deliberate attempt to disrupt the normal operations of Stripe's platform by overwhelming it with a flood of internet traffic. Unlike a Distributed Denial of Service (DDoS) attack, which uses multiple compromised computer systems as a source of the traffic, a DoS attack typically originates from a single source. The objective of such an attack could be to create a diversion that draws attention and security resources away from other financial crime activities or to incapacitate Stripe's ability to process payments and provide its financial services to users.\n\nExecution: \n\nPerpetrators may undertake a DoS attack by exploiting vulnerabilities in Stripe's systems that allow them to send an overwhelming amount of traffic from one source or by utilizing scripts or devices under their direct control. The targeted systems become overloaded, which can result in slowed service performance or complete service outages. Key\
+  \ components of Stripe's infrastructure, such as its website, API endpoints, or payment processing capabilities, might be specific targets for these attacks.\n\nExamples:\n\nSending an immense volume of transaction requests to Stripe's payment gateway to prevent legitimate payment authorization and processing.\nFlooding Stripe's customer service or account login portals with traffic, preventing customers and businesses from accessing their accounts or getting support.\nAbusing network protocols or application vulnerabilities to consume the bandwidth or resources of Stripe's servers, causing service degradation or outright failure.\n\nGoals: The goals behind launching a DoS attack on Stripe typically involve:\n\nTaking Stripe's systems offline to impact businesses that rely on the platform for payment processing, eroding trust in Stripe's reliability.\nRunning distraction operations that facilitate other criminal activities, such as fraud or data theft, by overwhelming Stripe's security\
+  \ measures.\nAttempting to extort Stripe or its dependent businesses by demanding payment to stop the DoS attack."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Impact & Disruption
+detection: "Deploying anti-DoS tools and services designed to identify and filter out the malicious traffic that characterizes such assaults.\n\nStrengthening network architecture with redundant systems and pathways that can re-route traffic during an attack to maintain service availability.\n\nUtilizing rate limiting, load balancing, and web application firewalls (WAFs) to differentiate and manage legitimate user traffic from attack traffic.\n\nEstablishing comprehensive incident response protocols to ensure quick and effective action can be taken to combat an active attack.\n\nConducting regular stress tests and vulnerability assessments on Stripe's systems to identify and address potential weak points.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection teams must monitor network traffic for abnormalities that could signal an impending or ongoing DoS attack. This involves setting up system alerts for unusually high traffic levels or repetitive access requests. In the event\
+  \ of an attack, swift incident response measures are critical — these include engaging DoS mitigation services and isolating the affected systems to minimize disruption. After mitigating the attack, conducting thorough investigations into the attack vectors used, patching vulnerabilities, and reinforcing defenses against future attacks is essential. Communication with law enforcement might also be warranted, as DoS attacks can be illegal and part of a broader criminal strategy."
+data sources: ''
+is_sub-technique: 'FALSE'
+sub-technique of: ''
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

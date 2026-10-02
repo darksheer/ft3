@@ -1,0 +1,24 @@
+id: FT027.001
+stix_id: ''
+name: 'Account Enumeration: Account Balance Enumeration'
+description: |
+  Account balance enumeration involves an attacker identifying the financial status of compromised accounts to evaluate their worthiness for further fraudulent activity. The goal is to determine available balances, payout limits, credit limits, and other financial metrics, which falls under reconnaissance as the attacker assesses potential profit from exploiting or manipulating account funds.; Execution: After gaining unauthorized access to an account, attackers explore various financial details available on the account dashboard, in reports, and through API endpoints. Key information includes current available balances, pending payouts, transaction volumes, credit limits for card issuing services, refund reserves, and transfer settings. These insights enable attackers to make calculated moves, such as initiating high-value fraudulent transactions or timing attacks strategically after significant payments are processed but before funds are disbursed.; Examples: Exploring the Balances section of the dashboard to view available and pending balances for various currencies or payment methods.; Using APIs to programmatically retrieve account balance details, payout schedules, and credit limits without alerting account owners.; Assessing payout settings to understand delays and thresholds impacting the timeline for fraudulent actions.; Reviewing transaction history to estimate typical transaction profiles and identify optimal times for fraud.; Goals: Attackers engaging in account balance enumeration aim to: Identify high-value targets with significant balances or transaction throughput for lucrative fraud or theft.; Gain insights into funds flow, including payout frequency and volume to plan fraudulent transfers.; Assess risks associated with attacks, including the likelihood of triggering fraud detection mechanisms based on the account's typical activity.
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Discovery & Profiling
+detection: "Employing alerting mechanisms for any unexpected access to sensitive balance and payout configuration screens within the Stripe account interface.\n\nRegular monitoring of API access logs for anomalous queries related to account balances or settings that deviate from normal operational patterns.\n\nLeveraging machine learning-based anomaly detection to spot unusual transaction volumes or transfer requests in real-time.\n\nEnforcing two-factor authentication and stringent access controls to reduce the risk of unauthorized access.\n\nConducting regular security training and awareness programs for all users who have access to financial data within the Stripe platform.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection and analysis teams should monitor transaction and balance queries both through the Stripe user interface and the API, looking for signs of enumeration such as high-frequency requests or patterned access to financial data indicative of malicious reconnaissance.\
+  \ Anomalies should trigger immediate investigation, with possible outcomes including temporary freezing of account funds, resetting of account login credentials, and revocation of API keys if misuse is detected. Communication channels with Stripe support should be established for reporting suspicious activities and seeking their assistance in investigating and resolving suspected account enumeration incidents."
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT027
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

@@ -1,0 +1,24 @@
+id: FT038.001
+stix_id: ''
+name: 'Data Exfiltration: Revenue'
+description: "Data exfiltration relating to revenue in the context of Stripe involves illegitimate access and extraction of detailed revenue information from a Stripe account. This can include transaction histories, sales data, customer billing details, and other financial statistics that are crucial for business operations. Unauthorized parties might seek this data for purposes such as competitive intelligence, financial fraud, or direct theft.\n\nExecution: \n\nAttackers may gain unauthorized access to an organization's Stripe account through various methods like phishing, exploiting software vulnerabilities, or leveraging compromised employee credentials. Once inside the account, they can access financial reports or use Stripe's reporting features and APIs to extract detailed revenue data. The exfiltrated information could be used to undermine the business, facilitate financial crimes, or be sold for profit.\n\nExamples:\n\nA cybercriminal manages to breach a merchant's Stripe account\
+  \ and downloads several months' worth of sales and revenue reports, extracting uploaded detailed records of customer transactions.\nAn attacker employs automated scripts to query the Stripe API from a compromised account to gather bulk financial data tied to revenue, which is then siphoned off to an external server.\nA malicious insider with access to Stripe analytics tools covertly exports critical revenue data for use in a competitive business venture or for selling to a competitor.\n\nGoals: The primary goals behind the exfiltration of revenue data from Stripe accounts include:\n\nAcquiring financial insights into a company's performance for competitive advantage or market manipulation.\nGaining access to large datasets of customer transaction history for targeted financial fraud or identity theft.\nPotentially disrupting the target business by exposing sensitive revenue information or by using stolen data to aid in investment fraud or insider trading."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Collection & Exfiltration
+detection: "Applying strict access controls to financial data within Stripe, with rigorous permission levels and role definitions.\n\nMonitoring for unusual activities within the Stripe dashboard, such as unexpected data exports or abnormal API usage tied to revenue data.\n\nImplementing alert systems to notify account and financial managers of data retrieval actions, especially large or irregular data exports.\n\nTraining employees in cybersecurity best practices and recognizing phishing and other fraud tactics aimed at accessing financial platforms.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection teams responsible for monitoring Stripe accounts should employ a surveillance strategy that includes looking for signs of data extraction activities related to revenue. This might involve setting up automated detection systems to identify unusual patterns of access to revenue reports and dashboard features. Upon detecting anomalous behavior, swift action is needed to investigate\
+  \ the potential exfiltration attempt, contain the incident, and secure the account to prevent future data losses. Following an incident, further analysis should be conducted to enhance security measures and prevent similar attacks, incorporating this intelligence into overall fraud prevention strategies.\n\n"
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT038
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

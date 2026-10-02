@@ -1,0 +1,24 @@
+id: FT047
+stix_id: ''
+name: Account Deletion
+description: "Account deletion in the context of a compromised system refers to the strategic removal or disabling of user profiles, which were either fraudulently created or hijacked by attackers. This action is typically used to erase traces of unauthorized activities and to hinder investigation efforts once fraudulent operations have been completed.\n\nExecution: \n\nAfter securing illegal gains through a compromised user account, fraudsters may opt to delete the account to remove any direct link to their activities. This can involve using the platform's standard deletion process or, if the attackers have gained higher-level administrative access, removing logs and records that point to their interference. The objective is to leave behind as little evidence as possible, making it more difficult for forensic teams to trace the fraud back to them.\n\nExamples:\n\nAfter using a compromised Stripe account to illicitly transfer funds, the criminals delete the account to obscure their actions.\n\
+  An attacker with administrator privileges deleting user access logs after conducting unauthorized transactions, aiming to erase their digital footprint.\nFollowing a data exfiltration incident, the perpetrator deletes the compromised accounts to remove any signs of the breach.\n\nGoals: The principal goals of deleting a compromised account to hide fraudulent activities include:\n\nDestroying evidence that could be used to track the attackers' identity or methods.\nDelaying the discovery of the fraud, giving attackers more time to utilize stolen data or funds before a response can be mounted.\nReducing the likelihood of the compromise being linked to any subsequent fraudulent activities performed with the stolen resources."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Obfuscation and Destruction of Evidence
+detection: "Implementing strict controls and access limitations to prevent unauthorized account deletions.\nCreating backups of user activity and access logs that cannot be altered by standard user-level actions.\n\nEnsuring deletion processes require multi-step authentication and verification to prevent abusive attempts.\n\nRegularly auditing account activities, paying particular attention to deletion actions and correlating them with other unusual activities to detect malicious intent.\n\nHaving a recovery system in place to allow for the restoration of deleted accounts where foul play is suspected.\n\nUse by Fraud Detection and Analysis Teams: \nFraud detection teams need to consistently monitor for sudden account deletions or attempts at erasing user activities, which could indicate efforts to conceal unauthorized access. If such activity is suspected, these teams should conduct a comprehensive investigation to ensure that all related evidence is preserved and analyzed. Further users\
+  \ who are at risk due to the breach should be notified and advised on steps to protect their accounts. Post-incident, it's important to update security measures and user policies to prevent similar issues in the future. Coordination with law enforcement and cybersecurity professionals can help to investigate and potentially apprehend the individuals responsible for the fraud."
+data sources: ''
+is_sub-technique: 'FALSE'
+sub-technique of: ''
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

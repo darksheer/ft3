@@ -1,0 +1,44 @@
+id: FT051.001
+stix_id: ''
+name: 'Fraudulent Purchases: Subscriptions'
+description: |-
+  Fraudulent purchases of subscriptions refer to the unauthorized procurement of recurring services or products, which can be part of a financial evasion, laundering, or cash-out strategy. Fraudsters use stolen payment credentials, such as credit card information, to set up subscription services that create a continuous cash flow.
+
+  Execution: Cybercriminals obtain and use stolen or fabricated financial information to sign up for subscription-based services—ranging from online streaming platforms to software-as-a-service (SaaS) offerings. These services are chosen due to their recurring payment model, which fraudsters exploit to move illicit funds or to monetize stolen credit card details. They may also sell access to these fraudulently obtained subscriptions in underground marketplaces.
+
+  Examples:
+
+  Setting up multiple entertainment or software subscriptions using stolen credit card details, which provide the fraudster with services that can later be sold at a discounted rate on secondary markets.
+  Exploiting subscription sign-ups as a laundering technique, using the monthly charges as a way to regularly extract funds from compromised bank accounts or credit lines.
+  Engaging in 'subscription stuffing' where stolen credentials are tested en masse on various subscription platforms, looking for active and unmonitored accounts to exploit.
+  Goals: The objectives of using fraudulent purchases for subscriptions in the context of financial crimes include:
+
+  Establishing a steady, unauthorized outflow of funds from stolen financial details, effectively laundering money with each recurring payment.
+  Utilizing subscription services as a consistent method to cash out funds through reselling access.
+  Obscuring financial transactions within the legitimate billing activity of subscription services to minimize detection.
+url: ''
+created: 3/4/25
+last_modified: 2/28/24
+domain: ft3
+version: V.1
+tactics: Financial Evasion, Laundering & Cash-Out
+detection: |-
+  Monitoring for signs of suspicious subscription sign-up patterns, such as multiple attempts from the same IP address or device.
+
+  Employing fraud detection systems that match subscription requests to known user behavior, flagging unusual activity such as signing up with mismatched personal details.
+  Implementing strong validation processes for new subscription enrollments, including verification steps that go beyond basic credit card information.
+
+  Establishing checkpoints within the subscription lifecycle, such as confirmation emails or required user actions after a trial period, to catch and stop fraudulent activity.
+
+  Use by Fraud Detection and Analysis Teams: Fraud detection and analysis teams must vigilantly scrutinize subscription transactions, looking for patterns or anomalies that suggest fraudulent activity. Creating profiles of normal user behavior for comparison against registrant behavior can be crucial in spotting fraud. When instances of suspected fraudulent subscription purchases are identified, prompt investigation and intervention are necessary. This may involve further verification checks, halting the service, and liaising with the cardholder or bank to confirm the legitimacy of the transaction. Following up these incidents with a deeper review of the accounts involved and tying identified patterns back into prevention mechanisms can aid in thwarting future fraudulent subscription sign-ups.
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT051
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

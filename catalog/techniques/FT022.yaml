@@ -1,0 +1,24 @@
+id: FT022
+stix_id: ''
+name: Churning
+description: "Churning, in the context of financial fraud, refers to the process where fraudsters use stolen credit card details repeatedly to conduct transactions until the card's limit is reached or the account's balance is fully drained. This type of fraud is particularly damaging because it can swiftly accrue a significant financial loss for the cardholder before the unauthorized activity is detected and the card is disabled.\n\nExecution: \n\nThe fraudster typically begins with a small 'test' transaction to verify that the stolen card details are active and have not yet been reported. Once this initial transaction succeeds, they rapidly make as many transactions as possible. This often involves making purchases online where immediate verification is not required, or \"cashing out\" by purchasing gift cards, currency, or other easily liquidated items.\n\nExamples:\n\nA criminal gains access to stolen credit card information and starts by conducting a small transaction online to ensure\
+  \ the card is valid and functional. After the success of this low-value transaction, they make numerous high-value purchases in succession.\nUsing eCommerce platforms to purchase digital goods or services that do not require shipping and can be quickly resold for cash.\nBuying prepaid debit cards, cryptocurrencies, or other financial instruments that can be immediately used or converted into funds.\n\nGoals: The primary goals of conducting churning fraud include:\n\nQuickly capitalizing on stolen credit card information before the card is canceled or maxed out.\nAcquiring goods or assets that can be anonymized, liquidated, or otherwise converted into cash without traceability.\nMaximizing the financial gain from each set of stolen card details before detection."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Defense Evasion & Obfuscation
+detection: "Implementing real-time fraud detection systems that can spot and flag rapid sequences of transactions on the same card or account, especially for small-to-large transaction patterns.\n\nUtilizing velocity checking mechanisms, which limit the number of transactions that can be processed on a single card within a set time frame.\n\nRequiring additional authentication for high-value or high-velocity transactions, such as two-factor authentication or callbacks to the cardholder.\n\nContinuous monitoring of accounts for patterns consistent with churning, and immediate action to block transactions and alert cardholders when suspicious activity is detected.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection teams should employ machine learning and transaction monitoring tools to identify patterns and velocities indicative of churning. These include scrutinizing not only the frequency of transactions but also examining the types of goods or services being purchased. Transaction\
+  \ thresholds can be dynamically adjusted based on risk levels associated with specific purchasing behaviors. Upon detecting potential churning, the team should freeze the involved transactions and accounts, notify the cardholder, initiate an investigation, and work alongside banks and credit card processors to take preventative and corrective measures. Sharing information regarding identified churning methods can help the broader financial and retail community tighten their defenses against this type of fraud."
+data sources: ''
+is_sub-technique: 'FALSE'
+sub-technique of: ''
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

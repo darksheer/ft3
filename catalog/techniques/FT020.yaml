@@ -1,0 +1,25 @@
+id: FT020
+stix_id: ''
+name: Identity Theft for Merchant Accounts
+description: "Identity theft for merchant account fraud occurs when bad actors use stolen personal information to set up merchant accounts on payment processing platforms. The fraudsters may use a victim’s name, address, social security number, or business information to create what appears to be a legitimate merchant account. Once the account is established, they can process fraudulent transactions or launder money through the account.\n\nExecution: \n\nThe process often begins with the theft of an individual's or a business's identifying information through methods like data breaches, phishing, or social engineering. With this information, the fraudster then applies for a merchant account, providing the stolen details as if they were their own. After the account is approved, they might process stolen credit card transactions, funnel ill-gotten gains through the account for laundering purposes, or engage in phony transactions designed to cheat credit card rewards or inflate business revenue\
+  \ figures artificially.\n\nExamples:\n\nA criminal submits an application for a merchant account using a stolen identity and begins accepting payments for nonexistent goods or services.\nAfter obtaining control over a merchant account, the fraudster processes stolen credit card numbers, effectively laundering money through the purchase and subsequent \"sale\" of goods.\nThe establishment of multiple merchant accounts using different stolen identities to diversify and scale illicit financial operations.\n\nGoals: The goals of bad actors using identity theft to create merchant accounts are typically to:\n\nGain access to payment processing systems that allow for financial crimes to be committed with a lower risk of being traced back to the true perpetrator.\nLaunder money through seemingly legitimate sales.\nDefraud consumers by presenting as a bona fide online retailer, taking payments without delivering goods or services.\nUtilize the merchant accounts to process transactions involved\
+  \ in credit card rewards or cashback schemes."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Defense Evasion & Obfuscation
+detection: "Utilizing advanced identity verification processes during merchant account applications, including cross-referencing application information with public records and credit bureaus.\n\nMonitoring for patterns of transactional behavior commonly associated with fraudulent activity, such as repeated sales with immediate refunds or chargebacks.\n\nImplementing KYC (Know Your Customer) and AML (Anti-Money Laundering) compliance procedures that include verification of the applicant's identity in person or via biometrics.\n\nEducating individuals and businesses on best practices for protecting their sensitive information from theft.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection teams working for payment processors must employ sophisticated software to spot the signs of a merchant account set up with stolen identity details. These signs could include mismatches between credit histories, unusual patterns in the stated business activities, or discrepancies in the locations\
+  \ of the business and IP addresses used for account management. Teams must quickly take action when a fraudulent account is suspected, potentially freezing the account and initiating a detailed investigation. Post-detection actions include reporting the identity theft to relevant authorities, notifying affected individuals, and refining preventive measures to avert similar incidents in the future."
+data sources: ''
+is_sub-technique: 'FALSE'
+sub-technique of: ''
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

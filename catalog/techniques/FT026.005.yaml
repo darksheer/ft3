@@ -1,0 +1,24 @@
+id: FT026.005
+stix_id: ''
+name: 'Falsifying Business Documents: Fake SS-4 Confirmation Letter'
+description: |
+  "Fake SS-4 Confirmation Letter Overview: The SS-4 form is an application used by businesses in the United States to apply for an Employer Identification Number (EIN), which is required for tax reporting and various business activities. Once an EIN is assigned, a confirmation letter is issued to the applicant. For KYC (Know Your Customer) purposes, payment processors may request this confirmation during the merchant account setup process to verify business legitimacy. Fraudulently creating a fake SS-4 confirmation letter involves forging this document to mislead financial platforms into believing the business is valid and recognized by tax authorities.; Execution: Scammers create counterfeit SS-4 confirmation letters by fabricating the document using digital editing tools or altering legitimate confirmation letters to replace the EIN and business entity details with false information. To enhance credibility, forgers meticulously replicate IRS letterhead, formatting, and official language used in authentic correspondence. These falsified documents are presented during the merchant account registration process to satisfy KYC requirements without a legitimate business entity.; Examples: Reproducing a realistic-looking IRS SS-4 confirmation letter with counterfeit business identifiers to register for a merchant account.; Altering an existing confirmation letter by changing EIN, name, or contact information to reflect fraudulent data.; Using graphic design programs to forge IRS stamps and signatures, enhancing the perceived authenticity of the false document.; Goals: The primary purposes behind using fake SS-4 confirmation letters include: Bypassing KYC checks required to open a merchant account, granting access to payment processing capabilities without a legitimate business.; Creating a facade of legitimacy and trustworthiness to engage in financial scams, defraud customers, or launder money.; Securing merchant accounts under false pretenses for unauthorized transactions and collecting payments with minimal traceability."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Defense Evasion & Obfuscation
+detection: "Employing advanced document authentication technologies to examine and verify the authenticity of all submitted business documentation, paying close attention to details such as fonts, layouts, and official language.\n\nCross-referencing EIN details through direct communication with the IRS, where legally permissible, or verifying through publicly accessible business databases.\n\nConducting in-depth reviews for any inconsistencies or discrepancies in the application or accompanying documents.\n\nRequiring additional proof of business operations, such as utility bills, lease agreements, or bank statements, in case of doubt regarding the validity of business documents.\n\nUse by Fraud Detection and Analysis Teams: \nFraud detection teams at Stripe should develop protocols tailored to identify manipulated or fake SS-4 confirmation letters. Utilizing a combination of digital forensic techniques that can flag any potential tampering with documents and manual verification by trained\
+  \ specialists will reduce the likelihood of such forgeries slipping through the KYC process. If fraudulent activity is suspected, teams must act promptly to freeze the verification or onboarding process and investigate the veracity of the submitted documents. Working alongside legal teams and authorities may also be necessary to address and curtail such fraudulent activities effectively."
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT026
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

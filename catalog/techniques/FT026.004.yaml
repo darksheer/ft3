@@ -1,0 +1,24 @@
+id: FT026.004
+stix_id: ''
+name: 'Falsifying Business Documents: Fake IRS Letter 147C'
+description: |
+  In the context of financial fraud, a fake IRS Letter 147C is a counterfeit document that claims to verify an entity's Employer Identification Number (EIN). Legitimate 147C letters are issued by the U.S. Internal Revenue Service (IRS) upon request and confirm the EIN assigned to a taxpayer for employer tax identification. Fraudsters may present counterfeit 147C letters during the KYC (Know Your Customer) process with payment processing entities to set up merchant accounts under the guise of legitimate businesses.; Execution: A fake Letter 147C is crafted to mimic an official IRS document, including fraudulent information about a fictitious or stolen EIN, along with forged signatures and IRS letterhead. Scammers use graphic editing tools and advanced printing techniques to create documents that closely resemble genuine IRS correspondence. Once created, they submit this document as part of the account verification process to exploit the platform for unlawful financial activities.; Examples: Manipulating an authentic Letter 147C by altering the EIN, business name, or contact information to match fraudulent details.; Fabricating a Letter 147C using sophisticated software to recreate the format, typography, and official markings of genuine IRS documents.; Presenting a doctored document as proof of business identity during the KYC process in the absence of other legal verification forms.; Goals: The fraudulent use of a fake IRS Letter 147C aims to: Circumvent stringent KYC checks imposed by financial institutions and payment processors.; Establish merchant accounts for illicit financial activities, such as money laundering, fraudulent transactions, and fund theft.; Project an illusion of legitimacy to third parties, financial partners, suppliers, and customers, which fraudsters can exploit in various schemes."\
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Defense Evasion & Obfuscation
+detection: "Implementing verification protocols that include direct validation of EINs with IRS databases or utilizing third-party verification services that have lawful access to such information.\n\nTraining KYC analysts to recognize signs of document tampering and to be familiar with the standard IRS letter formatting and content.\n\nUtilizing document verification technology capable of examining metadata and other indicators of document authenticity that human eyes might miss.\n\nExecuting cross-checks with other government or state-provided business verification databases to corroborate the validity of the EIN and corresponding business information.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection teams at Stripe must maintain a comprehensive validation system to detect fake IRS Letter 147C documents. Automated validation should be supplemented with manual checks, particularly for details that may appear out of the ordinary or for businesses that raise additional red\
+  \ flags during the onboarding process. In the event of identifying a counterfeit IRS Letter 147C, immediate measures should be taken, including suspension of the verification process, close scrutiny of the submitted documents, and, if necessary, engagement with law enforcement to prosecute the perpetrators. Additionally, sharing intelligence on emerging falsification patterns can help enhance collective defenses against such tactics."
+data sources: ''
+is_sub-technique: 'TRUE'
+sub-technique of: FT026
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

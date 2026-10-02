@@ -1,0 +1,40 @@
+id: FT036
+stix_id: ''
+name: Refund Fraud
+description: |-
+  Refund fraud is a deceptive practice where customers exploit a merchant's return policy to obtain a refund through false pretenses. They make legitimate purchases but then falsely claim that the products were never delivered, defective, not as described, or they may return a different or altered item. This fraud can also involve the unauthorized use of someone else’s purchase information to initiate a refund to a different payment method.
+
+  Execution: There are several methods of executing refund fraud, including:
+
+  "Item not received" (INR): The customer claims the item was not delivered, despite delivery confirmation.
+  "Significantly not as described" (SNAD): The customer alleges the item received is vastly different from the item advertised.
+  "Return item fraud": The customer returns an item that is different or in worse condition than what was initially purchased.
+  "Friendly fraud": The customer makes a purchase with their own credit card, receives the product, and then issues a chargeback or refund request with their bank under false claims.
+
+  Examples:
+
+  After ordering an item online and receiving it, the customer falsely claims the product never arrived and demands a refund or replacement.
+  A customer returns a purchased electronic device after swapping out its components with older or non-functioning ones, leaving the merchant with a defective return.
+  Purchasing high-value items, using them for an event or purpose, and then returning them despite the items being non-defective.
+  Reporting a legitimate purchase as an unauthorized transaction to their credit card company to recover the amount spent while retaining the products.
+
+  Goals: The goal for customers committing refund fraud is to receive a product or service without ultimately paying for it, or even to profit by selling the merchandise while also reclaiming the purchase price. They may also seek to exploit return policies for longer-term use of items without purchase commitment.
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Manipulation & Fraudulent Transactions
+detection: "Employing stringent return and refund verification procedures, including inspection of returned items and cross-referencing return reasons with customer service records.\n\nRequiring evidence of product defects or discrepancies, such as photos or detailed descriptions.\n\nKeeping detailed records of shipping and delivery, using tracked and signed-for services to counter false \"item not received\" claims.\n\nImplementing a stringent customer verification process during the refund process to prevent fraudulent claims.\nUtilizing analytics and pattern recognition software to identify and flag potential refund abuse based on customer history and behavior.\n\nUse by Fraud Detection and Analysis Teams: \n\nFraud detection teams play a critical role in identifying patterns and anomalies related to refund requests that could indicate fraudulent activity. This can include tracking the frequency of refunds requested by individual customers, detecting irregularities in refund request patterns,\
+  \ and implementing predictive models to gauge the likelihood of a refund request being fraudulent. Proactive communication with customers during the refund process, as well as post-refund follow-ups, can deter potential fraudsters. In cases of suspected fraud, teams should work with merchants to conduct thorough investigations and, if necessary, involve law enforcement to prosecute offenders. Additionally, sharing insights and information about prevalent refund fraud tactics can help the wider merchant community safeguard against these schemes."
+data sources: ''
+is_sub-technique: 'FALSE'
+sub-technique of: ''
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''

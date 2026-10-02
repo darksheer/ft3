@@ -1,0 +1,25 @@
+id: FT021
+stix_id: ''
+name: Social Media Attacks
+description: "Social media attacks encompass a range of malicious activities carried out through platforms like Facebook, Twitter, LinkedIn, Instagram, and others. These attacks can be aimed at individuals or organizations and often involve the use of deception, misinformation, account takeover, or exploiting platform-specific mechanisms to achieve financial gain, data theft, disruption, or reputational damage.\n\nExecution: \n\nAttackers might impersonate individuals or brands, creating fake profiles or hacking into existing accounts to dupe followers and contacts. Phishing campaigns via direct messages or posts can trick users into revealing sensitive information or clicking on malicious links. Social engineering tactics can be employed to manipulate individuals into unauthorized actions. Malware distribution, exploitation of platform vulnerabilities, and coordination of mass harassment or 'doxxing' campaigns can also be classified as social media attacks.\n\nExamples:\n\nPosting fraudulent\
+  \ messages or links from a compromised business account on social media to steer customers to phishing sites where their credentials are harvested.\nCreating fake profiles that impersonate company executives, using them to solicit private information from employees or partners.\nLeveraging social media to spread misinformation or harm a company’s reputation, thereby affecting their stock value or customer trust.\nInitiating a coordinated attack to propagate a hashtag with defamatory content to tarnish a brand's image.\n\nGoals: The primary objectives of social media attacks can include:\n\nDirect financial theft through phishing and scams that collect payment details or through the sale of fake products and services.\nData theft, where personal or company information is targeted for use in further fraud or sold on the dark web.\nReputational damage aimed at discrediting an individual or organization, potentially for competitive advantage or personal vendetta.\nDisruption of normal business\
+  \ operations, distraction of security resources, or creation of public relation crisis."
+url: ''
+created: 1/30/24
+last_modified: 1/30/24
+domain: ft3
+version: V.1
+tactics: Defense Evasion & Obfuscation
+detection: "Regular monitoring of social media for unauthorized or fraudulent posts and direct messages using brand or keyword alerts.\n\nEducating employees and customers on recognizing and reporting phishing attempts or impersonation.\n\nImplementing two-factor authentication where possible and conducting regular security checks on social media accounts.\n\nPreparing contingency plans for rapid response in case of account takeover or harassment campaigns, including pre-authorized messaging and coordination with social media platforms for support.\n\nUse by Fraud Detection and Analysis Teams: \nAnalysis teams should track social media for signs of illicit activities related to the brand or organization, using social listening tools and threat intelligence networks to detect emerging threats. Proactively engaging with social media platforms to understand their policies on account recovery and abuse reporting can facilitate faster recovery from attacks. Teams should employ advanced analytics\
+  \ and AI models to predict potential attack vectors and identify abnormalities in social media interactions that might signal an attack. Following an incident, detailed investigation into the attack's nature and source is crucial to prevent recurrence and update defense strategies."
+data sources: ''
+is_sub-technique: 'FALSE'
+sub-technique of: ''
+defenses_bypassed: ''
+contributors: ''
+permissions_required: ''
+supports_remote: ''
+system_requirements: ''
+impact_type: ''
+effective_permissions: ''
+relationship_citations: ''
